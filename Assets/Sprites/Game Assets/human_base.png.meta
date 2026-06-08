@@ -208,10 +208,10 @@ TextureImporter:
       name: human_base_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 54
-        width: 16
-        height: 18
+        width: 13
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: human_base_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 54
-        width: 16
-        height: 18
+        x: 17
+        y: 55
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: human_base_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 54
-        width: 16
-        height: 18
+        width: 13
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,9 +274,9 @@ TextureImporter:
       name: human_base_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 50
         y: 54
-        width: 16
+        width: 11
         height: 18
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -296,10 +296,10 @@ TextureImporter:
       name: human_base_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 54
-        width: 16
-        height: 18
+        x: 65
+        y: 55
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: human_base_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 54
-        width: 16
-        height: 18
+        x: 82
+        y: 55
+        width: 12
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: human_base_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 54
-        width: 16
-        height: 18
+        x: 97
+        y: 55
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +362,10 @@ TextureImporter:
       name: human_base_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 54
-        width: 16
-        height: 18
+        x: 113
+        y: 55
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +384,10 @@ TextureImporter:
       name: human_base_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 54
-        width: 16
-        height: 18
+        x: 129
+        y: 55
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: human_base_9
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 36
-        width: 16
-        height: 18
+        width: 11
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: human_base_10
       rect:
         serializedVersion: 2
-        x: 16
-        y: 36
-        width: 16
-        height: 18
+        x: 19
+        y: 37
+        width: 8
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,10 +450,10 @@ TextureImporter:
       name: human_base_11
       rect:
         serializedVersion: 2
-        x: 32
+        x: 35
         y: 36
-        width: 16
-        height: 18
+        width: 9
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,10 +472,10 @@ TextureImporter:
       name: human_base_12
       rect:
         serializedVersion: 2
-        x: 48
+        x: 50
         y: 36
-        width: 16
-        height: 18
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: human_base_13
       rect:
         serializedVersion: 2
-        x: 64
+        x: 66
         y: 36
-        width: 16
-        height: 18
+        width: 8
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,10 +516,10 @@ TextureImporter:
       name: human_base_14
       rect:
         serializedVersion: 2
-        x: 80
+        x: 82
         y: 36
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: human_base_15
       rect:
         serializedVersion: 2
-        x: 96
+        x: 98
         y: 36
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,10 +560,10 @@ TextureImporter:
       name: human_base_16
       rect:
         serializedVersion: 2
-        x: 112
+        x: 114
         y: 36
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: human_base_17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 130
         y: 36
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: human_base_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 18
-        width: 16
-        height: 18
+        width: 13
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,10 +626,10 @@ TextureImporter:
       name: human_base_19
       rect:
         serializedVersion: 2
-        x: 16
-        y: 18
-        width: 16
-        height: 18
+        x: 17
+        y: 19
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,10 +648,10 @@ TextureImporter:
       name: human_base_20
       rect:
         serializedVersion: 2
-        x: 32
+        x: 34
         y: 18
-        width: 16
-        height: 18
+        width: 13
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,10 +670,10 @@ TextureImporter:
       name: human_base_21
       rect:
         serializedVersion: 2
-        x: 48
+        x: 51
         y: 18
-        width: 16
-        height: 18
+        width: 11
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,10 +692,10 @@ TextureImporter:
       name: human_base_22
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 18
-        width: 16
-        height: 18
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,10 +714,10 @@ TextureImporter:
       name: human_base_23
       rect:
         serializedVersion: 2
-        x: 80
+        x: 82
         y: 18
-        width: 16
-        height: 18
+        width: 12
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,10 +736,10 @@ TextureImporter:
       name: human_base_24
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 18
-        width: 16
-        height: 18
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -758,10 +758,10 @@ TextureImporter:
       name: human_base_25
       rect:
         serializedVersion: 2
-        x: 112
+        x: 113
         y: 18
-        width: 16
-        height: 18
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,10 +780,10 @@ TextureImporter:
       name: human_base_26
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 18
-        width: 16
-        height: 18
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,10 +802,10 @@ TextureImporter:
       name: human_base_27
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 16
-        height: 18
+        width: 9
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,10 +824,10 @@ TextureImporter:
       name: human_base_28
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 18
+        x: 21
+        y: 1
+        width: 8
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,10 +846,10 @@ TextureImporter:
       name: human_base_29
       rect:
         serializedVersion: 2
-        x: 32
+        x: 35
         y: 0
-        width: 16
-        height: 18
+        width: 11
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -870,8 +870,8 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 0
-        width: 16
-        height: 18
+        width: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,10 +890,10 @@ TextureImporter:
       name: human_base_31
       rect:
         serializedVersion: 2
-        x: 64
+        x: 68
         y: 0
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -912,10 +912,10 @@ TextureImporter:
       name: human_base_32
       rect:
         serializedVersion: 2
-        x: 80
+        x: 84
         y: 0
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -934,10 +934,10 @@ TextureImporter:
       name: human_base_33
       rect:
         serializedVersion: 2
-        x: 96
+        x: 100
         y: 0
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -956,10 +956,10 @@ TextureImporter:
       name: human_base_34
       rect:
         serializedVersion: 2
-        x: 112
+        x: 116
         y: 0
-        width: 16
-        height: 18
+        width: 10
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -978,10 +978,10 @@ TextureImporter:
       name: human_base_35
       rect:
         serializedVersion: 2
-        x: 128
+        x: 134
         y: 0
-        width: 16
-        height: 18
+        width: 8
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,7 +1010,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":18.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       human_base_0: 5516810452048126976
       human_base_1: 6178953518776949041
