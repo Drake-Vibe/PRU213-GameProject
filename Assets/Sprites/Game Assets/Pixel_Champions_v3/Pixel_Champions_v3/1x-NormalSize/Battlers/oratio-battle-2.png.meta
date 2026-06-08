@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: fb6109766f959b84cb64e04b43f68e06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6879745578071290994
+    second: oratio-battle-2_0
+  - first:
+      213: 3846373116839386601
+    second: oratio-battle-2_1
+  - first:
+      213: -3981534399357728744
+    second: oratio-battle-2_2
+  - first:
+      213: 1248473600341223723
+    second: oratio-battle-2_3
+  - first:
+      213: -3339704265114175416
+    second: oratio-battle-2_4
+  - first:
+      213: 7918708566461072281
+    second: oratio-battle-2_5
+  - first:
+      213: -6200678207909460852
+    second: oratio-battle-2_6
+  - first:
+      213: -749332641099944291
+    second: oratio-battle-2_7
+  - first:
+      213: 8345511077478006796
+    second: oratio-battle-2_8
+  - first:
+      213: 8903524865848076785
+    second: oratio-battle-2_9
+  - first:
+      213: -7702356775868226970
+    second: oratio-battle-2_10
+  - first:
+      213: 8426784733944653103
+    second: oratio-battle-2_11
+  - first:
+      213: 6060985587727301107
+    second: oratio-battle-2_12
+  - first:
+      213: -2740699681128819743
+    second: oratio-battle-2_13
+  - first:
+      213: -2307626898857790445
+    second: oratio-battle-2_14
+  - first:
+      213: 9123997929229796662
+    second: oratio-battle-2_15
+  - first:
+      213: 7367642112279555117
+    second: oratio-battle-2_16
+  - first:
+      213: 2169133309197459932
+    second: oratio-battle-2_17
+  - first:
+      213: 4777391167287215492
+    second: oratio-battle-2_18
+  - first:
+      213: -3165817452179735812
+    second: oratio-battle-2_19
+  - first:
+      213: 5210351602785417490
+    second: oratio-battle-2_20
+  - first:
+      213: -7873944369465436988
+    second: oratio-battle-2_21
+  - first:
+      213: -2734803658827477152
+    second: oratio-battle-2_22
+  - first:
+      213: -5579283765203259633
+    second: oratio-battle-2_23
+  - first:
+      213: 4216511867546576764
+    second: oratio-battle-2_24
+  - first:
+      213: -1901554526496420685
+    second: oratio-battle-2_25
+  - first:
+      213: 5839705729350888570
+    second: oratio-battle-2_26
+  - first:
+      213: 255990323419019687
+    second: oratio-battle-2_27
+  - first:
+      213: 254367235728878845
+    second: oratio-battle-2_28
+  - first:
+      213: 303974757539429455
+    second: oratio-battle-2_29
+  - first:
+      213: 3482765272019699190
+    second: oratio-battle-2_30
+  - first:
+      213: -2153275878664467030
+    second: oratio-battle-2_31
+  - first:
+      213: -1937929188158781313
+    second: oratio-battle-2_32
+  - first:
+      213: 1123698280195476404
+    second: oratio-battle-2_33
+  - first:
+      213: -4810307834769460191
+    second: oratio-battle-2_34
+  - first:
+      213: -6472038596204356250
+    second: oratio-battle-2_35
+  - first:
+      213: 3027976406405617145
+    second: oratio-battle-2_36
+  - first:
+      213: -4393298938083572611
+    second: oratio-battle-2_37
+  - first:
+      213: 7954449559876503062
+    second: oratio-battle-2_38
+  - first:
+      213: -7496904963525682018
+    second: oratio-battle-2_39
+  - first:
+      213: 3247948926410265427
+    second: oratio-battle-2_40
+  - first:
+      213: -2934509016820003543
+    second: oratio-battle-2_41
+  - first:
+      213: -1970608198568788455
+    second: oratio-battle-2_42
+  - first:
+      213: -8122449753300417385
+    second: oratio-battle-2_43
+  - first:
+      213: -4563571865230074714
+    second: oratio-battle-2_44
+  - first:
+      213: 617246733035710366
+    second: oratio-battle-2_45
+  - first:
+      213: -886289749715250403
+    second: oratio-battle-2_46
+  - first:
+      213: -6968760409282355535
+    second: oratio-battle-2_47
+  - first:
+      213: 6985237657391996089
+    second: oratio-battle-2_48
+  - first:
+      213: 1965507239700111335
+    second: oratio-battle-2_49
+  - first:
+      213: -7913177787510365553
+    second: oratio-battle-2_50
+  - first:
+      213: -6543088586721854074
+    second: oratio-battle-2_51
+  - first:
+      213: 6447675421605629980
+    second: oratio-battle-2_52
+  - first:
+      213: -8636473348025634893
+    second: oratio-battle-2_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oratio-battle-2_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274f00e1724c97f50800000000000000
+      internalID: 6879745578071290994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edd2d688ff016530800000000000000
+      internalID: 3846373116839386601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818c8411f8fbeb8c0800000000000000
+      internalID: -3981534399357728744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29aac3ff18735110800000000000000
+      internalID: 1248473600341223723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84833075aacf6a1d0800000000000000
+      internalID: -3339704265114175416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99341cf6c77e4ed60800000000000000
+      internalID: 7918708566461072281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c840d03c504c2f9a0800000000000000
+      internalID: -6200678207909460852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ee1acdee5d995f0800000000000000
+      internalID: -749332641099944291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 159
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c000a2acb1631d370800000000000000
+      internalID: 8345511077478006796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f96bbd41bcaf8b70800000000000000
+      internalID: 8903524865848076785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6622d09325bbb1590800000000000000
+      internalID: -7702356775868226970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25a4798114f1f470800000000000000
+      internalID: 8426784733944653103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f97f319742fc1450800000000000000
+      internalID: 6060985587727301107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e35a4e292417f9d0800000000000000
+      internalID: -2740699681128819743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314f173df89a9ffd0800000000000000
+      internalID: -2307626898857790445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 127
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635442f86c3fe9e70800000000000000
+      internalID: 9123997929229796662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 127
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ca1a6377f1f3660800000000000000
+      internalID: 7367642112279555117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 127
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1ae2d804f4a1e10800000000000000
+      internalID: 2169133309197459932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4854e3774f3bc4240800000000000000
+      internalID: 4777391167287215492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa381becc1c014d0800000000000000
+      internalID: -3165817452179735812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21979e65d23ee4840800000000000000
+      internalID: 5210351602785417490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c453dc50512ab290800000000000000
+      internalID: -7873944369465436988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f4629df860c0ad0800000000000000
+      internalID: -2734803658827477152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 95
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fa4f1d9f66292b0800000000000000
+      internalID: -5579283765203259633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 95
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c772558143f048a30800000000000000
+      internalID: 4216511867546576764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 95
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc0527ab325c95e0800000000000000
+      internalID: -1901554526496420685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 95
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ce5c6bb6dca0150800000000000000
+      internalID: 5839705729350888570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9f355c7d57d8300800000000000000
+      internalID: 255990323419019687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 63
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc2e1837a1b78300800000000000000
+      internalID: 254367235728878845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 63
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cb2d37e6fe73400800000000000000
+      internalID: 303974757539429455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 63
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f50dcaff84455030800000000000000
+      internalID: 3482765272019699190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 63
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad89c43ff60e12e0800000000000000
+      internalID: -2153275878664467030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_32
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 63
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f784fe3cba71b15e0800000000000000
+      internalID: -1937929188158781313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbc4c9d1ad289f00800000000000000
+      internalID: 1123698280195476404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 63
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124b948a28a5e3db0800000000000000
+      internalID: -4810307834769460191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 63
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d1f94ef23be26a0800000000000000
+      internalID: -6472038596204356250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5121caf78850a20800000000000000
+      internalID: 3027976406405617145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 31
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d748d6b74edd703c0800000000000000
+      internalID: -4393298938083572611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 31
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6168330fab1e36e60800000000000000
+      internalID: 7954449559876503062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 31
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c503ee7a4a5f790800000000000000
+      internalID: -7496904963525682018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_40
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3539b471758031d20800000000000000
+      internalID: 3247948926410265427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_41
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 31
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d434ec8978647d0800000000000000
+      internalID: -2934509016820003543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 31
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eb5dcb84ef6a4e0800000000000000
+      internalID: -1970608198568788455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_43
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 31
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794c194ebf2474f80800000000000000
+      internalID: -8122449753300417385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 31
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac9ef1419feaa0c0800000000000000
+      internalID: -4563571865230074714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e972d5522a6e09800800000000000000
+      internalID: 617246733035710366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_46
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13172c1b2443b3f0800000000000000
+      internalID: -886289749715250403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_47
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be5bef645df94f90800000000000000
+      internalID: -6968760409282355535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_48
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc1888d3ac80f060800000000000000
+      internalID: 6985237657391996089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_49
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef98c9bb62e64b10800000000000000
+      internalID: 1965507239700111335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82eee26abebe2290800000000000000
+      internalID: -7913177787510365553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_51
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68df78ed8974235a0800000000000000
+      internalID: -6543088586721854074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_52
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1012db72aeba7950800000000000000
+      internalID: 6447675421605629980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oratio-battle-2_53
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfadca7f35152880800000000000000
+      internalID: -8636473348025634893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      oratio-battle-2_0: 6879745578071290994
+      oratio-battle-2_1: 3846373116839386601
+      oratio-battle-2_10: -7702356775868226970
+      oratio-battle-2_11: 8426784733944653103
+      oratio-battle-2_12: 6060985587727301107
+      oratio-battle-2_13: -2740699681128819743
+      oratio-battle-2_14: -2307626898857790445
+      oratio-battle-2_15: 9123997929229796662
+      oratio-battle-2_16: 7367642112279555117
+      oratio-battle-2_17: 2169133309197459932
+      oratio-battle-2_18: 4777391167287215492
+      oratio-battle-2_19: -3165817452179735812
+      oratio-battle-2_2: -3981534399357728744
+      oratio-battle-2_20: 5210351602785417490
+      oratio-battle-2_21: -7873944369465436988
+      oratio-battle-2_22: -2734803658827477152
+      oratio-battle-2_23: -5579283765203259633
+      oratio-battle-2_24: 4216511867546576764
+      oratio-battle-2_25: -1901554526496420685
+      oratio-battle-2_26: 5839705729350888570
+      oratio-battle-2_27: 255990323419019687
+      oratio-battle-2_28: 254367235728878845
+      oratio-battle-2_29: 303974757539429455
+      oratio-battle-2_3: 1248473600341223723
+      oratio-battle-2_30: 3482765272019699190
+      oratio-battle-2_31: -2153275878664467030
+      oratio-battle-2_32: -1937929188158781313
+      oratio-battle-2_33: 1123698280195476404
+      oratio-battle-2_34: -4810307834769460191
+      oratio-battle-2_35: -6472038596204356250
+      oratio-battle-2_36: 3027976406405617145
+      oratio-battle-2_37: -4393298938083572611
+      oratio-battle-2_38: 7954449559876503062
+      oratio-battle-2_39: -7496904963525682018
+      oratio-battle-2_4: -3339704265114175416
+      oratio-battle-2_40: 3247948926410265427
+      oratio-battle-2_41: -2934509016820003543
+      oratio-battle-2_42: -1970608198568788455
+      oratio-battle-2_43: -8122449753300417385
+      oratio-battle-2_44: -4563571865230074714
+      oratio-battle-2_45: 617246733035710366
+      oratio-battle-2_46: -886289749715250403
+      oratio-battle-2_47: -6968760409282355535
+      oratio-battle-2_48: 6985237657391996089
+      oratio-battle-2_49: 1965507239700111335
+      oratio-battle-2_5: 7918708566461072281
+      oratio-battle-2_50: -7913177787510365553
+      oratio-battle-2_51: -6543088586721854074
+      oratio-battle-2_52: 6447675421605629980
+      oratio-battle-2_53: -8636473348025634893
+      oratio-battle-2_6: -6200678207909460852
+      oratio-battle-2_7: -749332641099944291
+      oratio-battle-2_8: 8345511077478006796
+      oratio-battle-2_9: 8903524865848076785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
