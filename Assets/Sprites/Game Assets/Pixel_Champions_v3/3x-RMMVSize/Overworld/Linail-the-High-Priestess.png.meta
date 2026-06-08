@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 0231c3b0c34948649a1839fdc303a488
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 49683156686831173
+    second: Linail-the-High-Priestess_0
+  - first:
+      213: -3067094540924714518
+    second: Linail-the-High-Priestess_1
+  - first:
+      213: -298778830464136485
+    second: Linail-the-High-Priestess_2
+  - first:
+      213: 8284010553002105679
+    second: Linail-the-High-Priestess_3
+  - first:
+      213: 6556009493447122601
+    second: Linail-the-High-Priestess_4
+  - first:
+      213: -5133690506099816720
+    second: Linail-the-High-Priestess_5
+  - first:
+      213: 3112604125382499388
+    second: Linail-the-High-Priestess_6
+  - first:
+      213: 8280838913362007146
+    second: Linail-the-High-Priestess_7
+  - first:
+      213: 2224044857268896197
+    second: Linail-the-High-Priestess_8
+  - first:
+      213: 6053446567957048598
+    second: Linail-the-High-Priestess_9
+  - first:
+      213: -7092023902618650474
+    second: Linail-the-High-Priestess_10
+  - first:
+      213: 7380499387860128748
+    second: Linail-the-High-Priestess_11
+  - first:
+      213: 873203350455110966
+    second: Linail-the-High-Priestess_12
+  - first:
+      213: 6985062186973171622
+    second: Linail-the-High-Priestess_13
+  - first:
+      213: 5514105743374370964
+    second: Linail-the-High-Priestess_14
+  - first:
+      213: -4737425416896980695
+    second: Linail-the-High-Priestess_15
+  - first:
+      213: 7515350734296548617
+    second: Linail-the-High-Priestess_16
+  - first:
+      213: -8643236321344061376
+    second: Linail-the-High-Priestess_17
+  - first:
+      213: 1176421408880280408
+    second: Linail-the-High-Priestess_18
+  - first:
+      213: 5437386817015337425
+    second: Linail-the-High-Priestess_19
+  - first:
+      213: 4270004829643497131
+    second: Linail-the-High-Priestess_20
+  - first:
+      213: 4857173720424746503
+    second: Linail-the-High-Priestess_21
+  - first:
+      213: 5951538579602535240
+    second: Linail-the-High-Priestess_22
+  - first:
+      213: 1271649837350258808
+    second: Linail-the-High-Priestess_23
+  - first:
+      213: -6449621277484955126
+    second: Linail-the-High-Priestess_24
+  - first:
+      213: -5096549278543226230
+    second: Linail-the-High-Priestess_25
+  - first:
+      213: 2696783528390624753
+    second: Linail-the-High-Priestess_26
+  - first:
+      213: 6449037697185596509
+    second: Linail-the-High-Priestess_27
+  - first:
+      213: 533998386371634468
+    second: Linail-the-High-Priestess_28
+  - first:
+      213: -8966489033648364257
+    second: Linail-the-High-Priestess_29
+  - first:
+      213: 9056222229511745577
+    second: Linail-the-High-Priestess_30
+  - first:
+      213: 5378000238050510791
+    second: Linail-the-High-Priestess_31
+  - first:
+      213: 478375489138042701
+    second: Linail-the-High-Priestess_32
+  - first:
+      213: 7442973779853061059
+    second: Linail-the-High-Priestess_33
+  - first:
+      213: -4386351966187505440
+    second: Linail-the-High-Priestess_34
+  - first:
+      213: 2130008922340794766
+    second: Linail-the-High-Priestess_35
+  - first:
+      213: 6154807885170241060
+    second: Linail-the-High-Priestess_36
+  - first:
+      213: -1679807722969725248
+    second: Linail-the-High-Priestess_37
+  - first:
+      213: -6353443383451085386
+    second: Linail-the-High-Priestess_38
+  - first:
+      213: 226876524910560441
+    second: Linail-the-High-Priestess_39
+  - first:
+      213: -5534146003455068920
+    second: Linail-the-High-Priestess_40
+  - first:
+      213: 5752097543945938352
+    second: Linail-the-High-Priestess_41
+  - first:
+      213: 2557745018870605851
+    second: Linail-the-High-Priestess_42
+  - first:
+      213: 6739757155112898085
+    second: Linail-the-High-Priestess_43
+  - first:
+      213: 7873776963112855127
+    second: Linail-the-High-Priestess_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 515
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e73a9519280b000800000000000000
+      internalID: 49683156686831173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 515
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae184a3e3cd7f65d0800000000000000
+      internalID: -3067094540924714518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 515
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda47c79c368adbf0800000000000000
+      internalID: -298778830464136485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 515
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b174715b7b6f270800000000000000
+      internalID: 8284010553002105679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 515
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae110926ef9bfa50800000000000000
+      internalID: 6556009493447122601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_5
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 518
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f600252fa771c8b0800000000000000
+      internalID: -5133690506099816720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 515
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cd6d3f5f0323b20800000000000000
+      internalID: 3112604125382499388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 515
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a649c213e137be270800000000000000
+      internalID: 8280838913362007146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_8
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 515
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c10c02a3056dde10800000000000000
+      internalID: 2224044857268896197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_9
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 515
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d23edb499220450800000000000000
+      internalID: 6053446567957048598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_10
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 515
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698f5d1f5d1149d90800000000000000
+      internalID: -7092023902618650474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_11
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 518
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce31466f61dcc6660800000000000000
+      internalID: 7380499387860128748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 446
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dce8022dd3e1c00800000000000000
+      internalID: 873203350455110966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 443
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af8c84fc0defe060800000000000000
+      internalID: 6985062186973171622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 446
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49845c765f9068c40800000000000000
+      internalID: 5514105743374370964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_15
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 446
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929d2fbeea8414eb0800000000000000
+      internalID: -4737425416896980695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 443
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9058730cca3eb4860800000000000000
+      internalID: 7515350734296548617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_17
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 446
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040888c0c5e0d0880800000000000000
+      internalID: -8643236321344061376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 374
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8534976d90d735010800000000000000
+      internalID: 1176421408880280408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 371
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d15796608a757b40800000000000000
+      internalID: 5437386817015337425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 374
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae5a14e4ca124b30800000000000000
+      internalID: 4270004829643497131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_21
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 374
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e874aa3c5286340800000000000000
+      internalID: 4857173720424746503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_22
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 371
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843fd383ecc189250800000000000000
+      internalID: 5951538579602535240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_23
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 374
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87802f12acec5a110800000000000000
+      internalID: 1271649837350258808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 299
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a45b3ae975e76a0800000000000000
+      internalID: -6449621277484955126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 299
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a58201f6b6549b0800000000000000
+      internalID: -5096549278543226230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 299
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f509d5b456ec6520800000000000000
+      internalID: 2696783528390624753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 299
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54c9dbfd959f7950800000000000000
+      internalID: 6449037697185596509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 299
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425205204b4296700800000000000000
+      internalID: 533998386371634468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_29
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 299
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1524fafab1a09380800000000000000
+      internalID: -8966489033648364257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 227
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9203b05c22a2ead70800000000000000
+      internalID: 9056222229511745577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 227
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c787fef8be72aa40800000000000000
+      internalID: 5378000238050510791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 227
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47a35b09f783a600800000000000000
+      internalID: 478375489138042701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_33
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 227
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb20bcd731ca4760800000000000000
+      internalID: 7442973779853061059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 227
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8be8b602c8023c0800000000000000
+      internalID: -4386351966187505440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_35
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 230
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81298064df4f8d10800000000000000
+      internalID: 2130008922340794766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 158
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e685879254a6550800000000000000
+      internalID: 6154807885170241060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_37
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 155
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c68e65a6cf10b8e0800000000000000
+      internalID: -1679807722969725248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 158
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b597dc97e804d7a0800000000000000
+      internalID: -6353443383451085386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 86
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b44b235ff6062300800000000000000
+      internalID: 226876524910560441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 83
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805b9e0f783c233b0800000000000000
+      internalID: -5534146003455068920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_41
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 86
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b56b448d3e83df40800000000000000
+      internalID: 5752097543945938352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_42
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 11
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18aecb0b8fee7320800000000000000
+      internalID: 2557745018870605851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_43
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 11
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ec6ee7c6d688d50800000000000000
+      internalID: 6739757155112898085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Linail-the-High-Priestess_44
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756eefe4e66454d60800000000000000
+      internalID: 7873776963112855127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Linail-the-High-Priestess_0: 49683156686831173
+      Linail-the-High-Priestess_1: -3067094540924714518
+      Linail-the-High-Priestess_10: -7092023902618650474
+      Linail-the-High-Priestess_11: 7380499387860128748
+      Linail-the-High-Priestess_12: 873203350455110966
+      Linail-the-High-Priestess_13: 6985062186973171622
+      Linail-the-High-Priestess_14: 5514105743374370964
+      Linail-the-High-Priestess_15: -4737425416896980695
+      Linail-the-High-Priestess_16: 7515350734296548617
+      Linail-the-High-Priestess_17: -8643236321344061376
+      Linail-the-High-Priestess_18: 1176421408880280408
+      Linail-the-High-Priestess_19: 5437386817015337425
+      Linail-the-High-Priestess_2: -298778830464136485
+      Linail-the-High-Priestess_20: 4270004829643497131
+      Linail-the-High-Priestess_21: 4857173720424746503
+      Linail-the-High-Priestess_22: 5951538579602535240
+      Linail-the-High-Priestess_23: 1271649837350258808
+      Linail-the-High-Priestess_24: -6449621277484955126
+      Linail-the-High-Priestess_25: -5096549278543226230
+      Linail-the-High-Priestess_26: 2696783528390624753
+      Linail-the-High-Priestess_27: 6449037697185596509
+      Linail-the-High-Priestess_28: 533998386371634468
+      Linail-the-High-Priestess_29: -8966489033648364257
+      Linail-the-High-Priestess_3: 8284010553002105679
+      Linail-the-High-Priestess_30: 9056222229511745577
+      Linail-the-High-Priestess_31: 5378000238050510791
+      Linail-the-High-Priestess_32: 478375489138042701
+      Linail-the-High-Priestess_33: 7442973779853061059
+      Linail-the-High-Priestess_34: -4386351966187505440
+      Linail-the-High-Priestess_35: 2130008922340794766
+      Linail-the-High-Priestess_36: 6154807885170241060
+      Linail-the-High-Priestess_37: -1679807722969725248
+      Linail-the-High-Priestess_38: -6353443383451085386
+      Linail-the-High-Priestess_39: 226876524910560441
+      Linail-the-High-Priestess_4: 6556009493447122601
+      Linail-the-High-Priestess_40: -5534146003455068920
+      Linail-the-High-Priestess_41: 5752097543945938352
+      Linail-the-High-Priestess_42: 2557745018870605851
+      Linail-the-High-Priestess_43: 6739757155112898085
+      Linail-the-High-Priestess_44: 7873776963112855127
+      Linail-the-High-Priestess_5: -5133690506099816720
+      Linail-the-High-Priestess_6: 3112604125382499388
+      Linail-the-High-Priestess_7: 8280838913362007146
+      Linail-the-High-Priestess_8: 2224044857268896197
+      Linail-the-High-Priestess_9: 6053446567957048598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: f1c1d8f281f84aa438005a6e1314b30b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1438919596684475122
+    second: prime-battle-3_0
+  - first:
+      213: -5440497828050872203
+    second: prime-battle-3_1
+  - first:
+      213: -308519088254126436
+    second: prime-battle-3_2
+  - first:
+      213: -7192044381067780797
+    second: prime-battle-3_3
+  - first:
+      213: 488869046286953036
+    second: prime-battle-3_4
+  - first:
+      213: 4605521551826736164
+    second: prime-battle-3_5
+  - first:
+      213: 3852933963580193728
+    second: prime-battle-3_6
+  - first:
+      213: 6783242435302772728
+    second: prime-battle-3_7
+  - first:
+      213: 4317385343785323475
+    second: prime-battle-3_8
+  - first:
+      213: -625374710001330741
+    second: prime-battle-3_9
+  - first:
+      213: -4126319091202884688
+    second: prime-battle-3_10
+  - first:
+      213: 1716079588599906768
+    second: prime-battle-3_11
+  - first:
+      213: 7671556681789390942
+    second: prime-battle-3_12
+  - first:
+      213: -1593252827739041270
+    second: prime-battle-3_13
+  - first:
+      213: 9189406302751788732
+    second: prime-battle-3_14
+  - first:
+      213: -3619277554507663700
+    second: prime-battle-3_15
+  - first:
+      213: -5450115453108585963
+    second: prime-battle-3_16
+  - first:
+      213: 5841841802175901121
+    second: prime-battle-3_17
+  - first:
+      213: -8840809883422336887
+    second: prime-battle-3_18
+  - first:
+      213: -7532577228955887263
+    second: prime-battle-3_19
+  - first:
+      213: 2773101843231049019
+    second: prime-battle-3_20
+  - first:
+      213: 8463282799064486324
+    second: prime-battle-3_21
+  - first:
+      213: 2071782676327680899
+    second: prime-battle-3_22
+  - first:
+      213: -8084079315571935499
+    second: prime-battle-3_23
+  - first:
+      213: -2456751870279285047
+    second: prime-battle-3_24
+  - first:
+      213: -755285450472382060
+    second: prime-battle-3_25
+  - first:
+      213: 3613056784316414851
+    second: prime-battle-3_26
+  - first:
+      213: -5250497874592710126
+    second: prime-battle-3_27
+  - first:
+      213: 1646169362335235978
+    second: prime-battle-3_28
+  - first:
+      213: 1919156180221233404
+    second: prime-battle-3_29
+  - first:
+      213: 1391034839342329059
+    second: prime-battle-3_30
+  - first:
+      213: 3249984045915561823
+    second: prime-battle-3_31
+  - first:
+      213: 2925767703105568962
+    second: prime-battle-3_32
+  - first:
+      213: 5774377863338109746
+    second: prime-battle-3_33
+  - first:
+      213: 8650590885531003296
+    second: prime-battle-3_34
+  - first:
+      213: -5594552249535354519
+    second: prime-battle-3_35
+  - first:
+      213: -6097445790100985200
+    second: prime-battle-3_36
+  - first:
+      213: -2375923745060337936
+    second: prime-battle-3_37
+  - first:
+      213: -3635278069977658943
+    second: prime-battle-3_38
+  - first:
+      213: 3481821209729598189
+    second: prime-battle-3_39
+  - first:
+      213: -891505074054648766
+    second: prime-battle-3_40
+  - first:
+      213: -6549179558170581028
+    second: prime-battle-3_41
+  - first:
+      213: -8016289523755179630
+    second: prime-battle-3_42
+  - first:
+      213: -8621386066601401636
+    second: prime-battle-3_43
+  - first:
+      213: -6485945340040075426
+    second: prime-battle-3_44
+  - first:
+      213: -5872336355428067152
+    second: prime-battle-3_45
+  - first:
+      213: 1868680136061489460
+    second: prime-battle-3_46
+  - first:
+      213: 5669638858841674792
+    second: prime-battle-3_47
+  - first:
+      213: 1355281274521434154
+    second: prime-battle-3_48
+  - first:
+      213: -8555908296356656362
+    second: prime-battle-3_49
+  - first:
+      213: 2079868701830953071
+    second: prime-battle-3_50
+  - first:
+      213: 1734759217238231309
+    second: prime-battle-3_51
+  - first:
+      213: -2453902089020990207
+    second: prime-battle-3_52
+  - first:
+      213: -8073075555863527028
+    second: prime-battle-3_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prime-battle-3_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e050643204ee70ce0800000000000000
+      internalID: -1438919596684475122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5785eb5ec087f74b0800000000000000
+      internalID: -5440497828050872203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c967f2a168be7bbf0800000000000000
+      internalID: -308519088254126436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d5c919db9b03c90800000000000000
+      internalID: -7192044381067780797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a2e95becfc8c600800000000000000
+      internalID: 488869046286953036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424d90643791aef30800000000000000
+      internalID: 4605521551826736164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_6
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb3c32b60f587530800000000000000
+      internalID: 3852933963580193728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffc3954e0be22e50800000000000000
+      internalID: 6783242435302772728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_8
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 479
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db4dce781f6aeb30800000000000000
+      internalID: 4317385343785323475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc59bdeb3093257f0800000000000000
+      internalID: -625374710001330741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb70f216ae5cb6c0800000000000000
+      internalID: -4126319091202884688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1cbcc2b4db0d710800000000000000
+      internalID: 1716079588599906768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50c45c0828d67a60800000000000000
+      internalID: 7671556681789390942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a025a3d9ef0a3e9e0800000000000000
+      internalID: -1593252827739041270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_14
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe81444854578f70800000000000000
+      internalID: 9189406302751788732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 383
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6b60c6d3eb5cdc0800000000000000
+      internalID: -3619277554507663700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_16
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 383
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a78901fdc4d54b0800000000000000
+      internalID: -5450115453108585963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_17
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 383
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cde8bcea24621150800000000000000
+      internalID: 5841841802175901121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 287
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98859db60422f4580800000000000000
+      internalID: -8840809883422336887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 287
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16953e86be8e67790800000000000000
+      internalID: -7532577228955887263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 287
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3584c31f690c7620800000000000000
+      internalID: 2773101843231049019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_21
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 287
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b199e78dde937570800000000000000
+      internalID: 8463282799064486324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_22
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 287
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bc15a0e5370cc10800000000000000
+      internalID: 2071782676327680899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_23
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 287
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6704b91b49fcf80800000000000000
+      internalID: -8084079315571935499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_24
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 287
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c60abeb03dd7edd0800000000000000
+      internalID: -2456751870279285047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_25
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 287
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491a29c62efa485f0800000000000000
+      internalID: -755285450472382060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_26
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 287
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bbe76a008242230800000000000000
+      internalID: 3613056784316414851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 191
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21245fa500c7227b0800000000000000
+      internalID: -5250497874592710126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_28
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 191
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f7f12305e58d610800000000000000
+      internalID: 1646169362335235978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_29
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 191
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf80596b06632aa10800000000000000
+      internalID: 1919156180221233404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_30
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 191
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec213df0d2fd4310800000000000000
+      internalID: 1391034839342329059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_31
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 191
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fdb7645434a1d20800000000000000
+      internalID: 3249984045915561823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_32
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 191
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c00bee793a6a9820800000000000000
+      internalID: 2925767703105568962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_33
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 191
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba52f9216b22050800000000000000
+      internalID: 5774377863338109746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_34
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 191
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9ae4dd3921d0870800000000000000
+      internalID: 8650590885531003296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_35
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 191
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9692519ce582c52b0800000000000000
+      internalID: -5594552249535354519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 95
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a64db0c55816ba0800000000000000
+      internalID: -6097445790100985200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 95
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6434a21f5070fd0800000000000000
+      internalID: -2375923745060337936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_38
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 95
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9c63b1bd5ec8dc0800000000000000
+      internalID: -3635278069977658943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_39
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 95
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de28a5951f9e15030800000000000000
+      internalID: 3481821209729598189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_40
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 95
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ca389cbdcb0a3f0800000000000000
+      internalID: -891505074054648766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_41
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 95
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd72ef014e3ac15a0800000000000000
+      internalID: -6549179558170581028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_42
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 95
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29123e7762b60c090800000000000000
+      internalID: -8016289523755179630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_43
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 95
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2a8bcec0faa5880800000000000000
+      internalID: -8621386066601401636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_44
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 95
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57af46c31b4df5a0800000000000000
+      internalID: -6485945340040075426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_45
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8191d9235418ea0800000000000000
+      internalID: -5872336355428067152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_46
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43116ccdea2eee910800000000000000
+      internalID: 1868680136061489460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_47
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824520ac08a9eae40800000000000000
+      internalID: 5669638858841674792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_48
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28b69a732deec210800000000000000
+      internalID: 1355281274521434154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_49
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b08d05cbe434980800000000000000
+      internalID: -8555908296356656362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_50
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 0
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f683610909d2ddc10800000000000000
+      internalID: 2079868701830953071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_51
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09c152215a131810800000000000000
+      internalID: 1734759217238231309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_52
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d90562d0df1fdd0800000000000000
+      internalID: -2453902089020990207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prime-battle-3_53
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c818ddf0e8ca6ff80800000000000000
+      internalID: -8073075555863527028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prime-battle-3_0: -1438919596684475122
+      prime-battle-3_1: -5440497828050872203
+      prime-battle-3_10: -4126319091202884688
+      prime-battle-3_11: 1716079588599906768
+      prime-battle-3_12: 7671556681789390942
+      prime-battle-3_13: -1593252827739041270
+      prime-battle-3_14: 9189406302751788732
+      prime-battle-3_15: -3619277554507663700
+      prime-battle-3_16: -5450115453108585963
+      prime-battle-3_17: 5841841802175901121
+      prime-battle-3_18: -8840809883422336887
+      prime-battle-3_19: -7532577228955887263
+      prime-battle-3_2: -308519088254126436
+      prime-battle-3_20: 2773101843231049019
+      prime-battle-3_21: 8463282799064486324
+      prime-battle-3_22: 2071782676327680899
+      prime-battle-3_23: -8084079315571935499
+      prime-battle-3_24: -2456751870279285047
+      prime-battle-3_25: -755285450472382060
+      prime-battle-3_26: 3613056784316414851
+      prime-battle-3_27: -5250497874592710126
+      prime-battle-3_28: 1646169362335235978
+      prime-battle-3_29: 1919156180221233404
+      prime-battle-3_3: -7192044381067780797
+      prime-battle-3_30: 1391034839342329059
+      prime-battle-3_31: 3249984045915561823
+      prime-battle-3_32: 2925767703105568962
+      prime-battle-3_33: 5774377863338109746
+      prime-battle-3_34: 8650590885531003296
+      prime-battle-3_35: -5594552249535354519
+      prime-battle-3_36: -6097445790100985200
+      prime-battle-3_37: -2375923745060337936
+      prime-battle-3_38: -3635278069977658943
+      prime-battle-3_39: 3481821209729598189
+      prime-battle-3_4: 488869046286953036
+      prime-battle-3_40: -891505074054648766
+      prime-battle-3_41: -6549179558170581028
+      prime-battle-3_42: -8016289523755179630
+      prime-battle-3_43: -8621386066601401636
+      prime-battle-3_44: -6485945340040075426
+      prime-battle-3_45: -5872336355428067152
+      prime-battle-3_46: 1868680136061489460
+      prime-battle-3_47: 5669638858841674792
+      prime-battle-3_48: 1355281274521434154
+      prime-battle-3_49: -8555908296356656362
+      prime-battle-3_5: 4605521551826736164
+      prime-battle-3_50: 2079868701830953071
+      prime-battle-3_51: 1734759217238231309
+      prime-battle-3_52: -2453902089020990207
+      prime-battle-3_53: -8073075555863527028
+      prime-battle-3_6: 3852933963580193728
+      prime-battle-3_7: 6783242435302772728
+      prime-battle-3_8: 4317385343785323475
+      prime-battle-3_9: -625374710001330741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

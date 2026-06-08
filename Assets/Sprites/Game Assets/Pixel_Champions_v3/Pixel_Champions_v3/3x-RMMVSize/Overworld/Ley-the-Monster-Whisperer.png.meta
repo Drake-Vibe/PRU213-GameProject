@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 9fd32d9d281eec243b329340ecafe50e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5883896290503579257
+    second: Ley-the-Monster-Whisperer_0
+  - first:
+      213: -8998965169140562764
+    second: Ley-the-Monster-Whisperer_1
+  - first:
+      213: 6593647626405827886
+    second: Ley-the-Monster-Whisperer_2
+  - first:
+      213: 1785651460443434843
+    second: Ley-the-Monster-Whisperer_3
+  - first:
+      213: 774976148501266940
+    second: Ley-the-Monster-Whisperer_4
+  - first:
+      213: -1043454780147218446
+    second: Ley-the-Monster-Whisperer_5
+  - first:
+      213: 1611980520580139330
+    second: Ley-the-Monster-Whisperer_6
+  - first:
+      213: -3883372961997008681
+    second: Ley-the-Monster-Whisperer_7
+  - first:
+      213: 9014803551655391957
+    second: Ley-the-Monster-Whisperer_8
+  - first:
+      213: -1055074991552865704
+    second: Ley-the-Monster-Whisperer_9
+  - first:
+      213: 1845528413122719072
+    second: Ley-the-Monster-Whisperer_10
+  - first:
+      213: 806122442204767340
+    second: Ley-the-Monster-Whisperer_11
+  - first:
+      213: 2298475746158404880
+    second: Ley-the-Monster-Whisperer_12
+  - first:
+      213: -8948459099188708042
+    second: Ley-the-Monster-Whisperer_13
+  - first:
+      213: -8596154925939792737
+    second: Ley-the-Monster-Whisperer_14
+  - first:
+      213: 5970375628531850622
+    second: Ley-the-Monster-Whisperer_15
+  - first:
+      213: -1705081104669569835
+    second: Ley-the-Monster-Whisperer_16
+  - first:
+      213: 8668479948093297516
+    second: Ley-the-Monster-Whisperer_17
+  - first:
+      213: -1564732071810742875
+    second: Ley-the-Monster-Whisperer_18
+  - first:
+      213: 8961797600448102250
+    second: Ley-the-Monster-Whisperer_19
+  - first:
+      213: -5937499121201677487
+    second: Ley-the-Monster-Whisperer_20
+  - first:
+      213: -2612194098318331651
+    second: Ley-the-Monster-Whisperer_21
+  - first:
+      213: 5459188483246853382
+    second: Ley-the-Monster-Whisperer_22
+  - first:
+      213: -2062051864034941178
+    second: Ley-the-Monster-Whisperer_23
+  - first:
+      213: 9023885808328707659
+    second: Ley-the-Monster-Whisperer_24
+  - first:
+      213: 7788465408026761020
+    second: Ley-the-Monster-Whisperer_25
+  - first:
+      213: 6952954808512804769
+    second: Ley-the-Monster-Whisperer_26
+  - first:
+      213: 3711114047974698309
+    second: Ley-the-Monster-Whisperer_27
+  - first:
+      213: 4043368694287278961
+    second: Ley-the-Monster-Whisperer_28
+  - first:
+      213: -1100910562182570203
+    second: Ley-the-Monster-Whisperer_29
+  - first:
+      213: 3010869389217039831
+    second: Ley-the-Monster-Whisperer_30
+  - first:
+      213: -2156271407814496688
+    second: Ley-the-Monster-Whisperer_31
+  - first:
+      213: 693900985596958947
+    second: Ley-the-Monster-Whisperer_32
+  - first:
+      213: -6365292828814761063
+    second: Ley-the-Monster-Whisperer_33
+  - first:
+      213: 1387874417157077925
+    second: Ley-the-Monster-Whisperer_34
+  - first:
+      213: -6665898112440645898
+    second: Ley-the-Monster-Whisperer_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 515
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789ab4d7f73385ea0800000000000000
+      internalID: -5883896290503579257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 515
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b483437bd04d1380800000000000000
+      internalID: -8998965169140562764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 515
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255402e497518b50800000000000000
+      internalID: 6593647626405827886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 515
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f6360ea88e7c810800000000000000
+      internalID: 1785651460443434843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 515
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf181d873b441ca00800000000000000
+      internalID: 774976148501266940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_5
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 515
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7442ae767e481f0800000000000000
+      internalID: -1043454780147218446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 446
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249470a2eb7ee5610800000000000000
+      internalID: 1611980520580139330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 443
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0dfc5bddc7b1ac0800000000000000
+      internalID: -3883372961997008681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 446
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2795851140b1d70800000000000000
+      internalID: 9014803551655391957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 446
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ad71d92ee9b51f0800000000000000
+      internalID: -1055074991552865704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 443
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06de11f4052ac9910800000000000000
+      internalID: 1845528413122719072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_11
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 446
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64e515171cef2b00800000000000000
+      internalID: 806122442204767340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 374
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0156f966383d5ef10800000000000000
+      internalID: 2298475746158404880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 371
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dbeb93cdfa0d380800000000000000
+      internalID: -8948459099188708042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_14
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 374
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f946225a3a254b880800000000000000
+      internalID: -8596154925939792737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 374
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d5a4270090bd250800000000000000
+      internalID: 5970375628531850622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 371
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc80fae4c55658e0800000000000000
+      internalID: -1705081104669569835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_17
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 374
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6392b0d590ac4870800000000000000
+      internalID: 8668479948093297516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 299
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a54f039874f84ae0800000000000000
+      internalID: -1564732071810742875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 299
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f38ab9f63be5c70800000000000000
+      internalID: 8961797600448102250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 299
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b749ae104c99da0800000000000000
+      internalID: -5937499121201677487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_21
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 299
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df03d5dbe4f9fbbd0800000000000000
+      internalID: -2612194098318331651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_22
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 299
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d05d1600fe2cb40800000000000000
+      internalID: 5459188483246853382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_23
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 299
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607e3cf31ce1263e0800000000000000
+      internalID: -2062051864034941178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 227
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e0f1305584b3d70800000000000000
+      internalID: 9023885808328707659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 227
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c375ad60600361c60800000000000000
+      internalID: 7788465408026761020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 227
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7ffbc5f8bdd7060800000000000000
+      internalID: 6952954808512804769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 158
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d6e767096808330800000000000000
+      internalID: 3711114047974698309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_28
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 155
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173adee976eec1830800000000000000
+      internalID: 4043368694287278961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 158
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fd1a33da7c8b0f0800000000000000
+      internalID: -1100910562182570203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 86
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d50169d1c1c8c920800000000000000
+      internalID: 3010869389217039831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 83
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ea2e934926312e0800000000000000
+      internalID: -2156271407814496688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_32
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 86
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8dccb154b31a900800000000000000
+      internalID: 693900985596958947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 11
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993a72f95efe9a7a0800000000000000
+      internalID: -6365292828814761063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_34
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 11
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abff7bdd68b24310800000000000000
+      internalID: 1387874417157077925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ley-the-Monster-Whisperer_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f64703fbf8fd73a0800000000000000
+      internalID: -6665898112440645898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ley-the-Monster-Whisperer_0: -5883896290503579257
+      Ley-the-Monster-Whisperer_1: -8998965169140562764
+      Ley-the-Monster-Whisperer_10: 1845528413122719072
+      Ley-the-Monster-Whisperer_11: 806122442204767340
+      Ley-the-Monster-Whisperer_12: 2298475746158404880
+      Ley-the-Monster-Whisperer_13: -8948459099188708042
+      Ley-the-Monster-Whisperer_14: -8596154925939792737
+      Ley-the-Monster-Whisperer_15: 5970375628531850622
+      Ley-the-Monster-Whisperer_16: -1705081104669569835
+      Ley-the-Monster-Whisperer_17: 8668479948093297516
+      Ley-the-Monster-Whisperer_18: -1564732071810742875
+      Ley-the-Monster-Whisperer_19: 8961797600448102250
+      Ley-the-Monster-Whisperer_2: 6593647626405827886
+      Ley-the-Monster-Whisperer_20: -5937499121201677487
+      Ley-the-Monster-Whisperer_21: -2612194098318331651
+      Ley-the-Monster-Whisperer_22: 5459188483246853382
+      Ley-the-Monster-Whisperer_23: -2062051864034941178
+      Ley-the-Monster-Whisperer_24: 9023885808328707659
+      Ley-the-Monster-Whisperer_25: 7788465408026761020
+      Ley-the-Monster-Whisperer_26: 6952954808512804769
+      Ley-the-Monster-Whisperer_27: 3711114047974698309
+      Ley-the-Monster-Whisperer_28: 4043368694287278961
+      Ley-the-Monster-Whisperer_29: -1100910562182570203
+      Ley-the-Monster-Whisperer_3: 1785651460443434843
+      Ley-the-Monster-Whisperer_30: 3010869389217039831
+      Ley-the-Monster-Whisperer_31: -2156271407814496688
+      Ley-the-Monster-Whisperer_32: 693900985596958947
+      Ley-the-Monster-Whisperer_33: -6365292828814761063
+      Ley-the-Monster-Whisperer_34: 1387874417157077925
+      Ley-the-Monster-Whisperer_35: -6665898112440645898
+      Ley-the-Monster-Whisperer_4: 774976148501266940
+      Ley-the-Monster-Whisperer_5: -1043454780147218446
+      Ley-the-Monster-Whisperer_6: 1611980520580139330
+      Ley-the-Monster-Whisperer_7: -3883372961997008681
+      Ley-the-Monster-Whisperer_8: 9014803551655391957
+      Ley-the-Monster-Whisperer_9: -1055074991552865704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

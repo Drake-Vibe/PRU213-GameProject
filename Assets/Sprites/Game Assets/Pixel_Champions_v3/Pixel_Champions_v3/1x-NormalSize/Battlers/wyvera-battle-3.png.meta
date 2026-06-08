@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 2021848785c3ebf42bf105d9f4c55998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8944882625505880168
+    second: wyvera-battle-3_0
+  - first:
+      213: -2008481733583640467
+    second: wyvera-battle-3_1
+  - first:
+      213: 2574962694204242533
+    second: wyvera-battle-3_2
+  - first:
+      213: -6723052573566118070
+    second: wyvera-battle-3_3
+  - first:
+      213: 2134976732581375023
+    second: wyvera-battle-3_4
+  - first:
+      213: -3108275624820608669
+    second: wyvera-battle-3_5
+  - first:
+      213: -5177781866637703398
+    second: wyvera-battle-3_6
+  - first:
+      213: -4711867200915669641
+    second: wyvera-battle-3_7
+  - first:
+      213: 6723779496989937054
+    second: wyvera-battle-3_8
+  - first:
+      213: -986095483698451076
+    second: wyvera-battle-3_9
+  - first:
+      213: 2259899701342330618
+    second: wyvera-battle-3_10
+  - first:
+      213: -6664945031863429670
+    second: wyvera-battle-3_11
+  - first:
+      213: 8207274618390633336
+    second: wyvera-battle-3_12
+  - first:
+      213: 2649102689203345704
+    second: wyvera-battle-3_13
+  - first:
+      213: 1689958514733436119
+    second: wyvera-battle-3_14
+  - first:
+      213: 5063399679988048277
+    second: wyvera-battle-3_15
+  - first:
+      213: 3538980229005451042
+    second: wyvera-battle-3_16
+  - first:
+      213: -8975014167590963488
+    second: wyvera-battle-3_17
+  - first:
+      213: -1382442053148391637
+    second: wyvera-battle-3_18
+  - first:
+      213: -3150072861472885000
+    second: wyvera-battle-3_19
+  - first:
+      213: -7914859208206589081
+    second: wyvera-battle-3_20
+  - first:
+      213: -3292032239640541754
+    second: wyvera-battle-3_21
+  - first:
+      213: -2431108219527581732
+    second: wyvera-battle-3_22
+  - first:
+      213: -6508472726052123735
+    second: wyvera-battle-3_23
+  - first:
+      213: 7703892229463850568
+    second: wyvera-battle-3_24
+  - first:
+      213: 2354821536582486813
+    second: wyvera-battle-3_25
+  - first:
+      213: -6003398485083461567
+    second: wyvera-battle-3_26
+  - first:
+      213: -8536358403414037731
+    second: wyvera-battle-3_27
+  - first:
+      213: -7362423780814812694
+    second: wyvera-battle-3_28
+  - first:
+      213: -5120343450095222554
+    second: wyvera-battle-3_29
+  - first:
+      213: -1435318640334840196
+    second: wyvera-battle-3_30
+  - first:
+      213: 400952023728595017
+    second: wyvera-battle-3_31
+  - first:
+      213: -6028507770564778155
+    second: wyvera-battle-3_32
+  - first:
+      213: -8201045996666817485
+    second: wyvera-battle-3_33
+  - first:
+      213: -140630248801640892
+    second: wyvera-battle-3_34
+  - first:
+      213: 2111301311151415710
+    second: wyvera-battle-3_35
+  - first:
+      213: -2649681797059283771
+    second: wyvera-battle-3_36
+  - first:
+      213: 3306742414515053443
+    second: wyvera-battle-3_37
+  - first:
+      213: -3416923718145498194
+    second: wyvera-battle-3_38
+  - first:
+      213: -2222081929533577486
+    second: wyvera-battle-3_39
+  - first:
+      213: 248868267614764946
+    second: wyvera-battle-3_40
+  - first:
+      213: 6514289968586656663
+    second: wyvera-battle-3_41
+  - first:
+      213: -2822340422022054613
+    second: wyvera-battle-3_42
+  - first:
+      213: 7478648245379328593
+    second: wyvera-battle-3_43
+  - first:
+      213: 7893398859890234177
+    second: wyvera-battle-3_44
+  - first:
+      213: -8512794471565703367
+    second: wyvera-battle-3_45
+  - first:
+      213: 2214698491728355399
+    second: wyvera-battle-3_46
+  - first:
+      213: 7710942720874966249
+    second: wyvera-battle-3_47
+  - first:
+      213: -537520865522316912
+    second: wyvera-battle-3_48
+  - first:
+      213: 7166380263116966346
+    second: wyvera-battle-3_49
+  - first:
+      213: -4029067191892761445
+    second: wyvera-battle-3_50
+  - first:
+      213: -2224827831064333604
+    second: wyvera-battle-3_51
+  - first:
+      213: 7962388264009643853
+    second: wyvera-battle-3_52
+  - first:
+      213: -5438496145571170074
+    second: wyvera-battle-3_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wyvera-battle-3_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8979825e4a46dd380800000000000000
+      internalID: -8944882625505880168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 159
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68e2e331807024e0800000000000000
+      internalID: -2008481733583640467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 159
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a3de97dea1cb320800000000000000
+      internalID: 2574962694204242533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 159
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47d05afd4be2b2a0800000000000000
+      internalID: -6723052573566118070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 159
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cac35d606f0ad10800000000000000
+      internalID: 2134976732581375023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 159
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361ff8e99cf2dd4d0800000000000000
+      internalID: -3108275624820608669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 159
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17c99a43d2d428b0800000000000000
+      internalID: -5177781866637703398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 159
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d7b9cceb51c9eb0800000000000000
+      internalID: -4711867200915669641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 159
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9dc32214d9af4d50800000000000000
+      internalID: 6723779496989937054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 127
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d6983d16fa052f0800000000000000
+      internalID: -986095483698451076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe558e0ec6cc5f10800000000000000
+      internalID: 2259899701342330618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 127
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad596405ecb5183a0800000000000000
+      internalID: -6664945031863429670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 127
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bd04b08c816e170800000000000000
+      internalID: 8207274618390633336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 127
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8295f7b3cd083c420800000000000000
+      internalID: 2649102689203345704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 127
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc45dbb050f37710800000000000000
+      internalID: 1689958514733436119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 127
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591a3819e2fc44640800000000000000
+      internalID: 5063399679988048277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 127
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f100994cbfc1130800000000000000
+      internalID: 3538980229005451042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 127
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e674ae8a28527380800000000000000
+      internalID: -8975014167590963488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b274783f64490dce0800000000000000
+      internalID: -1382442053148391637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f67f4b1c61b844d0800000000000000
+      internalID: -3150072861472885000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 95
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763ed9f1c75c82290800000000000000
+      internalID: -7914859208206589081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 95
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c58717be1a5052d0800000000000000
+      internalID: -3292032239640541754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 95
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfa68474f7f24ed0800000000000000
+      internalID: -2431108219527581732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 95
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab485df9824da5a0800000000000000
+      internalID: -6508472726052123735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 95
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84eb51d6a29b9ea60800000000000000
+      internalID: 7703892229463850568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 95
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b407d06b10ea020800000000000000
+      internalID: 2354821536582486813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 95
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1486b7b92e4afaca0800000000000000
+      internalID: -6003398485083461567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be5197243c88980800000000000000
+      internalID: -8536358403414037731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae905a2449a63d990800000000000000
+      internalID: -7362423780814812694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e08319c2c2e0f8b0800000000000000
+      internalID: -5120343450095222554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e585f1d49b41ce0800000000000000
+      internalID: -1435318640334840196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 63
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9402152cdb7709500800000000000000
+      internalID: 400952023728595017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_32
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557edc18f10765ca0800000000000000
+      internalID: -6028507770564778155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 63
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334f806fd18003e80800000000000000
+      internalID: -8201045996666817485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_34
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 63
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ed087a8816c0ef0800000000000000
+      internalID: -140630248801640892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_35
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 63
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e912ff83b59dc4d10800000000000000
+      internalID: 2111301311151415710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 31
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c47676b1707a3bd0800000000000000
+      internalID: -2649681797059283771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 31
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38323e4c4b8e3ed20800000000000000
+      internalID: 3306742414515053443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 31
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3a4536bf5a490d0800000000000000
+      internalID: -3416923718145498194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6265812449921e0800000000000000
+      internalID: -2222081929533577486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_40
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f7b0fee58247300800000000000000
+      internalID: 248868267614764946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_41
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b8f755638676a50800000000000000
+      internalID: 6514289968586656663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d362ee65805d8d0800000000000000
+      internalID: -2822340422022054613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 31
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aeee1a4fe79c760800000000000000
+      internalID: 7478648245379328593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_44
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 31
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1431b3a217cfa8d60800000000000000
+      internalID: 7893398859890234177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937ca64e78a7cd980800000000000000
+      internalID: -8512794471565703367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_46
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740ef045b803cbe10800000000000000
+      internalID: 2214698491728355399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_47
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ece221ec85c20b60800000000000000
+      internalID: 7710942720874966249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_48
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0998e27ee975a88f0800000000000000
+      internalID: -537520865522316912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_49
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9057451e8147360800000000000000
+      internalID: 7166380263116966346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b942d036cb0e518c0800000000000000
+      internalID: -4029067191892761445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_51
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f10310e2df11e0800000000000000
+      internalID: -2224827831064333604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_52
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b80880f5108e60800000000000000
+      internalID: 7962388264009643853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyvera-battle-3_53
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e836eae1949684b0800000000000000
+      internalID: -5438496145571170074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wyvera-battle-3_0: -8944882625505880168
+      wyvera-battle-3_1: -2008481733583640467
+      wyvera-battle-3_10: 2259899701342330618
+      wyvera-battle-3_11: -6664945031863429670
+      wyvera-battle-3_12: 8207274618390633336
+      wyvera-battle-3_13: 2649102689203345704
+      wyvera-battle-3_14: 1689958514733436119
+      wyvera-battle-3_15: 5063399679988048277
+      wyvera-battle-3_16: 3538980229005451042
+      wyvera-battle-3_17: -8975014167590963488
+      wyvera-battle-3_18: -1382442053148391637
+      wyvera-battle-3_19: -3150072861472885000
+      wyvera-battle-3_2: 2574962694204242533
+      wyvera-battle-3_20: -7914859208206589081
+      wyvera-battle-3_21: -3292032239640541754
+      wyvera-battle-3_22: -2431108219527581732
+      wyvera-battle-3_23: -6508472726052123735
+      wyvera-battle-3_24: 7703892229463850568
+      wyvera-battle-3_25: 2354821536582486813
+      wyvera-battle-3_26: -6003398485083461567
+      wyvera-battle-3_27: -8536358403414037731
+      wyvera-battle-3_28: -7362423780814812694
+      wyvera-battle-3_29: -5120343450095222554
+      wyvera-battle-3_3: -6723052573566118070
+      wyvera-battle-3_30: -1435318640334840196
+      wyvera-battle-3_31: 400952023728595017
+      wyvera-battle-3_32: -6028507770564778155
+      wyvera-battle-3_33: -8201045996666817485
+      wyvera-battle-3_34: -140630248801640892
+      wyvera-battle-3_35: 2111301311151415710
+      wyvera-battle-3_36: -2649681797059283771
+      wyvera-battle-3_37: 3306742414515053443
+      wyvera-battle-3_38: -3416923718145498194
+      wyvera-battle-3_39: -2222081929533577486
+      wyvera-battle-3_4: 2134976732581375023
+      wyvera-battle-3_40: 248868267614764946
+      wyvera-battle-3_41: 6514289968586656663
+      wyvera-battle-3_42: -2822340422022054613
+      wyvera-battle-3_43: 7478648245379328593
+      wyvera-battle-3_44: 7893398859890234177
+      wyvera-battle-3_45: -8512794471565703367
+      wyvera-battle-3_46: 2214698491728355399
+      wyvera-battle-3_47: 7710942720874966249
+      wyvera-battle-3_48: -537520865522316912
+      wyvera-battle-3_49: 7166380263116966346
+      wyvera-battle-3_5: -3108275624820608669
+      wyvera-battle-3_50: -4029067191892761445
+      wyvera-battle-3_51: -2224827831064333604
+      wyvera-battle-3_52: 7962388264009643853
+      wyvera-battle-3_53: -5438496145571170074
+      wyvera-battle-3_6: -5177781866637703398
+      wyvera-battle-3_7: -4711867200915669641
+      wyvera-battle-3_8: 6723779496989937054
+      wyvera-battle-3_9: -986095483698451076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

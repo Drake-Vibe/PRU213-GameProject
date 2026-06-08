@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 613695c87edd668499e5697304a8b760
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8480452847987287669
+    second: ouzo-battle-3_0
+  - first:
+      213: -3913565078630019291
+    second: ouzo-battle-3_1
+  - first:
+      213: -8808995142830645936
+    second: ouzo-battle-3_2
+  - first:
+      213: 7382852748880116451
+    second: ouzo-battle-3_3
+  - first:
+      213: 3772418557989824075
+    second: ouzo-battle-3_4
+  - first:
+      213: -466656537104548274
+    second: ouzo-battle-3_5
+  - first:
+      213: 503928588350988602
+    second: ouzo-battle-3_6
+  - first:
+      213: 5675814546346611398
+    second: ouzo-battle-3_7
+  - first:
+      213: 6804593385162994337
+    second: ouzo-battle-3_8
+  - first:
+      213: -7240712971587537848
+    second: ouzo-battle-3_9
+  - first:
+      213: -4521525208824313643
+    second: ouzo-battle-3_10
+  - first:
+      213: -1218976042162611116
+    second: ouzo-battle-3_11
+  - first:
+      213: 6013684209200165484
+    second: ouzo-battle-3_12
+  - first:
+      213: -815776137770494708
+    second: ouzo-battle-3_13
+  - first:
+      213: -5215609731713498775
+    second: ouzo-battle-3_14
+  - first:
+      213: 5129639778506427378
+    second: ouzo-battle-3_15
+  - first:
+      213: 3455129731465115698
+    second: ouzo-battle-3_16
+  - first:
+      213: -7029562069414619630
+    second: ouzo-battle-3_17
+  - first:
+      213: 937055826677834210
+    second: ouzo-battle-3_18
+  - first:
+      213: -8654539429781540788
+    second: ouzo-battle-3_19
+  - first:
+      213: 5789535686061594925
+    second: ouzo-battle-3_20
+  - first:
+      213: 1906966312956323513
+    second: ouzo-battle-3_21
+  - first:
+      213: 8782995936057180692
+    second: ouzo-battle-3_22
+  - first:
+      213: 1805403119004343946
+    second: ouzo-battle-3_23
+  - first:
+      213: -1161023044240091932
+    second: ouzo-battle-3_24
+  - first:
+      213: 2155740292222450048
+    second: ouzo-battle-3_25
+  - first:
+      213: 7431228181101622527
+    second: ouzo-battle-3_26
+  - first:
+      213: 4136516723235232777
+    second: ouzo-battle-3_27
+  - first:
+      213: 4117044657501223552
+    second: ouzo-battle-3_28
+  - first:
+      213: -817061547287838544
+    second: ouzo-battle-3_29
+  - first:
+      213: -2729844830824350044
+    second: ouzo-battle-3_30
+  - first:
+      213: -1591536544105539989
+    second: ouzo-battle-3_31
+  - first:
+      213: 5851873076195760086
+    second: ouzo-battle-3_32
+  - first:
+      213: 5708034208259135435
+    second: ouzo-battle-3_33
+  - first:
+      213: -7220039412733975046
+    second: ouzo-battle-3_34
+  - first:
+      213: -227575950653260299
+    second: ouzo-battle-3_35
+  - first:
+      213: -2860553343606357672
+    second: ouzo-battle-3_36
+  - first:
+      213: 5270230791353847436
+    second: ouzo-battle-3_37
+  - first:
+      213: 713090072974870562
+    second: ouzo-battle-3_38
+  - first:
+      213: 6942744992949418586
+    second: ouzo-battle-3_39
+  - first:
+      213: -2489033338721916324
+    second: ouzo-battle-3_40
+  - first:
+      213: -8537680711404919053
+    second: ouzo-battle-3_41
+  - first:
+      213: -3240888905193711139
+    second: ouzo-battle-3_42
+  - first:
+      213: -4684413806685939309
+    second: ouzo-battle-3_43
+  - first:
+      213: -6330472774579516366
+    second: ouzo-battle-3_44
+  - first:
+      213: -6755678867660319206
+    second: ouzo-battle-3_45
+  - first:
+      213: 7402883424335500564
+    second: ouzo-battle-3_46
+  - first:
+      213: 163239972269524676
+    second: ouzo-battle-3_47
+  - first:
+      213: 686189549805549790
+    second: ouzo-battle-3_48
+  - first:
+      213: 8748980790740440342
+    second: ouzo-battle-3_49
+  - first:
+      213: 5939683046730155218
+    second: ouzo-battle-3_50
+  - first:
+      213: -3245785225373427219
+    second: ouzo-battle-3_51
+  - first:
+      213: -4320536753251020646
+    second: ouzo-battle-3_52
+  - first:
+      213: -6902612787997413716
+    second: ouzo-battle-3_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ouzo-battle-3_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89944de0116f4a80800000000000000
+      internalID: -8480452847987287669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f42e2cb4930b9c0800000000000000
+      internalID: -3913565078630019291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d1073f69920c580800000000000000
+      internalID: -8808995142830645936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaf3068579257660800000000000000
+      internalID: 7382852748880116451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46231df0b25a5430800000000000000
+      internalID: 3772418557989824075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ef4c91a5a1689f0800000000000000
+      internalID: -466656537104548274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3123d491605ef600800000000000000
+      internalID: 503928588350988602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c21cf5124b84ce40800000000000000
+      internalID: 5675814546346611398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 159
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2fc9ba1a5ce6e50800000000000000
+      internalID: 6804593385162994337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84436ff4ae1d38b90800000000000000
+      internalID: -7240712971587537848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d88d0557c05041c0800000000000000
+      internalID: -4521525208824313643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c9f218fb3551fe0800000000000000
+      internalID: -1218976042162611116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 127
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6270c82de5e47350800000000000000
+      internalID: 6013684209200165484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 127
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0513f3cce7cda4f0800000000000000
+      internalID: -815776137770494708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 127
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961852e159e6e97b0800000000000000
+      internalID: -5215609731713498775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 127
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbc6975334203740800000000000000
+      internalID: 5129639778506427378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_16
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 127
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2387ed84f2613ff20800000000000000
+      internalID: 3455129731465115698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_17
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 127
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2165bf5ca8af17e90800000000000000
+      internalID: -7029562069414619630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 95
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1a7d34f47110d00800000000000000
+      internalID: 937055826677834210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 95
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4072490e36e4e780800000000000000
+      internalID: -8654539429781540788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 95
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29162e3800985050800000000000000
+      internalID: 5789535686061594925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 95
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6e56212c7e67a10800000000000000
+      internalID: 1906966312956323513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 95
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4124360054873e970800000000000000
+      internalID: 8782995936057180692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 95
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ed2a042941e0910800000000000000
+      internalID: 1805403119004343946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_24
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 95
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4d60051b733efe0800000000000000
+      internalID: -1161023044240091932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 95
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0897ae9cf5abaed10800000000000000
+      internalID: 2155740292222450048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 95
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff43f6b88a6012760800000000000000
+      internalID: 7431228181101622527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 63
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c16e72b0cd76930800000000000000
+      internalID: 4136516723235232777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 63
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ab7ce8d4ea22930800000000000000
+      internalID: 4117044657501223552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 63
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0074a0ad639a4f0800000000000000
+      internalID: -817061547287838544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 63
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae37c6f694ad1ad0800000000000000
+      internalID: -2729844830824350044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 63
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66598902f9b9e9e0800000000000000
+      internalID: -1591536544105539989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_32
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 63
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d71259ee87063150800000000000000
+      internalID: 5851873076195760086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 63
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc75015bed2073f40800000000000000
+      internalID: 5708034208259135435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_34
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 63
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5eba358644dcb90800000000000000
+      internalID: -7220039412733975046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_35
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 63
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdf3ede0ec77dcf0800000000000000
+      internalID: -227575950653260299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 31
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851894dc3e54d48d0800000000000000
+      internalID: -2860553343606357672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 31
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ec8fa5bfe932940800000000000000
+      internalID: 5270230791353847436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 31
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228468ca4a765e900800000000000000
+      internalID: 713090072974870562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 31
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a3fde69c5995060800000000000000
+      internalID: 6942744992949418586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 31
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a206bad5d257dd0800000000000000
+      internalID: -2489033338721916324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 31
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f66107a0a0148980800000000000000
+      internalID: -8537680711404919053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 31
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd99c6136bc0603d0800000000000000
+      internalID: -3240888905193711139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 31
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3999c8f367e9dfeb0800000000000000
+      internalID: -4684413806685939309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_44
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 31
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c08e24d84a528a0800000000000000
+      internalID: -6330472774579516366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a165e7cecd10f32a0800000000000000
+      internalID: -6755678867660319206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415152590435cb660800000000000000
+      internalID: 7402883424335500564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_47
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c60540d3e1f34200800000000000000
+      internalID: 163239972269524676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_48
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8bebc82c5d58900800000000000000
+      internalID: 686189549805549790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_49
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615dcc2dcaf9a6970800000000000000
+      internalID: 8748980790740440342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c2ced24efd6250800000000000000
+      internalID: 5939683046730155218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_51
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9d760d887a4f2d0800000000000000
+      internalID: -3245785225373427219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90147fc6be5a04c0800000000000000
+      internalID: -4320536753251020646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouzo-battle-3_53
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae685dad3ef430a0800000000000000
+      internalID: -6902612787997413716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ouzo-battle-3_0: -8480452847987287669
+      ouzo-battle-3_1: -3913565078630019291
+      ouzo-battle-3_10: -4521525208824313643
+      ouzo-battle-3_11: -1218976042162611116
+      ouzo-battle-3_12: 6013684209200165484
+      ouzo-battle-3_13: -815776137770494708
+      ouzo-battle-3_14: -5215609731713498775
+      ouzo-battle-3_15: 5129639778506427378
+      ouzo-battle-3_16: 3455129731465115698
+      ouzo-battle-3_17: -7029562069414619630
+      ouzo-battle-3_18: 937055826677834210
+      ouzo-battle-3_19: -8654539429781540788
+      ouzo-battle-3_2: -8808995142830645936
+      ouzo-battle-3_20: 5789535686061594925
+      ouzo-battle-3_21: 1906966312956323513
+      ouzo-battle-3_22: 8782995936057180692
+      ouzo-battle-3_23: 1805403119004343946
+      ouzo-battle-3_24: -1161023044240091932
+      ouzo-battle-3_25: 2155740292222450048
+      ouzo-battle-3_26: 7431228181101622527
+      ouzo-battle-3_27: 4136516723235232777
+      ouzo-battle-3_28: 4117044657501223552
+      ouzo-battle-3_29: -817061547287838544
+      ouzo-battle-3_3: 7382852748880116451
+      ouzo-battle-3_30: -2729844830824350044
+      ouzo-battle-3_31: -1591536544105539989
+      ouzo-battle-3_32: 5851873076195760086
+      ouzo-battle-3_33: 5708034208259135435
+      ouzo-battle-3_34: -7220039412733975046
+      ouzo-battle-3_35: -227575950653260299
+      ouzo-battle-3_36: -2860553343606357672
+      ouzo-battle-3_37: 5270230791353847436
+      ouzo-battle-3_38: 713090072974870562
+      ouzo-battle-3_39: 6942744992949418586
+      ouzo-battle-3_4: 3772418557989824075
+      ouzo-battle-3_40: -2489033338721916324
+      ouzo-battle-3_41: -8537680711404919053
+      ouzo-battle-3_42: -3240888905193711139
+      ouzo-battle-3_43: -4684413806685939309
+      ouzo-battle-3_44: -6330472774579516366
+      ouzo-battle-3_45: -6755678867660319206
+      ouzo-battle-3_46: 7402883424335500564
+      ouzo-battle-3_47: 163239972269524676
+      ouzo-battle-3_48: 686189549805549790
+      ouzo-battle-3_49: 8748980790740440342
+      ouzo-battle-3_5: -466656537104548274
+      ouzo-battle-3_50: 5939683046730155218
+      ouzo-battle-3_51: -3245785225373427219
+      ouzo-battle-3_52: -4320536753251020646
+      ouzo-battle-3_53: -6902612787997413716
+      ouzo-battle-3_6: 503928588350988602
+      ouzo-battle-3_7: 5675814546346611398
+      ouzo-battle-3_8: 6804593385162994337
+      ouzo-battle-3_9: -7240712971587537848
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

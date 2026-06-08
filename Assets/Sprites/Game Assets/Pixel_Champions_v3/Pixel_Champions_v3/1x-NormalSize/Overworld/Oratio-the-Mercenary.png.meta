@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 70f4f48ca8d0a61428626098255d5b33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6669115605001460747
+    second: Oratio-the-Mercenary_0
+  - first:
+      213: -2962789296477761840
+    second: Oratio-the-Mercenary_1
+  - first:
+      213: 8399770126492012759
+    second: Oratio-the-Mercenary_2
+  - first:
+      213: 4849453589468763034
+    second: Oratio-the-Mercenary_3
+  - first:
+      213: 4530880127645146654
+    second: Oratio-the-Mercenary_4
+  - first:
+      213: -2641699339870678287
+    second: Oratio-the-Mercenary_5
+  - first:
+      213: -7570636963603984039
+    second: Oratio-the-Mercenary_6
+  - first:
+      213: 3244093044120113736
+    second: Oratio-the-Mercenary_7
+  - first:
+      213: -1611617988220207843
+    second: Oratio-the-Mercenary_8
+  - first:
+      213: -3595238787842368844
+    second: Oratio-the-Mercenary_9
+  - first:
+      213: 1413874559145936035
+    second: Oratio-the-Mercenary_10
+  - first:
+      213: 486672905124139444
+    second: Oratio-the-Mercenary_11
+  - first:
+      213: -7743441532270041638
+    second: Oratio-the-Mercenary_12
+  - first:
+      213: -5414138263236434905
+    second: Oratio-the-Mercenary_13
+  - first:
+      213: -3850101366509605161
+    second: Oratio-the-Mercenary_14
+  - first:
+      213: -210430379134226588
+    second: Oratio-the-Mercenary_15
+  - first:
+      213: 4539113451833831331
+    second: Oratio-the-Mercenary_16
+  - first:
+      213: 381503831412933698
+    second: Oratio-the-Mercenary_17
+  - first:
+      213: -2273841678069860053
+    second: Oratio-the-Mercenary_18
+  - first:
+      213: 3665207466389318104
+    second: Oratio-the-Mercenary_19
+  - first:
+      213: 1162294234123965152
+    second: Oratio-the-Mercenary_20
+  - first:
+      213: 3039499372859576987
+    second: Oratio-the-Mercenary_21
+  - first:
+      213: 5091169608769388301
+    second: Oratio-the-Mercenary_22
+  - first:
+      213: 4883982988410161306
+    second: Oratio-the-Mercenary_23
+  - first:
+      213: -2127092871683065716
+    second: Oratio-the-Mercenary_24
+  - first:
+      213: 7157059615384238196
+    second: Oratio-the-Mercenary_25
+  - first:
+      213: 2849734083287649949
+    second: Oratio-the-Mercenary_26
+  - first:
+      213: 808287459643580389
+    second: Oratio-the-Mercenary_27
+  - first:
+      213: 5382205096889799966
+    second: Oratio-the-Mercenary_28
+  - first:
+      213: -5205643634787973913
+    second: Oratio-the-Mercenary_29
+  - first:
+      213: 1700406785852092889
+    second: Oratio-the-Mercenary_30
+  - first:
+      213: -4284935504593603317
+    second: Oratio-the-Mercenary_31
+  - first:
+      213: -8138873570620999960
+    second: Oratio-the-Mercenary_32
+  - first:
+      213: -2122785200129598293
+    second: Oratio-the-Mercenary_33
+  - first:
+      213: -8841318378577526595
+    second: Oratio-the-Mercenary_34
+  - first:
+      213: 8858600535930222173
+    second: Oratio-the-Mercenary_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3afd511ba8273a0800000000000000
+      internalID: -6669115605001460747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de0d1715de02e6d0800000000000000
+      internalID: -2962789296477761840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d09e781d6af19470800000000000000
+      internalID: 8399770126492012759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93570b9858bc4340800000000000000
+      internalID: 4849453589468763034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e5a20787be0ee30800000000000000
+      internalID: 4530880127645146654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2df9b527cc65bd0800000000000000
+      internalID: -2641699339870678287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 148
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95151f4eac1bfe690800000000000000
+      internalID: -7570636963603984039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 147
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84258198f65550d20800000000000000
+      internalID: 3244093044120113736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 148
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d318a7af162a9e0800000000000000
+      internalID: -1611617988220207843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 148
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba13ffee552b1ec0800000000000000
+      internalID: -3595238787842368844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_10
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 147
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a40bd6ab671f9310800000000000000
+      internalID: 1413874559145936035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 148
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b15bbfbd6201c600800000000000000
+      internalID: 486672905124139444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 124
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5a902f3f4c98490800000000000000
+      internalID: -7743441532270041638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 123
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72421f65fed1dd4b0800000000000000
+      internalID: -5414138263236434905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 124
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dee2f3b431b19ac0800000000000000
+      internalID: -3850101366509605161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 124
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fe0c16fa6641df0800000000000000
+      internalID: -210430379134226588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_16
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 123
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afa0cb92ab2efe30800000000000000
+      internalID: 4539113451833831331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 124
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24481df96bf5b4500800000000000000
+      internalID: 381503831412933698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 99
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29fa278a01b170e0800000000000000
+      internalID: -2273841678069860053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 99
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9ae3685ce6dd230800000000000000
+      internalID: 3665207466389318104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 99
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e29175a27c412010800000000000000
+      internalID: 1162294234123965152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 99
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92515e53987e2a20800000000000000
+      internalID: 3039499372859576987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 99
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fb6f5f8c777a640800000000000000
+      internalID: 5091169608769388301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 99
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a980d39c6a467c340800000000000000
+      internalID: 4883982988410161306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 75
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88b0139d4c0b72e0800000000000000
+      internalID: -2127092871683065716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 75
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478754beccbf25360800000000000000
+      internalID: 7157059615384238196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 75
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e0faadc0a4c8720800000000000000
+      internalID: 2849734083287649949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 52
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef557c792d973b00800000000000000
+      internalID: 808287459643580389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 51
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15d96cf40f61ba40800000000000000
+      internalID: 5382205096889799966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 52
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e48031e1b6d1c7b0800000000000000
+      internalID: -5205643634787973913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 28
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1b06c66fe099710800000000000000
+      internalID: 1700406785852092889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_31
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 27
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b053d337cd9d884c0800000000000000
+      internalID: -4284935504593603317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 28
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6f15feb99ec0f80800000000000000
+      internalID: -8138873570620999960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac91d38b1a5a82e0800000000000000
+      internalID: -2122785200129598293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db001ca27c35d4580800000000000000
+      internalID: -8841318378577526595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Oratio-the-Mercenary_35
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56b437a04210fa70800000000000000
+      internalID: 8858600535930222173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Oratio-the-Mercenary_0: -6669115605001460747
+      Oratio-the-Mercenary_1: -2962789296477761840
+      Oratio-the-Mercenary_10: 1413874559145936035
+      Oratio-the-Mercenary_11: 486672905124139444
+      Oratio-the-Mercenary_12: -7743441532270041638
+      Oratio-the-Mercenary_13: -5414138263236434905
+      Oratio-the-Mercenary_14: -3850101366509605161
+      Oratio-the-Mercenary_15: -210430379134226588
+      Oratio-the-Mercenary_16: 4539113451833831331
+      Oratio-the-Mercenary_17: 381503831412933698
+      Oratio-the-Mercenary_18: -2273841678069860053
+      Oratio-the-Mercenary_19: 3665207466389318104
+      Oratio-the-Mercenary_2: 8399770126492012759
+      Oratio-the-Mercenary_20: 1162294234123965152
+      Oratio-the-Mercenary_21: 3039499372859576987
+      Oratio-the-Mercenary_22: 5091169608769388301
+      Oratio-the-Mercenary_23: 4883982988410161306
+      Oratio-the-Mercenary_24: -2127092871683065716
+      Oratio-the-Mercenary_25: 7157059615384238196
+      Oratio-the-Mercenary_26: 2849734083287649949
+      Oratio-the-Mercenary_27: 808287459643580389
+      Oratio-the-Mercenary_28: 5382205096889799966
+      Oratio-the-Mercenary_29: -5205643634787973913
+      Oratio-the-Mercenary_3: 4849453589468763034
+      Oratio-the-Mercenary_30: 1700406785852092889
+      Oratio-the-Mercenary_31: -4284935504593603317
+      Oratio-the-Mercenary_32: -8138873570620999960
+      Oratio-the-Mercenary_33: -2122785200129598293
+      Oratio-the-Mercenary_34: -8841318378577526595
+      Oratio-the-Mercenary_35: 8858600535930222173
+      Oratio-the-Mercenary_4: 4530880127645146654
+      Oratio-the-Mercenary_5: -2641699339870678287
+      Oratio-the-Mercenary_6: -7570636963603984039
+      Oratio-the-Mercenary_7: 3244093044120113736
+      Oratio-the-Mercenary_8: -1611617988220207843
+      Oratio-the-Mercenary_9: -3595238787842368844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
