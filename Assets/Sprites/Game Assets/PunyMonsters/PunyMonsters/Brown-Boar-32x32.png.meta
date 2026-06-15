@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 579e0f4bea1845142868c22b9cf2556a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8170606469944855351
+    second: Brown-Boar-32x32_0
+  - first:
+      213: -807597878381510864
+    second: Brown-Boar-32x32_1
+  - first:
+      213: -264470774386238050
+    second: Brown-Boar-32x32_2
+  - first:
+      213: -4971477476396561977
+    second: Brown-Boar-32x32_3
+  - first:
+      213: 5154236974550917991
+    second: Brown-Boar-32x32_4
+  - first:
+      213: 4034565614978734951
+    second: Brown-Boar-32x32_5
+  - first:
+      213: -8128733658319550154
+    second: Brown-Boar-32x32_6
+  - first:
+      213: -4137621326070861499
+    second: Brown-Boar-32x32_7
+  - first:
+      213: -1117023460388339662
+    second: Brown-Boar-32x32_8
+  - first:
+      213: 4619265631482389037
+    second: Brown-Boar-32x32_9
+  - first:
+      213: 8966419062101368886
+    second: Brown-Boar-32x32_10
+  - first:
+      213: -7742477152585902013
+    second: Brown-Boar-32x32_11
+  - first:
+      213: 3521184785266087681
+    second: Brown-Boar-32x32_12
+  - first:
+      213: 1434967802570950312
+    second: Brown-Boar-32x32_13
+  - first:
+      213: -401193449295273890
+    second: Brown-Boar-32x32_14
+  - first:
+      213: -6953132809624913115
+    second: Brown-Boar-32x32_15
+  - first:
+      213: -8497434608098696714
+    second: Brown-Boar-32x32_16
+  - first:
+      213: -6518113265380809969
+    second: Brown-Boar-32x32_17
+  - first:
+      213: 1597190554307741705
+    second: Brown-Boar-32x32_18
+  - first:
+      213: 7371279216715991110
+    second: Brown-Boar-32x32_19
+  - first:
+      213: 5565684952954455796
+    second: Brown-Boar-32x32_20
+  - first:
+      213: 3828928625166662014
+    second: Brown-Boar-32x32_21
+  - first:
+      213: -5662502653499983375
+    second: Brown-Boar-32x32_22
+  - first:
+      213: 6797061338388213179
+    second: Brown-Boar-32x32_23
+  - first:
+      213: -7512741499697014129
+    second: Brown-Boar-32x32_24
+  - first:
+      213: -6046402985500677178
+    second: Brown-Boar-32x32_25
+  - first:
+      213: -2858887991559260787
+    second: Brown-Boar-32x32_26
+  - first:
+      213: -4660198732730428975
+    second: Brown-Boar-32x32_27
+  - first:
+      213: -4160838518372560503
+    second: Brown-Boar-32x32_28
+  - first:
+      213: -929811995431145449
+    second: Brown-Boar-32x32_29
+  - first:
+      213: -7024440594912582213
+    second: Brown-Boar-32x32_30
+  - first:
+      213: 8429376437307066486
+    second: Brown-Boar-32x32_31
+  - first:
+      213: -6357862045351810166
+    second: Brown-Boar-32x32_32
+  - first:
+      213: 3300347686116162448
+    second: Brown-Boar-32x32_33
+  - first:
+      213: 3529182075823956961
+    second: Brown-Boar-32x32_34
+  - first:
+      213: 7955715902503736278
+    second: Brown-Boar-32x32_35
+  - first:
+      213: -2815605226920806189
+    second: Brown-Boar-32x32_36
+  - first:
+      213: -2762951059542167704
+    second: Brown-Boar-32x32_37
+  - first:
+      213: -5500585624307866243
+    second: Brown-Boar-32x32_38
+  - first:
+      213: 2030544137813202558
+    second: Brown-Boar-32x32_39
+  - first:
+      213: -341741695912014501
+    second: Brown-Boar-32x32_40
+  - first:
+      213: 209532648785333147
+    second: Brown-Boar-32x32_41
+  - first:
+      213: -6721754165225731708
+    second: Brown-Boar-32x32_42
+  - first:
+      213: -3294436008958546216
+    second: Brown-Boar-32x32_43
+  - first:
+      213: -8806801109324431945
+    second: Brown-Boar-32x32_44
+  - first:
+      213: 8896705945975434099
+    second: Brown-Boar-32x32_45
+  - first:
+      213: -7246126549999591045
+    second: Brown-Boar-32x32_46
+  - first:
+      213: -4501783261585634749
+    second: Brown-Boar-32x32_47
+  - first:
+      213: 943499768064463305
+    second: Brown-Boar-32x32_48
+  - first:
+      213: -6247413107445005051
+    second: Brown-Boar-32x32_49
+  - first:
+      213: -2429399991011775707
+    second: Brown-Boar-32x32_50
+  - first:
+      213: 1414985681272925503
+    second: Brown-Boar-32x32_51
+  - first:
+      213: -7744704901106203762
+    second: Brown-Boar-32x32_52
+  - first:
+      213: 7594471584885969437
+    second: Brown-Boar-32x32_53
+  - first:
+      213: 5228257630433359142
+    second: Brown-Boar-32x32_54
+  - first:
+      213: 5510065586504768617
+    second: Brown-Boar-32x32_55
+  - first:
+      213: 7337079202311554776
+    second: Brown-Boar-32x32_56
+  - first:
+      213: 9192520417778774294
+    second: Brown-Boar-32x32_57
+  - first:
+      213: -3035292246034404867
+    second: Brown-Boar-32x32_58
+  - first:
+      213: 8710460088950519465
+    second: Brown-Boar-32x32_59
+  - first:
+      213: -3139102771849400460
+    second: Brown-Boar-32x32_60
+  - first:
+      213: 2931693901152792688
+    second: Brown-Boar-32x32_61
+  - first:
+      213: -282705672498123776
+    second: Brown-Boar-32x32_62
+  - first:
+      213: -3576061102716352870
+    second: Brown-Boar-32x32_63
+  - first:
+      213: -9098673314494436959
+    second: Brown-Boar-32x32_64
+  - first:
+      213: 5885705459178318778
+    second: Brown-Boar-32x32_65
+  - first:
+      213: -3985563533724301780
+    second: Brown-Boar-32x32_66
+  - first:
+      213: 3466373619715038655
+    second: Brown-Boar-32x32_67
+  - first:
+      213: 2445718631159292647
+    second: Brown-Boar-32x32_68
+  - first:
+      213: -1577322019666338439
+    second: Brown-Boar-32x32_69
+  - first:
+      213: 1231259037511865397
+    second: Brown-Boar-32x32_70
+  - first:
+      213: -5810423818154514104
+    second: Brown-Boar-32x32_71
+  - first:
+      213: 811262746151994245
+    second: Brown-Boar-32x32_72
+  - first:
+      213: 7863021858906949721
+    second: Brown-Boar-32x32_73
+  - first:
+      213: 6943032537939137744
+    second: Brown-Boar-32x32_74
+  - first:
+      213: -3727109732392608610
+    second: Brown-Boar-32x32_75
+  - first:
+      213: 2573620540646702634
+    second: Brown-Boar-32x32_76
+  - first:
+      213: 4331169015590053604
+    second: Brown-Boar-32x32_77
+  - first:
+      213: -7479991061659886151
+    second: Brown-Boar-32x32_78
+  - first:
+      213: 5604152007802391274
+    second: Brown-Boar-32x32_79
+  - first:
+      213: 2784365843783099066
+    second: Brown-Boar-32x32_80
+  - first:
+      213: -946970414195897438
+    second: Brown-Boar-32x32_81
+  - first:
+      213: -2557606150531092774
+    second: Brown-Boar-32x32_82
+  - first:
+      213: -7816204218340884978
+    second: Brown-Boar-32x32_83
+  - first:
+      213: 2474013187367685502
+    second: Brown-Boar-32x32_84
+  - first:
+      213: -3198944953398681884
+    second: Brown-Boar-32x32_85
+  - first:
+      213: -8356025238892814245
+    second: Brown-Boar-32x32_86
+  - first:
+      213: -1284687390601154116
+    second: Brown-Boar-32x32_87
+  - first:
+      213: 5073133560582783221
+    second: Brown-Boar-32x32_88
+  - first:
+      213: -6025383017365255428
+    second: Brown-Boar-32x32_89
+  - first:
+      213: -8780664591514606813
+    second: Brown-Boar-32x32_90
+  - first:
+      213: 8650779544266695874
+    second: Brown-Boar-32x32_91
+  - first:
+      213: -4335730837684923301
+    second: Brown-Boar-32x32_92
+  - first:
+      213: 7633879742667657834
+    second: Brown-Boar-32x32_93
+  - first:
+      213: 2075613385154150671
+    second: Brown-Boar-32x32_94
+  - first:
+      213: 7217984418647668210
+    second: Brown-Boar-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b42907b43d36170800000000000000
+      internalID: 8170606469944855351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ff5b92206dac4f0800000000000000
+      internalID: -807597878381510864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 228
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d5c3f5b39645cf0800000000000000
+      internalID: -264470774386238050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c907824393c10bb0800000000000000
+      internalID: -4971477476396561977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 228
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763aa445837878740800000000000000
+      internalID: 5154236974550917991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b10dffc08adf730800000000000000
+      internalID: 4034565614978734951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6390a1e3ecfe03f80800000000000000
+      internalID: -8128733658319550154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 228
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541377473573496c0800000000000000
+      internalID: -4137621326070861499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 229
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23086cdb4198f70f0800000000000000
+      internalID: -1117023460388339662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22adaf2e9dea1040800000000000000
+      internalID: 4619265631482389037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 231
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630e7df71ae1f6c70800000000000000
+      internalID: 8966419062101368886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3481a861d023d8490800000000000000
+      internalID: -7742477152585902013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1079b4af7e2cdd030800000000000000
+      internalID: 3521184785266087681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 198
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a64d581d970ae310800000000000000
+      internalID: 1434967802570950312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 197
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50aa88feacae6af0800000000000000
+      internalID: -401193449295273890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b71368c82818f90800000000000000
+      internalID: -6953132809624913115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 198
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1aa2ace3c031a80800000000000000
+      internalID: -8497434608098696714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03273305820b85a0800000000000000
+      internalID: -6518113265380809969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 198
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9084f1cc85c5a2610800000000000000
+      internalID: 1597190554307741705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 197
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6488394946b0c4660800000000000000
+      internalID: 7371279216715991110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 198
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f64698f9f84d3d40800000000000000
+      internalID: 5565684952954455796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 198
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79326d4c46132530800000000000000
+      internalID: 3828928625166662014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f93d6e76dfba61b0800000000000000
+      internalID: -5662502653499983375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 198
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdab2f5643045e50800000000000000
+      internalID: 6797061338388213179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 168
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a593509616db790800000000000000
+      internalID: -7512741499697014129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 168
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbee58158cd61ca0800000000000000
+      internalID: -6046402985500677178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 167
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85fa7ac4803358d0800000000000000
+      internalID: -2858887991559260787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 168
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d190e081f5a35fb0800000000000000
+      internalID: -4660198732730428975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 167
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98114a0a96bb146c0800000000000000
+      internalID: -4160838518372560503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 168
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710fd60aae4a813f0800000000000000
+      internalID: -929811995431145449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 168
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5e66afe7c248e90800000000000000
+      internalID: -7024440594912582213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 168
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6784cbf75392bf470800000000000000
+      internalID: 8429376437307066486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 168
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bedd7b72654c7a0800000000000000
+      internalID: -6357862045351810166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 168
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b7c3a0cb03dcd20800000000000000
+      internalID: 3300347686116162448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 168
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3a929466c2af030800000000000000
+      internalID: 3529182075823956961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 168
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d359ae4671686e60800000000000000
+      internalID: 7955715902503736278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8f6adb6f5fce8d0800000000000000
+      internalID: -2815605226920806189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 134
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f233c66a608a9d0800000000000000
+      internalID: -2762951059542167704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 133
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75628e948ef9a3b0800000000000000
+      internalID: -5500585624307866243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e769b139221fd2c10800000000000000
+      internalID: 2030544137813202558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 134
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d893afcb3e14bf0800000000000000
+      internalID: -341741695912014501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b42bb75d868e200800000000000000
+      internalID: 209532648785333147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489c73a333887b2a0800000000000000
+      internalID: -6721754165225731708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 134
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de25ce87efc742d0800000000000000
+      internalID: -3294436008958546216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 134
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd733f2d05f7c580800000000000000
+      internalID: -8806801109324431945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ba8fccbe2777b70800000000000000
+      internalID: 8896705945975434099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 132
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b716fbd5b46907b90800000000000000
+      internalID: -7246126549999591045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a836d99f37681c0800000000000000
+      internalID: -4501783261585634749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c155294a0cf71d00800000000000000
+      internalID: 943499768064463305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 102
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5050f9501eabc49a0800000000000000
+      internalID: -6247413107445005051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52be7666499094ed0800000000000000
+      internalID: -2429399991011775707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d698eeaf903a310800000000000000
+      internalID: 1414985681272925503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e838657fce7458490800000000000000
+      internalID: -7744704901106203762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 102
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d121de15babf46960800000000000000
+      internalID: 7594471584885969437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 101
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625b4384d908e8840800000000000000
+      internalID: 5228257630433359142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 103
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c98b4157fa77c40800000000000000
+      internalID: 5510065586504768617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6cfa639aa82d560800000000000000
+      internalID: 7337079202311554776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611ba3cad94629f70800000000000000
+      internalID: 9192520417778774294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 100
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92f9da8c970e5d0800000000000000
+      internalID: -3035292246034404867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 101
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6fc180d45c1e870800000000000000
+      internalID: 8710460088950519465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fe87229aaaf64d0800000000000000
+      internalID: -3139102771849400460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070346002187fa820800000000000000
+      internalID: 2931693901152792688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 69
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ce2ce40b0a31cf0800000000000000
+      internalID: -282705672498123776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a960085bf574f5ec0800000000000000
+      internalID: -3576061102716352870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 70
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9ab3ac3d40bb180800000000000000
+      internalID: -9098673314494436959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abba6ea6ee93ea150800000000000000
+      internalID: 5885705459178318778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26cc9e151f60b8c0800000000000000
+      internalID: -3985563533724301780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 70
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd56e501780b1030800000000000000
+      internalID: 3466373619715038655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 70
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2edc61320f0f120800000000000000
+      internalID: 2445718631159292647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dd269eaf93c1ae0800000000000000
+      internalID: -1577322019666338439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5345265329f461110800000000000000
+      internalID: 1231259037511865397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8496e64825a3d5fa0800000000000000
+      internalID: -5810423818154514104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583c5eb5b2f224b00800000000000000
+      internalID: 811262746151994245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 40
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958c74978b01f1d60800000000000000
+      internalID: 7863021858906949721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d457d7be4b9a5060800000000000000
+      internalID: 6943032537939137744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c56d90275a64cc0800000000000000
+      internalID: -3727109732392608610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e35effe3657b320800000000000000
+      internalID: 2573620540646702634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e66c6ca5476b1c30800000000000000
+      internalID: 4331169015590053604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd5aa692cbb13890800000000000000
+      internalID: -7479991061659886151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 40
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea8a5c1f82f5cd40800000000000000
+      internalID: 5604152007802391274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 40
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab22c639bfd04a620800000000000000
+      internalID: 2784365843783099066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab8c01fc6fabd2f0800000000000000
+      internalID: -946970414195897438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 40
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade6d32c1ce818cd0800000000000000
+      internalID: -2557606150531092774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0eb1e9eca3478390800000000000000
+      internalID: -7816204218340884978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dcea2d2e5755220800000000000000
+      internalID: 2474013187367685502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 6
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee94ac73801b93d0800000000000000
+      internalID: -3198944953398681884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50689d315f690c80800000000000000
+      internalID: -8356025238892814245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb17bc3ff9fdb2ee0800000000000000
+      internalID: -1284687390601154116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f046a04814676640800000000000000
+      internalID: 5073133560582783221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfac54ec11a816ca0800000000000000
+      internalID: -6025383017365255428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 6
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323ebe27310d42680800000000000000
+      internalID: -8780664591514606813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 5
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c46b36692ebd0870800000000000000
+      internalID: 8650779544266695874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 6
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54551a56c364d3c0800000000000000
+      internalID: -4335730837684923301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6291cf0e2df0f960800000000000000
+      internalID: 7633879742667657834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 7
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01c821706f0ecc10800000000000000
+      internalID: 2075613385154150671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Boar-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 6
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f57cc3169e6b2460800000000000000
+      internalID: 7217984418647668210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Brown-Boar-32x32_0: 8170606469944855351
+      Brown-Boar-32x32_1: -807597878381510864
+      Brown-Boar-32x32_10: 8966419062101368886
+      Brown-Boar-32x32_11: -7742477152585902013
+      Brown-Boar-32x32_12: 3521184785266087681
+      Brown-Boar-32x32_13: 1434967802570950312
+      Brown-Boar-32x32_14: -401193449295273890
+      Brown-Boar-32x32_15: -6953132809624913115
+      Brown-Boar-32x32_16: -8497434608098696714
+      Brown-Boar-32x32_17: -6518113265380809969
+      Brown-Boar-32x32_18: 1597190554307741705
+      Brown-Boar-32x32_19: 7371279216715991110
+      Brown-Boar-32x32_2: -264470774386238050
+      Brown-Boar-32x32_20: 5565684952954455796
+      Brown-Boar-32x32_21: 3828928625166662014
+      Brown-Boar-32x32_22: -5662502653499983375
+      Brown-Boar-32x32_23: 6797061338388213179
+      Brown-Boar-32x32_24: -7512741499697014129
+      Brown-Boar-32x32_25: -6046402985500677178
+      Brown-Boar-32x32_26: -2858887991559260787
+      Brown-Boar-32x32_27: -4660198732730428975
+      Brown-Boar-32x32_28: -4160838518372560503
+      Brown-Boar-32x32_29: -929811995431145449
+      Brown-Boar-32x32_3: -4971477476396561977
+      Brown-Boar-32x32_30: -7024440594912582213
+      Brown-Boar-32x32_31: 8429376437307066486
+      Brown-Boar-32x32_32: -6357862045351810166
+      Brown-Boar-32x32_33: 3300347686116162448
+      Brown-Boar-32x32_34: 3529182075823956961
+      Brown-Boar-32x32_35: 7955715902503736278
+      Brown-Boar-32x32_36: -2815605226920806189
+      Brown-Boar-32x32_37: -2762951059542167704
+      Brown-Boar-32x32_38: -5500585624307866243
+      Brown-Boar-32x32_39: 2030544137813202558
+      Brown-Boar-32x32_4: 5154236974550917991
+      Brown-Boar-32x32_40: -341741695912014501
+      Brown-Boar-32x32_41: 209532648785333147
+      Brown-Boar-32x32_42: -6721754165225731708
+      Brown-Boar-32x32_43: -3294436008958546216
+      Brown-Boar-32x32_44: -8806801109324431945
+      Brown-Boar-32x32_45: 8896705945975434099
+      Brown-Boar-32x32_46: -7246126549999591045
+      Brown-Boar-32x32_47: -4501783261585634749
+      Brown-Boar-32x32_48: 943499768064463305
+      Brown-Boar-32x32_49: -6247413107445005051
+      Brown-Boar-32x32_5: 4034565614978734951
+      Brown-Boar-32x32_50: -2429399991011775707
+      Brown-Boar-32x32_51: 1414985681272925503
+      Brown-Boar-32x32_52: -7744704901106203762
+      Brown-Boar-32x32_53: 7594471584885969437
+      Brown-Boar-32x32_54: 5228257630433359142
+      Brown-Boar-32x32_55: 5510065586504768617
+      Brown-Boar-32x32_56: 7337079202311554776
+      Brown-Boar-32x32_57: 9192520417778774294
+      Brown-Boar-32x32_58: -3035292246034404867
+      Brown-Boar-32x32_59: 8710460088950519465
+      Brown-Boar-32x32_6: -8128733658319550154
+      Brown-Boar-32x32_60: -3139102771849400460
+      Brown-Boar-32x32_61: 2931693901152792688
+      Brown-Boar-32x32_62: -282705672498123776
+      Brown-Boar-32x32_63: -3576061102716352870
+      Brown-Boar-32x32_64: -9098673314494436959
+      Brown-Boar-32x32_65: 5885705459178318778
+      Brown-Boar-32x32_66: -3985563533724301780
+      Brown-Boar-32x32_67: 3466373619715038655
+      Brown-Boar-32x32_68: 2445718631159292647
+      Brown-Boar-32x32_69: -1577322019666338439
+      Brown-Boar-32x32_7: -4137621326070861499
+      Brown-Boar-32x32_70: 1231259037511865397
+      Brown-Boar-32x32_71: -5810423818154514104
+      Brown-Boar-32x32_72: 811262746151994245
+      Brown-Boar-32x32_73: 7863021858906949721
+      Brown-Boar-32x32_74: 6943032537939137744
+      Brown-Boar-32x32_75: -3727109732392608610
+      Brown-Boar-32x32_76: 2573620540646702634
+      Brown-Boar-32x32_77: 4331169015590053604
+      Brown-Boar-32x32_78: -7479991061659886151
+      Brown-Boar-32x32_79: 5604152007802391274
+      Brown-Boar-32x32_8: -1117023460388339662
+      Brown-Boar-32x32_80: 2784365843783099066
+      Brown-Boar-32x32_81: -946970414195897438
+      Brown-Boar-32x32_82: -2557606150531092774
+      Brown-Boar-32x32_83: -7816204218340884978
+      Brown-Boar-32x32_84: 2474013187367685502
+      Brown-Boar-32x32_85: -3198944953398681884
+      Brown-Boar-32x32_86: -8356025238892814245
+      Brown-Boar-32x32_87: -1284687390601154116
+      Brown-Boar-32x32_88: 5073133560582783221
+      Brown-Boar-32x32_89: -6025383017365255428
+      Brown-Boar-32x32_9: 4619265631482389037
+      Brown-Boar-32x32_90: -8780664591514606813
+      Brown-Boar-32x32_91: 8650779544266695874
+      Brown-Boar-32x32_92: -4335730837684923301
+      Brown-Boar-32x32_93: 7633879742667657834
+      Brown-Boar-32x32_94: 2075613385154150671
+      Brown-Boar-32x32_95: 7217984418647668210
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

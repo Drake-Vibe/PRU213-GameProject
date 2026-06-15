@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: f737a7ec85b9df742880e52dd00f8377
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3561100590073703740
+    second: Navy-Blue-Rat-32x32_0
+  - first:
+      213: 146557647319400659
+    second: Navy-Blue-Rat-32x32_1
+  - first:
+      213: 1843525252612291847
+    second: Navy-Blue-Rat-32x32_2
+  - first:
+      213: -6677589636604509234
+    second: Navy-Blue-Rat-32x32_3
+  - first:
+      213: 5022195502808726287
+    second: Navy-Blue-Rat-32x32_4
+  - first:
+      213: -8575732545047127897
+    second: Navy-Blue-Rat-32x32_5
+  - first:
+      213: -4932814558397751133
+    second: Navy-Blue-Rat-32x32_6
+  - first:
+      213: 3401300587069136909
+    second: Navy-Blue-Rat-32x32_7
+  - first:
+      213: 6893002094916409508
+    second: Navy-Blue-Rat-32x32_8
+  - first:
+      213: 5057862625647603392
+    second: Navy-Blue-Rat-32x32_9
+  - first:
+      213: -4726085368148973650
+    second: Navy-Blue-Rat-32x32_10
+  - first:
+      213: -2422281482529887044
+    second: Navy-Blue-Rat-32x32_11
+  - first:
+      213: -3949308255541825585
+    second: Navy-Blue-Rat-32x32_12
+  - first:
+      213: -8926960669365584114
+    second: Navy-Blue-Rat-32x32_13
+  - first:
+      213: -2453005545115911933
+    second: Navy-Blue-Rat-32x32_14
+  - first:
+      213: 890898362209077732
+    second: Navy-Blue-Rat-32x32_15
+  - first:
+      213: 1194113127451205451
+    second: Navy-Blue-Rat-32x32_16
+  - first:
+      213: 6528179650010816836
+    second: Navy-Blue-Rat-32x32_17
+  - first:
+      213: -1497131120463738051
+    second: Navy-Blue-Rat-32x32_18
+  - first:
+      213: -364387423835164306
+    second: Navy-Blue-Rat-32x32_19
+  - first:
+      213: -3113022766727149532
+    second: Navy-Blue-Rat-32x32_20
+  - first:
+      213: -4824590951702454103
+    second: Navy-Blue-Rat-32x32_21
+  - first:
+      213: -6414565472437395810
+    second: Navy-Blue-Rat-32x32_22
+  - first:
+      213: -6940202641297131425
+    second: Navy-Blue-Rat-32x32_23
+  - first:
+      213: 684029904844494036
+    second: Navy-Blue-Rat-32x32_24
+  - first:
+      213: 7329755182774446198
+    second: Navy-Blue-Rat-32x32_25
+  - first:
+      213: 2514796609530076781
+    second: Navy-Blue-Rat-32x32_26
+  - first:
+      213: 1645765256680930759
+    second: Navy-Blue-Rat-32x32_27
+  - first:
+      213: -5094925063579484225
+    second: Navy-Blue-Rat-32x32_28
+  - first:
+      213: -6514868930686122234
+    second: Navy-Blue-Rat-32x32_29
+  - first:
+      213: 6362722691443413794
+    second: Navy-Blue-Rat-32x32_30
+  - first:
+      213: -2141241907104427052
+    second: Navy-Blue-Rat-32x32_31
+  - first:
+      213: -3646011696837911969
+    second: Navy-Blue-Rat-32x32_32
+  - first:
+      213: -1345707364483461526
+    second: Navy-Blue-Rat-32x32_33
+  - first:
+      213: 5844880771179256530
+    second: Navy-Blue-Rat-32x32_34
+  - first:
+      213: 277393027404309888
+    second: Navy-Blue-Rat-32x32_35
+  - first:
+      213: 2069345098876386894
+    second: Navy-Blue-Rat-32x32_36
+  - first:
+      213: -4738619748654811378
+    second: Navy-Blue-Rat-32x32_37
+  - first:
+      213: -6926006828613266589
+    second: Navy-Blue-Rat-32x32_38
+  - first:
+      213: 809199375524373604
+    second: Navy-Blue-Rat-32x32_39
+  - first:
+      213: 7690170255849653797
+    second: Navy-Blue-Rat-32x32_40
+  - first:
+      213: 5250430911952042409
+    second: Navy-Blue-Rat-32x32_41
+  - first:
+      213: 8784382976479010144
+    second: Navy-Blue-Rat-32x32_42
+  - first:
+      213: 24533416744066102
+    second: Navy-Blue-Rat-32x32_43
+  - first:
+      213: -5398604148663316251
+    second: Navy-Blue-Rat-32x32_44
+  - first:
+      213: -4354747380057563649
+    second: Navy-Blue-Rat-32x32_45
+  - first:
+      213: 2658704087670834263
+    second: Navy-Blue-Rat-32x32_46
+  - first:
+      213: -7744340130932457138
+    second: Navy-Blue-Rat-32x32_47
+  - first:
+      213: -4596062349971561353
+    second: Navy-Blue-Rat-32x32_48
+  - first:
+      213: 8267702368992718474
+    second: Navy-Blue-Rat-32x32_49
+  - first:
+      213: 8741708871576391798
+    second: Navy-Blue-Rat-32x32_50
+  - first:
+      213: 8942264743683211742
+    second: Navy-Blue-Rat-32x32_51
+  - first:
+      213: -8066749113112265506
+    second: Navy-Blue-Rat-32x32_52
+  - first:
+      213: -1860652466772014377
+    second: Navy-Blue-Rat-32x32_53
+  - first:
+      213: -4902582389267705973
+    second: Navy-Blue-Rat-32x32_54
+  - first:
+      213: -345463329938622544
+    second: Navy-Blue-Rat-32x32_55
+  - first:
+      213: 1614665549435826087
+    second: Navy-Blue-Rat-32x32_56
+  - first:
+      213: 6603345749513853425
+    second: Navy-Blue-Rat-32x32_57
+  - first:
+      213: -8825039475177997980
+    second: Navy-Blue-Rat-32x32_58
+  - first:
+      213: 4605806766714595468
+    second: Navy-Blue-Rat-32x32_59
+  - first:
+      213: 7167311112411265473
+    second: Navy-Blue-Rat-32x32_60
+  - first:
+      213: -3699204228491481398
+    second: Navy-Blue-Rat-32x32_61
+  - first:
+      213: 3204924735708142271
+    second: Navy-Blue-Rat-32x32_62
+  - first:
+      213: 8271316769619979045
+    second: Navy-Blue-Rat-32x32_63
+  - first:
+      213: -5695053803040608461
+    second: Navy-Blue-Rat-32x32_64
+  - first:
+      213: 4374080002004500481
+    second: Navy-Blue-Rat-32x32_65
+  - first:
+      213: 2622741778539168351
+    second: Navy-Blue-Rat-32x32_66
+  - first:
+      213: -4082313707914580868
+    second: Navy-Blue-Rat-32x32_67
+  - first:
+      213: -3588201819981144180
+    second: Navy-Blue-Rat-32x32_68
+  - first:
+      213: -5695136403708275624
+    second: Navy-Blue-Rat-32x32_69
+  - first:
+      213: 3629520750114343687
+    second: Navy-Blue-Rat-32x32_70
+  - first:
+      213: -2993219850737689381
+    second: Navy-Blue-Rat-32x32_71
+  - first:
+      213: 385896047401909521
+    second: Navy-Blue-Rat-32x32_72
+  - first:
+      213: -8166810706613837303
+    second: Navy-Blue-Rat-32x32_73
+  - first:
+      213: -7999790487500560357
+    second: Navy-Blue-Rat-32x32_74
+  - first:
+      213: 3080315938355150167
+    second: Navy-Blue-Rat-32x32_75
+  - first:
+      213: 1282213403856793213
+    second: Navy-Blue-Rat-32x32_76
+  - first:
+      213: 4772363342737196306
+    second: Navy-Blue-Rat-32x32_77
+  - first:
+      213: 8001609399982469221
+    second: Navy-Blue-Rat-32x32_78
+  - first:
+      213: 6181115893150470878
+    second: Navy-Blue-Rat-32x32_79
+  - first:
+      213: -8798384957956158968
+    second: Navy-Blue-Rat-32x32_80
+  - first:
+      213: 8717033296136464927
+    second: Navy-Blue-Rat-32x32_81
+  - first:
+      213: 5227385447143369102
+    second: Navy-Blue-Rat-32x32_82
+  - first:
+      213: -1128857629347748655
+    second: Navy-Blue-Rat-32x32_83
+  - first:
+      213: -4035735885734176932
+    second: Navy-Blue-Rat-32x32_84
+  - first:
+      213: -6178526443301123999
+    second: Navy-Blue-Rat-32x32_85
+  - first:
+      213: 8283174696817957004
+    second: Navy-Blue-Rat-32x32_86
+  - first:
+      213: 5774872780030769408
+    second: Navy-Blue-Rat-32x32_87
+  - first:
+      213: 2226108571436118302
+    second: Navy-Blue-Rat-32x32_88
+  - first:
+      213: 3671795082418636834
+    second: Navy-Blue-Rat-32x32_89
+  - first:
+      213: -2576156386904454070
+    second: Navy-Blue-Rat-32x32_90
+  - first:
+      213: -2268818378352382760
+    second: Navy-Blue-Rat-32x32_91
+  - first:
+      213: -8147831202361551177
+    second: Navy-Blue-Rat-32x32_92
+  - first:
+      213: 7604622570479278236
+    second: Navy-Blue-Rat-32x32_93
+  - first:
+      213: 1719387885639130160
+    second: Navy-Blue-Rat-32x32_94
+  - first:
+      213: -5377656644239981946
+    second: Navy-Blue-Rat-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 233
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3de6c08e129b6130800000000000000
+      internalID: 3561100590073703740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 232
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0079b576da80200800000000000000
+      internalID: 146557647319400659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 232
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dfa682374859910800000000000000
+      internalID: 1843525252612291847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 233
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3cb5ada9f6453a0800000000000000
+      internalID: -6677589636604509234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 232
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b7a79733c62b540800000000000000
+      internalID: 5022195502808726287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 233
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a895bbbfa0ecf880800000000000000
+      internalID: -8575732545047127897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 234
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0a3d75b4f1b8bb0800000000000000
+      internalID: -4932814558397751133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 231
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d006592fcd8d33f20800000000000000
+      internalID: 3401300587069136909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 232
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8148772ecd8af50800000000000000
+      internalID: 6893002094916409508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 234
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce2374a243213640800000000000000
+      internalID: 5057862625647603392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 236
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea72f45c562996eb0800000000000000
+      internalID: -4726085368148973650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 234
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcaccf43d3526ed0800000000000000
+      internalID: -2422281482529887044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 202
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf69efd01d3139c0800000000000000
+      internalID: -3949308255541825585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 202
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fb49a71901d1480800000000000000
+      internalID: -8926960669365584114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 200
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3097d4b047c25fdd0800000000000000
+      internalID: -2453005545115911933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 202
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9037a175b1d5c00800000000000000
+      internalID: 890898362209077732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 202
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f1c5f0097529010800000000000000
+      internalID: 1194113127451205451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 202
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44124dccdc0c89a50800000000000000
+      internalID: 6528179650010816836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 202
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b83969d2f193be0800000000000000
+      internalID: -1497131120463738051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 201
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e617fa1919f61faf0800000000000000
+      internalID: -364387423835164306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 202
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428468389425cc4d0800000000000000
+      internalID: -3113022766727149532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 202
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a02639571c9b0db0800000000000000
+      internalID: -4824590951702454103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 204
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e12ea40b2eaf6a0800000000000000
+      internalID: -6414565472437395810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 202
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58b140f7727faf90800000000000000
+      internalID: -6940202641297131425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 169
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4100603992e7900800000000000000
+      internalID: 684029904844494036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 169
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67869d7018588b560800000000000000
+      internalID: 7329755182774446198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 168
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9561413a56e220800000000000000
+      internalID: 2514796609530076781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 169
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd752408cee6d610800000000000000
+      internalID: 1645765256680930759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 168
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf3c1416a03b49b0800000000000000
+      internalID: -5094925063579484225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 169
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607893c89398695a0800000000000000
+      internalID: -6514868930686122234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 169
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2235dc3a39eec4850800000000000000
+      internalID: 6362722691443413794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 169
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d35cdc84d7c842e0800000000000000
+      internalID: -2141241907104427052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 169
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a9e0bdda3c66dc0800000000000000
+      internalID: -3646011696837911969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 169
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e06582846135de0800000000000000
+      internalID: -1345707364483461526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 169
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da96a808103d1150800000000000000
+      internalID: 5844880771179256530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 169
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085aa9d1d7f79d300800000000000000
+      internalID: 277393027404309888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 138
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ef830576ac7bc10800000000000000
+      internalID: 2069345098876386894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 138
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0777c3e17a0d3eb0800000000000000
+      internalID: -4738619748654811378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 136
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36393942c71e1ef90800000000000000
+      internalID: -6926006828613266589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 138
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46429927b8ada3b00800000000000000
+      internalID: 809199375524373604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 137
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526813a7a19f8ba60800000000000000
+      internalID: 7690170255849653797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 138
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9b1a0b8174dd840800000000000000
+      internalID: 5250430911952042409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 138
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d150486c568e970800000000000000
+      internalID: 8784382976479010144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 138
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c18263309275000800000000000000
+      internalID: 24533416744066102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 138
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e019fb312e4415b0800000000000000
+      internalID: -5398604148663316251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 138
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd1b1d8454d093c0800000000000000
+      internalID: -4354747380057563649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 136
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754cf74084d95e420800000000000000
+      internalID: 2658704087670834263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 138
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4108f3aea3968490800000000000000
+      internalID: -7744340130932457138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 106
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774e568c4a18730c0800000000000000
+      internalID: -4596062349971561353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e677c1087ccb270800000000000000
+      internalID: 8267702368992718474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670113437e9c05970800000000000000
+      internalID: 8741708871576391798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 106
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1ccbef76e491c70800000000000000
+      internalID: 8942264743683211742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcfebccb662d0090800000000000000
+      internalID: -8066749113112265506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 106
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da899b8072ad26e0800000000000000
+      internalID: -1860652466772014377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fcc9dba4786fbb0800000000000000
+      internalID: -4902582389267705973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 103
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7b5188eeaa43bf0800000000000000
+      internalID: -345463329938622544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 105
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afee2923c1786610800000000000000
+      internalID: 1614665549435826087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9dbd029fbc3ab50800000000000000
+      internalID: 6603345749513853425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 103
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4693739ba59278580800000000000000
+      internalID: -8825039475177997980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 105
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c882d1a0adc1bef30800000000000000
+      internalID: 4605806766714595468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 74
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9bbf19b77677360800000000000000
+      internalID: 7167311112411265473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 74
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace64297a59c9acc0800000000000000
+      internalID: -3699204228491481398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba1fb3111e2a7c20800000000000000
+      internalID: 3204924735708142271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 74
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b2ee557ce99c270800000000000000
+      internalID: 8271316769619979045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 73
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fe6056dba17f0b0800000000000000
+      internalID: -5695053803040608461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 74
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1004e92469ad3bc30800000000000000
+      internalID: 4374080002004500481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52476f60c9d56420800000000000000
+      internalID: 2622741778539168351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 74
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c2b0acf45b857c0800000000000000
+      internalID: -4082313707914580868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 74
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f1d91b475243ec0800000000000000
+      internalID: -3588201819981144180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854929d6d9fc6f0b0800000000000000
+      internalID: -5695136403708275624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 72
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b897764e5ae5230800000000000000
+      internalID: 3629520750114343687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 74
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcd12e8762f576d0800000000000000
+      internalID: -2993219850737689381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 41
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d3e99196afa5500800000000000000
+      internalID: 385896047401909521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902ec649ee8a9ae80800000000000000
+      internalID: -8166810706613837303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18eaf2bfe80bf090800000000000000
+      internalID: -7999790487500560357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 41
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75df1a5960b7fba20800000000000000
+      internalID: 3080315938355150167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 40
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ee02f1c465bc110800000000000000
+      internalID: 1282213403856793213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 41
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21542f6dc27da3240800000000000000
+      internalID: 4772363342737196306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 41
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560b16dda5d6b0f60800000000000000
+      internalID: 8001609399982469221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 41
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed251c6e72cb7c550800000000000000
+      internalID: 6181115893150470878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 41
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a02ef1f7bd5e580800000000000000
+      internalID: -8798384957956158968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 41
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a6777199f19f870800000000000000
+      internalID: 8717033296136464927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 41
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e6094e576b8840800000000000000
+      internalID: 5227385447143369102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 41
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4ecb097fd7550f0800000000000000
+      internalID: -1128857629347748655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57948b189f2ef7c0800000000000000
+      internalID: -4035735885734176932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 10
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168cdaf5fe6714aa0800000000000000
+      internalID: -6178526443301123999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c889658208fb3f270800000000000000
+      internalID: 8283174696817957004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 10
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0097ec46238742050800000000000000
+      internalID: 5774872780030769408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 10
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11f6e783f9b4ee10800000000000000
+      internalID: 2226108571436118302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228c6976c26d4f230800000000000000
+      internalID: 3671795082418636834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 10
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cc4b84a67af3cd0800000000000000
+      internalID: -2576156386904454070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 9
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcad62a4b98380e0800000000000000
+      internalID: -2268818378352382760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 10
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b65565c0b61dee80800000000000000
+      internalID: -8147831202361551177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 10
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98d554dfeb098960800000000000000
+      internalID: 7604622570479278236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 12
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c51aa1c2e7cd710800000000000000
+      internalID: 1719387885639130160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Navy-Blue-Rat-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 10
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6828e0c26c9be55b0800000000000000
+      internalID: -5377656644239981946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Navy-Blue-Rat-32x32_0: 3561100590073703740
+      Navy-Blue-Rat-32x32_1: 146557647319400659
+      Navy-Blue-Rat-32x32_10: -4726085368148973650
+      Navy-Blue-Rat-32x32_11: -2422281482529887044
+      Navy-Blue-Rat-32x32_12: -3949308255541825585
+      Navy-Blue-Rat-32x32_13: -8926960669365584114
+      Navy-Blue-Rat-32x32_14: -2453005545115911933
+      Navy-Blue-Rat-32x32_15: 890898362209077732
+      Navy-Blue-Rat-32x32_16: 1194113127451205451
+      Navy-Blue-Rat-32x32_17: 6528179650010816836
+      Navy-Blue-Rat-32x32_18: -1497131120463738051
+      Navy-Blue-Rat-32x32_19: -364387423835164306
+      Navy-Blue-Rat-32x32_2: 1843525252612291847
+      Navy-Blue-Rat-32x32_20: -3113022766727149532
+      Navy-Blue-Rat-32x32_21: -4824590951702454103
+      Navy-Blue-Rat-32x32_22: -6414565472437395810
+      Navy-Blue-Rat-32x32_23: -6940202641297131425
+      Navy-Blue-Rat-32x32_24: 684029904844494036
+      Navy-Blue-Rat-32x32_25: 7329755182774446198
+      Navy-Blue-Rat-32x32_26: 2514796609530076781
+      Navy-Blue-Rat-32x32_27: 1645765256680930759
+      Navy-Blue-Rat-32x32_28: -5094925063579484225
+      Navy-Blue-Rat-32x32_29: -6514868930686122234
+      Navy-Blue-Rat-32x32_3: -6677589636604509234
+      Navy-Blue-Rat-32x32_30: 6362722691443413794
+      Navy-Blue-Rat-32x32_31: -2141241907104427052
+      Navy-Blue-Rat-32x32_32: -3646011696837911969
+      Navy-Blue-Rat-32x32_33: -1345707364483461526
+      Navy-Blue-Rat-32x32_34: 5844880771179256530
+      Navy-Blue-Rat-32x32_35: 277393027404309888
+      Navy-Blue-Rat-32x32_36: 2069345098876386894
+      Navy-Blue-Rat-32x32_37: -4738619748654811378
+      Navy-Blue-Rat-32x32_38: -6926006828613266589
+      Navy-Blue-Rat-32x32_39: 809199375524373604
+      Navy-Blue-Rat-32x32_4: 5022195502808726287
+      Navy-Blue-Rat-32x32_40: 7690170255849653797
+      Navy-Blue-Rat-32x32_41: 5250430911952042409
+      Navy-Blue-Rat-32x32_42: 8784382976479010144
+      Navy-Blue-Rat-32x32_43: 24533416744066102
+      Navy-Blue-Rat-32x32_44: -5398604148663316251
+      Navy-Blue-Rat-32x32_45: -4354747380057563649
+      Navy-Blue-Rat-32x32_46: 2658704087670834263
+      Navy-Blue-Rat-32x32_47: -7744340130932457138
+      Navy-Blue-Rat-32x32_48: -4596062349971561353
+      Navy-Blue-Rat-32x32_49: 8267702368992718474
+      Navy-Blue-Rat-32x32_5: -8575732545047127897
+      Navy-Blue-Rat-32x32_50: 8741708871576391798
+      Navy-Blue-Rat-32x32_51: 8942264743683211742
+      Navy-Blue-Rat-32x32_52: -8066749113112265506
+      Navy-Blue-Rat-32x32_53: -1860652466772014377
+      Navy-Blue-Rat-32x32_54: -4902582389267705973
+      Navy-Blue-Rat-32x32_55: -345463329938622544
+      Navy-Blue-Rat-32x32_56: 1614665549435826087
+      Navy-Blue-Rat-32x32_57: 6603345749513853425
+      Navy-Blue-Rat-32x32_58: -8825039475177997980
+      Navy-Blue-Rat-32x32_59: 4605806766714595468
+      Navy-Blue-Rat-32x32_6: -4932814558397751133
+      Navy-Blue-Rat-32x32_60: 7167311112411265473
+      Navy-Blue-Rat-32x32_61: -3699204228491481398
+      Navy-Blue-Rat-32x32_62: 3204924735708142271
+      Navy-Blue-Rat-32x32_63: 8271316769619979045
+      Navy-Blue-Rat-32x32_64: -5695053803040608461
+      Navy-Blue-Rat-32x32_65: 4374080002004500481
+      Navy-Blue-Rat-32x32_66: 2622741778539168351
+      Navy-Blue-Rat-32x32_67: -4082313707914580868
+      Navy-Blue-Rat-32x32_68: -3588201819981144180
+      Navy-Blue-Rat-32x32_69: -5695136403708275624
+      Navy-Blue-Rat-32x32_7: 3401300587069136909
+      Navy-Blue-Rat-32x32_70: 3629520750114343687
+      Navy-Blue-Rat-32x32_71: -2993219850737689381
+      Navy-Blue-Rat-32x32_72: 385896047401909521
+      Navy-Blue-Rat-32x32_73: -8166810706613837303
+      Navy-Blue-Rat-32x32_74: -7999790487500560357
+      Navy-Blue-Rat-32x32_75: 3080315938355150167
+      Navy-Blue-Rat-32x32_76: 1282213403856793213
+      Navy-Blue-Rat-32x32_77: 4772363342737196306
+      Navy-Blue-Rat-32x32_78: 8001609399982469221
+      Navy-Blue-Rat-32x32_79: 6181115893150470878
+      Navy-Blue-Rat-32x32_8: 6893002094916409508
+      Navy-Blue-Rat-32x32_80: -8798384957956158968
+      Navy-Blue-Rat-32x32_81: 8717033296136464927
+      Navy-Blue-Rat-32x32_82: 5227385447143369102
+      Navy-Blue-Rat-32x32_83: -1128857629347748655
+      Navy-Blue-Rat-32x32_84: -4035735885734176932
+      Navy-Blue-Rat-32x32_85: -6178526443301123999
+      Navy-Blue-Rat-32x32_86: 8283174696817957004
+      Navy-Blue-Rat-32x32_87: 5774872780030769408
+      Navy-Blue-Rat-32x32_88: 2226108571436118302
+      Navy-Blue-Rat-32x32_89: 3671795082418636834
+      Navy-Blue-Rat-32x32_9: 5057862625647603392
+      Navy-Blue-Rat-32x32_90: -2576156386904454070
+      Navy-Blue-Rat-32x32_91: -2268818378352382760
+      Navy-Blue-Rat-32x32_92: -8147831202361551177
+      Navy-Blue-Rat-32x32_93: 7604622570479278236
+      Navy-Blue-Rat-32x32_94: 1719387885639130160
+      Navy-Blue-Rat-32x32_95: -5377656644239981946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

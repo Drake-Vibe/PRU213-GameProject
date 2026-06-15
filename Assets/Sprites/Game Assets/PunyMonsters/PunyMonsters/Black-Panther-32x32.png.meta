@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 8169ef9f8bef09e42b46c5ac7510b5a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2946253796263558402
+    second: Black-Panther-32x32_0
+  - first:
+      213: 560274644753821653
+    second: Black-Panther-32x32_1
+  - first:
+      213: -3583240425089960151
+    second: Black-Panther-32x32_2
+  - first:
+      213: 4340921895015430985
+    second: Black-Panther-32x32_3
+  - first:
+      213: -8098896873753750100
+    second: Black-Panther-32x32_4
+  - first:
+      213: -5728971183393995147
+    second: Black-Panther-32x32_5
+  - first:
+      213: 7272030827113802144
+    second: Black-Panther-32x32_6
+  - first:
+      213: -4198113217741907705
+    second: Black-Panther-32x32_7
+  - first:
+      213: -7475402730687143062
+    second: Black-Panther-32x32_8
+  - first:
+      213: 8046081609243065803
+    second: Black-Panther-32x32_9
+  - first:
+      213: -5110203302659018504
+    second: Black-Panther-32x32_10
+  - first:
+      213: 1906731054064776034
+    second: Black-Panther-32x32_11
+  - first:
+      213: 2646594141818084281
+    second: Black-Panther-32x32_12
+  - first:
+      213: -6297628701788059865
+    second: Black-Panther-32x32_13
+  - first:
+      213: -9147201556763935714
+    second: Black-Panther-32x32_14
+  - first:
+      213: -335424106080262590
+    second: Black-Panther-32x32_15
+  - first:
+      213: -3938460331585240645
+    second: Black-Panther-32x32_16
+  - first:
+      213: -748303938430379885
+    second: Black-Panther-32x32_17
+  - first:
+      213: 6250123581330337177
+    second: Black-Panther-32x32_18
+  - first:
+      213: 1753259301463113517
+    second: Black-Panther-32x32_19
+  - first:
+      213: -6809227880807595229
+    second: Black-Panther-32x32_20
+  - first:
+      213: -6483854537445684509
+    second: Black-Panther-32x32_21
+  - first:
+      213: 808549659326302818
+    second: Black-Panther-32x32_22
+  - first:
+      213: 2276898768430895986
+    second: Black-Panther-32x32_23
+  - first:
+      213: 4323172934383444435
+    second: Black-Panther-32x32_24
+  - first:
+      213: 5269438857553394886
+    second: Black-Panther-32x32_25
+  - first:
+      213: 1831564635272724647
+    second: Black-Panther-32x32_26
+  - first:
+      213: 5614982914202599229
+    second: Black-Panther-32x32_27
+  - first:
+      213: 4611085744276073826
+    second: Black-Panther-32x32_28
+  - first:
+      213: 2719659238321434353
+    second: Black-Panther-32x32_29
+  - first:
+      213: 756914789743739197
+    second: Black-Panther-32x32_30
+  - first:
+      213: 3344265836592522796
+    second: Black-Panther-32x32_31
+  - first:
+      213: -3676043238228724038
+    second: Black-Panther-32x32_32
+  - first:
+      213: 8310499269432297635
+    second: Black-Panther-32x32_33
+  - first:
+      213: 5977931159752934973
+    second: Black-Panther-32x32_34
+  - first:
+      213: -3612553864957144696
+    second: Black-Panther-32x32_35
+  - first:
+      213: 4089870212307238493
+    second: Black-Panther-32x32_36
+  - first:
+      213: -7494648438684014750
+    second: Black-Panther-32x32_37
+  - first:
+      213: -2964776995105020329
+    second: Black-Panther-32x32_38
+  - first:
+      213: -6638085036641253414
+    second: Black-Panther-32x32_39
+  - first:
+      213: 802461248364607715
+    second: Black-Panther-32x32_40
+  - first:
+      213: -4483704351882598195
+    second: Black-Panther-32x32_41
+  - first:
+      213: 1558199567008702543
+    second: Black-Panther-32x32_42
+  - first:
+      213: -7190380944502597446
+    second: Black-Panther-32x32_43
+  - first:
+      213: -1280194068145359587
+    second: Black-Panther-32x32_44
+  - first:
+      213: -7345234895539774432
+    second: Black-Panther-32x32_45
+  - first:
+      213: -2177689579294111768
+    second: Black-Panther-32x32_46
+  - first:
+      213: -7622975494294918952
+    second: Black-Panther-32x32_47
+  - first:
+      213: 8116885564189996985
+    second: Black-Panther-32x32_48
+  - first:
+      213: -2764304175804586236
+    second: Black-Panther-32x32_49
+  - first:
+      213: -1638903626909151224
+    second: Black-Panther-32x32_50
+  - first:
+      213: -1616963609721348980
+    second: Black-Panther-32x32_51
+  - first:
+      213: -4700286177898361393
+    second: Black-Panther-32x32_52
+  - first:
+      213: -489804129951432829
+    second: Black-Panther-32x32_53
+  - first:
+      213: 7486067659674552788
+    second: Black-Panther-32x32_54
+  - first:
+      213: 6653390321470881122
+    second: Black-Panther-32x32_55
+  - first:
+      213: -3681607975855219618
+    second: Black-Panther-32x32_56
+  - first:
+      213: 2098947559563667479
+    second: Black-Panther-32x32_57
+  - first:
+      213: 7202222282782936081
+    second: Black-Panther-32x32_58
+  - first:
+      213: 6363294299343851784
+    second: Black-Panther-32x32_59
+  - first:
+      213: 2715278496355137159
+    second: Black-Panther-32x32_60
+  - first:
+      213: -8860554961971669671
+    second: Black-Panther-32x32_61
+  - first:
+      213: -4190089578880907128
+    second: Black-Panther-32x32_62
+  - first:
+      213: -8447191436102367982
+    second: Black-Panther-32x32_63
+  - first:
+      213: 187862414283150236
+    second: Black-Panther-32x32_64
+  - first:
+      213: -8140399421394273479
+    second: Black-Panther-32x32_65
+  - first:
+      213: -6763932865909668265
+    second: Black-Panther-32x32_66
+  - first:
+      213: 3076549157489984478
+    second: Black-Panther-32x32_67
+  - first:
+      213: 141724092829070245
+    second: Black-Panther-32x32_68
+  - first:
+      213: -8833671464542750378
+    second: Black-Panther-32x32_69
+  - first:
+      213: -7972797912411332617
+    second: Black-Panther-32x32_70
+  - first:
+      213: -5053848690130825146
+    second: Black-Panther-32x32_71
+  - first:
+      213: 3814308417456021604
+    second: Black-Panther-32x32_72
+  - first:
+      213: -5134173217768209225
+    second: Black-Panther-32x32_73
+  - first:
+      213: 1083893757499454864
+    second: Black-Panther-32x32_74
+  - first:
+      213: -6332587769671144373
+    second: Black-Panther-32x32_75
+  - first:
+      213: 928366921515442963
+    second: Black-Panther-32x32_76
+  - first:
+      213: 1871271881451731939
+    second: Black-Panther-32x32_77
+  - first:
+      213: 1511085575690573473
+    second: Black-Panther-32x32_78
+  - first:
+      213: -1732463107943597307
+    second: Black-Panther-32x32_79
+  - first:
+      213: -5910151977637715018
+    second: Black-Panther-32x32_80
+  - first:
+      213: -3916243855043102328
+    second: Black-Panther-32x32_81
+  - first:
+      213: -6790583669111807786
+    second: Black-Panther-32x32_82
+  - first:
+      213: -2812744277882637690
+    second: Black-Panther-32x32_83
+  - first:
+      213: 1167097625692783219
+    second: Black-Panther-32x32_84
+  - first:
+      213: -9121413995146192277
+    second: Black-Panther-32x32_85
+  - first:
+      213: -4405686376912028634
+    second: Black-Panther-32x32_86
+  - first:
+      213: -1937285461242968706
+    second: Black-Panther-32x32_87
+  - first:
+      213: -613983370139479298
+    second: Black-Panther-32x32_88
+  - first:
+      213: -5905949379852034758
+    second: Black-Panther-32x32_89
+  - first:
+      213: -7246953898988159545
+    second: Black-Panther-32x32_90
+  - first:
+      213: -5336618274882252708
+    second: Black-Panther-32x32_91
+  - first:
+      213: -3034612948796403946
+    second: Black-Panther-32x32_92
+  - first:
+      213: -5359319531865728356
+    second: Black-Panther-32x32_93
+  - first:
+      213: 4947260142033795689
+    second: Black-Panther-32x32_94
+  - first:
+      213: 5525186272424969883
+    second: Black-Panther-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black-Panther-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 231
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d7f60c73233e820800000000000000
+      internalID: 2946253796263558402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 231
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfa53922de76c700800000000000000
+      internalID: 560274644753821653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 229
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92771b571d5c54ec0800000000000000
+      internalID: -3583240425089960151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 231
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b3c1ed67d0e3c30800000000000000
+      internalID: 4340921895015430985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 229
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5d26ff330fa9f80800000000000000
+      internalID: -8098896873753750100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 231
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5760a55ef0b9e70b0800000000000000
+      internalID: -5728971183393995147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 231
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9eec522817be460800000000000000
+      internalID: 7272030827113802144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 229
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7091f91654e4db5c0800000000000000
+      internalID: -4198113217741907705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 230
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a636864a2d8024890800000000000000
+      internalID: -7475402730687143062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 231
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd7cb8f79c69af60800000000000000
+      internalID: 8046081609243065803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 232
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f03bf6db29e419b0800000000000000
+      internalID: -5110203302659018504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 231
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263bcb79ac1167a10800000000000000
+      internalID: 1906731054064776034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 199
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb52b789579ab420800000000000000
+      internalID: 2646594141818084281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 199
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7274e9edf045a98a0800000000000000
+      internalID: -6297628701788059865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 198
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c7f28e5ac9e0180800000000000000
+      internalID: -9147201556763935714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 199
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246abfb7d85585bf0800000000000000
+      internalID: -335424106080262590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb105edf137c759c0800000000000000
+      internalID: -3938460331585240645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398d4dd588d7d95f0800000000000000
+      internalID: -748303938430379885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 199
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dac7b5846ecb650800000000000000
+      internalID: 6250123581330337177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fbbd6ab04d45810800000000000000
+      internalID: 1753259301463113517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 199
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32307c9b153c081a0800000000000000
+      internalID: -6809227880807595229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 199
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eace30b6a8b406a0800000000000000
+      internalID: -6483854537445684509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 200
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a486b91ab883b00800000000000000
+      internalID: 808549659326302818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 199
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27319d9cd5b299f10800000000000000
+      internalID: 2276898768430895986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 169
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d12280f0eefefb30800000000000000
+      internalID: 4323172934383444435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 169
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3c16e8bec02940800000000000000
+      internalID: 5269438857553394886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 168
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0499ce4560b6910800000000000000
+      internalID: 1831564635272724647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 169
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ffee4063d6ced40800000000000000
+      internalID: 5614982914202599229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 168
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d6178cd0eddff30800000000000000
+      internalID: 4611085744276073826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 169
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe224afaab2eb520800000000000000
+      internalID: 2719659238321434353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 169
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d314aefadf9118a00800000000000000
+      internalID: 756914789743739197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 169
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2662984f08396e20800000000000000
+      internalID: 3344265836592522796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 169
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6766eb6221cfcc0800000000000000
+      internalID: -3676043238228724038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 169
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8c7acfd03d45370800000000000000
+      internalID: 8310499269432297635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 169
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3600d4a7b0e5f250800000000000000
+      internalID: 5977931159752934973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 169
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881d3436661adddc0800000000000000
+      internalID: -3612553864957144696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e360ef94322c830800000000000000
+      internalID: 4089870212307238493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 135
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267adcf04f8adf790800000000000000
+      internalID: -7494648438684014750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 134
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756e380f70ffad6d0800000000000000
+      internalID: -2964776995105020329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7892a44d8c0e3a0800000000000000
+      internalID: -6638085036641253414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 135
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8f9c6f04ae22b00800000000000000
+      internalID: 802461248364607715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc82a2cc5aea6c1c0800000000000000
+      internalID: -4483704351882598195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40a8b02046df9510800000000000000
+      internalID: 1558199567008702543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 135
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab85f2390a2a63c90800000000000000
+      internalID: -7190380944502597446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 135
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1532ac1746db3ee0800000000000000
+      internalID: -1280194068145359587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c5c8b77cb701a90800000000000000
+      internalID: -7345234895539774432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 133
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7ca139dda47c1e0800000000000000
+      internalID: -2177689579294111768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 135
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d82b0b1d20c53690800000000000000
+      internalID: -7622975494294918952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 104
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b77a006a68f4a070800000000000000
+      internalID: 8116885564189996985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 103
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407e90e7ff733a9d0800000000000000
+      internalID: -2764304175804586236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 102
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8001bf8a5d17149e0800000000000000
+      internalID: -1638903626909151224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c53dbf9246f89e0800000000000000
+      internalID: -1616963609721348980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 102
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd80b7df9a35ceb0800000000000000
+      internalID: -4700286177898361393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 104
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fb9b82dbdd339f0800000000000000
+      internalID: -489804129951432829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 102
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d90173afdad3e760800000000000000
+      internalID: 7486067659674552788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 104
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d3b470f37955c50800000000000000
+      internalID: 6653390321470881122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 104
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c97ec4d0d48ecc0800000000000000
+      internalID: -3681607975855219618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 102
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71827f94fa5f02d10800000000000000
+      internalID: 2098947559563667479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c0ea6d10f63f360800000000000000
+      internalID: 7202222282782936081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 102
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80198a97376fe4850800000000000000
+      internalID: 6363294299343851784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 71
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7863181086b9ea520800000000000000
+      internalID: 2715278496355137159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9559ad2153cf80580800000000000000
+      internalID: -8860554961971669671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888ccb16abfc9d5c0800000000000000
+      internalID: -4190089578880907128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 71
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215856dd42c85ca80800000000000000
+      internalID: -8447191436102367982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 71
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c939ef5dedb6b9200800000000000000
+      internalID: 187862414283150236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bbffd1bdd770f80800000000000000
+      internalID: -8140399421394273479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 71
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7564dd235eea122a0800000000000000
+      internalID: -6763932865909668265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 71
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3c732982912ba20800000000000000
+      internalID: 3076549157489984478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 71
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3f031cf4187f100800000000000000
+      internalID: 141724092829070245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 71
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659bc651b9e786580800000000000000
+      internalID: -8833671464542750378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 69
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff1fb45a8eea5190800000000000000
+      internalID: -7972797912411332617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 71
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640dd2c846f1dd9b0800000000000000
+      internalID: -5053848690130825146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 41
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460af3eeb452fe430800000000000000
+      internalID: 3814308417456021604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 41
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b40a9319a0cfb8b0800000000000000
+      internalID: -5134173217768209225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 40
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095b40631a3ca0f00800000000000000
+      internalID: 1083893757499454864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 41
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ca4c799f02e18a0800000000000000
+      internalID: -6332587769671144373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 40
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313a622ebc832ec00800000000000000
+      internalID: 928366921515442963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 41
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb7b1c9cd718f910800000000000000
+      internalID: 1871271881451731939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 41
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6d044335478f410800000000000000
+      internalID: 1511085575690573473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 41
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b7d887bfd05f7e0800000000000000
+      internalID: -1732463107943597307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 41
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3e454f61ceafda0800000000000000
+      internalID: -5910151977637715018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 41
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889795686f4b6a9c0800000000000000
+      internalID: -3916243855043102328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 41
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0a509812003c1a0800000000000000
+      internalID: -6790583669111807786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 41
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682fac85bff17f8d0800000000000000
+      internalID: -2812744277882637690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372ce956b1d523010800000000000000
+      internalID: 1167097625692783219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ad80a7c4a3a6180800000000000000
+      internalID: -9121413995146192277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c7160259bdbd2c0800000000000000
+      internalID: -4405686376912028634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 7
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75851e13216d15e0800000000000000
+      internalID: -1937285461242968706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 7
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2d6dcb061ba77f0800000000000000
+      internalID: -613983370139479298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d1b70845ad90ea0800000000000000
+      internalID: -5905949379852034758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 7
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdbd2b23d5ad6b90800000000000000
+      internalID: -7246953898988159545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 7
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5019cf14f580f5b0800000000000000
+      internalID: -5336618274882252708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f8034e993e2e5d0800000000000000
+      internalID: -3034612948796403946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 7
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a9459d74fdf95b0800000000000000
+      internalID: -5359319531865728356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 8
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a7f5133e238a440800000000000000
+      internalID: 4947260142033795689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black-Panther-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 7
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9641cd14a76dac40800000000000000
+      internalID: 5525186272424969883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Black-Panther-32x32_0: 2946253796263558402
+      Black-Panther-32x32_1: 560274644753821653
+      Black-Panther-32x32_10: -5110203302659018504
+      Black-Panther-32x32_11: 1906731054064776034
+      Black-Panther-32x32_12: 2646594141818084281
+      Black-Panther-32x32_13: -6297628701788059865
+      Black-Panther-32x32_14: -9147201556763935714
+      Black-Panther-32x32_15: -335424106080262590
+      Black-Panther-32x32_16: -3938460331585240645
+      Black-Panther-32x32_17: -748303938430379885
+      Black-Panther-32x32_18: 6250123581330337177
+      Black-Panther-32x32_19: 1753259301463113517
+      Black-Panther-32x32_2: -3583240425089960151
+      Black-Panther-32x32_20: -6809227880807595229
+      Black-Panther-32x32_21: -6483854537445684509
+      Black-Panther-32x32_22: 808549659326302818
+      Black-Panther-32x32_23: 2276898768430895986
+      Black-Panther-32x32_24: 4323172934383444435
+      Black-Panther-32x32_25: 5269438857553394886
+      Black-Panther-32x32_26: 1831564635272724647
+      Black-Panther-32x32_27: 5614982914202599229
+      Black-Panther-32x32_28: 4611085744276073826
+      Black-Panther-32x32_29: 2719659238321434353
+      Black-Panther-32x32_3: 4340921895015430985
+      Black-Panther-32x32_30: 756914789743739197
+      Black-Panther-32x32_31: 3344265836592522796
+      Black-Panther-32x32_32: -3676043238228724038
+      Black-Panther-32x32_33: 8310499269432297635
+      Black-Panther-32x32_34: 5977931159752934973
+      Black-Panther-32x32_35: -3612553864957144696
+      Black-Panther-32x32_36: 4089870212307238493
+      Black-Panther-32x32_37: -7494648438684014750
+      Black-Panther-32x32_38: -2964776995105020329
+      Black-Panther-32x32_39: -6638085036641253414
+      Black-Panther-32x32_4: -8098896873753750100
+      Black-Panther-32x32_40: 802461248364607715
+      Black-Panther-32x32_41: -4483704351882598195
+      Black-Panther-32x32_42: 1558199567008702543
+      Black-Panther-32x32_43: -7190380944502597446
+      Black-Panther-32x32_44: -1280194068145359587
+      Black-Panther-32x32_45: -7345234895539774432
+      Black-Panther-32x32_46: -2177689579294111768
+      Black-Panther-32x32_47: -7622975494294918952
+      Black-Panther-32x32_48: 8116885564189996985
+      Black-Panther-32x32_49: -2764304175804586236
+      Black-Panther-32x32_5: -5728971183393995147
+      Black-Panther-32x32_50: -1638903626909151224
+      Black-Panther-32x32_51: -1616963609721348980
+      Black-Panther-32x32_52: -4700286177898361393
+      Black-Panther-32x32_53: -489804129951432829
+      Black-Panther-32x32_54: 7486067659674552788
+      Black-Panther-32x32_55: 6653390321470881122
+      Black-Panther-32x32_56: -3681607975855219618
+      Black-Panther-32x32_57: 2098947559563667479
+      Black-Panther-32x32_58: 7202222282782936081
+      Black-Panther-32x32_59: 6363294299343851784
+      Black-Panther-32x32_6: 7272030827113802144
+      Black-Panther-32x32_60: 2715278496355137159
+      Black-Panther-32x32_61: -8860554961971669671
+      Black-Panther-32x32_62: -4190089578880907128
+      Black-Panther-32x32_63: -8447191436102367982
+      Black-Panther-32x32_64: 187862414283150236
+      Black-Panther-32x32_65: -8140399421394273479
+      Black-Panther-32x32_66: -6763932865909668265
+      Black-Panther-32x32_67: 3076549157489984478
+      Black-Panther-32x32_68: 141724092829070245
+      Black-Panther-32x32_69: -8833671464542750378
+      Black-Panther-32x32_7: -4198113217741907705
+      Black-Panther-32x32_70: -7972797912411332617
+      Black-Panther-32x32_71: -5053848690130825146
+      Black-Panther-32x32_72: 3814308417456021604
+      Black-Panther-32x32_73: -5134173217768209225
+      Black-Panther-32x32_74: 1083893757499454864
+      Black-Panther-32x32_75: -6332587769671144373
+      Black-Panther-32x32_76: 928366921515442963
+      Black-Panther-32x32_77: 1871271881451731939
+      Black-Panther-32x32_78: 1511085575690573473
+      Black-Panther-32x32_79: -1732463107943597307
+      Black-Panther-32x32_8: -7475402730687143062
+      Black-Panther-32x32_80: -5910151977637715018
+      Black-Panther-32x32_81: -3916243855043102328
+      Black-Panther-32x32_82: -6790583669111807786
+      Black-Panther-32x32_83: -2812744277882637690
+      Black-Panther-32x32_84: 1167097625692783219
+      Black-Panther-32x32_85: -9121413995146192277
+      Black-Panther-32x32_86: -4405686376912028634
+      Black-Panther-32x32_87: -1937285461242968706
+      Black-Panther-32x32_88: -613983370139479298
+      Black-Panther-32x32_89: -5905949379852034758
+      Black-Panther-32x32_9: 8046081609243065803
+      Black-Panther-32x32_90: -7246953898988159545
+      Black-Panther-32x32_91: -5336618274882252708
+      Black-Panther-32x32_92: -3034612948796403946
+      Black-Panther-32x32_93: -5359319531865728356
+      Black-Panther-32x32_94: 4947260142033795689
+      Black-Panther-32x32_95: 5525186272424969883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

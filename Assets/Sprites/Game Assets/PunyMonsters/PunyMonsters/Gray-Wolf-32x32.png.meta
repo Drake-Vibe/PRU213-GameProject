@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 61a596ce4f860c643be0b000a9ac4871
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6296899049618836441
+    second: Gray-Wolf-32x32_0
+  - first:
+      213: 3326611086374614788
+    second: Gray-Wolf-32x32_1
+  - first:
+      213: 4893838074059799881
+    second: Gray-Wolf-32x32_2
+  - first:
+      213: -6025889145659877210
+    second: Gray-Wolf-32x32_3
+  - first:
+      213: 3851956008668615566
+    second: Gray-Wolf-32x32_4
+  - first:
+      213: 6186247709941317902
+    second: Gray-Wolf-32x32_5
+  - first:
+      213: -2915168865357201649
+    second: Gray-Wolf-32x32_6
+  - first:
+      213: -3464878920876809505
+    second: Gray-Wolf-32x32_7
+  - first:
+      213: -5215838130575159784
+    second: Gray-Wolf-32x32_8
+  - first:
+      213: -5588691031806736508
+    second: Gray-Wolf-32x32_9
+  - first:
+      213: -3055705342628780446
+    second: Gray-Wolf-32x32_10
+  - first:
+      213: 7798023994335099734
+    second: Gray-Wolf-32x32_11
+  - first:
+      213: -8597131242577109077
+    second: Gray-Wolf-32x32_12
+  - first:
+      213: 4653428183587622766
+    second: Gray-Wolf-32x32_13
+  - first:
+      213: 178303705995955929
+    second: Gray-Wolf-32x32_14
+  - first:
+      213: 4649898048888741138
+    second: Gray-Wolf-32x32_15
+  - first:
+      213: 298872808687873256
+    second: Gray-Wolf-32x32_16
+  - first:
+      213: -3066604666665911451
+    second: Gray-Wolf-32x32_17
+  - first:
+      213: 6289088689256991638
+    second: Gray-Wolf-32x32_18
+  - first:
+      213: -7478044897956316848
+    second: Gray-Wolf-32x32_19
+  - first:
+      213: 1805370839853327821
+    second: Gray-Wolf-32x32_20
+  - first:
+      213: -6854853940392567113
+    second: Gray-Wolf-32x32_21
+  - first:
+      213: -6529709979927199989
+    second: Gray-Wolf-32x32_22
+  - first:
+      213: 4146545634204050920
+    second: Gray-Wolf-32x32_23
+  - first:
+      213: 7884345645141439716
+    second: Gray-Wolf-32x32_24
+  - first:
+      213: -5168671322237056067
+    second: Gray-Wolf-32x32_25
+  - first:
+      213: 8241413420996087057
+    second: Gray-Wolf-32x32_26
+  - first:
+      213: -5725682421631853761
+    second: Gray-Wolf-32x32_27
+  - first:
+      213: -3970772325846640536
+    second: Gray-Wolf-32x32_28
+  - first:
+      213: -1566659951353213042
+    second: Gray-Wolf-32x32_29
+  - first:
+      213: -846897640850494447
+    second: Gray-Wolf-32x32_30
+  - first:
+      213: -3191868195644370572
+    second: Gray-Wolf-32x32_31
+  - first:
+      213: -5278297345590717548
+    second: Gray-Wolf-32x32_32
+  - first:
+      213: -6223557865926559348
+    second: Gray-Wolf-32x32_33
+  - first:
+      213: 1662995204230964699
+    second: Gray-Wolf-32x32_34
+  - first:
+      213: 8323477372765334150
+    second: Gray-Wolf-32x32_35
+  - first:
+      213: 898647949971181724
+    second: Gray-Wolf-32x32_36
+  - first:
+      213: -147178908645131162
+    second: Gray-Wolf-32x32_37
+  - first:
+      213: -2967540307033412605
+    second: Gray-Wolf-32x32_38
+  - first:
+      213: -2167790105729923472
+    second: Gray-Wolf-32x32_39
+  - first:
+      213: -1849964236620480424
+    second: Gray-Wolf-32x32_40
+  - first:
+      213: 8480640183643889907
+    second: Gray-Wolf-32x32_41
+  - first:
+      213: -2981866085076111791
+    second: Gray-Wolf-32x32_42
+  - first:
+      213: -6947690622363031757
+    second: Gray-Wolf-32x32_43
+  - first:
+      213: -3407322111439138575
+    second: Gray-Wolf-32x32_44
+  - first:
+      213: 4751088223452361090
+    second: Gray-Wolf-32x32_45
+  - first:
+      213: -6064329292970516918
+    second: Gray-Wolf-32x32_46
+  - first:
+      213: -4991058279594508865
+    second: Gray-Wolf-32x32_47
+  - first:
+      213: -3402407745815163550
+    second: Gray-Wolf-32x32_48
+  - first:
+      213: 2433084588256331943
+    second: Gray-Wolf-32x32_49
+  - first:
+      213: 2412650125758362282
+    second: Gray-Wolf-32x32_50
+  - first:
+      213: 1506031416809167142
+    second: Gray-Wolf-32x32_51
+  - first:
+      213: 1202228899383484533
+    second: Gray-Wolf-32x32_52
+  - first:
+      213: 2120326319034892924
+    second: Gray-Wolf-32x32_53
+  - first:
+      213: -1802484312831191667
+    second: Gray-Wolf-32x32_54
+  - first:
+      213: -481830997900627863
+    second: Gray-Wolf-32x32_55
+  - first:
+      213: 3793083675361930082
+    second: Gray-Wolf-32x32_56
+  - first:
+      213: 2050895174002921699
+    second: Gray-Wolf-32x32_57
+  - first:
+      213: 8270834810126320783
+    second: Gray-Wolf-32x32_58
+  - first:
+      213: -6259505947524644417
+    second: Gray-Wolf-32x32_59
+  - first:
+      213: -1043714484863385532
+    second: Gray-Wolf-32x32_60
+  - first:
+      213: -871777896565703059
+    second: Gray-Wolf-32x32_61
+  - first:
+      213: -1179163991757582408
+    second: Gray-Wolf-32x32_62
+  - first:
+      213: 2692574381153611382
+    second: Gray-Wolf-32x32_63
+  - first:
+      213: 9093671760961087801
+    second: Gray-Wolf-32x32_64
+  - first:
+      213: 975706580548504439
+    second: Gray-Wolf-32x32_65
+  - first:
+      213: -6672847988602696387
+    second: Gray-Wolf-32x32_66
+  - first:
+      213: 3741782924294960506
+    second: Gray-Wolf-32x32_67
+  - first:
+      213: -5326499222091435079
+    second: Gray-Wolf-32x32_68
+  - first:
+      213: 8680301372022473104
+    second: Gray-Wolf-32x32_69
+  - first:
+      213: -4582747867328174909
+    second: Gray-Wolf-32x32_70
+  - first:
+      213: -7400574549860453061
+    second: Gray-Wolf-32x32_71
+  - first:
+      213: 5212365510537417038
+    second: Gray-Wolf-32x32_72
+  - first:
+      213: -503513100782150815
+    second: Gray-Wolf-32x32_73
+  - first:
+      213: -8893709169787872971
+    second: Gray-Wolf-32x32_74
+  - first:
+      213: -1695527668100927909
+    second: Gray-Wolf-32x32_75
+  - first:
+      213: -2014052724022047761
+    second: Gray-Wolf-32x32_76
+  - first:
+      213: -8862264649818636769
+    second: Gray-Wolf-32x32_77
+  - first:
+      213: 542388043842530307
+    second: Gray-Wolf-32x32_78
+  - first:
+      213: 93510155037819905
+    second: Gray-Wolf-32x32_79
+  - first:
+      213: 3963333553301508953
+    second: Gray-Wolf-32x32_80
+  - first:
+      213: 5118664825950987337
+    second: Gray-Wolf-32x32_81
+  - first:
+      213: 8112563435697889118
+    second: Gray-Wolf-32x32_82
+  - first:
+      213: 4925304135399746178
+    second: Gray-Wolf-32x32_83
+  - first:
+      213: 6623607445003471120
+    second: Gray-Wolf-32x32_84
+  - first:
+      213: -7598893109411594709
+    second: Gray-Wolf-32x32_85
+  - first:
+      213: 1149559928920007681
+    second: Gray-Wolf-32x32_86
+  - first:
+      213: -3088746084927135639
+    second: Gray-Wolf-32x32_87
+  - first:
+      213: -2911271176049309715
+    second: Gray-Wolf-32x32_88
+  - first:
+      213: -1600470464142260185
+    second: Gray-Wolf-32x32_89
+  - first:
+      213: 6639166757547764286
+    second: Gray-Wolf-32x32_90
+  - first:
+      213: 8938002169746200303
+    second: Gray-Wolf-32x32_91
+  - first:
+      213: 7794866011600693181
+    second: Gray-Wolf-32x32_92
+  - first:
+      213: 557595306682922342
+    second: Gray-Wolf-32x32_93
+  - first:
+      213: -1870240145132390770
+    second: Gray-Wolf-32x32_94
+  - first:
+      213: -7796299127251687053
+    second: Gray-Wolf-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 231
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72479f04dabec98a0800000000000000
+      internalID: -6296899049618836441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 231
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4073c3d682f7a2e20800000000000000
+      internalID: 3326611086374614788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 229
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dbd98bcc76ae340800000000000000
+      internalID: 4893838074059799881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 231
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a89f01afbdbf5ca0800000000000000
+      internalID: -6025889145659877210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 229
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83df13d495e47530800000000000000
+      internalID: 3851956008668615566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 231
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0140ab1487f9d550800000000000000
+      internalID: 6186247709941317902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 231
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ffa18bc5d3b87d0800000000000000
+      internalID: -2915168865357201649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 229
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2266baaf64aefc0800000000000000
+      internalID: -3464878920876809505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 230
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e412ddade9d97b0800000000000000
+      internalID: -5215838130575159784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 231
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4878fb1ed1bf072b0800000000000000
+      internalID: -5588691031806736508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 232
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26629524e24f795d0800000000000000
+      internalID: -3055705342628780446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 231
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bf054d185283c60800000000000000
+      internalID: 7798023994335099734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 199
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf57c63faad0b880800000000000000
+      internalID: -8597131242577109077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 199
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f088e274c449040800000000000000
+      internalID: 4653428183587622766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 198
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de4602a646797200800000000000000
+      internalID: 178303705995955929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 199
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d9bc5a3a1c78040800000000000000
+      internalID: 4649898048888741138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec2dda6c3fc52400800000000000000
+      internalID: 298872808687873256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 199
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bb2d0ad4b3175d0800000000000000
+      internalID: -3066604666665911451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 199
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b071487d4574750800000000000000
+      internalID: 6289088689256991638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 199
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05934e229c5a83890800000000000000
+      internalID: -7478044897956316848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc56e4da637fd0910800000000000000
+      internalID: 1805370839853327821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 199
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed6b7e8aaaed0a0800000000000000
+      internalID: -6854853940392567113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 200
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fbd108e5fc165a0800000000000000
+      internalID: -6529709979927199989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 199
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5eda3f84d7b8930800000000000000
+      internalID: 4146545634204050920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 169
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4bd095792da6d60800000000000000
+      internalID: 7884345645141439716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 169
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbcf4531d03548b0800000000000000
+      internalID: -5168671322237056067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 168
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dcb9d67d16f5270800000000000000
+      internalID: 8241413420996087057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 169
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b5fe96c2a4a80b0800000000000000
+      internalID: -5725682421631853761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 168
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86895f19b9bf4e8c0800000000000000
+      internalID: -3970772325846640536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 169
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fc2c3231b124ae0800000000000000
+      internalID: -1566659951353213042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 169
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c6dfb25173f34f0800000000000000
+      internalID: -846897640850494447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 169
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47110cc89c434b3d0800000000000000
+      internalID: -3191868195644370572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 169
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4939d21a788bfb6b0800000000000000
+      internalID: -5278297345590717548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 169
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89fb52481b71a9a0800000000000000
+      internalID: -6223557865926559348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 169
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd56d5bc355241710800000000000000
+      internalID: 1662995204230964699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 169
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aeda3229ee28370800000000000000
+      internalID: 8323477372765334150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c905a2c9c83a87c00800000000000000
+      internalID: 898647949971181724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 135
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cf6c7ff8d15fdf0800000000000000
+      internalID: -147178908645131162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 134
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cae9e30dd21d6d0800000000000000
+      internalID: -2967540307033412605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0768c5062667ae1e0800000000000000
+      internalID: -2167790105729923472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8504f0d045b9356e0800000000000000
+      internalID: -1849964236620480424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f06ffd805941b570800000000000000
+      internalID: 8480640183643889907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ee04f18984e96d0800000000000000
+      internalID: -2981866085076111791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 135
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3372dbc7038d49f90800000000000000
+      internalID: -6947690622363031757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 135
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f01658a792c6b0d0800000000000000
+      internalID: -3407322111439138575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2817b6f11914fe140800000000000000
+      internalID: 4751088223452361090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 133
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e1f7363ac27dba0800000000000000
+      internalID: -6064329292970516918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd3f7f30f23cbab0800000000000000
+      internalID: -4991058279594508865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d46a19e2838c0d0800000000000000
+      internalID: -3402407745815163550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a80f7fba8d04c120800000000000000
+      internalID: 2433084588256331943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 102
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2f021b1847b7120800000000000000
+      internalID: 2412650125758362282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6291d73289f76e410800000000000000
+      internalID: 1506031416809167142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 102
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570267670dc2fa010800000000000000
+      internalID: 1202228899383484533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c728cfd9d89ec6d10800000000000000
+      internalID: 2120326319034892924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 102
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d859b74411a4cf6e0800000000000000
+      internalID: -1802484312831191667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 104
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9607c50a2413059f0800000000000000
+      internalID: -481830997900627863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 104
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26be741918db3a430800000000000000
+      internalID: 3793083675361930082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 102
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0d10e6b4e367c10800000000000000
+      internalID: 2050895174002921699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 101
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84c3856078e7c270800000000000000
+      internalID: 8270834810126320783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 102
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb149584184c129a0800000000000000
+      internalID: -6259505947524644417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440c9c2b43bf381f0800000000000000
+      internalID: -1043714484863385532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 71
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ef9283f92d6e3f0800000000000000
+      internalID: -871777896565703059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf8b53d894c2afe0800000000000000
+      internalID: -1179163991757582408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e6aff3222fd5520800000000000000
+      internalID: 2692574381153611382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 71
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93926184946333e70800000000000000
+      internalID: 9093671760961087801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bca9a27f76a8d00800000000000000
+      internalID: 975706580548504439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d082fcb184563a0800000000000000
+      internalID: -6672847988602696387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 71
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75393daebb7de330800000000000000
+      internalID: 3741782924294960506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 71
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b378d2bd297416b0800000000000000
+      internalID: -5326499222091435079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0914cbe8b10a67870800000000000000
+      internalID: 8680301372022473104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 69
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4a9b8581fc660c0800000000000000
+      internalID: -4582747867328174909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3575c528a0eb4990800000000000000
+      internalID: -7400574549860453061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 41
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e419417c0da065840800000000000000
+      internalID: 5212365510537417038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 41
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bdf18a0892309f0800000000000000
+      internalID: -503513100782150815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539d82781a2339480800000000000000
+      internalID: -8893709169787872971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 41
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e6ff3b1964878e0800000000000000
+      internalID: -1695527668100927909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 40
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb02c9e7b5ac04e0800000000000000
+      internalID: -2014052724022047761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 41
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1efe0a5149e20580800000000000000
+      internalID: -8862264649818636769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 41
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c27ab5d03f68700800000000000000
+      internalID: 542388043842530307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 41
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104cbe59df63c4100800000000000000
+      internalID: 93510155037819905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 41
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9535cea3ed6900730800000000000000
+      internalID: 3963333553301508953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 41
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94468131a86290740800000000000000
+      internalID: 5118664825950987337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 41
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f589a667d959070800000000000000
+      internalID: 8112563435697889118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 41
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28aa34904023a5440800000000000000
+      internalID: 4925304135399746178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019801bb0e7cbeb50800000000000000
+      internalID: 6623607445003471120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ebb574afe4b8690800000000000000
+      internalID: -7598893109411594709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104ec4b2aae04ff00800000000000000
+      internalID: 1149559928920007681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 7
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9602a86fcc19225d0800000000000000
+      internalID: -3088746084927135639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 7
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de74fba3a461997d0800000000000000
+      internalID: -2911271176049309715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728cb4fa79cf9c9e0800000000000000
+      internalID: -1600470464142260185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 7
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a673c7dfe032c50800000000000000
+      internalID: 6639166757547764286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 7
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe694692e992a0c70800000000000000
+      internalID: 8938002169746200303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7a93da65dec2c60800000000000000
+      internalID: 7794866011600693181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 7
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665b2472af9fcb700800000000000000
+      internalID: 557595306682922342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 8
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8675b83f729b06e0800000000000000
+      internalID: -1870240145132390770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gray-Wolf-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 7
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379a975104bfdc390800000000000000
+      internalID: -7796299127251687053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gray-Wolf-32x32_0: -6296899049618836441
+      Gray-Wolf-32x32_1: 3326611086374614788
+      Gray-Wolf-32x32_10: -3055705342628780446
+      Gray-Wolf-32x32_11: 7798023994335099734
+      Gray-Wolf-32x32_12: -8597131242577109077
+      Gray-Wolf-32x32_13: 4653428183587622766
+      Gray-Wolf-32x32_14: 178303705995955929
+      Gray-Wolf-32x32_15: 4649898048888741138
+      Gray-Wolf-32x32_16: 298872808687873256
+      Gray-Wolf-32x32_17: -3066604666665911451
+      Gray-Wolf-32x32_18: 6289088689256991638
+      Gray-Wolf-32x32_19: -7478044897956316848
+      Gray-Wolf-32x32_2: 4893838074059799881
+      Gray-Wolf-32x32_20: 1805370839853327821
+      Gray-Wolf-32x32_21: -6854853940392567113
+      Gray-Wolf-32x32_22: -6529709979927199989
+      Gray-Wolf-32x32_23: 4146545634204050920
+      Gray-Wolf-32x32_24: 7884345645141439716
+      Gray-Wolf-32x32_25: -5168671322237056067
+      Gray-Wolf-32x32_26: 8241413420996087057
+      Gray-Wolf-32x32_27: -5725682421631853761
+      Gray-Wolf-32x32_28: -3970772325846640536
+      Gray-Wolf-32x32_29: -1566659951353213042
+      Gray-Wolf-32x32_3: -6025889145659877210
+      Gray-Wolf-32x32_30: -846897640850494447
+      Gray-Wolf-32x32_31: -3191868195644370572
+      Gray-Wolf-32x32_32: -5278297345590717548
+      Gray-Wolf-32x32_33: -6223557865926559348
+      Gray-Wolf-32x32_34: 1662995204230964699
+      Gray-Wolf-32x32_35: 8323477372765334150
+      Gray-Wolf-32x32_36: 898647949971181724
+      Gray-Wolf-32x32_37: -147178908645131162
+      Gray-Wolf-32x32_38: -2967540307033412605
+      Gray-Wolf-32x32_39: -2167790105729923472
+      Gray-Wolf-32x32_4: 3851956008668615566
+      Gray-Wolf-32x32_40: -1849964236620480424
+      Gray-Wolf-32x32_41: 8480640183643889907
+      Gray-Wolf-32x32_42: -2981866085076111791
+      Gray-Wolf-32x32_43: -6947690622363031757
+      Gray-Wolf-32x32_44: -3407322111439138575
+      Gray-Wolf-32x32_45: 4751088223452361090
+      Gray-Wolf-32x32_46: -6064329292970516918
+      Gray-Wolf-32x32_47: -4991058279594508865
+      Gray-Wolf-32x32_48: -3402407745815163550
+      Gray-Wolf-32x32_49: 2433084588256331943
+      Gray-Wolf-32x32_5: 6186247709941317902
+      Gray-Wolf-32x32_50: 2412650125758362282
+      Gray-Wolf-32x32_51: 1506031416809167142
+      Gray-Wolf-32x32_52: 1202228899383484533
+      Gray-Wolf-32x32_53: 2120326319034892924
+      Gray-Wolf-32x32_54: -1802484312831191667
+      Gray-Wolf-32x32_55: -481830997900627863
+      Gray-Wolf-32x32_56: 3793083675361930082
+      Gray-Wolf-32x32_57: 2050895174002921699
+      Gray-Wolf-32x32_58: 8270834810126320783
+      Gray-Wolf-32x32_59: -6259505947524644417
+      Gray-Wolf-32x32_6: -2915168865357201649
+      Gray-Wolf-32x32_60: -1043714484863385532
+      Gray-Wolf-32x32_61: -871777896565703059
+      Gray-Wolf-32x32_62: -1179163991757582408
+      Gray-Wolf-32x32_63: 2692574381153611382
+      Gray-Wolf-32x32_64: 9093671760961087801
+      Gray-Wolf-32x32_65: 975706580548504439
+      Gray-Wolf-32x32_66: -6672847988602696387
+      Gray-Wolf-32x32_67: 3741782924294960506
+      Gray-Wolf-32x32_68: -5326499222091435079
+      Gray-Wolf-32x32_69: 8680301372022473104
+      Gray-Wolf-32x32_7: -3464878920876809505
+      Gray-Wolf-32x32_70: -4582747867328174909
+      Gray-Wolf-32x32_71: -7400574549860453061
+      Gray-Wolf-32x32_72: 5212365510537417038
+      Gray-Wolf-32x32_73: -503513100782150815
+      Gray-Wolf-32x32_74: -8893709169787872971
+      Gray-Wolf-32x32_75: -1695527668100927909
+      Gray-Wolf-32x32_76: -2014052724022047761
+      Gray-Wolf-32x32_77: -8862264649818636769
+      Gray-Wolf-32x32_78: 542388043842530307
+      Gray-Wolf-32x32_79: 93510155037819905
+      Gray-Wolf-32x32_8: -5215838130575159784
+      Gray-Wolf-32x32_80: 3963333553301508953
+      Gray-Wolf-32x32_81: 5118664825950987337
+      Gray-Wolf-32x32_82: 8112563435697889118
+      Gray-Wolf-32x32_83: 4925304135399746178
+      Gray-Wolf-32x32_84: 6623607445003471120
+      Gray-Wolf-32x32_85: -7598893109411594709
+      Gray-Wolf-32x32_86: 1149559928920007681
+      Gray-Wolf-32x32_87: -3088746084927135639
+      Gray-Wolf-32x32_88: -2911271176049309715
+      Gray-Wolf-32x32_89: -1600470464142260185
+      Gray-Wolf-32x32_9: -5588691031806736508
+      Gray-Wolf-32x32_90: 6639166757547764286
+      Gray-Wolf-32x32_91: 8938002169746200303
+      Gray-Wolf-32x32_92: 7794866011600693181
+      Gray-Wolf-32x32_93: 557595306682922342
+      Gray-Wolf-32x32_94: -1870240145132390770
+      Gray-Wolf-32x32_95: -7796299127251687053
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
