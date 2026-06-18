@@ -1,0 +1,113 @@
+using UnityEngine;
+
+public class EnemyChase : MonoBehaviour
+{
+    [Header("Movement Settings")]
+    [SerializeField] private float speed = 3f;
+    [SerializeField] private float detectionRadius = 10f;
+    [SerializeField] private bool chaseForever = false;
+
+    [Header("Combat Settings")]
+    [SerializeField] private int damageAmount = 10;
+    [SerializeField] private float damageInterval = 1f;
+
+    private Transform playerTransform;
+    private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+    
+    private float lastDamageTime;
+    private bool isChasing = false;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private void Start()
+    {
+        // Find player by type dynamically
+        Player player = FindAnyObjectByType<Player>();
+        if (player != null)
+        {
+            playerTransform = player.transform;
+        }
+        else
+        {
+            Debug.LogWarning("EnemyChase: No Player object found in the scene.");
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (playerTransform == null) return;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+
+        // Check if player enters detection range, or if we chase forever once detected
+        if (distanceToPlayer <= detectionRadius)
+        {
+            isChasing = true;
+        }
+        else if (!chaseForever)
+        {
+            isChasing = false;
+        }
+
+        if (isChasing)
+        {
+            MoveTowardsPlayer();
+        }
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        // Calculate direction to player
+        Vector2 direction = ((Vector2)playerTransform.position - rb.position).normalized;
+
+        // Move the enemy via Rigidbody2D for proper physical collision behavior
+        rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+
+        // Flip the sprite orientation based on horizontal movement direction
+        if (spriteRenderer != null)
+        {
+            if (direction.x > 0.01f)
+            {
+                spriteRenderer.flipX = false; // Facing right
+            }
+            else if (direction.x < -0.01f)
+            {
+                spriteRenderer.flipX = true; // Facing left
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        AttemptDamage(collision.gameObject);
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        AttemptDamage(collision.gameObject);
+    }
+
+    private void AttemptDamage(GameObject target)
+    {
+        if (target.TryGetComponent<Player>(out Player playerScript))
+        {
+            if (Time.time - lastDamageTime >= damageInterval)
+            {
+                playerScript.TakeDamage(damageAmount);
+                lastDamageTime = Time.time;
+            }
+        }
+    }
+
+    // Draw detection radius in editor for easy debugging/tuning
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+    }
+}
