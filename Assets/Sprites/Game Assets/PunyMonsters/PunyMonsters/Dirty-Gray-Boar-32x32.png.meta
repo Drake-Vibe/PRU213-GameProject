@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: bd89b609963f2fb4898f165f2513a234
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1938223145702153579
+    second: Dirty-Gray-Boar-32x32_0
+  - first:
+      213: 3293883994840976123
+    second: Dirty-Gray-Boar-32x32_1
+  - first:
+      213: -6362466282835437038
+    second: Dirty-Gray-Boar-32x32_2
+  - first:
+      213: 5191183241584758472
+    second: Dirty-Gray-Boar-32x32_3
+  - first:
+      213: 5784891294484742683
+    second: Dirty-Gray-Boar-32x32_4
+  - first:
+      213: -1463318497467438286
+    second: Dirty-Gray-Boar-32x32_5
+  - first:
+      213: 8794139482807464502
+    second: Dirty-Gray-Boar-32x32_6
+  - first:
+      213: 9051252064311607578
+    second: Dirty-Gray-Boar-32x32_7
+  - first:
+      213: -5763314915554399355
+    second: Dirty-Gray-Boar-32x32_8
+  - first:
+      213: 1306755539792770457
+    second: Dirty-Gray-Boar-32x32_9
+  - first:
+      213: 5929076117947443169
+    second: Dirty-Gray-Boar-32x32_10
+  - first:
+      213: 7993003616504085111
+    second: Dirty-Gray-Boar-32x32_11
+  - first:
+      213: 3481378995293238209
+    second: Dirty-Gray-Boar-32x32_12
+  - first:
+      213: 9111621825012662133
+    second: Dirty-Gray-Boar-32x32_13
+  - first:
+      213: 2774366851445942157
+    second: Dirty-Gray-Boar-32x32_14
+  - first:
+      213: -5104186473920436152
+    second: Dirty-Gray-Boar-32x32_15
+  - first:
+      213: -4026032947194978009
+    second: Dirty-Gray-Boar-32x32_16
+  - first:
+      213: -2130002846467681687
+    second: Dirty-Gray-Boar-32x32_17
+  - first:
+      213: -6371850206149444055
+    second: Dirty-Gray-Boar-32x32_18
+  - first:
+      213: -7730559322266698996
+    second: Dirty-Gray-Boar-32x32_19
+  - first:
+      213: 1271362307947843083
+    second: Dirty-Gray-Boar-32x32_20
+  - first:
+      213: -5481767959472818139
+    second: Dirty-Gray-Boar-32x32_21
+  - first:
+      213: -6001472734863019578
+    second: Dirty-Gray-Boar-32x32_22
+  - first:
+      213: 2883861634742386901
+    second: Dirty-Gray-Boar-32x32_23
+  - first:
+      213: 7986614650899904845
+    second: Dirty-Gray-Boar-32x32_24
+  - first:
+      213: 50849098743108563
+    second: Dirty-Gray-Boar-32x32_25
+  - first:
+      213: -3509717209836792513
+    second: Dirty-Gray-Boar-32x32_26
+  - first:
+      213: -4130031054365402037
+    second: Dirty-Gray-Boar-32x32_27
+  - first:
+      213: 4476570744792265938
+    second: Dirty-Gray-Boar-32x32_28
+  - first:
+      213: 5919561807212952771
+    second: Dirty-Gray-Boar-32x32_29
+  - first:
+      213: -5329060000525019041
+    second: Dirty-Gray-Boar-32x32_30
+  - first:
+      213: -280107796488322189
+    second: Dirty-Gray-Boar-32x32_31
+  - first:
+      213: 4036462379000774906
+    second: Dirty-Gray-Boar-32x32_32
+  - first:
+      213: -2490942784460641492
+    second: Dirty-Gray-Boar-32x32_33
+  - first:
+      213: 1727880779226233526
+    second: Dirty-Gray-Boar-32x32_34
+  - first:
+      213: 5674056020445593708
+    second: Dirty-Gray-Boar-32x32_35
+  - first:
+      213: 6801707232184295501
+    second: Dirty-Gray-Boar-32x32_36
+  - first:
+      213: 5377459226257505879
+    second: Dirty-Gray-Boar-32x32_37
+  - first:
+      213: 4074808534687828517
+    second: Dirty-Gray-Boar-32x32_38
+  - first:
+      213: 577171898256873981
+    second: Dirty-Gray-Boar-32x32_39
+  - first:
+      213: -6269935549385294156
+    second: Dirty-Gray-Boar-32x32_40
+  - first:
+      213: -4443033382985927675
+    second: Dirty-Gray-Boar-32x32_41
+  - first:
+      213: 4549724811927565814
+    second: Dirty-Gray-Boar-32x32_42
+  - first:
+      213: -699814677203644141
+    second: Dirty-Gray-Boar-32x32_43
+  - first:
+      213: 1367345729801869880
+    second: Dirty-Gray-Boar-32x32_44
+  - first:
+      213: -8852691903499847419
+    second: Dirty-Gray-Boar-32x32_45
+  - first:
+      213: 964495780409160736
+    second: Dirty-Gray-Boar-32x32_46
+  - first:
+      213: 7721094319904223848
+    second: Dirty-Gray-Boar-32x32_47
+  - first:
+      213: 1416611737649636493
+    second: Dirty-Gray-Boar-32x32_48
+  - first:
+      213: 2020258843444435616
+    second: Dirty-Gray-Boar-32x32_49
+  - first:
+      213: -6343349502875214851
+    second: Dirty-Gray-Boar-32x32_50
+  - first:
+      213: -7549657730966408331
+    second: Dirty-Gray-Boar-32x32_51
+  - first:
+      213: -6969513158863112417
+    second: Dirty-Gray-Boar-32x32_52
+  - first:
+      213: -9179722341720672317
+    second: Dirty-Gray-Boar-32x32_53
+  - first:
+      213: 6337226266216576839
+    second: Dirty-Gray-Boar-32x32_54
+  - first:
+      213: -5570140232991205667
+    second: Dirty-Gray-Boar-32x32_55
+  - first:
+      213: -442592259924260442
+    second: Dirty-Gray-Boar-32x32_56
+  - first:
+      213: 9014701894957700814
+    second: Dirty-Gray-Boar-32x32_57
+  - first:
+      213: -1573184968365868599
+    second: Dirty-Gray-Boar-32x32_58
+  - first:
+      213: -3603441956690423403
+    second: Dirty-Gray-Boar-32x32_59
+  - first:
+      213: 9087392708035775742
+    second: Dirty-Gray-Boar-32x32_60
+  - first:
+      213: 8336074915049389914
+    second: Dirty-Gray-Boar-32x32_61
+  - first:
+      213: 2720568705701367809
+    second: Dirty-Gray-Boar-32x32_62
+  - first:
+      213: -2824827942677673285
+    second: Dirty-Gray-Boar-32x32_63
+  - first:
+      213: 4515500452508193258
+    second: Dirty-Gray-Boar-32x32_64
+  - first:
+      213: -3471144565459640338
+    second: Dirty-Gray-Boar-32x32_65
+  - first:
+      213: -5807036128837980584
+    second: Dirty-Gray-Boar-32x32_66
+  - first:
+      213: -6486870578355828280
+    second: Dirty-Gray-Boar-32x32_67
+  - first:
+      213: -4152029165676476273
+    second: Dirty-Gray-Boar-32x32_68
+  - first:
+      213: -2120867391878823595
+    second: Dirty-Gray-Boar-32x32_69
+  - first:
+      213: 8763871838194044356
+    second: Dirty-Gray-Boar-32x32_70
+  - first:
+      213: 7577921706821612952
+    second: Dirty-Gray-Boar-32x32_71
+  - first:
+      213: 6895074006423592069
+    second: Dirty-Gray-Boar-32x32_72
+  - first:
+      213: -1117675095745040871
+    second: Dirty-Gray-Boar-32x32_73
+  - first:
+      213: -905960588301931909
+    second: Dirty-Gray-Boar-32x32_74
+  - first:
+      213: -6652293912000470988
+    second: Dirty-Gray-Boar-32x32_75
+  - first:
+      213: -6271699316095870997
+    second: Dirty-Gray-Boar-32x32_76
+  - first:
+      213: 2136060110654869302
+    second: Dirty-Gray-Boar-32x32_77
+  - first:
+      213: -2024751485972607691
+    second: Dirty-Gray-Boar-32x32_78
+  - first:
+      213: -2621638488125549593
+    second: Dirty-Gray-Boar-32x32_79
+  - first:
+      213: 171490380120070151
+    second: Dirty-Gray-Boar-32x32_80
+  - first:
+      213: 3872446054512429420
+    second: Dirty-Gray-Boar-32x32_81
+  - first:
+      213: -2813502129079109922
+    second: Dirty-Gray-Boar-32x32_82
+  - first:
+      213: 5735044973106959600
+    second: Dirty-Gray-Boar-32x32_83
+  - first:
+      213: 4116800273816343597
+    second: Dirty-Gray-Boar-32x32_84
+  - first:
+      213: -883845501404446617
+    second: Dirty-Gray-Boar-32x32_85
+  - first:
+      213: 2810313159594278308
+    second: Dirty-Gray-Boar-32x32_86
+  - first:
+      213: -2308427860866332469
+    second: Dirty-Gray-Boar-32x32_87
+  - first:
+      213: -3800381466071991683
+    second: Dirty-Gray-Boar-32x32_88
+  - first:
+      213: 3344067776144896310
+    second: Dirty-Gray-Boar-32x32_89
+  - first:
+      213: -4792028311628568745
+    second: Dirty-Gray-Boar-32x32_90
+  - first:
+      213: 6884026621298626977
+    second: Dirty-Gray-Boar-32x32_91
+  - first:
+      213: -1624988021851838214
+    second: Dirty-Gray-Boar-32x32_92
+  - first:
+      213: 9029239894291687152
+    second: Dirty-Gray-Boar-32x32_93
+  - first:
+      213: -7409742095151371392
+    second: Dirty-Gray-Boar-32x32_94
+  - first:
+      213: 2664762327304745393
+    second: Dirty-Gray-Boar-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592abf0715c0a15e0800000000000000
+      internalID: -1938223145702153579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa47d3aa0a36bd20800000000000000
+      internalID: 3293883994840976123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 228
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a913420aaf3b7a0800000000000000
+      internalID: -6362466282835437038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cece9677a9ca0840800000000000000
+      internalID: 5191183241584758472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 228
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1243009bff084050800000000000000
+      internalID: 5784891294484742683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23be13d549f31bbe0800000000000000
+      internalID: -1463318497467438286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 230
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632f9f9244f0b0a70800000000000000
+      internalID: 8794139482807464502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 228
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1180d10cc18c9d70800000000000000
+      internalID: 9051252064311607578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 229
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b6ba1ae979400b0800000000000000
+      internalID: -5763314915554399355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9953f9d6d37822210800000000000000
+      internalID: 1306755539792770457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 231
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e76280d05f484250800000000000000
+      internalID: 5929076117947443169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 230
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a7322c07adcee60800000000000000
+      internalID: 7993003616504085111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3b5f640c7505030800000000000000
+      internalID: 3481378995293238209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 198
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f739f36cbf27e70800000000000000
+      internalID: 9111621825012662133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 197
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87ed01c3f7808620800000000000000
+      internalID: 2774366851445942157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8486e92f1794a29b0800000000000000
+      internalID: -5104186473920436152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 198
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721ac688d58a028c0800000000000000
+      internalID: -4026032947194978009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96219b542b5b072e0800000000000000
+      internalID: -2130002846467681687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 198
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e767c3ff3a297a0800000000000000
+      internalID: -6371850206149444055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 197
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b7531314987b490800000000000000
+      internalID: -7730559322266698996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 198
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e4d0a7849c4a110800000000000000
+      internalID: 1271362307947843083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 198
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5283182a519dce3b0800000000000000
+      internalID: -5481767959472818139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c13c45485c76bca0800000000000000
+      internalID: -6001472734863019578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 198
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d08230a0e8850820800000000000000
+      internalID: 2883861634742386901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 168
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49b1d8c5b726de60800000000000000
+      internalID: 7986614650899904845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 168
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d35bb36cf6a4b000800000000000000
+      internalID: 50849098743108563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 167
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f355a9dfacafa4fc0800000000000000
+      internalID: -3509717209836792513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 168
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cd73d43ae2fa6c0800000000000000
+      internalID: -4130031054365402037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 167
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4bf3fdf59ff1e30800000000000000
+      internalID: 4476570744792265938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 168
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccb5e8b912862250800000000000000
+      internalID: 5919561807212952771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 168
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5896f10a206b06b0800000000000000
+      internalID: -5329060000525019041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 168
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3730f73717bdc1cf0800000000000000
+      internalID: -280107796488322189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 168
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0c199c525640830800000000000000
+      internalID: 4036462379000774906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 168
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ba6603cb46e6dd0800000000000000
+      internalID: -2490942784460641492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 168
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba310cf96aaaf710800000000000000
+      internalID: 1727880779226233526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 168
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60835e53eb4ebe40800000000000000
+      internalID: 5674056020445593708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40ec80d0b4846e50800000000000000
+      internalID: 6801707232184295501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 134
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eb93fdca290aa40800000000000000
+      internalID: 5377459226257505879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 133
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a4cc5e5c0ac8830800000000000000
+      internalID: 4074808534687828517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df950f198c6820800800000000000000
+      internalID: 577171898256873981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 134
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bebb4e56d6bcf8a0800000000000000
+      internalID: -6269935549385294156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504fbe9adac2752c0800000000000000
+      internalID: -4443033382985927675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f539b86c9ed32f30800000000000000
+      internalID: 4549724811927565814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 134
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3111ca44242c946f0800000000000000
+      internalID: -699814677203644141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 134
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83adcfd52b9c9f210800000000000000
+      internalID: 1367345729801869880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5093ae90e9be42580800000000000000
+      internalID: -8852691903499847419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 132
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024b6aa5dc3926d00800000000000000
+      internalID: 964495780409160736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8627d273066d62b60800000000000000
+      internalID: 7721094319904223848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84614faed0d8a310800000000000000
+      internalID: 1416611737649636493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 102
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aad8ddd6b6690c10800000000000000
+      internalID: 2020258843444435616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbd8f25c35e7f7a0800000000000000
+      internalID: -6343349502875214851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57337f12b4a3a3790800000000000000
+      internalID: -7549657730966408331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17bd8445b0574f90800000000000000
+      internalID: -6969513158863112417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 102
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7b50d9a231b9080800000000000000
+      internalID: -9179722341720672317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 101
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7473d1b86b952f750800000000000000
+      internalID: 6337226266216576839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 103
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6927f48f2e2b2b0800000000000000
+      internalID: -5570140232991205667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 103
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a980ee3fa89bd9f0800000000000000
+      internalID: -442592259924260442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 101
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec69efc8c97aa1d70800000000000000
+      internalID: 9014701894957700814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 100
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9719a3b9cea2ae0800000000000000
+      internalID: -1573184968365868599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 101
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5919abad1a00efdc0800000000000000
+      internalID: -3603441956690423403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc82f85587ec1e70800000000000000
+      internalID: 9087392708035775742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f309408ffafa370800000000000000
+      internalID: 8336074915049389914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 69
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100df5ad2d661c520800000000000000
+      internalID: 2720568705701367809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba8915e3f13cc8d0800000000000000
+      internalID: -2824827942677673285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 70
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1ddd6ccb74aae30800000000000000
+      internalID: 4515500452508193258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef10cb986404dfc0800000000000000
+      internalID: -3471144565459640338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ea0c66863496fa0800000000000000
+      internalID: -5807036128837980584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 70
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c90b21f3910af5a0800000000000000
+      internalID: -6486870578355828280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 70
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88cac2e8770166c0800000000000000
+      internalID: -4152029165676476273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5518a5b085a2192e0800000000000000
+      internalID: -2120867391878823595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 68
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd0b9cf0078f9970800000000000000
+      internalID: 8763871838194044356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 70
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895f2de84af2a2960800000000000000
+      internalID: 7577921706821612952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c58e4f64930bf50800000000000000
+      internalID: 6895074006423592069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 40
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ee0df0c683d70f0800000000000000
+      internalID: -1117675095745040871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a62c915a16d63f0800000000000000
+      internalID: -905960588301931909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430e7b1beed4ea3a0800000000000000
+      internalID: -6652293912000470988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be79b0e63b276f8a0800000000000000
+      internalID: -6271699316095870997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 40
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f07727a5fc4ad10800000000000000
+      internalID: 2136060110654869302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d88284043a6e3e0800000000000000
+      internalID: -2024751485972607691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 40
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3d8c16fa11e9bd0800000000000000
+      internalID: -2621638488125549593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 40
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70814759791416200800000000000000
+      internalID: 171490380120070151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6983136b21bdb530800000000000000
+      internalID: 3872446054512429420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 40
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed63f6d58be64f8d0800000000000000
+      internalID: -2813502129079109922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 40
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f41ee87409f69f40800000000000000
+      internalID: 5735044973106959600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24dd0c8900d12930800000000000000
+      internalID: 4116800273816343597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 6
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76006740333fbb3f0800000000000000
+      internalID: -883845501404446617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adf831ddec300720800000000000000
+      internalID: 2810313159594278308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc882735711d6ffd0800000000000000
+      internalID: -2308427860866332469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7afccf1135524bc0800000000000000
+      internalID: -3800381466071991683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63172fdbce3886e20800000000000000
+      internalID: 3344067776144896310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 6
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757a3cbc3ab4f7db0800000000000000
+      internalID: -4792028311628568745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 5
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a156da2db9f88f50800000000000000
+      internalID: 6884026621298626977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 6
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8a141f002e279e0800000000000000
+      internalID: -1624988021851838214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6aa0b48dd4e4d70800000000000000
+      internalID: 9029239894291687152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 7
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b6e3da2de4b2990800000000000000
+      internalID: -7409742095151371392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirty-Gray-Boar-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 6
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1b7d9d7332bf420800000000000000
+      internalID: 2664762327304745393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dirty-Gray-Boar-32x32_0: -1938223145702153579
+      Dirty-Gray-Boar-32x32_1: 3293883994840976123
+      Dirty-Gray-Boar-32x32_10: 5929076117947443169
+      Dirty-Gray-Boar-32x32_11: 7993003616504085111
+      Dirty-Gray-Boar-32x32_12: 3481378995293238209
+      Dirty-Gray-Boar-32x32_13: 9111621825012662133
+      Dirty-Gray-Boar-32x32_14: 2774366851445942157
+      Dirty-Gray-Boar-32x32_15: -5104186473920436152
+      Dirty-Gray-Boar-32x32_16: -4026032947194978009
+      Dirty-Gray-Boar-32x32_17: -2130002846467681687
+      Dirty-Gray-Boar-32x32_18: -6371850206149444055
+      Dirty-Gray-Boar-32x32_19: -7730559322266698996
+      Dirty-Gray-Boar-32x32_2: -6362466282835437038
+      Dirty-Gray-Boar-32x32_20: 1271362307947843083
+      Dirty-Gray-Boar-32x32_21: -5481767959472818139
+      Dirty-Gray-Boar-32x32_22: -6001472734863019578
+      Dirty-Gray-Boar-32x32_23: 2883861634742386901
+      Dirty-Gray-Boar-32x32_24: 7986614650899904845
+      Dirty-Gray-Boar-32x32_25: 50849098743108563
+      Dirty-Gray-Boar-32x32_26: -3509717209836792513
+      Dirty-Gray-Boar-32x32_27: -4130031054365402037
+      Dirty-Gray-Boar-32x32_28: 4476570744792265938
+      Dirty-Gray-Boar-32x32_29: 5919561807212952771
+      Dirty-Gray-Boar-32x32_3: 5191183241584758472
+      Dirty-Gray-Boar-32x32_30: -5329060000525019041
+      Dirty-Gray-Boar-32x32_31: -280107796488322189
+      Dirty-Gray-Boar-32x32_32: 4036462379000774906
+      Dirty-Gray-Boar-32x32_33: -2490942784460641492
+      Dirty-Gray-Boar-32x32_34: 1727880779226233526
+      Dirty-Gray-Boar-32x32_35: 5674056020445593708
+      Dirty-Gray-Boar-32x32_36: 6801707232184295501
+      Dirty-Gray-Boar-32x32_37: 5377459226257505879
+      Dirty-Gray-Boar-32x32_38: 4074808534687828517
+      Dirty-Gray-Boar-32x32_39: 577171898256873981
+      Dirty-Gray-Boar-32x32_4: 5784891294484742683
+      Dirty-Gray-Boar-32x32_40: -6269935549385294156
+      Dirty-Gray-Boar-32x32_41: -4443033382985927675
+      Dirty-Gray-Boar-32x32_42: 4549724811927565814
+      Dirty-Gray-Boar-32x32_43: -699814677203644141
+      Dirty-Gray-Boar-32x32_44: 1367345729801869880
+      Dirty-Gray-Boar-32x32_45: -8852691903499847419
+      Dirty-Gray-Boar-32x32_46: 964495780409160736
+      Dirty-Gray-Boar-32x32_47: 7721094319904223848
+      Dirty-Gray-Boar-32x32_48: 1416611737649636493
+      Dirty-Gray-Boar-32x32_49: 2020258843444435616
+      Dirty-Gray-Boar-32x32_5: -1463318497467438286
+      Dirty-Gray-Boar-32x32_50: -6343349502875214851
+      Dirty-Gray-Boar-32x32_51: -7549657730966408331
+      Dirty-Gray-Boar-32x32_52: -6969513158863112417
+      Dirty-Gray-Boar-32x32_53: -9179722341720672317
+      Dirty-Gray-Boar-32x32_54: 6337226266216576839
+      Dirty-Gray-Boar-32x32_55: -5570140232991205667
+      Dirty-Gray-Boar-32x32_56: -442592259924260442
+      Dirty-Gray-Boar-32x32_57: 9014701894957700814
+      Dirty-Gray-Boar-32x32_58: -1573184968365868599
+      Dirty-Gray-Boar-32x32_59: -3603441956690423403
+      Dirty-Gray-Boar-32x32_6: 8794139482807464502
+      Dirty-Gray-Boar-32x32_60: 9087392708035775742
+      Dirty-Gray-Boar-32x32_61: 8336074915049389914
+      Dirty-Gray-Boar-32x32_62: 2720568705701367809
+      Dirty-Gray-Boar-32x32_63: -2824827942677673285
+      Dirty-Gray-Boar-32x32_64: 4515500452508193258
+      Dirty-Gray-Boar-32x32_65: -3471144565459640338
+      Dirty-Gray-Boar-32x32_66: -5807036128837980584
+      Dirty-Gray-Boar-32x32_67: -6486870578355828280
+      Dirty-Gray-Boar-32x32_68: -4152029165676476273
+      Dirty-Gray-Boar-32x32_69: -2120867391878823595
+      Dirty-Gray-Boar-32x32_7: 9051252064311607578
+      Dirty-Gray-Boar-32x32_70: 8763871838194044356
+      Dirty-Gray-Boar-32x32_71: 7577921706821612952
+      Dirty-Gray-Boar-32x32_72: 6895074006423592069
+      Dirty-Gray-Boar-32x32_73: -1117675095745040871
+      Dirty-Gray-Boar-32x32_74: -905960588301931909
+      Dirty-Gray-Boar-32x32_75: -6652293912000470988
+      Dirty-Gray-Boar-32x32_76: -6271699316095870997
+      Dirty-Gray-Boar-32x32_77: 2136060110654869302
+      Dirty-Gray-Boar-32x32_78: -2024751485972607691
+      Dirty-Gray-Boar-32x32_79: -2621638488125549593
+      Dirty-Gray-Boar-32x32_8: -5763314915554399355
+      Dirty-Gray-Boar-32x32_80: 171490380120070151
+      Dirty-Gray-Boar-32x32_81: 3872446054512429420
+      Dirty-Gray-Boar-32x32_82: -2813502129079109922
+      Dirty-Gray-Boar-32x32_83: 5735044973106959600
+      Dirty-Gray-Boar-32x32_84: 4116800273816343597
+      Dirty-Gray-Boar-32x32_85: -883845501404446617
+      Dirty-Gray-Boar-32x32_86: 2810313159594278308
+      Dirty-Gray-Boar-32x32_87: -2308427860866332469
+      Dirty-Gray-Boar-32x32_88: -3800381466071991683
+      Dirty-Gray-Boar-32x32_89: 3344067776144896310
+      Dirty-Gray-Boar-32x32_9: 1306755539792770457
+      Dirty-Gray-Boar-32x32_90: -4792028311628568745
+      Dirty-Gray-Boar-32x32_91: 6884026621298626977
+      Dirty-Gray-Boar-32x32_92: -1624988021851838214
+      Dirty-Gray-Boar-32x32_93: 9029239894291687152
+      Dirty-Gray-Boar-32x32_94: -7409742095151371392
+      Dirty-Gray-Boar-32x32_95: 2664762327304745393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 39478981ac0ab0e4e987b31df63dbc63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3161092842334168525
+    second: Blonde-Dog-32x32_0
+  - first:
+      213: -6149857074411114842
+    second: Blonde-Dog-32x32_1
+  - first:
+      213: -3017706313111946463
+    second: Blonde-Dog-32x32_2
+  - first:
+      213: 3100627541589956434
+    second: Blonde-Dog-32x32_3
+  - first:
+      213: -3951060852207373664
+    second: Blonde-Dog-32x32_4
+  - first:
+      213: -567357672657761624
+    second: Blonde-Dog-32x32_5
+  - first:
+      213: -6769192624586629868
+    second: Blonde-Dog-32x32_6
+  - first:
+      213: -4052152725104117965
+    second: Blonde-Dog-32x32_7
+  - first:
+      213: -2685899116263260271
+    second: Blonde-Dog-32x32_8
+  - first:
+      213: 2335312388236404628
+    second: Blonde-Dog-32x32_9
+  - first:
+      213: 9175355594951759597
+    second: Blonde-Dog-32x32_10
+  - first:
+      213: -5138717809505471301
+    second: Blonde-Dog-32x32_11
+  - first:
+      213: 849246388686835302
+    second: Blonde-Dog-32x32_12
+  - first:
+      213: -2443184108060558588
+    second: Blonde-Dog-32x32_13
+  - first:
+      213: 4035915379144121275
+    second: Blonde-Dog-32x32_14
+  - first:
+      213: 2555711429303295557
+    second: Blonde-Dog-32x32_15
+  - first:
+      213: -5206140748705640978
+    second: Blonde-Dog-32x32_16
+  - first:
+      213: 5434938782314740569
+    second: Blonde-Dog-32x32_17
+  - first:
+      213: -8669997358799755687
+    second: Blonde-Dog-32x32_18
+  - first:
+      213: -6532796554083516973
+    second: Blonde-Dog-32x32_19
+  - first:
+      213: 3326332471144653063
+    second: Blonde-Dog-32x32_20
+  - first:
+      213: 2567817923568858986
+    second: Blonde-Dog-32x32_21
+  - first:
+      213: -8165903244254964015
+    second: Blonde-Dog-32x32_22
+  - first:
+      213: 4551812271183285012
+    second: Blonde-Dog-32x32_23
+  - first:
+      213: -6962584434030999594
+    second: Blonde-Dog-32x32_24
+  - first:
+      213: 6380880518492196401
+    second: Blonde-Dog-32x32_25
+  - first:
+      213: 7871406074814850520
+    second: Blonde-Dog-32x32_26
+  - first:
+      213: 8706452153939747807
+    second: Blonde-Dog-32x32_27
+  - first:
+      213: 5709787566639596495
+    second: Blonde-Dog-32x32_28
+  - first:
+      213: -8144428719605779246
+    second: Blonde-Dog-32x32_29
+  - first:
+      213: -6977404209603800262
+    second: Blonde-Dog-32x32_30
+  - first:
+      213: -6835221599381472099
+    second: Blonde-Dog-32x32_31
+  - first:
+      213: 2996942659365865955
+    second: Blonde-Dog-32x32_32
+  - first:
+      213: 6988735316573842877
+    second: Blonde-Dog-32x32_33
+  - first:
+      213: -8101362079386792000
+    second: Blonde-Dog-32x32_34
+  - first:
+      213: -8814361257975425852
+    second: Blonde-Dog-32x32_35
+  - first:
+      213: -5175835007902385198
+    second: Blonde-Dog-32x32_36
+  - first:
+      213: 1874336745564452949
+    second: Blonde-Dog-32x32_37
+  - first:
+      213: 5963626524669357410
+    second: Blonde-Dog-32x32_38
+  - first:
+      213: -3226288509320124099
+    second: Blonde-Dog-32x32_39
+  - first:
+      213: -1989999219793755098
+    second: Blonde-Dog-32x32_40
+  - first:
+      213: -4841533642943689341
+    second: Blonde-Dog-32x32_41
+  - first:
+      213: -6297661316770817970
+    second: Blonde-Dog-32x32_42
+  - first:
+      213: -8271943419371269402
+    second: Blonde-Dog-32x32_43
+  - first:
+      213: -8953706894717681920
+    second: Blonde-Dog-32x32_44
+  - first:
+      213: -8211014525593713825
+    second: Blonde-Dog-32x32_45
+  - first:
+      213: 3444813420945304183
+    second: Blonde-Dog-32x32_46
+  - first:
+      213: 7206123378450648855
+    second: Blonde-Dog-32x32_47
+  - first:
+      213: 327719262837265477
+    second: Blonde-Dog-32x32_48
+  - first:
+      213: -8760467918927430215
+    second: Blonde-Dog-32x32_49
+  - first:
+      213: -8022069788546102958
+    second: Blonde-Dog-32x32_50
+  - first:
+      213: -1162395202216799726
+    second: Blonde-Dog-32x32_51
+  - first:
+      213: -8240165050312794950
+    second: Blonde-Dog-32x32_52
+  - first:
+      213: 326165654022176238
+    second: Blonde-Dog-32x32_53
+  - first:
+      213: 4328242588473271711
+    second: Blonde-Dog-32x32_54
+  - first:
+      213: -3915099586111304456
+    second: Blonde-Dog-32x32_55
+  - first:
+      213: -1194445354538120882
+    second: Blonde-Dog-32x32_56
+  - first:
+      213: 3109097688882709107
+    second: Blonde-Dog-32x32_57
+  - first:
+      213: -3199382133973032317
+    second: Blonde-Dog-32x32_58
+  - first:
+      213: -3207078720085824610
+    second: Blonde-Dog-32x32_59
+  - first:
+      213: -3208313341528258303
+    second: Blonde-Dog-32x32_60
+  - first:
+      213: 8337142611007760744
+    second: Blonde-Dog-32x32_61
+  - first:
+      213: 3444855946151569763
+    second: Blonde-Dog-32x32_62
+  - first:
+      213: -5767673436508024297
+    second: Blonde-Dog-32x32_63
+  - first:
+      213: 6191592703991496675
+    second: Blonde-Dog-32x32_64
+  - first:
+      213: -2693158960886941355
+    second: Blonde-Dog-32x32_65
+  - first:
+      213: 1576180710407439677
+    second: Blonde-Dog-32x32_66
+  - first:
+      213: -2732821824822885432
+    second: Blonde-Dog-32x32_67
+  - first:
+      213: -5337489058764826313
+    second: Blonde-Dog-32x32_68
+  - first:
+      213: -861538625708259416
+    second: Blonde-Dog-32x32_69
+  - first:
+      213: -583745474432206026
+    second: Blonde-Dog-32x32_70
+  - first:
+      213: -2014430747793205921
+    second: Blonde-Dog-32x32_71
+  - first:
+      213: -1082125669379149190
+    second: Blonde-Dog-32x32_72
+  - first:
+      213: 6220073302924082597
+    second: Blonde-Dog-32x32_73
+  - first:
+      213: 5101592384468969299
+    second: Blonde-Dog-32x32_74
+  - first:
+      213: -1195629848440904846
+    second: Blonde-Dog-32x32_75
+  - first:
+      213: 3733168730870595238
+    second: Blonde-Dog-32x32_76
+  - first:
+      213: -1105572420592309462
+    second: Blonde-Dog-32x32_77
+  - first:
+      213: -1221860094494910395
+    second: Blonde-Dog-32x32_78
+  - first:
+      213: -1970303062035123138
+    second: Blonde-Dog-32x32_79
+  - first:
+      213: -6657598028264027438
+    second: Blonde-Dog-32x32_80
+  - first:
+      213: -8481114364208883486
+    second: Blonde-Dog-32x32_81
+  - first:
+      213: -3207039136493075187
+    second: Blonde-Dog-32x32_82
+  - first:
+      213: 4740187879841466913
+    second: Blonde-Dog-32x32_83
+  - first:
+      213: -2239291562591272193
+    second: Blonde-Dog-32x32_84
+  - first:
+      213: -8913135348673323068
+    second: Blonde-Dog-32x32_85
+  - first:
+      213: -326750255295729187
+    second: Blonde-Dog-32x32_86
+  - first:
+      213: 9149725109362372335
+    second: Blonde-Dog-32x32_87
+  - first:
+      213: 1376573610386970674
+    second: Blonde-Dog-32x32_88
+  - first:
+      213: 8925290273315836627
+    second: Blonde-Dog-32x32_89
+  - first:
+      213: 7306349657153272831
+    second: Blonde-Dog-32x32_90
+  - first:
+      213: 7379357337869767912
+    second: Blonde-Dog-32x32_91
+  - first:
+      213: -4557776094920050815
+    second: Blonde-Dog-32x32_92
+  - first:
+      213: -3461595696408295603
+    second: Blonde-Dog-32x32_93
+  - first:
+      213: -7345048634461642964
+    second: Blonde-Dog-32x32_94
+  - first:
+      213: -3332098748070983917
+    second: Blonde-Dog-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 231
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5ab5121357edb20800000000000000
+      internalID: 3161092842334168525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae6d4cf29157aaa0800000000000000
+      internalID: -6149857074411114842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 229
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b3282c814fe16d0800000000000000
+      internalID: -3017706313111946463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 231
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257134d3254a70b20800000000000000
+      internalID: 3100627541589956434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 229
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a23a3aa6130b29c0800000000000000
+      internalID: -3951060852207373664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 231
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa44a4e3375028f0800000000000000
+      internalID: -567357672657761624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 231
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dd1533c2ffe02a0800000000000000
+      internalID: -6769192624586629868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 229
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b984d09cd3c7c0800000000000000
+      internalID: -4052152725104117965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 230
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fb798fbf4c9bad0800000000000000
+      internalID: -2685899116263260271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497666c7e32b86020800000000000000
+      internalID: 2335312388236404628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 232
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de61efcec49655f70800000000000000
+      internalID: 9175355594951759597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4f37bd06b9fa8b0800000000000000
+      internalID: -5138717809505471301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 199
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e467c471129cb00800000000000000
+      internalID: 849246388686835302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 199
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bbb2e8ff0181ed0800000000000000
+      internalID: -2443184108060558588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 198
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbdb6577a3720830800000000000000
+      internalID: 4035915379144121275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 199
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e57041106b77320800000000000000
+      internalID: 2555711429303295557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 199
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedc6b6829210c7b0800000000000000
+      internalID: -5206140748705640978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 199
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b3dd7e608cc6b40800000000000000
+      internalID: 5434938782314740569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 199
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9566a29765bfda780800000000000000
+      internalID: -8669997358799755687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 199
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddb4f37528d655a0800000000000000
+      internalID: -6532796554083516973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701ac6342c1892e20800000000000000
+      internalID: 3326332471144653063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 199
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67f33eebc8b2a320800000000000000
+      internalID: 2567817923568858986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 200
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d619ff9342ecae80800000000000000
+      internalID: -8165903244254964015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 199
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bc424e4294b2f30800000000000000
+      internalID: 4551812271183285012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 169
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d70beab85eef5f90800000000000000
+      internalID: -6962584434030999594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 169
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e00f236017d8850800000000000000
+      internalID: 6380880518492196401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 168
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5e03cde1adc3d60800000000000000
+      internalID: 7871406074814850520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 169
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd36381fa1883d870800000000000000
+      internalID: 8706452153939747807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 168
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3ce744a8d3d3f40800000000000000
+      internalID: 5709787566639596495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 169
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d478650b3d29fe80800000000000000
+      internalID: -8144428719605779246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 169
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a331048d6d74b2f90800000000000000
+      internalID: -6977404209603800262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 169
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c3acf7b2a6421a0800000000000000
+      internalID: -6835221599381472099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 169
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e987bf5877479920800000000000000
+      internalID: 2996942659365865955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 169
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd6c951eb9fcf060800000000000000
+      internalID: 6988735316573842877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 169
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf84559c1e229f80800000000000000
+      internalID: -8101362079386792000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 169
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4d868e2291da580800000000000000
+      internalID: -8814361257975425852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db72f9ab7dbb28b0800000000000000
+      internalID: -5175835007902385198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 135
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558b4d4e65bf20a10800000000000000
+      internalID: 1874336745564452949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 134
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26da3004abe03c250800000000000000
+      internalID: 5963626524669357410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39ac03c1bbe933d0800000000000000
+      internalID: -3226288509320124099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62483e8c04a1264e0800000000000000
+      internalID: -1989999219793755098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d0d34adca6fccb0800000000000000
+      internalID: -4841533642943689341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48182a16663a98a0800000000000000
+      internalID: -6297661316770817970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 135
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2de366947243d80800000000000000
+      internalID: -8271943419371269402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 135
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ff26d940b0eb380800000000000000
+      internalID: -8953706894717681920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f530a64facd9c0e80800000000000000
+      internalID: -8211014525593713825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 133
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a61f01e8f6ecf20800000000000000
+      internalID: 3444813420945304183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 135
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f4034780b410460800000000000000
+      internalID: 7206123378450648855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544d777eeea4c8400800000000000000
+      internalID: 327719262837265477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 103
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdff1ab7d09c6680800000000000000
+      internalID: -8760467918927430215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 102
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2590152b702eba090800000000000000
+      internalID: -8022069788546102958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 104
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212df33e8b75edfe0800000000000000
+      internalID: -1162395202216799726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 102
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc54858b8d05ad80800000000000000
+      internalID: -8240165050312794950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 103
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedbce92fe5c68400800000000000000
+      internalID: 326165654022176238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 102
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95aaa3c3b1011c30800000000000000
+      internalID: 4328242588473271711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 104
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc8e856ba5caa9c0800000000000000
+      internalID: -3915099586111304456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 104
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49c32b474a7c6fe0800000000000000
+      internalID: -1194445354538120882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 102
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37287d510ebb52b20800000000000000
+      internalID: 3109097688882709107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 101
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3826ec376e28993d0800000000000000
+      internalID: -3199382133973032317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 102
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9be19a55ea2e73d0800000000000000
+      internalID: -3207078720085824610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109cf06a308c973d0800000000000000
+      internalID: -3208313341528258303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 71
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869e3ea580b73b370800000000000000
+      internalID: 8337142611007760744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369a1cc3b369ecf20800000000000000
+      internalID: 3444855946151569763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7129b74619b15ffa0800000000000000
+      internalID: -5767673436508024297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 71
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef305382c4fce550800000000000000
+      internalID: 6191592703991496675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5597caca13aff9ad0800000000000000
+      internalID: -2693158960886941355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3588a15108bfd510800000000000000
+      internalID: 1576180710407439677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 71
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c34ff88701131ad0800000000000000
+      internalID: -2732821824822885432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 71
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739d9c3fafd6de5b0800000000000000
+      internalID: -5337489058764826313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7816e3f233b04f0800000000000000
+      internalID: -861538625708259416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 69
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bf935759e16e7f0800000000000000
+      internalID: -583745474432206026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55592568ed4b04e0800000000000000
+      internalID: -2014430747793205921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 41
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72f252ef648bf0f0800000000000000
+      internalID: -1082125669379149190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 41
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad3ea1b6b3225650800000000000000
+      internalID: 6220073302924082597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3576c198e3f7cc640800000000000000
+      internalID: 5101592384468969299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 41
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27363d0dcf4486fe0800000000000000
+      internalID: -1195629848440904846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 40
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae332a7e21eec330800000000000000
+      internalID: 3733168730870595238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 41
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b6025bdb738a0f0800000000000000
+      internalID: -1105572420592309462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 41
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548d76eb7b41b0fe0800000000000000
+      internalID: -1221860094494910395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 41
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34388fddc318a4e0800000000000000
+      internalID: -1970303062035123138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 41
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da4bf3edd57b93a0800000000000000
+      internalID: -6657598028264027438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 41
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8ddddab670d4a80800000000000000
+      internalID: -8481114364208883486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 41
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d050e80a5ee4e73d0800000000000000
+      internalID: -3207039136493075187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 41
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a009a13c788c140800000000000000
+      internalID: 4740187879841466913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2c73720307ce0e0800000000000000
+      internalID: -2239291562591272193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf595bcf9e2e4480800000000000000
+      internalID: -8913135348673323068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd174debf56277bf0800000000000000
+      internalID: -326750255295729187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 7
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee2408728a5afe70800000000000000
+      internalID: 9149725109362372335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 7
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238da4eb7629a1310800000000000000
+      internalID: 1376573610386970674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d25d3227300ddb70800000000000000
+      internalID: 8925290273315836627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 7
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbfa6f6d4e556560800000000000000
+      internalID: 7306349657153272831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 7
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4566ab66eb86660800000000000000
+      internalID: 7379357337869767912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187f5803ac68fb0c0800000000000000
+      internalID: -4557776094920050815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 7
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47009fed01f5ffc0800000000000000
+      internalID: -3461595696408295603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 8
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f12f4ce25211a90800000000000000
+      internalID: -7345048634461642964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blonde-Dog-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 7
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31784b4c7d102c1d0800000000000000
+      internalID: -3332098748070983917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blonde-Dog-32x32_0: 3161092842334168525
+      Blonde-Dog-32x32_1: -6149857074411114842
+      Blonde-Dog-32x32_10: 9175355594951759597
+      Blonde-Dog-32x32_11: -5138717809505471301
+      Blonde-Dog-32x32_12: 849246388686835302
+      Blonde-Dog-32x32_13: -2443184108060558588
+      Blonde-Dog-32x32_14: 4035915379144121275
+      Blonde-Dog-32x32_15: 2555711429303295557
+      Blonde-Dog-32x32_16: -5206140748705640978
+      Blonde-Dog-32x32_17: 5434938782314740569
+      Blonde-Dog-32x32_18: -8669997358799755687
+      Blonde-Dog-32x32_19: -6532796554083516973
+      Blonde-Dog-32x32_2: -3017706313111946463
+      Blonde-Dog-32x32_20: 3326332471144653063
+      Blonde-Dog-32x32_21: 2567817923568858986
+      Blonde-Dog-32x32_22: -8165903244254964015
+      Blonde-Dog-32x32_23: 4551812271183285012
+      Blonde-Dog-32x32_24: -6962584434030999594
+      Blonde-Dog-32x32_25: 6380880518492196401
+      Blonde-Dog-32x32_26: 7871406074814850520
+      Blonde-Dog-32x32_27: 8706452153939747807
+      Blonde-Dog-32x32_28: 5709787566639596495
+      Blonde-Dog-32x32_29: -8144428719605779246
+      Blonde-Dog-32x32_3: 3100627541589956434
+      Blonde-Dog-32x32_30: -6977404209603800262
+      Blonde-Dog-32x32_31: -6835221599381472099
+      Blonde-Dog-32x32_32: 2996942659365865955
+      Blonde-Dog-32x32_33: 6988735316573842877
+      Blonde-Dog-32x32_34: -8101362079386792000
+      Blonde-Dog-32x32_35: -8814361257975425852
+      Blonde-Dog-32x32_36: -5175835007902385198
+      Blonde-Dog-32x32_37: 1874336745564452949
+      Blonde-Dog-32x32_38: 5963626524669357410
+      Blonde-Dog-32x32_39: -3226288509320124099
+      Blonde-Dog-32x32_4: -3951060852207373664
+      Blonde-Dog-32x32_40: -1989999219793755098
+      Blonde-Dog-32x32_41: -4841533642943689341
+      Blonde-Dog-32x32_42: -6297661316770817970
+      Blonde-Dog-32x32_43: -8271943419371269402
+      Blonde-Dog-32x32_44: -8953706894717681920
+      Blonde-Dog-32x32_45: -8211014525593713825
+      Blonde-Dog-32x32_46: 3444813420945304183
+      Blonde-Dog-32x32_47: 7206123378450648855
+      Blonde-Dog-32x32_48: 327719262837265477
+      Blonde-Dog-32x32_49: -8760467918927430215
+      Blonde-Dog-32x32_5: -567357672657761624
+      Blonde-Dog-32x32_50: -8022069788546102958
+      Blonde-Dog-32x32_51: -1162395202216799726
+      Blonde-Dog-32x32_52: -8240165050312794950
+      Blonde-Dog-32x32_53: 326165654022176238
+      Blonde-Dog-32x32_54: 4328242588473271711
+      Blonde-Dog-32x32_55: -3915099586111304456
+      Blonde-Dog-32x32_56: -1194445354538120882
+      Blonde-Dog-32x32_57: 3109097688882709107
+      Blonde-Dog-32x32_58: -3199382133973032317
+      Blonde-Dog-32x32_59: -3207078720085824610
+      Blonde-Dog-32x32_6: -6769192624586629868
+      Blonde-Dog-32x32_60: -3208313341528258303
+      Blonde-Dog-32x32_61: 8337142611007760744
+      Blonde-Dog-32x32_62: 3444855946151569763
+      Blonde-Dog-32x32_63: -5767673436508024297
+      Blonde-Dog-32x32_64: 6191592703991496675
+      Blonde-Dog-32x32_65: -2693158960886941355
+      Blonde-Dog-32x32_66: 1576180710407439677
+      Blonde-Dog-32x32_67: -2732821824822885432
+      Blonde-Dog-32x32_68: -5337489058764826313
+      Blonde-Dog-32x32_69: -861538625708259416
+      Blonde-Dog-32x32_7: -4052152725104117965
+      Blonde-Dog-32x32_70: -583745474432206026
+      Blonde-Dog-32x32_71: -2014430747793205921
+      Blonde-Dog-32x32_72: -1082125669379149190
+      Blonde-Dog-32x32_73: 6220073302924082597
+      Blonde-Dog-32x32_74: 5101592384468969299
+      Blonde-Dog-32x32_75: -1195629848440904846
+      Blonde-Dog-32x32_76: 3733168730870595238
+      Blonde-Dog-32x32_77: -1105572420592309462
+      Blonde-Dog-32x32_78: -1221860094494910395
+      Blonde-Dog-32x32_79: -1970303062035123138
+      Blonde-Dog-32x32_8: -2685899116263260271
+      Blonde-Dog-32x32_80: -6657598028264027438
+      Blonde-Dog-32x32_81: -8481114364208883486
+      Blonde-Dog-32x32_82: -3207039136493075187
+      Blonde-Dog-32x32_83: 4740187879841466913
+      Blonde-Dog-32x32_84: -2239291562591272193
+      Blonde-Dog-32x32_85: -8913135348673323068
+      Blonde-Dog-32x32_86: -326750255295729187
+      Blonde-Dog-32x32_87: 9149725109362372335
+      Blonde-Dog-32x32_88: 1376573610386970674
+      Blonde-Dog-32x32_89: 8925290273315836627
+      Blonde-Dog-32x32_9: 2335312388236404628
+      Blonde-Dog-32x32_90: 7306349657153272831
+      Blonde-Dog-32x32_91: 7379357337869767912
+      Blonde-Dog-32x32_92: -4557776094920050815
+      Blonde-Dog-32x32_93: -3461595696408295603
+      Blonde-Dog-32x32_94: -7345048634461642964
+      Blonde-Dog-32x32_95: -3332098748070983917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

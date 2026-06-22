@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: b12ca8245950a3f4bbbbd31ac01b1468
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6225716734922463585
+    second: Purple-Spider-32x32_0
+  - first:
+      213: -2824701299554173424
+    second: Purple-Spider-32x32_1
+  - first:
+      213: 3511621582475004067
+    second: Purple-Spider-32x32_2
+  - first:
+      213: 4491143677746320629
+    second: Purple-Spider-32x32_3
+  - first:
+      213: 1712495515117625980
+    second: Purple-Spider-32x32_4
+  - first:
+      213: 6186260349048807839
+    second: Purple-Spider-32x32_5
+  - first:
+      213: 5976441764476722999
+    second: Purple-Spider-32x32_6
+  - first:
+      213: -3372180797621842966
+    second: Purple-Spider-32x32_7
+  - first:
+      213: 7745684630012526310
+    second: Purple-Spider-32x32_8
+  - first:
+      213: 7956621642972521408
+    second: Purple-Spider-32x32_9
+  - first:
+      213: 888938748116344655
+    second: Purple-Spider-32x32_10
+  - first:
+      213: -4964399314930898454
+    second: Purple-Spider-32x32_11
+  - first:
+      213: -5835723557011756835
+    second: Purple-Spider-32x32_12
+  - first:
+      213: 1485381172780805124
+    second: Purple-Spider-32x32_13
+  - first:
+      213: -1972112010010435894
+    second: Purple-Spider-32x32_14
+  - first:
+      213: -2925392002580753209
+    second: Purple-Spider-32x32_15
+  - first:
+      213: 235559274491655992
+    second: Purple-Spider-32x32_16
+  - first:
+      213: -3021084992484178863
+    second: Purple-Spider-32x32_17
+  - first:
+      213: 5431652881836728528
+    second: Purple-Spider-32x32_18
+  - first:
+      213: -668468718028207572
+    second: Purple-Spider-32x32_19
+  - first:
+      213: -7180138774299692564
+    second: Purple-Spider-32x32_20
+  - first:
+      213: 6115719431209829076
+    second: Purple-Spider-32x32_21
+  - first:
+      213: -967429245409216102
+    second: Purple-Spider-32x32_22
+  - first:
+      213: 4512715546730170577
+    second: Purple-Spider-32x32_23
+  - first:
+      213: 7747175726264734629
+    second: Purple-Spider-32x32_24
+  - first:
+      213: 2241364016440878606
+    second: Purple-Spider-32x32_25
+  - first:
+      213: 5937186016877412122
+    second: Purple-Spider-32x32_26
+  - first:
+      213: 2202581655745236984
+    second: Purple-Spider-32x32_27
+  - first:
+      213: 2207212847597169526
+    second: Purple-Spider-32x32_28
+  - first:
+      213: 5262904529884844965
+    second: Purple-Spider-32x32_29
+  - first:
+      213: 6877651937080353220
+    second: Purple-Spider-32x32_30
+  - first:
+      213: 5512807450534619802
+    second: Purple-Spider-32x32_31
+  - first:
+      213: 593890256724641901
+    second: Purple-Spider-32x32_32
+  - first:
+      213: 4625552310929220761
+    second: Purple-Spider-32x32_33
+  - first:
+      213: 3542687137383439497
+    second: Purple-Spider-32x32_34
+  - first:
+      213: -7220173628913223781
+    second: Purple-Spider-32x32_35
+  - first:
+      213: -6370658231344691877
+    second: Purple-Spider-32x32_36
+  - first:
+      213: -498636099271873243
+    second: Purple-Spider-32x32_37
+  - first:
+      213: 3292866165035146089
+    second: Purple-Spider-32x32_38
+  - first:
+      213: -6964950946019843054
+    second: Purple-Spider-32x32_39
+  - first:
+      213: 731279775550255311
+    second: Purple-Spider-32x32_40
+  - first:
+      213: -3146593656395011152
+    second: Purple-Spider-32x32_41
+  - first:
+      213: 7679172688763704929
+    second: Purple-Spider-32x32_42
+  - first:
+      213: -1241159225119915696
+    second: Purple-Spider-32x32_43
+  - first:
+      213: -6677601826273972462
+    second: Purple-Spider-32x32_44
+  - first:
+      213: 7323714716167225344
+    second: Purple-Spider-32x32_45
+  - first:
+      213: 8833107980053250513
+    second: Purple-Spider-32x32_46
+  - first:
+      213: -3583198814381397667
+    second: Purple-Spider-32x32_47
+  - first:
+      213: -6879147220742499837
+    second: Purple-Spider-32x32_48
+  - first:
+      213: 7745664158935999034
+    second: Purple-Spider-32x32_49
+  - first:
+      213: -8635229854661741400
+    second: Purple-Spider-32x32_50
+  - first:
+      213: 4028171969188949105
+    second: Purple-Spider-32x32_51
+  - first:
+      213: -3123724778066503013
+    second: Purple-Spider-32x32_52
+  - first:
+      213: 6548581046642714923
+    second: Purple-Spider-32x32_53
+  - first:
+      213: -4306801612883916898
+    second: Purple-Spider-32x32_54
+  - first:
+      213: -7066268370449944585
+    second: Purple-Spider-32x32_55
+  - first:
+      213: 102492248076718076
+    second: Purple-Spider-32x32_56
+  - first:
+      213: 980619411190809269
+    second: Purple-Spider-32x32_57
+  - first:
+      213: 205759734692568337
+    second: Purple-Spider-32x32_58
+  - first:
+      213: 2735854467245616510
+    second: Purple-Spider-32x32_59
+  - first:
+      213: 4853792956176073265
+    second: Purple-Spider-32x32_60
+  - first:
+      213: -7923217042383156264
+    second: Purple-Spider-32x32_61
+  - first:
+      213: -4533325961426148377
+    second: Purple-Spider-32x32_62
+  - first:
+      213: -7548878705996357325
+    second: Purple-Spider-32x32_63
+  - first:
+      213: -7873978643727630727
+    second: Purple-Spider-32x32_64
+  - first:
+      213: 3303554841062583274
+    second: Purple-Spider-32x32_65
+  - first:
+      213: 8866176131133741444
+    second: Purple-Spider-32x32_66
+  - first:
+      213: 4043402270745105390
+    second: Purple-Spider-32x32_67
+  - first:
+      213: 1161021038620004081
+    second: Purple-Spider-32x32_68
+  - first:
+      213: -439619752041592103
+    second: Purple-Spider-32x32_69
+  - first:
+      213: -7092172779295388823
+    second: Purple-Spider-32x32_70
+  - first:
+      213: -7807228034890035439
+    second: Purple-Spider-32x32_71
+  - first:
+      213: 3663114561727512560
+    second: Purple-Spider-32x32_72
+  - first:
+      213: -817172881419562692
+    second: Purple-Spider-32x32_73
+  - first:
+      213: -8886926485878599771
+    second: Purple-Spider-32x32_74
+  - first:
+      213: -6571698262767699799
+    second: Purple-Spider-32x32_75
+  - first:
+      213: -2073941976275321792
+    second: Purple-Spider-32x32_76
+  - first:
+      213: -9107838483954895659
+    second: Purple-Spider-32x32_77
+  - first:
+      213: 4213514078735062123
+    second: Purple-Spider-32x32_78
+  - first:
+      213: 7939248100938049476
+    second: Purple-Spider-32x32_79
+  - first:
+      213: -2297547368407182467
+    second: Purple-Spider-32x32_80
+  - first:
+      213: -5460670540359764633
+    second: Purple-Spider-32x32_81
+  - first:
+      213: 8857709570299794045
+    second: Purple-Spider-32x32_82
+  - first:
+      213: -6728826844977109597
+    second: Purple-Spider-32x32_83
+  - first:
+      213: 1880570030275624106
+    second: Purple-Spider-32x32_84
+  - first:
+      213: -5158626120036501196
+    second: Purple-Spider-32x32_85
+  - first:
+      213: 656435814501121830
+    second: Purple-Spider-32x32_86
+  - first:
+      213: 8811830436848481638
+    second: Purple-Spider-32x32_87
+  - first:
+      213: -8647737109435451494
+    second: Purple-Spider-32x32_88
+  - first:
+      213: -5407858473701037945
+    second: Purple-Spider-32x32_89
+  - first:
+      213: -2548018237289555858
+    second: Purple-Spider-32x32_90
+  - first:
+      213: 7993815298012957398
+    second: Purple-Spider-32x32_91
+  - first:
+      213: 1683695100962878056
+    second: Purple-Spider-32x32_92
+  - first:
+      213: -2096190785349727555
+    second: Purple-Spider-32x32_93
+  - first:
+      213: 6829929603681548891
+    second: Purple-Spider-32x32_94
+  - first:
+      213: 4094379279936979106
+    second: Purple-Spider-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 230
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16912499260366650800000000000000
+      internalID: 6225716734922463585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 231
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e3d7b4225acc8d0800000000000000
+      internalID: -2824701299554173424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 230
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a884015939cbb030800000000000000
+      internalID: 3511621582475004067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 228
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f49f4b316fb35e30800000000000000
+      internalID: 4491143677746320629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 230
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72290a099104c710800000000000000
+      internalID: 1712495515117625980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 228
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f916321e2030ad550800000000000000
+      internalID: 6186260349048807839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 231
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f9178ce1690f250800000000000000
+      internalID: 5976441764476722999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 228
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb4b5f5e6b9331d0800000000000000
+      internalID: -3372180797621842966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 229
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee7912f1233e7b60800000000000000
+      internalID: 7745684630012526310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 231
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3ef817a399b6e60800000000000000
+      internalID: 7956621642972521408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 232
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f1e84e415265c00800000000000000
+      internalID: 888938748116344655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 231
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9e9562029ea1bb0800000000000000
+      internalID: -4964399314930898454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd86fe80858530fa0800000000000000
+      internalID: -5835723557011756835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c27a78e422d9410800000000000000
+      internalID: 1485381172780805124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acedb0a5396a1a4e0800000000000000
+      internalID: -1972112010010435894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 197
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4d769197be667d0800000000000000
+      internalID: -2925392002580753209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837bf9f79efd44300800000000000000
+      internalID: 235559274491655992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15487baa433f216d0800000000000000
+      internalID: -3021084992484178863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0ea15948b116b40800000000000000
+      internalID: 5431652881836728528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 197
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ac77e1e3f19b6f0800000000000000
+      internalID: -668468718028207572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 198
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1bbd7a3d50b5c90800000000000000
+      internalID: -7180138774299692564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d247339b666fd450800000000000000
+      internalID: 6115719431209829076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 200
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a993f0a1a300392f0800000000000000
+      internalID: -967429245409216102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80c3f51e260ae30800000000000000
+      internalID: 4512715546730170577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3d988d64f738b60800000000000000
+      internalID: 7747175726264734629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e062d4c92bcea1f10800000000000000
+      internalID: 2241364016440878606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 167
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ff46dc93f156250800000000000000
+      internalID: 5937186016877412122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 167
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff8c7b9854219e10800000000000000
+      internalID: 2202581655745236984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 167
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b25bcf36891ae10800000000000000
+      internalID: 2207212847597169526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 168
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3949e29c7990940800000000000000
+      internalID: 5262904529884844965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1a3765ff3527f50800000000000000
+      internalID: 6877651937080353220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 168
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a2e3c0b2d618c40800000000000000
+      internalID: 5512807450534619802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 168
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6843abba0ced3800800000000000000
+      internalID: 593890256724641901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9946ceec153413040800000000000000
+      internalID: 4625552310929220761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cd5167e272a2130800000000000000
+      internalID: 3542687137383439497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97fbffa65acccb90800000000000000
+      internalID: -7220173628913223781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55084f7710e697a0800000000000000
+      internalID: -6370658231344691877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 136
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52da6be0c1d7419f0800000000000000
+      internalID: -498636099271873243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 135
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b92dba45c92bd20800000000000000
+      internalID: 3292866165035146089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21467783406875f90800000000000000
+      internalID: -6964950946019843054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 136
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b915d417062a00800000000000000
+      internalID: 731279775550255311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbe31aadbd0554d0800000000000000
+      internalID: -3146593656395011152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16654aadfd6e19a60800000000000000
+      internalID: 7679172688763704929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 136
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051470db24486cee0800000000000000
+      internalID: -1241159225119915696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 136
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fa079b4846453a0800000000000000
+      internalID: -6677601826273972462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000c27d4bbf03a560800000000000000
+      internalID: 7323714716167225344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 135
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d10eb578e0859a70800000000000000
+      internalID: 8833107980053250513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d592235b9abe54ec0800000000000000
+      internalID: -3583198814381397667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302170ecc0c5880a0800000000000000
+      internalID: -6879147220742499837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 104
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32ead6a3802e7b60800000000000000
+      internalID: 7745664158935999034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 102
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4f907d230892880800000000000000
+      internalID: -8635229854661741400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c61b55011f6e730800000000000000
+      internalID: 4028171969188949105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 102
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a92435ddc46a4d0800000000000000
+      internalID: -3123724778066503013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 103
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29aefb14cb31ea50800000000000000
+      internalID: 6548581046642714923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 103
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9789f160ca2b34c0800000000000000
+      internalID: -4306801612883916898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 104
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffa0c31b529fed90800000000000000
+      internalID: -7066268370449944585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 104
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff08d618202c6100800000000000000
+      internalID: 102492248076718076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 103
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b281efa82cdb9d00800000000000000
+      internalID: 980619411190809269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 102
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ddd6773610bd200800000000000000
+      internalID: 205759734692568337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 103
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d275d8425b7f520800000000000000
+      internalID: 2735854467245616510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1320b262af22c5340800000000000000
+      internalID: 4853792956176073265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 72
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db4e6634141b0290800000000000000
+      internalID: -7923217042383156264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 71
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e363228e046611c0800000000000000
+      internalID: -4533325961426148377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331a39400defc3790800000000000000
+      internalID: -7548878705996357325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 72
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e3a9344220ab290800000000000000
+      internalID: -7873978643727630727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebae8dff9598dd20800000000000000
+      internalID: 3303554841062583274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489164c573cfa0b70800000000000000
+      internalID: 8866176131133741444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 72
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee315cf31fc0d1830800000000000000
+      internalID: 4043402270745105390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 72
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe43b7bb76cc1010800000000000000
+      internalID: 1161021038620004081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dac05b2a2826e9f0800000000000000
+      internalID: -439619752041592103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 71
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b4764ee6a839d90800000000000000
+      internalID: -7092172779295388823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f88eb777727a390800000000000000
+      internalID: -7807228034890035439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff345f294ff5d230800000000000000
+      internalID: 3663114561727512560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3197ea0891d8a4f0800000000000000
+      internalID: -817172881419562692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 39
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af0230327b4ba480800000000000000
+      internalID: -8886926485878599771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8fda49f33acc4a0800000000000000
+      internalID: -6571698262767699799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 39
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c7653c2c0e733e0800000000000000
+      internalID: -2073941976275321792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d47c3c77257a9180800000000000000
+      internalID: -9107838483954895659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b645c1ffab8697a30800000000000000
+      internalID: 4213514078735062123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 40
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c76b187510ed2e60800000000000000
+      internalID: 7939248100938049476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 40
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73d47367d87d10e0800000000000000
+      internalID: -2297547368407182467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7657a6e431dc734b0800000000000000
+      internalID: -5460670540359764633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d721c4d8ce7ecea70800000000000000
+      internalID: 8857709570299794045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5e606a2a76e92a0800000000000000
+      internalID: -6728826844977109597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacf2d59a70291a10800000000000000
+      internalID: 1880570030275624106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4393c2a10e0e868b0800000000000000
+      internalID: -5158626120036501196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ffe2535e02c1900800000000000000
+      internalID: 656435814501121830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 5
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66534516819e94a70800000000000000
+      internalID: 8811830436848481638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97f229aae01df780800000000000000
+      internalID: -8647737109435451494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788a677ce5d63f4b0800000000000000
+      internalID: -5407858473701037945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e689325c9ee93acd0800000000000000
+      internalID: -2548018237289555858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da452619acbfee60800000000000000
+      internalID: 7993815298012957398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 6
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86235f216cfad5710800000000000000
+      internalID: 1683695100962878056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba48c93695d8e2e0800000000000000
+      internalID: -2096190785349727555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 8
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5afc5cb9c8c8ce50800000000000000
+      internalID: 6829929603681548891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Purple-Spider-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a00d5c134822d830800000000000000
+      internalID: 4094379279936979106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Purple-Spider-32x32_0: 6225716734922463585
+      Purple-Spider-32x32_1: -2824701299554173424
+      Purple-Spider-32x32_10: 888938748116344655
+      Purple-Spider-32x32_11: -4964399314930898454
+      Purple-Spider-32x32_12: -5835723557011756835
+      Purple-Spider-32x32_13: 1485381172780805124
+      Purple-Spider-32x32_14: -1972112010010435894
+      Purple-Spider-32x32_15: -2925392002580753209
+      Purple-Spider-32x32_16: 235559274491655992
+      Purple-Spider-32x32_17: -3021084992484178863
+      Purple-Spider-32x32_18: 5431652881836728528
+      Purple-Spider-32x32_19: -668468718028207572
+      Purple-Spider-32x32_2: 3511621582475004067
+      Purple-Spider-32x32_20: -7180138774299692564
+      Purple-Spider-32x32_21: 6115719431209829076
+      Purple-Spider-32x32_22: -967429245409216102
+      Purple-Spider-32x32_23: 4512715546730170577
+      Purple-Spider-32x32_24: 7747175726264734629
+      Purple-Spider-32x32_25: 2241364016440878606
+      Purple-Spider-32x32_26: 5937186016877412122
+      Purple-Spider-32x32_27: 2202581655745236984
+      Purple-Spider-32x32_28: 2207212847597169526
+      Purple-Spider-32x32_29: 5262904529884844965
+      Purple-Spider-32x32_3: 4491143677746320629
+      Purple-Spider-32x32_30: 6877651937080353220
+      Purple-Spider-32x32_31: 5512807450534619802
+      Purple-Spider-32x32_32: 593890256724641901
+      Purple-Spider-32x32_33: 4625552310929220761
+      Purple-Spider-32x32_34: 3542687137383439497
+      Purple-Spider-32x32_35: -7220173628913223781
+      Purple-Spider-32x32_36: -6370658231344691877
+      Purple-Spider-32x32_37: -498636099271873243
+      Purple-Spider-32x32_38: 3292866165035146089
+      Purple-Spider-32x32_39: -6964950946019843054
+      Purple-Spider-32x32_4: 1712495515117625980
+      Purple-Spider-32x32_40: 731279775550255311
+      Purple-Spider-32x32_41: -3146593656395011152
+      Purple-Spider-32x32_42: 7679172688763704929
+      Purple-Spider-32x32_43: -1241159225119915696
+      Purple-Spider-32x32_44: -6677601826273972462
+      Purple-Spider-32x32_45: 7323714716167225344
+      Purple-Spider-32x32_46: 8833107980053250513
+      Purple-Spider-32x32_47: -3583198814381397667
+      Purple-Spider-32x32_48: -6879147220742499837
+      Purple-Spider-32x32_49: 7745664158935999034
+      Purple-Spider-32x32_5: 6186260349048807839
+      Purple-Spider-32x32_50: -8635229854661741400
+      Purple-Spider-32x32_51: 4028171969188949105
+      Purple-Spider-32x32_52: -3123724778066503013
+      Purple-Spider-32x32_53: 6548581046642714923
+      Purple-Spider-32x32_54: -4306801612883916898
+      Purple-Spider-32x32_55: -7066268370449944585
+      Purple-Spider-32x32_56: 102492248076718076
+      Purple-Spider-32x32_57: 980619411190809269
+      Purple-Spider-32x32_58: 205759734692568337
+      Purple-Spider-32x32_59: 2735854467245616510
+      Purple-Spider-32x32_6: 5976441764476722999
+      Purple-Spider-32x32_60: 4853792956176073265
+      Purple-Spider-32x32_61: -7923217042383156264
+      Purple-Spider-32x32_62: -4533325961426148377
+      Purple-Spider-32x32_63: -7548878705996357325
+      Purple-Spider-32x32_64: -7873978643727630727
+      Purple-Spider-32x32_65: 3303554841062583274
+      Purple-Spider-32x32_66: 8866176131133741444
+      Purple-Spider-32x32_67: 4043402270745105390
+      Purple-Spider-32x32_68: 1161021038620004081
+      Purple-Spider-32x32_69: -439619752041592103
+      Purple-Spider-32x32_7: -3372180797621842966
+      Purple-Spider-32x32_70: -7092172779295388823
+      Purple-Spider-32x32_71: -7807228034890035439
+      Purple-Spider-32x32_72: 3663114561727512560
+      Purple-Spider-32x32_73: -817172881419562692
+      Purple-Spider-32x32_74: -8886926485878599771
+      Purple-Spider-32x32_75: -6571698262767699799
+      Purple-Spider-32x32_76: -2073941976275321792
+      Purple-Spider-32x32_77: -9107838483954895659
+      Purple-Spider-32x32_78: 4213514078735062123
+      Purple-Spider-32x32_79: 7939248100938049476
+      Purple-Spider-32x32_8: 7745684630012526310
+      Purple-Spider-32x32_80: -2297547368407182467
+      Purple-Spider-32x32_81: -5460670540359764633
+      Purple-Spider-32x32_82: 8857709570299794045
+      Purple-Spider-32x32_83: -6728826844977109597
+      Purple-Spider-32x32_84: 1880570030275624106
+      Purple-Spider-32x32_85: -5158626120036501196
+      Purple-Spider-32x32_86: 656435814501121830
+      Purple-Spider-32x32_87: 8811830436848481638
+      Purple-Spider-32x32_88: -8647737109435451494
+      Purple-Spider-32x32_89: -5407858473701037945
+      Purple-Spider-32x32_9: 7956621642972521408
+      Purple-Spider-32x32_90: -2548018237289555858
+      Purple-Spider-32x32_91: 7993815298012957398
+      Purple-Spider-32x32_92: 1683695100962878056
+      Purple-Spider-32x32_93: -2096190785349727555
+      Purple-Spider-32x32_94: 6829929603681548891
+      Purple-Spider-32x32_95: 4094379279936979106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
