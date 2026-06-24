@@ -18,6 +18,10 @@ public class EnemyChase : MonoBehaviour
     private float lastDamageTime;
     private bool isChasing = false;
 
+    // Knockback
+    private bool isKnockedBack = false;
+    private float knockbackEndTime = 0f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,25 +30,50 @@ public class EnemyChase : MonoBehaviour
 
     private void Start()
     {
-        // Find player by type dynamically
+        // Cách 1: Tìm qua script Player
         Player player = FindAnyObjectByType<Player>();
         if (player != null)
         {
             playerTransform = player.transform;
+            return;
         }
-        else
+
+        // Cách 2: Tìm qua script PlayerShooting (dự phòng)
+        PlayerShooting playerShooting = FindAnyObjectByType<PlayerShooting>();
+        if (playerShooting != null)
         {
-            Debug.LogWarning("EnemyChase: No Player object found in the scene.");
+            playerTransform = playerShooting.transform;
+            return;
         }
+
+        // Cách 3: Tìm qua Tag "Player" (dự phòng)
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            playerTransform = playerObj.transform;
+            return;
+        }
+
+        Debug.LogWarning("EnemyChase: Không tìm thấy Player! Kiểm tra lại Tag hoặc Script trên Player.");
     }
 
     private void FixedUpdate()
     {
         if (playerTransform == null) return;
 
+        // Đang bị knockback: dừng đuổi, chờ knockback xong
+        if (isKnockedBack)
+        {
+            if (Time.time >= knockbackEndTime)
+            {
+                isKnockedBack = false;
+                rb.linearVelocity = Vector2.zero; // Dừng lại hẳn sau khi knockback xong
+            }
+            return; // Bỏ qua di chuyển khi đang bị đẩy lùi
+        }
+
         float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
-        // Check if player enters detection range, or if we chase forever once detected
         if (distanceToPlayer <= detectionRadius)
         {
             isChasing = true;
@@ -58,6 +87,15 @@ public class EnemyChase : MonoBehaviour
         {
             MoveTowardsPlayer();
         }
+    }
+
+    // Gọi từ PlayerMelee để kích hoạt knockback
+    public void ApplyKnockback(Vector2 force, float duration = 0.35f)
+    {
+        isKnockedBack = true;
+        knockbackEndTime = Time.time + duration;
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(force, ForceMode2D.Impulse);
     }
 
     private void MoveTowardsPlayer()
