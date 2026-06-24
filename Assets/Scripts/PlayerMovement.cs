@@ -31,6 +31,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+    private bool isKnockedBack = false;
+    private float knockbackEndTime = 0f;
+
+    public void ApplyKnockback(Vector2 direction, float force, float duration)
+    {
+        isKnockedBack = true;
+        knockbackEndTime = Time.time + duration;
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(direction * force, ForceMode2D.Impulse);
+    }
+
     private void FixedUpdate()
     {   
         if(PauseController.isGamePaused)
