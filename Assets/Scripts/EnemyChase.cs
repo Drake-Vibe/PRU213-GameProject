@@ -130,14 +130,31 @@ public class EnemyChase : MonoBehaviour
         AttemptDamage(collision.gameObject);
     }
 
+    // Hỗ trợ cả Is Trigger = true
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        AttemptDamage(other.gameObject);
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        AttemptDamage(other.gameObject);
+    }
+
     private void AttemptDamage(GameObject target)
     {
-        if (target.TryGetComponent<Player>(out Player playerScript))
+        // Tìm script Player trên chính object hoặc object cha
+        Player playerScript = target.GetComponent<Player>();
+        if (playerScript == null)
+            playerScript = target.GetComponentInParent<Player>();
+
+        if (playerScript != null)
         {
             if (Time.time - lastDamageTime >= damageInterval)
             {
                 playerScript.TakeDamage(damageAmount);
                 lastDamageTime = Time.time;
+                Debug.Log("Quái gây " + damageAmount + " sát thương cho Player!");
             }
         }
     }
