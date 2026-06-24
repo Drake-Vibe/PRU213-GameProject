@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 03f475a710879ab4898a594f0ba27c21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5717570904528118091
+    second: Brown-Spider-32x32_0
+  - first:
+      213: 1940592258587632937
+    second: Brown-Spider-32x32_1
+  - first:
+      213: -6286873569271641805
+    second: Brown-Spider-32x32_2
+  - first:
+      213: 5624915362650316666
+    second: Brown-Spider-32x32_3
+  - first:
+      213: 4209573162501680944
+    second: Brown-Spider-32x32_4
+  - first:
+      213: -6896900758176959146
+    second: Brown-Spider-32x32_5
+  - first:
+      213: -7262597038896811588
+    second: Brown-Spider-32x32_6
+  - first:
+      213: 4800473615605461701
+    second: Brown-Spider-32x32_7
+  - first:
+      213: -3657825612859443977
+    second: Brown-Spider-32x32_8
+  - first:
+      213: -1349020553328119900
+    second: Brown-Spider-32x32_9
+  - first:
+      213: -3507924990663538389
+    second: Brown-Spider-32x32_10
+  - first:
+      213: -4715708652727631848
+    second: Brown-Spider-32x32_11
+  - first:
+      213: -918560783317098589
+    second: Brown-Spider-32x32_12
+  - first:
+      213: 2470143437859819990
+    second: Brown-Spider-32x32_13
+  - first:
+      213: 5274573373918426375
+    second: Brown-Spider-32x32_14
+  - first:
+      213: -5487727391590387638
+    second: Brown-Spider-32x32_15
+  - first:
+      213: 3648596600286139075
+    second: Brown-Spider-32x32_16
+  - first:
+      213: -347994342905227293
+    second: Brown-Spider-32x32_17
+  - first:
+      213: 4955583378476273386
+    second: Brown-Spider-32x32_18
+  - first:
+      213: -924781721466694058
+    second: Brown-Spider-32x32_19
+  - first:
+      213: -35376592834262656
+    second: Brown-Spider-32x32_20
+  - first:
+      213: -8083252226705094366
+    second: Brown-Spider-32x32_21
+  - first:
+      213: 7611031481083506264
+    second: Brown-Spider-32x32_22
+  - first:
+      213: 7030197623636202039
+    second: Brown-Spider-32x32_23
+  - first:
+      213: -874223918356363106
+    second: Brown-Spider-32x32_24
+  - first:
+      213: 5170252874001710973
+    second: Brown-Spider-32x32_25
+  - first:
+      213: 7719858290022001582
+    second: Brown-Spider-32x32_26
+  - first:
+      213: 3405509101022713559
+    second: Brown-Spider-32x32_27
+  - first:
+      213: 4798775127101674928
+    second: Brown-Spider-32x32_28
+  - first:
+      213: -7155334187225906499
+    second: Brown-Spider-32x32_29
+  - first:
+      213: -8024709302351504658
+    second: Brown-Spider-32x32_30
+  - first:
+      213: -1985946021259412812
+    second: Brown-Spider-32x32_31
+  - first:
+      213: -5853340322103240064
+    second: Brown-Spider-32x32_32
+  - first:
+      213: -7706155164608213937
+    second: Brown-Spider-32x32_33
+  - first:
+      213: 1624504483038108459
+    second: Brown-Spider-32x32_34
+  - first:
+      213: 1720457789513922758
+    second: Brown-Spider-32x32_35
+  - first:
+      213: 4237223512042681938
+    second: Brown-Spider-32x32_36
+  - first:
+      213: 1363149195232102524
+    second: Brown-Spider-32x32_37
+  - first:
+      213: -5411048692292595688
+    second: Brown-Spider-32x32_38
+  - first:
+      213: -3833995409950986633
+    second: Brown-Spider-32x32_39
+  - first:
+      213: -8115543282641981397
+    second: Brown-Spider-32x32_40
+  - first:
+      213: -6417566528968788905
+    second: Brown-Spider-32x32_41
+  - first:
+      213: -7241693592737791776
+    second: Brown-Spider-32x32_42
+  - first:
+      213: 3240754919594246834
+    second: Brown-Spider-32x32_43
+  - first:
+      213: -3055485606054752853
+    second: Brown-Spider-32x32_44
+  - first:
+      213: -1615787539009295471
+    second: Brown-Spider-32x32_45
+  - first:
+      213: 234841802810173920
+    second: Brown-Spider-32x32_46
+  - first:
+      213: 5200929557696730943
+    second: Brown-Spider-32x32_47
+  - first:
+      213: -5408299533622052324
+    second: Brown-Spider-32x32_48
+  - first:
+      213: 5999783909230139768
+    second: Brown-Spider-32x32_49
+  - first:
+      213: -4901903561509444124
+    second: Brown-Spider-32x32_50
+  - first:
+      213: -3770126576787327849
+    second: Brown-Spider-32x32_51
+  - first:
+      213: -1868108017690112181
+    second: Brown-Spider-32x32_52
+  - first:
+      213: -2819648362772116883
+    second: Brown-Spider-32x32_53
+  - first:
+      213: 7515910004764479585
+    second: Brown-Spider-32x32_54
+  - first:
+      213: 4246926324414963444
+    second: Brown-Spider-32x32_55
+  - first:
+      213: -1228009458419205390
+    second: Brown-Spider-32x32_56
+  - first:
+      213: 8683852768261052897
+    second: Brown-Spider-32x32_57
+  - first:
+      213: -2313883771990098879
+    second: Brown-Spider-32x32_58
+  - first:
+      213: -2814239888982202162
+    second: Brown-Spider-32x32_59
+  - first:
+      213: -8615742238182724479
+    second: Brown-Spider-32x32_60
+  - first:
+      213: -6397145032282798577
+    second: Brown-Spider-32x32_61
+  - first:
+      213: -243557675242142113
+    second: Brown-Spider-32x32_62
+  - first:
+      213: -2633943327260491564
+    second: Brown-Spider-32x32_63
+  - first:
+      213: -8850653914063355970
+    second: Brown-Spider-32x32_64
+  - first:
+      213: 713380854969617435
+    second: Brown-Spider-32x32_65
+  - first:
+      213: 8408023939133174901
+    second: Brown-Spider-32x32_66
+  - first:
+      213: -4984944020168920365
+    second: Brown-Spider-32x32_67
+  - first:
+      213: 7483100600908536497
+    second: Brown-Spider-32x32_68
+  - first:
+      213: 4198448004802125385
+    second: Brown-Spider-32x32_69
+  - first:
+      213: 4883683470465670892
+    second: Brown-Spider-32x32_70
+  - first:
+      213: 6983673661101778511
+    second: Brown-Spider-32x32_71
+  - first:
+      213: 5424856881770566306
+    second: Brown-Spider-32x32_72
+  - first:
+      213: -6134994125435628296
+    second: Brown-Spider-32x32_73
+  - first:
+      213: 5667023228388882182
+    second: Brown-Spider-32x32_74
+  - first:
+      213: 8962572063943454126
+    second: Brown-Spider-32x32_75
+  - first:
+      213: 8342535211703757796
+    second: Brown-Spider-32x32_76
+  - first:
+      213: 9127110228472057721
+    second: Brown-Spider-32x32_77
+  - first:
+      213: 598853218759892094
+    second: Brown-Spider-32x32_78
+  - first:
+      213: 5574048472743933742
+    second: Brown-Spider-32x32_79
+  - first:
+      213: -3543184650585961966
+    second: Brown-Spider-32x32_80
+  - first:
+      213: 8526624667984557714
+    second: Brown-Spider-32x32_81
+  - first:
+      213: -788032702441936587
+    second: Brown-Spider-32x32_82
+  - first:
+      213: -4025327639395522839
+    second: Brown-Spider-32x32_83
+  - first:
+      213: -3789359871977396963
+    second: Brown-Spider-32x32_84
+  - first:
+      213: 8107863339880669537
+    second: Brown-Spider-32x32_85
+  - first:
+      213: -2728156360791651794
+    second: Brown-Spider-32x32_86
+  - first:
+      213: 5344808779708205291
+    second: Brown-Spider-32x32_87
+  - first:
+      213: -6703057103966235453
+    second: Brown-Spider-32x32_88
+  - first:
+      213: -5083565799966924359
+    second: Brown-Spider-32x32_89
+  - first:
+      213: -3066585723533942530
+    second: Brown-Spider-32x32_90
+  - first:
+      213: -8984706046641495347
+    second: Brown-Spider-32x32_91
+  - first:
+      213: 226331808072384705
+    second: Brown-Spider-32x32_92
+  - first:
+      213: -6397075725694324179
+    second: Brown-Spider-32x32_93
+  - first:
+      213: 897554106119670653
+    second: Brown-Spider-32x32_94
+  - first:
+      213: -7243421253475491843
+    second: Brown-Spider-32x32_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 230
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41e186d174e85f40800000000000000
+      internalID: 5717570904528118091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 231
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9252df2a06e5eea10800000000000000
+      internalID: 1940592258587632937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 230
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33985cb4cc980c8a0800000000000000
+      internalID: -6286873569271641805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 228
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fd86268b6bf0e40800000000000000
+      internalID: 5624915362650316666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 230
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f2eeeec786b6a30800000000000000
+      internalID: 4209573162501680944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 228
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6557db14d494940a0800000000000000
+      internalID: -6896900758176959146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 231
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb170c5d872163b90800000000000000
+      internalID: -7262597038896811588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 228
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c27cc3c155be9240800000000000000
+      internalID: 4800473615605461701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 229
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4ff2f2cfacc3dc0800000000000000
+      internalID: -3657825612859443977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 231
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af2d2444f0574de0800000000000000
+      internalID: -1349020553328119900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 232
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29c8c88ec8515fc0800000000000000
+      internalID: -3507924990663538389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 231
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8100fe917ff6e8eb0800000000000000
+      internalID: -4715708652727631848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af97c595dd9043f0800000000000000
+      internalID: -918560783317098589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d195ed8e56b74220800000000000000
+      internalID: 2470143437859819990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7053426a98c033940800000000000000
+      internalID: 5274573373918426375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 197
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40f218330da7d3b0800000000000000
+      internalID: -5487727391590387638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 198
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2d0c0e64b62a230800000000000000
+      internalID: 3648596600286139075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7d9472dfcab2bf0800000000000000
+      internalID: -347994342905227293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee88e0b3d4c5c440800000000000000
+      internalID: 4955583378476273386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 197
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656143d8ce38a23f0800000000000000
+      internalID: -924781721466694058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 198
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08900ce1d21528ff0800000000000000
+      internalID: -35376592834262656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2298b5d3de482df80800000000000000
+      internalID: -8083252226705094366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_22
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 200
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e2c4c9ec0df9960800000000000000
+      internalID: 7611031481083506264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 199
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73291a9bd77409160800000000000000
+      internalID: 7030197623636202039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9808346af12ed3f0800000000000000
+      internalID: -874223918356363106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f70d1889d60c740800000000000000
+      internalID: 5170252874001710973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 167
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabad159632722b60800000000000000
+      internalID: 7719858290022001582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 167
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d691d5fb7cc24f20800000000000000
+      internalID: 3405509101022713559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 167
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b510e79d8ca89240800000000000000
+      internalID: 4798775127101674928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 168
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db20131a77523bc90800000000000000
+      internalID: -7155334187225906499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eead09ff76182a090800000000000000
+      internalID: -8024709302351504658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_31
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 168
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba7bbb9d908074e0800000000000000
+      internalID: -1985946021259412812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 168
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ad0974df1c4cea0800000000000000
+      internalID: -5853340322103240064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c4c7de4bc3e0590800000000000000
+      internalID: -7706155164608213937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_34
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b148768366b8610800000000000000
+      internalID: 1624504483038108459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_35
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 168
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8f7038e3b40e710800000000000000
+      internalID: 1720457789513922758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256bc3d9554adca30800000000000000
+      internalID: 4237223512042681938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 136
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c784ba588f0eae210800000000000000
+      internalID: 1363149195232102524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 135
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810de8122e718e4b0800000000000000
+      internalID: -5411048692292595688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ea46fec79eacac0800000000000000
+      internalID: -3833995409950986633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_40
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 136
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2031d6e16ccf5f80800000000000000
+      internalID: -8115543282641981397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754f06e5e3930f6a0800000000000000
+      internalID: -6417566528968788905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_42
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e044a8ab06508b90800000000000000
+      internalID: -7241693592737791776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 136
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2c38add6979fc20800000000000000
+      internalID: 3240754919594246834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 136
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad89caa70cb895d0800000000000000
+      internalID: -3055485606054752853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_45
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b29d84bc19399e0800000000000000
+      internalID: -1615787539009295471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_46
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 135
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9a9ea1063524300800000000000000
+      internalID: 234841802810173920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_47
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 136
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37d75480e96d2840800000000000000
+      internalID: 5200929557696730943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1afb838a3cd1f4b0800000000000000
+      internalID: -5408299533622052324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 104
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87954ce5da3834350800000000000000
+      internalID: 5999783909230139768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_50
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 102
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5e105aea0f8fbb0800000000000000
+      internalID: -4901903561509444124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794f4587ad1ddabc0800000000000000
+      internalID: -3770126576787327849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 102
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f8583d7a52316e0800000000000000
+      internalID: -1868108017690112181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 103
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ac471d0c89ed8d0800000000000000
+      internalID: -2819648362772116883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_54
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 103
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1609acd0450ed4860800000000000000
+      internalID: 7515910004764479585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 104
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe520aadfc10fa30800000000000000
+      internalID: 4246926324414963444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_56
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 104
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa7a1267eb35fee0800000000000000
+      internalID: -1228009458419205390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_57
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 103
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e91efd651e338870800000000000000
+      internalID: 8683852768261052897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_58
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 102
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c3df608fe63efd0800000000000000
+      internalID: -2313883771990098879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_59
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 103
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec82b704bbfc1f8d0800000000000000
+      internalID: -2814239888982202162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c2ac0251cbe6880800000000000000
+      internalID: -8615742238182724479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 72
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0601269c76c837a0800000000000000
+      internalID: -6397145032282798577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 71
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f564fd4b595be9cf0800000000000000
+      internalID: -243557675242142113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0c024cf7a527bd0800000000000000
+      internalID: -2633943327260491564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_64
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 72
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf355e68292c2580800000000000000
+      internalID: -8850653914063355970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c4702ab1076e900800000000000000
+      internalID: 713380854969617435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_66
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574730b993d4fa470800000000000000
+      internalID: 8408023939133174901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 72
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2bf9433dbe1dab0800000000000000
+      internalID: -4984944020168920365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_68
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 72
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba5aaf695059d760800000000000000
+      internalID: 7483100600908536497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_69
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e9d2e4732e34a30800000000000000
+      internalID: 4198448004802125385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_70
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 71
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee9d84dd3456c340800000000000000
+      internalID: 4883683470465670892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_71
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 72
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f462935913efae060800000000000000
+      internalID: 6983673661101778511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a294438796f84b40800000000000000
+      internalID: 5424856881770566306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_73
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f41d46f85f1cdaa0800000000000000
+      internalID: -6134994125435628296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 39
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b10ed99f45ae40800000000000000
+      internalID: 5667023228388882182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead60317ec3716c70800000000000000
+      internalID: 8962572063943454126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_76
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 39
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6acb0393a6c370800000000000000
+      internalID: 8342535211703757796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_77
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 40
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f49e135620aae70800000000000000
+      internalID: 9127110228472057721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_78
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c58c064dd8f4800800000000000000
+      internalID: 598853218759892094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_79
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 40
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27f5baad8ffa5d40800000000000000
+      internalID: 5574048472743933742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 40
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a0538355414dec0800000000000000
+      internalID: -3543184650585961966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_81
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2967d44a5f7a45670800000000000000
+      internalID: 8526624667984557714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_82
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539ae8bae685015f0800000000000000
+      internalID: -788032702441936587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_83
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 40
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6a44dc6d92328c0800000000000000
+      internalID: -4025327639395522839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15eaa8f54d796bc0800000000000000
+      internalID: -3789359871977396963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_85
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161eff410cae48070800000000000000
+      internalID: 8107863339880669537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_86
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a8a478e34a32ad0800000000000000
+      internalID: -2728156360791651794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_87
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 5
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be885e264439c2a40800000000000000
+      internalID: 5344808779708205291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 6
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c41fe80415f9f2a0800000000000000
+      internalID: -6703057103966235453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_89
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 7
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1a5acb6db8379b0800000000000000
+      internalID: -5083565799966924359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_90
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0a97b288c4175d0800000000000000
+      internalID: -3066585723533942530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_91
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc221ae1479ef4380800000000000000
+      internalID: -8984706046641495347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_92
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 6
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0c68d8497142300800000000000000
+      internalID: 226331808072384705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_93
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2237b845850937a0800000000000000
+      internalID: -6397075725694324179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_94
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 8
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bc4fd34b0c47c00800000000000000
+      internalID: 897554106119670653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown-Spider-32x32_95
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff141c4fb23a7b90800000000000000
+      internalID: -7243421253475491843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Brown-Spider-32x32_0: 5717570904528118091
+      Brown-Spider-32x32_1: 1940592258587632937
+      Brown-Spider-32x32_10: -3507924990663538389
+      Brown-Spider-32x32_11: -4715708652727631848
+      Brown-Spider-32x32_12: -918560783317098589
+      Brown-Spider-32x32_13: 2470143437859819990
+      Brown-Spider-32x32_14: 5274573373918426375
+      Brown-Spider-32x32_15: -5487727391590387638
+      Brown-Spider-32x32_16: 3648596600286139075
+      Brown-Spider-32x32_17: -347994342905227293
+      Brown-Spider-32x32_18: 4955583378476273386
+      Brown-Spider-32x32_19: -924781721466694058
+      Brown-Spider-32x32_2: -6286873569271641805
+      Brown-Spider-32x32_20: -35376592834262656
+      Brown-Spider-32x32_21: -8083252226705094366
+      Brown-Spider-32x32_22: 7611031481083506264
+      Brown-Spider-32x32_23: 7030197623636202039
+      Brown-Spider-32x32_24: -874223918356363106
+      Brown-Spider-32x32_25: 5170252874001710973
+      Brown-Spider-32x32_26: 7719858290022001582
+      Brown-Spider-32x32_27: 3405509101022713559
+      Brown-Spider-32x32_28: 4798775127101674928
+      Brown-Spider-32x32_29: -7155334187225906499
+      Brown-Spider-32x32_3: 5624915362650316666
+      Brown-Spider-32x32_30: -8024709302351504658
+      Brown-Spider-32x32_31: -1985946021259412812
+      Brown-Spider-32x32_32: -5853340322103240064
+      Brown-Spider-32x32_33: -7706155164608213937
+      Brown-Spider-32x32_34: 1624504483038108459
+      Brown-Spider-32x32_35: 1720457789513922758
+      Brown-Spider-32x32_36: 4237223512042681938
+      Brown-Spider-32x32_37: 1363149195232102524
+      Brown-Spider-32x32_38: -5411048692292595688
+      Brown-Spider-32x32_39: -3833995409950986633
+      Brown-Spider-32x32_4: 4209573162501680944
+      Brown-Spider-32x32_40: -8115543282641981397
+      Brown-Spider-32x32_41: -6417566528968788905
+      Brown-Spider-32x32_42: -7241693592737791776
+      Brown-Spider-32x32_43: 3240754919594246834
+      Brown-Spider-32x32_44: -3055485606054752853
+      Brown-Spider-32x32_45: -1615787539009295471
+      Brown-Spider-32x32_46: 234841802810173920
+      Brown-Spider-32x32_47: 5200929557696730943
+      Brown-Spider-32x32_48: -5408299533622052324
+      Brown-Spider-32x32_49: 5999783909230139768
+      Brown-Spider-32x32_5: -6896900758176959146
+      Brown-Spider-32x32_50: -4901903561509444124
+      Brown-Spider-32x32_51: -3770126576787327849
+      Brown-Spider-32x32_52: -1868108017690112181
+      Brown-Spider-32x32_53: -2819648362772116883
+      Brown-Spider-32x32_54: 7515910004764479585
+      Brown-Spider-32x32_55: 4246926324414963444
+      Brown-Spider-32x32_56: -1228009458419205390
+      Brown-Spider-32x32_57: 8683852768261052897
+      Brown-Spider-32x32_58: -2313883771990098879
+      Brown-Spider-32x32_59: -2814239888982202162
+      Brown-Spider-32x32_6: -7262597038896811588
+      Brown-Spider-32x32_60: -8615742238182724479
+      Brown-Spider-32x32_61: -6397145032282798577
+      Brown-Spider-32x32_62: -243557675242142113
+      Brown-Spider-32x32_63: -2633943327260491564
+      Brown-Spider-32x32_64: -8850653914063355970
+      Brown-Spider-32x32_65: 713380854969617435
+      Brown-Spider-32x32_66: 8408023939133174901
+      Brown-Spider-32x32_67: -4984944020168920365
+      Brown-Spider-32x32_68: 7483100600908536497
+      Brown-Spider-32x32_69: 4198448004802125385
+      Brown-Spider-32x32_7: 4800473615605461701
+      Brown-Spider-32x32_70: 4883683470465670892
+      Brown-Spider-32x32_71: 6983673661101778511
+      Brown-Spider-32x32_72: 5424856881770566306
+      Brown-Spider-32x32_73: -6134994125435628296
+      Brown-Spider-32x32_74: 5667023228388882182
+      Brown-Spider-32x32_75: 8962572063943454126
+      Brown-Spider-32x32_76: 8342535211703757796
+      Brown-Spider-32x32_77: 9127110228472057721
+      Brown-Spider-32x32_78: 598853218759892094
+      Brown-Spider-32x32_79: 5574048472743933742
+      Brown-Spider-32x32_8: -3657825612859443977
+      Brown-Spider-32x32_80: -3543184650585961966
+      Brown-Spider-32x32_81: 8526624667984557714
+      Brown-Spider-32x32_82: -788032702441936587
+      Brown-Spider-32x32_83: -4025327639395522839
+      Brown-Spider-32x32_84: -3789359871977396963
+      Brown-Spider-32x32_85: 8107863339880669537
+      Brown-Spider-32x32_86: -2728156360791651794
+      Brown-Spider-32x32_87: 5344808779708205291
+      Brown-Spider-32x32_88: -6703057103966235453
+      Brown-Spider-32x32_89: -5083565799966924359
+      Brown-Spider-32x32_9: -1349020553328119900
+      Brown-Spider-32x32_90: -3066585723533942530
+      Brown-Spider-32x32_91: -8984706046641495347
+      Brown-Spider-32x32_92: 226331808072384705
+      Brown-Spider-32x32_93: -6397075725694324179
+      Brown-Spider-32x32_94: 897554106119670653
+      Brown-Spider-32x32_95: -7243421253475491843
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
