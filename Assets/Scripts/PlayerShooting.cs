@@ -15,6 +15,10 @@ public class PlayerShooting : MonoBehaviour
     private void Start()
     {
         mainCamera = Camera.main;
+        if (mainCamera == null)
+        {
+            mainCamera = FindObjectOfType<Camera>();
+        }
     }
 
     private void Update()
@@ -32,6 +36,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void Shoot()
     {
+        Debug.Log("Đang bắn đạn!");
         if (bulletPrefab == null || firePoint == null)
         {
             Debug.LogWarning("PlayerShooting: Bullet Prefab or Fire Point is not assigned!");
@@ -46,6 +51,19 @@ public class PlayerShooting : MonoBehaviour
 
         // Instantiate bullet with correct rotation
         GameObject bullet = Instantiate(bulletPrefab, firePointPos, Quaternion.Euler(0f, 0f, angle));
+        
+        // Ép viên đạn dùng cùng Sorting Layer với Player để không bị chìm dưới nền
+        SpriteRenderer sr = bullet.GetComponent<SpriteRenderer>();
+        SpriteRenderer playerSr = GetComponent<SpriteRenderer>();
+        if (sr != null)
+        {
+            if (playerSr != null)
+            {
+                sr.sortingLayerID = playerSr.sortingLayerID; // Copy đúng layer của Player
+            }
+            sr.sortingOrder = 999; // Đảm bảo đạn nổi lên trên cùng trong layer đó
+        }
+        bullet.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
         
         // Add force to the bullet
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

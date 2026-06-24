@@ -26,16 +26,31 @@ public class EnemyChase : MonoBehaviour
 
     private void Start()
     {
-        // Find player by type dynamically
+        // Cách 1: Tìm qua script Player
         Player player = FindAnyObjectByType<Player>();
         if (player != null)
         {
             playerTransform = player.transform;
+            return;
         }
-        else
+
+        // Cách 2: Tìm qua script PlayerShooting (dự phòng)
+        PlayerShooting playerShooting = FindAnyObjectByType<PlayerShooting>();
+        if (playerShooting != null)
         {
-            Debug.LogWarning("EnemyChase: No Player object found in the scene.");
+            playerTransform = playerShooting.transform;
+            return;
         }
+
+        // Cách 3: Tìm qua Tag "Player" (dự phòng)
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            playerTransform = playerObj.transform;
+            return;
+        }
+
+        Debug.LogWarning("EnemyChase: Không tìm thấy Player! Kiểm tra lại Tag hoặc Script trên Player.");
     }
 
     private void FixedUpdate()
