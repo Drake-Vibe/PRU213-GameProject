@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5188863d78644d34eb4bcb662a697b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
-  enemyPrefab: {fileID: 6718895237154980899, guid: fda6023910e04b743a94107843a21194, type: 3}
+  enemyPrefab: {fileID: 8011910587811507776, guid: ec0b1a50a43fe254298ae75913a6c316, type: 3}
   spawnInterval: 4
   spawnRadius: 4
 --- !u!4 &376692372
@@ -13570,6 +13570,7 @@ GameObject:
   - component: {fileID: 1496895790}
   - component: {fileID: 1496895789}
   - component: {fileID: 1496895788}
+  - component: {fileID: 1496895796}
   - component: {fileID: 1496895795}
   - component: {fileID: 1496895792}
   - component: {fileID: 1496895791}
@@ -13811,6 +13812,22 @@ MonoBehaviour:
   firePoint: {fileID: 202939392}
   bulletForce: 20
   fireRate: 0.5
+--- !u!114 &1496895796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496895787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e217396d6d654b84ea342d0c62c0348d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMelee
+  attackRange: 1.5
+  meleeDamage: 30
+  attackCooldown: 1
+  knockbackForce: 8
 --- !u!1 &1539260966
 GameObject:
   m_ObjectHideFlags: 0
