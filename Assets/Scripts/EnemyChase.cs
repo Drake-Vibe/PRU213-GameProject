@@ -152,7 +152,7 @@ public class EnemyChase : MonoBehaviour
         {
             if (Time.time - lastDamageTime >= damageInterval)
             {
-                playerScript.TakeDamage(damageAmount);
+                playerScript.TakeDamage(damageAmount, transform.position);
                 lastDamageTime = Time.time;
                 Debug.Log("Quái gây " + damageAmount + " sát thương cho Player!");
             }
