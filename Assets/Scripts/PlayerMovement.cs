@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using System.Collections.Generic;
@@ -33,7 +33,13 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {   
-
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        if(PauseController.isGamePaused)
+        {
+            rb.linearVelocity = Vector2.zero;
+            animator.SetBool("IsWalking", false);
+            return;
+        }
+    rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        animator.SetBool("IsWalking", rb.linearVelocity.magnitude > 0);
     }
 }
