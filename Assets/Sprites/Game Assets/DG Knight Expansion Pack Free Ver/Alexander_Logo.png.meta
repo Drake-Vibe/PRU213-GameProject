@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 20666abcd4a3b1e44adf743ee5db1b0f
+guid: 154ef9b27782cc6438a7cf4b2a943720
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6834701404633864263
-    second: Potion 1_0
+      213: 3403159007853516626
+    second: Alexander_Logo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Potion 1_0
+      name: Alexander_Logo_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 14
-        height: 15
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 748901937bcb9de50800000000000000
-      internalID: 6834701404633864263
+      spriteID: 257974146137a3f20800000000000000
+      internalID: 3403159007853516626
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Potion 1_0: 6834701404633864263
+      Alexander_Logo_0: 3403159007853516626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
