@@ -11,7 +11,17 @@ public class SaveController : MonoBehaviour
     {
         saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
         inventoryController = FindAnyObjectByType<InventoryController>();
-        LoadGame();
+        
+        if (PlayerPrefs.GetInt("ShouldLoadSave", 0) == 1)
+        {
+            LoadGame();
+            PlayerPrefs.SetInt("ShouldLoadSave", 0);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            Debug.Log("Starting fresh game (LoadGame skipped).");
+        }
     }
 
     public void SaveGame()

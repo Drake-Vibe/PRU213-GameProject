@@ -32,9 +32,9 @@ public class MainMenu : MonoBehaviour
 
     [Header("Config")]
     [Tooltip("Scene name to load for new game")]
-    [SerializeField] private string gameSceneName = "Game";
+    [SerializeField] private string gameSceneName = "UI-Default";
     [Tooltip("Scene name to load after cutscene (can be same as gameSceneName)")]
-    [SerializeField] private string afterCutsceneScene = "Game";
+    [SerializeField] private string afterCutsceneScene = "UI-Default";
 
     private string saveFilePath;
 
@@ -122,12 +122,9 @@ public class MainMenu : MonoBehaviour
             gm.ResetGame();
         }
 
-        // Delete old save file for clean start
-        if (File.Exists(saveFilePath))
-        {
-            File.Delete(saveFilePath);
-            Debug.Log("Old save file deleted for new game.");
-        }
+        // Set flag to NOT load save file on start
+        PlayerPrefs.SetInt("ShouldLoadSave", 0);
+        PlayerPrefs.Save();
 
         // Use LevelManager to load with loading screen
         LevelManager lm = LevelManager.Instance;
@@ -152,6 +149,10 @@ public class MainMenu : MonoBehaviour
         if (File.Exists(saveFilePath))
         {
             Debug.Log("Save file found! Loading game...");
+
+            // Set flag to load save file
+            PlayerPrefs.SetInt("ShouldLoadSave", 1);
+            PlayerPrefs.Save();
 
             // Load directly without long loading screen (as per user request)
             LevelManager lm = LevelManager.Instance;

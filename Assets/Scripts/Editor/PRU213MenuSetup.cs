@@ -31,6 +31,10 @@ public class PRU213MenuSetup : EditorWindow
         CreateCutsceneCanvas();
         CreateLoadingScreen();
         LinkMainMenuReferences();
+        CreateEventSystem();
+
+        // Mark scene dirty so Unity knows to save all generated GameObjects and references
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
 
         EditorUtility.DisplayDialog("✅ Main Menu Setup Done!",
             "Đã tạo xong:\n" +
@@ -60,10 +64,20 @@ public class PRU213MenuSetup : EditorWindow
 
         GameObject canvas = CreateCanvas("MenuCanvas", 90);
 
-        // Dark background overlay
-        GameObject bg = CreateImage(canvas.transform, "Background", 
-            new Color(0.05f, 0.05f, 0.15f, 0.95f));
+        // Background image setup (using Assets/Image/bg.jpg)
+        GameObject bg = CreateImage(canvas.transform, "Background", Color.white);
         StretchFull(bg);
+        Image bgImg = bg.GetComponent<Image>();
+        Sprite bgSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Image/bg.jpg");
+        if (bgSprite != null)
+        {
+            bgImg.sprite = bgSprite;
+        }
+        else
+        {
+            Debug.LogWarning("Could not find background image at Assets/Image/bg.jpg. Using solid dark color instead.");
+            bgImg.color = new Color(0.05f, 0.05f, 0.15f, 0.95f);
+        }
 
         // Title
         GameObject title = CreateTMPText(canvas.transform, "TitleText", "DUNGEON CRAWLER",
@@ -104,6 +118,8 @@ public class PRU213MenuSetup : EditorWindow
 
         // Link buttons via SerializedObject
         SerializedObject so = new SerializedObject(menuScript);
+        so.FindProperty("gameSceneName").stringValue = "UI-Default";
+        so.FindProperty("afterCutsceneScene").stringValue = "UI-Default";
         so.FindProperty("startButton").objectReferenceValue = canvas.transform.Find("StartButton").GetComponent<Button>();
         so.FindProperty("loadButton").objectReferenceValue = canvas.transform.Find("LoadButton").GetComponent<Button>();
         so.FindProperty("settingsButton").objectReferenceValue = canvas.transform.Find("SettingsButton").GetComponent<Button>();
@@ -111,6 +127,7 @@ public class PRU213MenuSetup : EditorWindow
         so.FindProperty("noSaveFileMessage").objectReferenceValue = noSaveMsg;
         so.FindProperty("confirmQuitPanel").objectReferenceValue = canvas.transform.Find("QuitConfirmPanel").gameObject;
         so.ApplyModifiedProperties();
+        EditorUtility.SetDirty(menuScript);
 
         Debug.Log("✓ Menu Canvas created");
     }
@@ -255,6 +272,7 @@ public class PRU213MenuSetup : EditorWindow
         so.FindProperty("rebindPromptText").objectReferenceValue = rebindOverlay.transform.Find("RebindPrompt")?.GetComponent<TextMeshProUGUI>();
 
         so.ApplyModifiedProperties();
+        EditorUtility.SetDirty(sm);
 
         settingsPanel.SetActive(false);
         Debug.Log("✓ Settings Panel created");
@@ -341,7 +359,42 @@ public class PRU213MenuSetup : EditorWindow
         so.FindProperty("skipIndicator").objectReferenceValue = skipInd;
         so.FindProperty("skipProgressFill").objectReferenceValue = fillImg;
         so.FindProperty("skipText").objectReferenceValue = skipTextObj.GetComponent<TextMeshProUGUI>();
+
+        // Automatically populate the 6 cutscene pages
+        SerializedProperty pagesProp = so.FindProperty("pages");
+        pagesProp.ClearArray();
+        
+        string[] cutsceneTexts = new string[]
+        {
+            "Sau nhiều thế kỷ yên bình, mặt đất nứt toác và một tháp đá đen khổng lồ trỗi dậy từ lòng lục địa: Ngục Tối Vực Sâu (The Abyssal Dungeon).",
+            "Quái vật tràn ra tàn phá làng mạc và vương quốc, biến rừng rậm và sông ngòi thành những vùng đất chết tha hóa.",
+            "Ngục tối thực chất là phong ấn thần thánh giam giữ Cự Long Hủy Diệt (The Devouring Dragon). Nhưng giờ đây, phong ấn ấy đang dần sụp đổ.",
+            "Một nhóm người bình thường may mắn sống sót, thức tỉnh với những dấu ấn hình rồng rực cháy trên tay - phước lành của các vị thần đã khuất.",
+            "Bị dẫn dắt bởi số phận và thù hận, những người anh hùng lên đường tiến vào lòng Ngục Tối Vực Sâu để tìm kiếm câu trả lời.",
+            "Càng tiến sâu xuống các tầng ngục, quái vật càng mạnh mẽ hơn, và Cự Long cổ xưa dưới lòng đất cũng đang dần thức giấc."
+        };
+
+        for (int i = 0; i < 6; i++)
+        {
+            pagesProp.InsertArrayElementAtIndex(i);
+            SerializedProperty pageElement = pagesProp.GetArrayElementAtIndex(i);
+            
+            pageElement.FindPropertyRelative("narrativeText").stringValue = cutsceneTexts[i];
+            pageElement.FindPropertyRelative("duration").floatValue = 10f;
+            
+            Sprite cutsceneSprite = AssetDatabase.LoadAssetAtPath<Sprite>($"Assets/Image/cutscene{i + 1}.png");
+            if (cutsceneSprite != null)
+            {
+                pageElement.FindPropertyRelative("backgroundImage").objectReferenceValue = cutsceneSprite;
+            }
+            else
+            {
+                Debug.LogWarning($"Could not find cutscene image at Assets/Image/cutscene{i + 1}.png");
+            }
+        }
+
         so.ApplyModifiedProperties();
+        EditorUtility.SetDirty(cm);
 
         canvas.SetActive(false);
         Debug.Log("✓ Cutscene Canvas created");
@@ -445,6 +498,7 @@ public class PRU213MenuSetup : EditorWindow
         so.FindProperty("progressText").objectReferenceValue = progressText.GetComponent<TextMeshProUGUI>();
         so.FindProperty("tipsText").objectReferenceValue = tipsText.GetComponent<TextMeshProUGUI>();
         so.ApplyModifiedProperties();
+        EditorUtility.SetDirty(lm);
 
         canvas.SetActive(false);
         Debug.Log("✓ Loading Screen created");
@@ -465,6 +519,7 @@ public class PRU213MenuSetup : EditorWindow
         if (cm != null) so.FindProperty("cutsceneManager").objectReferenceValue = cm;
         if (sm != null) so.FindProperty("settingsManager").objectReferenceValue = sm;
         so.ApplyModifiedProperties();
+        EditorUtility.SetDirty(menu);
 
         Debug.Log("✓ MainMenu references linked");
     }
@@ -535,14 +590,11 @@ public class PRU213MenuSetup : EditorWindow
         GameObject btnObj = new GameObject(name);
         btnObj.transform.SetParent(parent, false);
 
+        // Make background fully transparent (only acts as click region)
         Image btnImg = btnObj.AddComponent<Image>();
-        btnImg.color = bgColor;
+        btnImg.color = Color.clear;
 
         Button btn = btnObj.AddComponent<Button>();
-        ColorBlock cb = btn.colors;
-        cb.highlightedColor = new Color(bgColor.r + 0.15f, bgColor.g + 0.15f, bgColor.b + 0.15f);
-        cb.pressedColor = new Color(bgColor.r - 0.1f, bgColor.g - 0.1f, bgColor.b - 0.1f);
-        btn.colors = cb;
 
         RectTransform btnRect = btnObj.GetComponent<RectTransform>();
         btnRect.anchorMin = new Vector2(0.5f, 0.5f);
@@ -555,9 +607,19 @@ public class PRU213MenuSetup : EditorWindow
         labelObj.transform.SetParent(btnObj.transform, false);
         TextMeshProUGUI tmp = labelObj.AddComponent<TextMeshProUGUI>();
         tmp.text = label;
-        tmp.fontSize = 22;
+        tmp.fontSize = 28; // Slightly larger for text-only look
         tmp.alignment = TextAlignmentOptions.Center;
-        tmp.color = Color.white;
+        
+        // Target the text component for button state color transitions
+        btn.targetGraphic = tmp;
+        
+        ColorBlock cb = btn.colors;
+        cb.normalColor = new Color(0.65f, 0.65f, 0.7f, 1f);      // Muted dark silver-blue
+        cb.highlightedColor = new Color(1f, 0.85f, 0.3f, 1f);   // Bright glowing gold on hover
+        cb.pressedColor = new Color(0.8f, 0.65f, 0.2f, 1f);     // Dark gold on click
+        cb.selectedColor = new Color(1f, 0.85f, 0.3f, 1f);      // Stay gold when active/selected
+        cb.disabledColor = new Color(0.3f, 0.3f, 0.3f, 1f);
+        btn.colors = cb;
 
         RectTransform labelRect = labelObj.GetComponent<RectTransform>();
         labelRect.anchorMin = Vector2.zero;
@@ -632,5 +694,16 @@ public class PRU213MenuSetup : EditorWindow
         // Rebind button
         CreateMenuButton(parent, action + "Button", "Rebind",
             new Vector2(250, position.y), new Color(0.3f, 0.35f, 0.45f), new Vector2(100, 30));
+    }
+
+    private static void CreateEventSystem()
+    {
+        if (Object.FindAnyObjectByType<UnityEngine.EventSystems.EventSystem>() == null)
+        {
+            GameObject eventSystem = new GameObject("EventSystem");
+            eventSystem.AddComponent<UnityEngine.EventSystems.EventSystem>();
+            eventSystem.AddComponent<UnityEngine.EventSystems.StandaloneInputModule>();
+            Debug.Log("✓ EventSystem created (required for UI interaction)");
+        }
     }
 }

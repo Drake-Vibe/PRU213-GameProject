@@ -70,7 +70,10 @@ public class CutsceneManager : MonoBehaviour
         if (skipIndicator != null)
             skipIndicator.SetActive(false);
 
-        gameObject.SetActive(false);
+        if (!isPlaying)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     private void Update()

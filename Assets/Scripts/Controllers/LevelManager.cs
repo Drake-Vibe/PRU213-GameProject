@@ -70,7 +70,7 @@ public class LevelManager : MonoBehaviour
             gm.ResetGame();
         }
 
-        StartCoroutine(LoadSceneWithFullLoading("Game"));
+        StartCoroutine(LoadSceneWithFullLoading("UI-Default"));
     }
 
     /// <summary>
@@ -137,7 +137,7 @@ public class LevelManager : MonoBehaviour
     public void ReturnToHub()
     {
         Time.timeScale = 1f;
-        StartCoroutine(LoadSceneQuick("Game"));
+        StartCoroutine(LoadSceneQuick("UI-Default"));
     }
 
     // ========================================
