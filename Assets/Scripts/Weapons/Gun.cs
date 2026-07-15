@@ -9,6 +9,7 @@ public class Gun : BaseWeapon
 {
     [Header("Gun Config")]
     public GameObject bulletPrefab;
+    public int energyCost = 1;
 
     [SerializeField]
     private float fireRate = 3f; // bullets per second
@@ -32,6 +33,13 @@ public class Gun : BaseWeapon
         // Fire when mouse button is held and fire rate allows
         if (Input.GetMouseButton(0) && timeSinceLastShot >= 1f / fireRate)
         {
+            Player player = parentEntity.GetComponent<Player>();
+            if (player != null)
+            {
+                if (player.currentEnergy < energyCost) return; // Not enough energy
+                player.currentEnergy -= energyCost;
+            }
+
             timeSinceLastShot = 0f;
             Fire();
         }

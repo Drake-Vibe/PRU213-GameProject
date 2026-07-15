@@ -41,6 +41,12 @@ public class LevelManager : MonoBehaviour
         "Health bar của enemy chỉ hiện khi chúng bị thương"
     };
 
+    [Header("Background Music")]
+    [SerializeField] private AudioSource musicAudioSource;
+    [SerializeField] private AudioClip mainMenuMusic;
+    [SerializeField] private AudioClip hubMusic;
+    [SerializeField] private AudioClip dungeonMusic;
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -51,6 +57,65 @@ public class LevelManager : MonoBehaviour
 
         _instance = this;
         DontDestroyOnLoad(gameObject);
+
+        // Auto-configure AudioSource
+        if (musicAudioSource == null)
+        {
+            musicAudioSource = GetComponent<AudioSource>();
+            if (musicAudioSource == null)
+            {
+                musicAudioSource = gameObject.AddComponent<AudioSource>();
+                musicAudioSource.playOnAwake = false;
+                musicAudioSource.loop = true;
+            }
+        }
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        PlayMusicForScene(scene.name);
+    }
+
+    private void PlayMusicForScene(string sceneName)
+    {
+        if (musicAudioSource == null) return;
+
+        AudioClip targetClip = null;
+
+        if (sceneName == "GameMainMenu")
+        {
+            targetClip = mainMenuMusic;
+        }
+        else if (sceneName == "UI-Default")
+        {
+            targetClip = hubMusic;
+        }
+        else if (sceneName.StartsWith("Level") || sceneName.StartsWith("Floor"))
+        {
+            targetClip = dungeonMusic;
+        }
+
+        // Only switch and play if it is a new clip
+        if (targetClip != null && musicAudioSource.clip != targetClip)
+        {
+            musicAudioSource.clip = targetClip;
+            musicAudioSource.loop = true;
+            musicAudioSource.Play();
+        }
+        else if (targetClip == null)
+        {
+            // Optional: you can choose to stop or let music keep playing
+        }
     }
 
     private void Start()
@@ -254,6 +319,9 @@ public class LevelManager : MonoBehaviour
         if (loadingScreen != null)
             loadingScreen.SetActive(true);
 
+        Time.timeScale = 0f; // Freeze game actions/physics
+        ToggleOtherCanvases(false); // Hide all other UI Canvases
+
         UpdateProgressBar(0f);
     }
 
@@ -261,6 +329,32 @@ public class LevelManager : MonoBehaviour
     {
         if (loadingScreen != null)
             loadingScreen.SetActive(false);
+
+        Time.timeScale = 1f; // Resume gameplay
+        ToggleOtherCanvases(true); // Restore other UI Canvases
+    }
+
+    /// <summary>
+    /// Helper to find and disable/enable all other UI Canvases in the active scene.
+    /// </summary>
+    private void ToggleOtherCanvases(bool active)
+    {
+        Canvas[] canvases = FindObjectsByType<Canvas>(FindObjectsSortMode.None);
+        foreach (Canvas canvas in canvases)
+        {
+            // Skip the loading screen canvas itself to keep it visible
+            if (loadingScreen != null && (canvas.gameObject == loadingScreen || canvas.transform.IsChildOf(loadingScreen.transform) || loadingScreen.transform.IsChildOf(canvas.transform)))
+            {
+                continue;
+            }
+
+            if (canvas.name == "LoadingCanvas" || canvas.name == "Loading_Canvas")
+            {
+                continue;
+            }
+
+            canvas.gameObject.SetActive(active);
+        }
     }
 
     private void UpdateProgressBar(float progress)

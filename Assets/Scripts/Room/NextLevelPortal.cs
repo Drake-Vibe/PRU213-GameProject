@@ -21,6 +21,12 @@ public class NextLevelPortal : MonoBehaviour
         if (promptText != null)
         {
             promptText.text = promptMessage;
+            MeshRenderer mr = promptText.GetComponent<MeshRenderer>();
+            if (mr != null)
+            {
+                mr.sortingLayerName = "Player";
+                mr.sortingOrder = 10;
+            }
             promptText.gameObject.SetActive(false);
         }
     }

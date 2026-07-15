@@ -403,7 +403,7 @@ public class PRU213MenuSetup : EditorWindow
     // ========================================
     // LOADING SCREEN
     // ========================================
-    private static void CreateLoadingScreen()
+    public static void CreateLoadingScreen()
     {
         // Create or find LevelManager
         LevelManager lm = Object.FindAnyObjectByType<LevelManager>();

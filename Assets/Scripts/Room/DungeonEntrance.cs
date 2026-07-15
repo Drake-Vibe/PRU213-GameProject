@@ -21,11 +21,11 @@ public class DungeonEntrance : MonoBehaviour
     [SerializeField] private string dungeonSceneName = "Level 1";
 
     [Tooltip("Key to press to enter the dungeon.")]
-    [SerializeField] private KeyCode enterKey = KeyCode.E;
+    [SerializeField] private KeyCode enterKey = KeyCode.Return;
 
     [Header("UI")]
     [SerializeField] private TextMeshPro promptText;
-    [SerializeField] private string promptMessage = "Press E to enter dungeon";
+    [SerializeField] private string promptMessage = "Into The Dungeon\nPlease [Enter]";
 
     [Header("Visual")]
     [SerializeField] private SpriteRenderer portalVisual;
@@ -39,6 +39,12 @@ public class DungeonEntrance : MonoBehaviour
         if (promptText != null)
         {
             promptText.text = promptMessage;
+            MeshRenderer mr = promptText.GetComponent<MeshRenderer>();
+            if (mr != null)
+            {
+                mr.sortingLayerName = "Player";
+                mr.sortingOrder = 10;
+            }
             promptText.gameObject.SetActive(false);
         }
 
