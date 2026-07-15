@@ -37,11 +37,11 @@ public class EnemySpawner : MonoBehaviour
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj == null)
         {
-            // Dự phòng nếu quên set Tag: Tìm thông qua script PlayerShooting
-            PlayerShooting playerShooting = FindObjectOfType<PlayerShooting>();
-            if (playerShooting != null)
+            // Dự phòng nếu quên set Tag: Tìm thông qua script Player
+            Player playerScript = FindAnyObjectByType<Player>();
+            if (playerScript != null)
             {
-                playerObj = playerShooting.gameObject;
+                playerObj = playerScript.gameObject;
             }
         }
 

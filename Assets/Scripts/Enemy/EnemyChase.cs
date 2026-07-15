@@ -47,13 +47,6 @@ public class EnemyChase : MonoBehaviour
             return;
         }
 
-        // Cách 2: Tìm qua script PlayerShooting (dự phòng)
-        PlayerShooting playerShooting = FindAnyObjectByType<PlayerShooting>();
-        if (playerShooting != null)
-        {
-            playerTransform = playerShooting.transform;
-            return;
-        }
 
         // Cách 3: Tìm qua Tag "Player" (dự phòng)
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");

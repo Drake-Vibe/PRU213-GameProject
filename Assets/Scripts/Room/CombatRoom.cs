@@ -140,7 +140,7 @@ public class CombatRoom : MonoBehaviour
         }
 
         if (cam == null) cam = Camera.main;
-        if (cam == null) cam = FindObjectOfType<Camera>();
+        if (cam == null) cam = FindAnyObjectByType<Camera>();
         if (cam == null) return;
 
         Vector2 worldPoint = cam.ScreenToWorldPoint(mousePos);
