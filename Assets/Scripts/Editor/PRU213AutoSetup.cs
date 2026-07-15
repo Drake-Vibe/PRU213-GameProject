@@ -1553,4 +1553,134 @@ private static bool AssetExists(string path)
             EditorUtility.SetDirty(trigger);
         }
     }
+
+    [MenuItem("Tools/PRU213 Setup/🛡️ Setup Level 12 (15-20 Zombies)", priority = 30)]
+    public static void SetupLevel12()
+    {
+        Debug.Log("=== PRU213 Setup: Setting up Level 12 ===");
+
+        // 1. Open Level12 scene
+        string scenePath = "Assets/Scenes/Level12.unity";
+        UnityEditor.SceneManagement.SceneSetup[] originalSetup = null;
+        if (System.IO.File.Exists(scenePath))
+        {
+            originalSetup = UnityEditor.SceneManagement.EditorSceneManager.GetSceneManagerSetup();
+            var activeScene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(scenePath);
+            if (!activeScene.IsValid())
+            {
+                Debug.LogError($"❌ Could not open scene {scenePath}");
+                return;
+            }
+        }
+        else
+        {
+            Debug.LogError($"❌ Scene not found: {scenePath}");
+            return;
+        }
+
+        // 2. Perform standard setup (Camera, Player, GameManager, LevelManager, HUD)
+        SetupCurrentScene();
+
+        // 3. Find Player in scene
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        Vector3 playerPos = playerObj != null ? playerObj.transform.position : Vector3.zero;
+
+        // 4. Load Zombie prefab
+        string zombiePrefabPath = "Assets/Prefabs/Enemies/Zombie.prefab";
+        GameObject zombiePrefab = AssetDatabase.LoadAssetAtPath<GameObject>(zombiePrefabPath);
+        if (zombiePrefab == null)
+        {
+            Debug.LogError($"❌ Prefab not found at: {zombiePrefabPath}. Make sure to run 'Step 3 - Create All Prefabs' first.");
+            return;
+        }
+
+        // 5. Spawn 18 zombies at offset coordinates in the room area
+        // Define coordinates that are generally walkable in a dungeon room
+        List<GameObject> spawnedZombies = new List<GameObject>();
+        int zombieCount = 18;
+        float[,] spawnCoords = new float[,] {
+            { 5f, 5f }, { -5f, 5f }, { 5f, -5f }, { -5f, -5f },
+            { 10f, 0f }, { -10f, 0f }, { 0f, 10f }, { 0f, -10f },
+            { 8f, 8f }, { -8f, 8f }, { 8f, -8f }, { -8f, -8f },
+            { 12f, 5f }, { -12f, 5f }, { 12f, -5f }, { -12f, -5f },
+            { 15f, 2f }, { -15f, 2f }
+        };
+
+        for (int i = 0; i < zombieCount; i++)
+        {
+            float offsetX = spawnCoords[i, 0];
+            float offsetY = spawnCoords[i, 1];
+            Vector3 spawnPos = playerPos + new Vector3(offsetX, offsetY, 0f);
+
+            GameObject zombie = PrefabUtility.InstantiatePrefab(zombiePrefab) as GameObject;
+            zombie.transform.position = spawnPos;
+            zombie.name = $"Zombie_Preplaced_{i}";
+            spawnedZombies.Add(zombie);
+        }
+        Debug.Log($"  ✓ Spawned {zombieCount} Zombies in the scene");
+
+        // 6. Find or Create CombatRoom GameObject
+        GameObject combatRoomObj = GameObject.Find("CombatRoom_Level12");
+        if (combatRoomObj == null)
+        {
+            combatRoomObj = new GameObject("CombatRoom_Level12");
+            combatRoomObj.transform.position = playerPos;
+        }
+
+        // Configure BoxCollider2D (Is Trigger) on the CombatRoom object
+        BoxCollider2D col = combatRoomObj.GetComponent<BoxCollider2D>();
+        if (col == null)
+        {
+            col = combatRoomObj.AddComponent<BoxCollider2D>();
+        }
+        col.isTrigger = true;
+        col.size = new Vector2(40f, 40f); // Large enough to cover the room
+
+        // Configure CombatRoom script
+        CombatRoom combatRoom = combatRoomObj.GetComponent<CombatRoom>();
+        if (combatRoom == null)
+        {
+            combatRoom = combatRoomObj.AddComponent<CombatRoom>();
+        }
+
+        combatRoom.gem = null;
+        combatRoom.gemTilemap = null;
+        combatRoom.triggerOnPlayerEnter = true;
+        combatRoom.keepPlayerInside = false; // No locking of entry doors
+        combatRoom.enemyPrefab = null; // We are using pre-placed enemies
+        
+        // Assign preplaced enemies
+        combatRoom.prePlacedEnemies = spawnedZombies;
+
+        // 7. Find exit gate or portal in scene to block the path to the next level
+        List<GameObject> exitGates = new List<GameObject>();
+        
+        // Try to find any GameObject containing "NextLevelPortal" or "Portal" or "Gate_End" or "Gate"
+        GameObject portal = GameObject.Find("NextLevelPortal");
+        if (portal == null) portal = GameObject.FindWithTag("Gate_End");
+        if (portal == null) portal = GameObject.Find("Portal");
+        
+        if (portal != null)
+        {
+            exitGates.Add(portal);
+            Debug.Log($"  ✓ Found and linked exit portal '{portal.name}' to the CombatRoom gates");
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ No NextLevelPortal found in Level12 scene. Make sure to place one!");
+        }
+
+        combatRoom.gates = exitGates.ToArray();
+
+        // 8. Save Scene
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
+        UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+        Debug.Log("✅ Setup for Level 12 complete and saved!");
+
+        // Restore original scene setup in editor if needed
+        if (originalSetup != null)
+        {
+            UnityEditor.SceneManagement.EditorSceneManager.RestoreSceneManagerSetup(originalSetup);
+        }
+    }
 }

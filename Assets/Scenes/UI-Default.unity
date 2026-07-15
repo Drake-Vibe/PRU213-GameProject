@@ -556,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aba970178734da44db6389fa136d66ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DungeonEntrance
-  dungeonSceneName: Level 1
+  dungeonSceneName: Level12
   enterKey: 13
   promptText: {fileID: 436856057}
   promptMessage: 'Into The Dungeon
