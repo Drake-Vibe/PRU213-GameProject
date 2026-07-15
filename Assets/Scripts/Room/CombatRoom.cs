@@ -20,6 +20,12 @@ public class CombatRoom : MonoBehaviour
     [Tooltip("Tilemap chứa HÌNH viên kim cương (thường là 'Decor'). Khi lấy sẽ xoá ô kim cương khỏi tilemap này. Bỏ trống nếu không cần xoá hình.")]
     public Tilemap gemTilemap;
 
+    [Header("Tự động kích hoạt & Quái đặt sẵn")]
+    [Tooltip("Tự động kích hoạt trận đấu khi Player bước vào vùng Trigger của phòng này (nếu không dùng kim cương).")]
+    public bool triggerOnPlayerEnter = true;
+    [Tooltip("Kéo các quái vật đặt sẵn trong phòng này vào đây nếu muốn dùng quái sinh sẵn thay vì sinh bằng Prefab.")]
+    public List<GameObject> prePlacedEnemies = new List<GameObject>();
+
     [Header("Spawn Settings")]
     [Tooltip("Prefab quái (kéo prefab Zombie vào).")]
     public GameObject enemyPrefab;
@@ -161,11 +167,43 @@ public class CombatRoom : MonoBehaviour
     private void StartBattle()
     {
         triggered = true;
+
+        // Add pre-placed enemies to track list
+        if (prePlacedEnemies != null && prePlacedEnemies.Count > 0)
+        {
+            foreach (var enemy in prePlacedEnemies)
+            {
+                if (enemy != null)
+                {
+                    if (!aliveEnemies.Contains(enemy))
+                    {
+                        aliveEnemies.Add(enemy);
+                    }
+                    ConfigureEnemy(enemy); // Ensure components are set up
+                }
+            }
+            // If enemyPrefab is not defined, we only need to kill the preplaced ones
+            if (enemyPrefab == null)
+            {
+                totalEnemiesToKill = aliveEnemies.Count;
+            }
+        }
+
         if (gem != null) gem.SetActive(false); // ẩn object collider của kim cương
         ClearGemTile();                          // xoá HÌNH kim cương khỏi tilemap Decor
         SetGatesClosed(true);                    // đóng cổng nhốt player
-        Debug.Log(name + " (CombatRoom): Đã lấy kim cương! Đóng cổng, diệt "
+        Debug.Log(name + " (CombatRoom): Đấu trường bắt đầu! Đóng cổng, diệt "
                   + totalEnemiesToKill + " quái để mở.");
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (cleared || triggered) return;
+
+        if (triggerOnPlayerEnter && collision.CompareTag("Player"))
+        {
+            StartBattle();
+        }
     }
 
     // Xoá các ô tile nằm trong vùng collider của Gem ra khỏi tilemap (làm biến mất hình kim cương)
