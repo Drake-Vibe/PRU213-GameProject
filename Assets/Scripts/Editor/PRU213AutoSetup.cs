@@ -156,6 +156,9 @@ public class PRU213AutoSetup : EditorWindow
         CreateHUDInScene();
         PlaceStarterWeaponInScene();
 
+        // Mark scene dirty so all UI and player references are saved
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
+
         Debug.Log("✅ Scene setup complete!");
     }
 
@@ -484,9 +487,14 @@ public class PRU213AutoSetup : EditorWindow
         Player playerScript = player.GetComponent<Player>();
         if (playerScript == null)
         {
-            Debug.LogWarning("⚠️ Player.cs not found on Player object.");
-            return;
+            playerScript = player.AddComponent<Player>();
+            Debug.Log("  ✓ Attached Player.cs script component to Player GameObject");
         }
+
+        // Setup default health values
+        playerScript.maxHealth = 100;
+        playerScript.currentHealth = 100;
+        EditorUtility.SetDirty(playerScript);
 
         Debug.Log("  ✓ Player setup complete");
     }
@@ -593,7 +601,114 @@ public class PRU213AutoSetup : EditorWindow
         so.FindProperty("weaponInfoPanel").objectReferenceValue = weaponPanel;
         so.ApplyModifiedProperties();
 
+        // Automatically setup Player HealthBar in the HUD Canvas
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        Player playerScript = playerObj != null ? playerObj.GetComponent<Player>() : null;
+        CreatePlayerHealthBarInHUD(canvas, playerScript);
+
         Debug.Log("  ✓ HUD created");
+    }
+
+    private static void CreatePlayerHealthBarInHUD(GameObject canvas, Player player)
+    {
+        // Check if HealthBar component already exists in the scene
+        HealthBar hbScript = Object.FindAnyObjectByType<HealthBar>();
+        if (hbScript != null)
+        {
+            if (player != null) player.healthBar = hbScript;
+            return;
+        }
+
+        // Create HealthBar UI Container
+        GameObject hbObj = new GameObject("HealthBar");
+        hbObj.transform.SetParent(canvas.transform, false);
+        RectTransform hbRect = hbObj.AddComponent<RectTransform>();
+        hbRect.anchorMin = new Vector2(0, 1);
+        hbRect.anchorMax = new Vector2(0, 1);
+        hbRect.pivot = new Vector2(0, 1);
+        hbRect.anchoredPosition = new Vector2(150, -80); // Placed below score text
+        hbRect.sizeDelta = new Vector2(250, 25);
+
+        // Add HealthBar script
+        HealthBar healthBar = hbObj.AddComponent<HealthBar>();
+
+        // Create Slider
+        GameObject sliderObj = new GameObject("Slider");
+        sliderObj.transform.SetParent(hbObj.transform, false);
+        Slider slider = sliderObj.AddComponent<Slider>();
+        slider.minValue = 0;
+        slider.maxValue = 100;
+        slider.value = 100;
+        slider.wholeNumbers = true;
+        
+        RectTransform sliderRect = sliderObj.GetComponent<RectTransform>();
+        sliderRect.anchorMin = Vector2.zero;
+        sliderRect.anchorMax = Vector2.one;
+        sliderRect.offsetMin = Vector2.zero;
+        sliderRect.offsetMax = Vector2.zero;
+
+        // Background Image
+        GameObject bg = new GameObject("Background");
+        bg.transform.SetParent(sliderObj.transform, false);
+        Image bgImg = bg.AddComponent<Image>();
+        bgImg.color = new Color(0.15f, 0.15f, 0.15f, 0.9f);
+        RectTransform bgRect = bg.GetComponent<RectTransform>();
+        bgRect.anchorMin = Vector2.zero;
+        bgRect.anchorMax = Vector2.one;
+        bgRect.offsetMin = Vector2.zero;
+        bgRect.offsetMax = Vector2.zero;
+
+        // Fill Area
+        GameObject fillArea = new GameObject("Fill Area");
+        fillArea.transform.SetParent(sliderObj.transform, false);
+        RectTransform faRect = fillArea.AddComponent<RectTransform>();
+        faRect.anchorMin = Vector2.zero;
+        faRect.anchorMax = Vector2.one;
+        faRect.offsetMin = new Vector2(2, 2);
+        faRect.offsetMax = new Vector2(-2, -2);
+
+        // Fill Image
+        GameObject fill = new GameObject("Fill");
+        fill.transform.SetParent(fillArea.transform, false);
+        Image fillImg = fill.AddComponent<Image>();
+        fillImg.color = Color.green;
+        RectTransform fillRect = fill.GetComponent<RectTransform>();
+        fillRect.anchorMin = Vector2.zero;
+        fillRect.anchorMax = Vector2.one;
+        fillRect.offsetMin = Vector2.zero;
+        fillRect.offsetMax = Vector2.zero;
+
+        slider.fillRect = fillRect;
+
+        // Setup Gradient
+        Gradient grad = new Gradient();
+        GradientColorKey[] gck = new GradientColorKey[2];
+        gck[0].color = Color.red;
+        gck[0].time = 0.0f;
+        gck[1].color = Color.green;
+        gck[1].time = 1.0f;
+        
+        GradientAlphaKey[] gak = new GradientAlphaKey[2];
+        gak[0].alpha = 1.0f;
+        gak[0].time = 0.0f;
+        gak[1].alpha = 1.0f;
+        gak[1].time = 1.0f;
+        grad.SetKeys(gck, gak);
+
+        // Assign slider & fill to HealthBar
+        healthBar.healthSlider = slider;
+        healthBar.fill = fillImg;
+        healthBar.gradient = grad;
+
+        // Connect player to health bar
+        if (player != null)
+        {
+            player.healthBar = healthBar;
+            EditorUtility.SetDirty(player);
+        }
+
+        EditorUtility.SetDirty(healthBar);
+        Debug.Log("  ✓ Player HealthBar UI added to HUD");
     }
 
     private static void PlaceStarterWeaponInScene()

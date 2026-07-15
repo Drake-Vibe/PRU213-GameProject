@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Bullet
   - Sword
+  - Enemy
+  - EnemyBullet
+  - Wall
+  - Gate_Start
+  - Gate_End
   layers:
   - Default
   - TransparentFX
@@ -13,11 +18,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Bullet
+  - EnemyBullet
+  - MapWall
   - 
   - 
   - 

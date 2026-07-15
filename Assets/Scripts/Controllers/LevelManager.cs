@@ -110,7 +110,7 @@ public class LevelManager : MonoBehaviour
     public void ReturnToMenu()
     {
         Time.timeScale = 1f;
-        StartCoroutine(LoadSceneQuick("MainMenu"));
+        StartCoroutine(LoadSceneQuick("GameMainMenu"));
     }
 
     /// <summary>
@@ -298,3 +298,4 @@ public class LevelManager : MonoBehaviour
         }
     }
 }
+

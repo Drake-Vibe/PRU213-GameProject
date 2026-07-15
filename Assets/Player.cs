@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player died!");
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("GameOver");
     }
 
     /// <summary>
