@@ -156,6 +156,26 @@ public class PRU213AutoSetup : EditorWindow
     {
         Debug.Log("=== PRU213 Setup: Setting up current scene ===");
 
+        // Tag the main camera as 'MainCamera' so Camera.main resolves successfully
+        Camera[] cameras = Object.FindObjectsByType<Camera>(FindObjectsInactive.Include);
+        bool taggedCamera = false;
+        foreach (Camera cam in cameras)
+        {
+            if (cam.name.ToUpper().Contains("MAIN") || (cam.name.ToUpper().Contains("CAMERA") && !cam.name.ToUpper().Contains("MAP")))
+            {
+                if (cam.gameObject.tag != "MainCamera")
+                {
+                    cam.gameObject.tag = "MainCamera";
+                    Debug.Log($"  ✓ Tagged camera '{cam.gameObject.name}' as 'MainCamera'");
+                }
+                taggedCamera = true;
+            }
+        }
+        if (!taggedCamera)
+        {
+            Debug.LogWarning("⚠️ No Main Camera found in scene to tag as 'MainCamera'!");
+        }
+
         SetupPlayerInScene();
         CreateGameManagerInScene();
         CreateLevelManagerInScene();
@@ -175,8 +195,7 @@ public class PRU213AutoSetup : EditorWindow
 
     private static void CreateBulletPrefab(string path)
     {
-        if (AssetExists(path + "/Bullet.prefab")) return;
-
+        // Recreate bullet prefab to ensure correct sprites are loaded
         GameObject bullet = new GameObject("Bullet");
 
         // SpriteRenderer
@@ -184,8 +203,8 @@ public class PRU213AutoSetup : EditorWindow
         sr.color = new Color(1f, 0.87f, 0.27f, 1f); // Yellow
         sr.sortingOrder = 5;
         sr.sortingLayerName = "Player";
-        // Try to find a small sprite
-        sr.sprite = FindSpriteAsset("flask_blue") ?? FindSpriteAsset("coin_anim_f0");
+        // Find existing valid projectile assets
+        sr.sprite = LoadSpriteByDirectPath("Fireball", "Arrow");
 
         // Rigidbody2D
         Rigidbody2D rb = bullet.AddComponent<Rigidbody2D>();
@@ -210,21 +229,21 @@ public class PRU213AutoSetup : EditorWindow
         // Scale
         bullet.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
 
+        string spriteName = sr.sprite != null ? sr.sprite.name : "NULL";
         SavePrefab(bullet, path + "/Bullet.prefab");
-        Debug.Log("  ✓ Bullet prefab created");
+        Debug.Log($"  ✓ Bullet prefab created with sprite: {spriteName}");
     }
 
     private static void CreateEnemyBulletPrefab(string path)
     {
-        if (AssetExists(path + "/EnemyBullet.prefab")) return;
-
+        // Recreate enemy bullet prefab to ensure correct sprites are loaded
         GameObject bullet = new GameObject("EnemyBullet");
 
         SpriteRenderer sr = bullet.AddComponent<SpriteRenderer>();
         sr.color = new Color(1f, 0.27f, 0.27f, 1f); // Red
         sr.sortingOrder = 5;
         sr.sortingLayerName = "Player";
-        sr.sprite = FindSpriteAsset("flask_red") ?? FindSpriteAsset("coin_anim_f0");
+        sr.sprite = LoadSpriteByDirectPath("EnergyBall", "Arrow");
 
         Rigidbody2D rb = bullet.AddComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
@@ -243,8 +262,9 @@ public class PRU213AutoSetup : EditorWindow
         bullet.layer = LayerMask.NameToLayer("EnemyBullet");
         bullet.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
 
+        string spriteName = sr.sprite != null ? sr.sprite.name : "NULL";
         SavePrefab(bullet, path + "/EnemyBullet.prefab");
-        Debug.Log("  ✓ EnemyBullet prefab created");
+        Debug.Log($"  ✓ EnemyBullet prefab created with sprite: {spriteName}");
     }
 
     private static void CreateGunPrefab(string path)
@@ -254,7 +274,7 @@ public class PRU213AutoSetup : EditorWindow
         SpriteRenderer sr = gun.AddComponent<SpriteRenderer>();
         sr.sortingOrder = 3;
         sr.sortingLayerName = "Player";
-        sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Items/Weapons/MagicWand/Sprite.png");
+        sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/Items/Weapons/MagicWand/Sprite.png");
 
         BoxCollider2D col = gun.AddComponent<BoxCollider2D>();
         col.isTrigger = true;
@@ -284,7 +304,7 @@ public class PRU213AutoSetup : EditorWindow
         SpriteRenderer sr = sword.AddComponent<SpriteRenderer>();
         sr.sortingOrder = 3;
         sr.sortingLayerName = "Player";
-        sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Items/Weapons/Sword/Sprite.png");
+        sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/Items/Weapons/Sword/Sprite.png");
 
         // Create AttackZone child
         GameObject attackZone = new GameObject("AttackZone");
@@ -295,6 +315,9 @@ public class PRU213AutoSetup : EditorWindow
         BoxCollider2D atkCol = attackZone.AddComponent<BoxCollider2D>();
         atkCol.isTrigger = true;
         atkCol.size = new Vector2(0.8f, 0.5f);
+
+        // Attach routing helper
+        attackZone.AddComponent<MeleeAttackZone>();
 
         // Pickup collider on sword itself
         BoxCollider2D pickupCol = sword.AddComponent<BoxCollider2D>();
@@ -532,9 +555,9 @@ public class PRU213AutoSetup : EditorWindow
         }
 
         // Load background music clips from Ninja Adventure assets
-        AudioClip mainMusic = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Audio/Musics/1 - Adventure Begin.ogg");
-        AudioClip hubMusic = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Audio/Musics/33 - Calm Village.ogg");
-        AudioClip dungeonMusic = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Audio/Musics/21 - Dungeon.ogg");
+        AudioClip mainMusic = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/Audio/Musics/1 - Adventure Begin.ogg");
+        AudioClip hubMusic = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/Audio/Musics/33 - Calm Village.ogg");
+        AudioClip dungeonMusic = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/Audio/Musics/21 - Dungeon.ogg");
 
         SerializedObject so = new SerializedObject(lmScript);
         if (mainMusic != null) so.FindProperty("mainMenuMusic").objectReferenceValue = mainMusic;
@@ -658,10 +681,10 @@ public class PRU213AutoSetup : EditorWindow
         phudOutline.effectDistance = new Vector2(3, 3);
 
         // Load Sprites
-        Sprite barSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/HealthBar/Bar.png");
-        Sprite heartSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/HealthBar/Heart.png");
-        Sprite shieldSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/HealthBar/Shield.png");
-        Sprite manaSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/HealthBar/Mana.png");
+        Sprite barSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Sprites/GameAssets/HealthBar/Bar.png");
+        Sprite heartSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Sprites/GameAssets/HealthBar/Heart.png");
+        Sprite shieldSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Sprites/GameAssets/HealthBar/Shield.png");
+        Sprite manaSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Sprites/GameAssets/HealthBar/Mana.png");
 
         // Health row (Red)
         var healthUI = CreateHUDBarRow(phudPanel.transform, "Health", heartSprite, barSprite, new Color(0.85f, 0.15f, 0.15f), new Vector2(0, -10));
@@ -1062,6 +1085,50 @@ public class PRU213AutoSetup : EditorWindow
         return null;
     }
 
+    private static Sprite LoadSpriteByDirectPath(string primaryName, string fallbackName)
+    {
+        Sprite sp = FindSpriteAsset(primaryName);
+        if (sp != null) return sp;
+
+        // Try direct paths for Fireball
+        if (primaryName == "Fireball")
+        {
+            Object[] assets = AssetDatabase.LoadAllAssetsAtPath("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/FX/Projectile/Fireball.png");
+            if (assets != null)
+            {
+                foreach (Object asset in assets)
+                {
+                    if (asset is Sprite s) return s;
+                }
+            }
+        }
+        
+        // Try direct paths for EnergyBall
+        if (primaryName == "EnergyBall")
+        {
+            Object[] assets = AssetDatabase.LoadAllAssetsAtPath("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/FX/Projectile/EnergyBall.png");
+            if (assets != null)
+            {
+                foreach (Object asset in assets)
+                {
+                    if (asset is Sprite s) return s;
+                }
+            }
+        }
+
+        // Try direct paths for Arrow fallback
+        Object[] fallbackAssets = AssetDatabase.LoadAllAssetsAtPath("Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/FX/Projectile/Arrow.png");
+        if (fallbackAssets != null)
+        {
+            foreach (Object asset in fallbackAssets)
+            {
+                if (asset is Sprite s) return s;
+            }
+        }
+
+        return FindSpriteAsset(fallbackName);
+    }
+
 private static bool AssetExists(string path)
     {
         return AssetDatabase.LoadAssetAtPath<Object>(path) != null;
@@ -1167,18 +1234,25 @@ private static bool AssetExists(string path)
                     else if (nameUpper.Contains("INVENTORY") || nameUpper.Contains("IVENTORY")) invPg = child.gameObject;
                 }
             }
-            else
+
+            // Fallback: If not found under pages parent, search globally in menuCanvas
+            if (playerPg == null || settingsPg == null)
             {
-                // Fallback search
                 foreach (Transform child in menuCanvas.GetComponentsInChildren<Transform>(true))
                 {
+                    // Ignore buttons/texts to avoid wrong assignments
+                    if (child.GetComponent<Button>() != null || child.GetComponent<TextMeshProUGUI>() != null) continue;
+
                     string nameUpper = child.name.ToUpper();
-                    if (nameUpper.Contains("PLAYER") && nameUpper.Contains("PAGE")) playerPg = child.gameObject;
-                    else if (nameUpper.Contains("MAP") && nameUpper.Contains("PAGE")) mapPg = child.gameObject;
-                    else if (nameUpper.Contains("SETTING") && nameUpper.Contains("PAGE")) settingsPg = child.gameObject;
-                    else if ((nameUpper.Contains("INVENTORY") || nameUpper.Contains("IVENTORY")) && nameUpper.Contains("PAGE")) invPg = child.gameObject;
+                    if (playerPg == null && nameUpper.Contains("PLAYER") && (nameUpper.Contains("PAGE") || nameUpper.Contains("PANEL"))) playerPg = child.gameObject;
+                    if (settingsPg == null && nameUpper.Contains("SETTING") && (nameUpper.Contains("PAGE") || nameUpper.Contains("PANEL") || nameUpper.Contains("MENU"))) settingsPg = child.gameObject;
+                    if (mapPg == null && nameUpper.Contains("MAP") && (nameUpper.Contains("PAGE") || nameUpper.Contains("PANEL"))) mapPg = child.gameObject;
+                    if (invPg == null && (nameUpper.Contains("INVENTORY") || nameUpper.Contains("IVENTORY")) && (nameUpper.Contains("PAGE") || nameUpper.Contains("PANEL"))) invPg = child.gameObject;
                 }
             }
+
+            Debug.Log($"[PauseMenu Setup] playerTabObj: {(playerTabObj != null ? playerTabObj.name : "NULL")}, settingsTabObj: {(settingsTabObj != null ? settingsTabObj.name : "NULL")}");
+            Debug.Log($"[PauseMenu Setup] playerPg: {(playerPg != null ? playerPg.name : "NULL")}, settingsPg: {(settingsPg != null ? settingsPg.name : "NULL")}");
 
             // If inventory elements are found, delete them
             if (invTabObj != null)
@@ -1238,7 +1312,7 @@ private static bool AssetExists(string path)
                 RectTransform rSettings = settingsTabObj.GetComponent<RectTransform>();
 
                 // Spacing: Player at X = -100, Settings at X = 100
-                rPlayer.anchoredPosition = new Vector2(-100f, rPlayer.anchoredPosition.y);
+                rPlayer.anchoredPosition = new Vector2(0f, rPlayer.anchoredPosition.y);
                 rSettings.anchoredPosition = new Vector2(100f, rSettings.anchoredPosition.y);
 
                 // Re-bind EventTriggers to match new 2-tab index layout (Player=0, Settings=1)
@@ -1365,13 +1439,13 @@ private static bool AssetExists(string path)
                 RectTransform rSettings = settingsBtn.GetComponent<RectTransform>();
                 RectTransform rExit = exitBtn.GetComponent<RectTransform>();
 
-                rSave.anchoredPosition = new Vector2(-130f, -20f);
+                rSave.anchoredPosition = new Vector2(-530f, -20f);
                 rSettings.anchoredPosition = new Vector2(0f, -20f);
-                rExit.anchoredPosition = new Vector2(130f, -20f);
+                rExit.anchoredPosition = new Vector2(530f, -20f);
 
-                rSave.sizeDelta = new Vector2(110f, 50f);
-                rSettings.sizeDelta = new Vector2(110f, 50f);
-                rExit.sizeDelta = new Vector2(110f, 50f);
+                rSave.sizeDelta = new Vector2(500f, 150f);
+                rSettings.sizeDelta = new Vector2(500f, 150f);
+                rExit.sizeDelta = new Vector2(500f, 150f);
             }
 
             mc.saveButton = saveBtn;

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,28 +18,22 @@ public class PlayerMovement : MonoBehaviour
     private void OnMovement(InputValue value)
     {
         movement = value.Get<Vector2>();
-        if(movement.x !=0 || movement.y != 0)
+        if(movement.x != 0 || movement.y != 0)
         {
             animator.SetFloat("X", movement.x);
             animator.SetFloat("Y", movement.y);
-
-            animator.SetBool("IsWalking", true);
         }
-        else
-        {
-            animator.SetBool("IsWalking", false);
-        }
-
+        animator.SetFloat("Speed", movement.magnitude);
     }
     private void FixedUpdate()
     {   
         if(PauseController.isGamePaused)
         {
             rb.linearVelocity = Vector2.zero;
-            animator.SetBool("IsWalking", false);
+            animator.SetFloat("Speed", 0f);
             return;
         }
-    rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-        animator.SetBool("IsWalking", rb.linearVelocity.magnitude > 0);
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        animator.SetFloat("Speed", movement.magnitude);
     }
 }

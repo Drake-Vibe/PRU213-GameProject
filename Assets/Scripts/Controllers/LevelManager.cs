@@ -339,7 +339,7 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     private void ToggleOtherCanvases(bool active)
     {
-        Canvas[] canvases = FindObjectsByType<Canvas>(FindObjectsSortMode.None);
+        Canvas[] canvases = FindObjectsByType<Canvas>();
         foreach (Canvas canvas in canvases)
         {
             // Skip the loading screen canvas itself to keep it visible

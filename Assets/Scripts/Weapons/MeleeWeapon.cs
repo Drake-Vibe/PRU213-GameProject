@@ -15,6 +15,7 @@ public class MeleeWeapon : BaseWeapon
     private float timeSinceLastAttack = 0f;
     private bool isAttacking = false;
     private float attackTimer = 0f;
+    private System.Collections.Generic.List<BaseEnemy> hitEnemies = new System.Collections.Generic.List<BaseEnemy>();
 
     /// <summary>
     /// Whether the weapon is currently in an attack swing.
@@ -53,10 +54,31 @@ public class MeleeWeapon : BaseWeapon
             StartAttack();
         }
 
-        // Handle attack duration
+        // Handle attack duration and rotate the sword smoothly to represent a 3-phase swing
         if (isAttacking)
         {
             attackTimer += Time.deltaTime;
+            float t = Mathf.Clamp01(attackTimer / attackDuration);
+
+            if (t < 0.25f) // Phase 1: Wind-up (pull back from 0 to -60 degrees, no damage)
+            {
+                float p = t / 0.25f;
+                attackRotationOffset = Mathf.Lerp(0f, -60f, p);
+                if (attackCollider != null) attackCollider.enabled = false;
+            }
+            else if (t < 0.8f) // Phase 2: Slash (vung chém từ -60 to 60 degrees, trigger damage)
+            {
+                float p = (t - 0.25f) / 0.55f;
+                attackRotationOffset = Mathf.Lerp(-60f, 60f, p);
+                if (attackCollider != null) attackCollider.enabled = true;
+            }
+            else // Phase 3: Recovery (return from 60 to 0 degrees, no damage)
+            {
+                float p = (t - 0.8f) / 0.2f;
+                attackRotationOffset = Mathf.Lerp(60f, 0f, p);
+                if (attackCollider != null) attackCollider.enabled = false;
+            }
+
             if (attackTimer >= attackDuration)
             {
                 EndAttack();
@@ -69,33 +91,35 @@ public class MeleeWeapon : BaseWeapon
         isAttacking = true;
         attackTimer = 0f;
         timeSinceLastAttack = 0f;
+        hitEnemies.Clear(); // Clear the list of hit targets for this new swing
 
         if (attackCollider != null)
-            attackCollider.enabled = true;
+            attackCollider.enabled = false; // Start disabled during wind-up phase
     }
 
     private void EndAttack()
     {
         isAttacking = false;
         attackTimer = 0f;
+        attackRotationOffset = 0f; // Return to the normal aim rotation
 
         if (attackCollider != null)
             attackCollider.enabled = false;
     }
 
     /// <summary>
-    /// Called when the attack collider hits an enemy.
-    /// Handles damage dealing via OnTriggerEnter2D on the attack collider's child object.
+    /// Called when the attack collider hits an enemy (forwarded via MeleeAttackZone).
     /// </summary>
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnAttackTriggerEnter2D(Collider2D collision)
     {
         if (!isAttacking) return;
 
         if (collision.CompareTag(Tags.ENEMY))
         {
             BaseEnemy enemy = collision.GetComponent<BaseEnemy>();
-            if (enemy != null)
+            if (enemy != null && !hitEnemies.Contains(enemy))
             {
+                hitEnemies.Add(enemy); // Mark as hit to prevent double damage in this swing
                 enemy.TakeDamage(damage);
             }
         }

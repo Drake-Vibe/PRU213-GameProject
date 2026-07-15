@@ -28,11 +28,8 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (rb != null)
-        {
-            // Move in the "up" direction of the bullet's rotation
-            rb.linearVelocity = speed * (transform.rotation * Vector3.up);
-        }
+        // Move in the "up" direction of the bullet's rotation
+        transform.Translate(Vector3.up * speed * Time.fixedDeltaTime, Space.Self);
     }
 
     public void SetDamage(float dmg)
@@ -61,28 +58,26 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        string tag = collision.tag;
+        string otherTag = collision.gameObject.tag;
 
         // Don't hit the owner
-        if (tag == ownerTag) return;
+        if (otherTag == ownerTag) return;
 
-        switch (tag)
+        // Ignore collisions with other bullets, dropped weapons, or items
+        if (otherTag == "Bullet" || otherTag == "EnemyBullet" ||
+            otherTag == "Item" || otherTag == "Weapon" || otherTag == "WeaponPickup")
         {
-            case Tags.ENEMY:
-                if (ownerTag == Tags.PLAYER)
-                    Destroy(gameObject);
-                break;
+            return;
+        }
 
-            case Tags.PLAYER:
-                if (ownerTag == Tags.ENEMY)
-                    Destroy(gameObject);
-                break;
+        // Determine if this is the target of the bullet
+        bool isTarget = (ownerTag == Tags.PLAYER && otherTag == Tags.ENEMY) ||
+                        (ownerTag == Tags.ENEMY && otherTag == Tags.PLAYER);
 
-            case Tags.WALL:
-            case Tags.GATE_START:
-            case Tags.GATE_END:
-                Destroy(gameObject);
-                break;
+        // Destroy the bullet if it hits a solid obstacle (non-trigger) or the intended target
+        if (!collision.isTrigger || isTarget)
+        {
+            Destroy(gameObject);
         }
     }
 }

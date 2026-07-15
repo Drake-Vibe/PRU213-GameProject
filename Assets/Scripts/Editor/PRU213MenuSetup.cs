@@ -64,18 +64,18 @@ public class PRU213MenuSetup : EditorWindow
 
         GameObject canvas = CreateCanvas("MenuCanvas", 90);
 
-        // Background image setup (using Assets/Image/bg.jpg)
+        // Background image setup (using Assets/Art/Backgrounds/bg.jpg)
         GameObject bg = CreateImage(canvas.transform, "Background", Color.white);
         StretchFull(bg);
         Image bgImg = bg.GetComponent<Image>();
-        Sprite bgSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Image/bg.jpg");
+        Sprite bgSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Backgrounds/bg.jpg");
         if (bgSprite != null)
         {
             bgImg.sprite = bgSprite;
         }
         else
         {
-            Debug.LogWarning("Could not find background image at Assets/Image/bg.jpg. Using solid dark color instead.");
+            Debug.LogWarning("Could not find background image at Assets/Art/Backgrounds/bg.jpg. Using solid dark color instead.");
             bgImg.color = new Color(0.05f, 0.05f, 0.15f, 0.95f);
         }
 
@@ -166,7 +166,7 @@ public class PRU213MenuSetup : EditorWindow
 
         // Find menu canvas
         Canvas menuCanvas = null;
-        foreach (Canvas c in Object.FindObjectsByType<Canvas>(FindObjectsSortMode.None))
+        foreach (Canvas c in Object.FindObjectsByType<Canvas>())
         {
             if (c.gameObject.name == "MenuCanvas")
             {
@@ -382,14 +382,14 @@ public class PRU213MenuSetup : EditorWindow
             pageElement.FindPropertyRelative("narrativeText").stringValue = cutsceneTexts[i];
             pageElement.FindPropertyRelative("duration").floatValue = 10f;
             
-            Sprite cutsceneSprite = AssetDatabase.LoadAssetAtPath<Sprite>($"Assets/Image/cutscene{i + 1}.png");
+            Sprite cutsceneSprite = AssetDatabase.LoadAssetAtPath<Sprite>($"Assets/Art/Cutscenes/cutscene{i + 1}.png");
             if (cutsceneSprite != null)
             {
                 pageElement.FindPropertyRelative("backgroundImage").objectReferenceValue = cutsceneSprite;
             }
             else
             {
-                Debug.LogWarning($"Could not find cutscene image at Assets/Image/cutscene{i + 1}.png");
+                Debug.LogWarning($"Could not find cutscene image at Assets/Art/Cutscenes/cutscene{i + 1}.png");
             }
         }
 

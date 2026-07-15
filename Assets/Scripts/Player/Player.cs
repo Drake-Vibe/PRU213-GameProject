@@ -141,6 +141,13 @@ public class Player : MonoBehaviour
 
         currentHealth -= damage;
 
+        // Play hit animation
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit");
+        }
+
         Debug.Log($"Player took damage! HP: {currentHealth}/{maxHealth}, Armor: {currentArmor}/{maxArmor}");
 
         if (currentHealth <= 0)
