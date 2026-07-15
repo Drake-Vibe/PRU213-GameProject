@@ -15,7 +15,7 @@ public class MeleeWeapon : BaseWeapon
     private float timeSinceLastAttack = 0f;
     private bool isAttacking = false;
     private float attackTimer = 0f;
-    private System.Collections.Generic.List<BaseEnemy> hitEnemies = new System.Collections.Generic.List<BaseEnemy>();
+    private System.Collections.Generic.List<GameObject> hitEnemies = new System.Collections.Generic.List<GameObject>();
 
     /// <summary>
     /// Whether the weapon is currently in an attack swing.
@@ -116,11 +116,28 @@ public class MeleeWeapon : BaseWeapon
 
         if (collision.CompareTag(Tags.ENEMY))
         {
-            BaseEnemy enemy = collision.GetComponent<BaseEnemy>();
-            if (enemy != null && !hitEnemies.Contains(enemy))
+            GameObject target = collision.gameObject;
+            if (!hitEnemies.Contains(target))
             {
-                hitEnemies.Add(enemy); // Mark as hit to prevent double damage in this swing
-                enemy.TakeDamage(damage);
+                hitEnemies.Add(target); // Mark as hit to prevent double damage in this swing
+
+                // Damage BaseEnemy if present
+                BaseEnemy baseEnemy = target.GetComponent<BaseEnemy>();
+                if (baseEnemy == null) baseEnemy = target.GetComponentInParent<BaseEnemy>();
+                if (baseEnemy != null)
+                {
+                    baseEnemy.TakeDamage(damage);
+                }
+                else
+                {
+                    // Damage EnemyHealth if present (for enamy branch compatibility)
+                    EnemyHealth enemyHealth = target.GetComponent<EnemyHealth>();
+                    if (enemyHealth == null) enemyHealth = target.GetComponentInParent<EnemyHealth>();
+                    if (enemyHealth != null)
+                    {
+                        enemyHealth.TakeDamage((int)damage);
+                    }
+                }
             }
         }
     }

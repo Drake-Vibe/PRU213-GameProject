@@ -32,6 +32,20 @@ public class Player : MonoBehaviour
     public int healthPotions = 3;
     public int manaPotions = 3;
 
+    private static Player _instance;
+    public static Player Instance => _instance;
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        _instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -115,6 +129,22 @@ public class Player : MonoBehaviour
     /// Take damage from any source. Respects invincibility frames.
     /// </summary>
     public void TakeDamage(int damage)
+    {
+        TakeDamage(damage, transform.position);
+    }
+
+    /// <summary>
+    /// Overload for compatibility with EnemyChase and other scripts.
+    /// </summary>
+    public void TakeDamage(int damage, Vector2 sourcePosition)
+    {
+        TakeDamage(damage, (Vector3)sourcePosition);
+    }
+
+    /// <summary>
+    /// Overload for compatibility with EnemyChase and other scripts.
+    /// </summary>
+    public void TakeDamage(int damage, Vector3 sourcePosition)
     {
         // Check invincibility cooldown
         if (Time.time - lastDamageTime < damageCooldown) return;

@@ -60,4 +60,16 @@ public class EnemyHealth : MonoBehaviour
         float delay = animator != null ? deathAnimationDuration : 0f;
         Destroy(gameObject, delay);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            Bullet bullet = collision.GetComponent<Bullet>();
+            if (bullet != null && bullet.GetOwnerTag() == "Player")
+            {
+                TakeDamage((int)bullet.GetDamage());
+            }
+        }
+    }
 }

@@ -111,7 +111,27 @@ public class CombatRoom : MonoBehaviour
     // Kiểm tra Player có bấm chuột trái vào viên kim cương không
     private void CheckGemClick()
     {
-        if (Mouse.current == null || !Mouse.current.leftButton.wasPressedThisFrame) return;
+        bool clicked = false;
+        Vector2 mousePos = Vector2.zero;
+
+        if (Mouse.current != null)
+        {
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                clicked = true;
+                mousePos = Mouse.current.position.ReadValue();
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                clicked = true;
+                mousePos = Input.mousePosition;
+            }
+        }
+
+        if (!clicked) return;
 
         if (gem == null)
         {
@@ -123,7 +143,7 @@ public class CombatRoom : MonoBehaviour
         if (cam == null) cam = FindObjectOfType<Camera>();
         if (cam == null) return;
 
-        Vector2 worldPoint = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector2 worldPoint = cam.ScreenToWorldPoint(mousePos);
         Collider2D[] hits = Physics2D.OverlapPointAll(worldPoint);
         Debug.Log(name + " (CombatRoom): click tại " + worldPoint + " -> trúng " + hits.Length + " collider");
 

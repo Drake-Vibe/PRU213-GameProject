@@ -84,6 +84,34 @@ public class LevelManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         PlayMusicForScene(scene.name);
+
+        if (scene.name == "GameMainMenu" || scene.name == "GameOver")
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                Destroy(player);
+            }
+        }
+        else
+        {
+            GameObject spawnPoint = GameObject.Find("SpawnPoint");
+            if (spawnPoint == null) spawnPoint = GameObject.Find("PlayerSpawnPoint");
+            if (spawnPoint == null) spawnPoint = GameObject.FindWithTag("Respawn");
+
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null && spawnPoint != null)
+            {
+                // Temporarily disable character controller or rigidbody to ensure clean teleport
+                Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    rb.linearVelocity = Vector2.zero;
+                }
+                player.transform.position = spawnPoint.transform.position;
+                Debug.Log($"[LevelManager] Teleported persistent Player to {spawnPoint.name} at {spawnPoint.transform.position}");
+            }
+        }
     }
 
     private void PlayMusicForScene(string sceneName)
