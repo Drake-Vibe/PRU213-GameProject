@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
     /// </summary>
     private void FollowMouse()
     {
-        if (spriteRenderer == null) return;
+        if (spriteRenderer == null || Camera.main == null) return;
 
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         float directionX = mousePosition.x - transform.position.x;

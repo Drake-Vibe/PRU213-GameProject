@@ -19,7 +19,10 @@ public class NextLevelPortal : MonoBehaviour
     private void Start()
     {
         if (promptText != null)
+        {
+            promptText.text = promptMessage;
             promptText.gameObject.SetActive(false);
+        }
     }
 
     private void Update()

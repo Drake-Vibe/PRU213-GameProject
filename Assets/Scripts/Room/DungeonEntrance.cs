@@ -37,7 +37,10 @@ public class DungeonEntrance : MonoBehaviour
     private void Start()
     {
         if (promptText != null)
+        {
+            promptText.text = promptMessage;
             promptText.gameObject.SetActive(false);
+        }
 
         if (portalVisual != null)
             originalColor = portalVisual.color;

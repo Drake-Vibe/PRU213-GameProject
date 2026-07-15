@@ -52,6 +52,8 @@ public class BaseWeapon : MonoBehaviour
     /// </summary>
     private void FollowParentAndAimAtMouse()
     {
+        if (Camera.main == null) return;
+
         // Get mouse position in world space
         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 weaponPos = (Vector2)transform.position;

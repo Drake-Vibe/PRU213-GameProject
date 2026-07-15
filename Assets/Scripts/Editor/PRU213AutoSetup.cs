@@ -240,15 +240,11 @@ public class PRU213AutoSetup : EditorWindow
 
     private static void CreateGunPrefab(string path)
     {
-        if (AssetExists(path + "/Gun.prefab")) return;
-
         GameObject gun = new GameObject("Gun");
 
         SpriteRenderer sr = gun.AddComponent<SpriteRenderer>();
         sr.sortingOrder = 3;
-        sr.sprite = FindSpriteAsset("weapon_red_magic_staff") 
-                  ?? FindSpriteAsset("weapon_green_magic_staff")
-                  ?? FindSpriteAsset("weapon_regular_sword");
+        sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Items/Weapons/MagicWand/Sprite.png");
 
         BoxCollider2D col = gun.AddComponent<BoxCollider2D>();
         col.isTrigger = true;
@@ -273,15 +269,11 @@ public class PRU213AutoSetup : EditorWindow
 
     private static void CreateSwordPrefab(string path)
     {
-        if (AssetExists(path + "/Sword.prefab")) return;
-
         GameObject sword = new GameObject("Sword");
 
         SpriteRenderer sr = sword.AddComponent<SpriteRenderer>();
         sr.sortingOrder = 3;
-        sr.sprite = FindSpriteAsset("weapon_anime_sword") 
-                  ?? FindSpriteAsset("weapon_knight_sword")
-                  ?? FindSpriteAsset("weapon_regular_sword");
+        sr.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/Game Assets/Ninja Adventure - Asset Pack/Items/Weapons/Sword/Sprite.png");
 
         // Create AttackZone child
         GameObject attackZone = new GameObject("AttackZone");
