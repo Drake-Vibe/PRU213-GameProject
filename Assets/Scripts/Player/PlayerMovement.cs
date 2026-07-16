@@ -10,30 +10,53 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    private bool hasXParam;
+    private bool hasYParam;
+    private bool hasSpeedParam;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
+
+    private void Start()
+    {
+        hasXParam = HasParameter("X");
+        hasYParam = HasParameter("Y");
+        hasSpeedParam = HasParameter("Speed");
+    }
+
     private void OnMovement(InputValue value)
     {
         movement = value.Get<Vector2>();
         if(movement.x != 0 || movement.y != 0)
         {
-            animator.SetFloat("X", movement.x);
-            animator.SetFloat("Y", movement.y);
+            if (hasXParam && animator != null) animator.SetFloat("X", movement.x);
+            if (hasYParam && animator != null) animator.SetFloat("Y", movement.y);
         }
-        animator.SetFloat("Speed", movement.magnitude);
+        if (hasSpeedParam && animator != null) animator.SetFloat("Speed", movement.magnitude);
     }
+
     private void FixedUpdate()
     {   
         if(PauseController.isGamePaused)
         {
             rb.linearVelocity = Vector2.zero;
-            animator.SetFloat("Speed", 0f);
+            if (hasSpeedParam && animator != null) animator.SetFloat("Speed", 0f);
             return;
         }
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-        animator.SetFloat("Speed", movement.magnitude);
+        if (hasSpeedParam && animator != null) animator.SetFloat("Speed", movement.magnitude);
+    }
+
+    private bool HasParameter(string paramName)
+    {
+        if (animator == null) return false;
+        foreach (AnimatorControllerParameter param in animator.parameters)
+        {
+            if (param.name == paramName) return true;
+        }
+        return false;
     }
 }

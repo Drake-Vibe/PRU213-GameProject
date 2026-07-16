@@ -413,14 +413,18 @@ public class PRU213MenuSetup : EditorWindow
             lm = lmObj.AddComponent<LevelManager>();
         }
 
-        // Check if loading screen already exists
-        if (lm.loadingScreen != null)
+        // Find and destroy any existing LoadingCanvas in the scene to ensure we rebuild it as a child of LevelManager
+        GameObject existingCanvas = GameObject.Find("LoadingCanvas");
+        if (existingCanvas != null)
         {
-            Debug.Log("Loading screen already exists.");
-            return;
+            Object.DestroyImmediate(existingCanvas);
         }
+        
+        // Clear reference to force recreation
+        lm.loadingScreen = null;
 
         GameObject canvas = CreateCanvas("LoadingCanvas", 99);
+        canvas.transform.SetParent(lm.transform, false);
 
         // Background
         GameObject bg = CreateImage(canvas.transform, "LoadingBG", new Color(0.05f, 0.05f, 0.12f, 1f));

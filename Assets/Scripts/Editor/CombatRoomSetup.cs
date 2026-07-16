@@ -33,12 +33,11 @@ public static class CombatRoomSetup
         CombatRoom room = go.AddComponent<CombatRoom>();
 
         // 2) Gán Enemy Prefab (Zombie)
-        GameObject zombie = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Zombie.prefab");
+        GameObject zombie = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Enemies/Zombie.prefab");
         if (zombie != null) room.enemyPrefab = zombie;
-        else Debug.LogWarning("CombatRoomSetup: không tìm thấy Assets/Prefabs/Zombie.prefab — nhớ tự gán Enemy Prefab.");
+        else Debug.LogWarning("CombatRoomSetup: không tìm thấy Assets/Prefabs/Enemies/Zombie.prefab — nhớ tự gán Enemy Prefab.");
 
-        // 3) Gán các SpawnPoint* có sẵn trong scene
-        List<Transform> points = Object.FindObjectsByType<Transform>(FindObjectsSortMode.None)
+        List<Transform> points = new List<Transform>(Object.FindObjectsByType<Transform>(FindObjectsInactive.Exclude))
             .Where(t => t.name.StartsWith("SpawnPoint"))
             .OrderBy(t => t.name)
             .ToList();

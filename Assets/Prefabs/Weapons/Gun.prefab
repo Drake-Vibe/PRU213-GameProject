@@ -153,10 +153,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gun
   parentEntity: {fileID: 0}
-  damage: 5
+  damage: 20
   weaponName: Basic Gun
   spriteRenderer: {fileID: 0}
   bulletPrefab: {fileID: 723849623262139181, guid: 55c77549233ff904b9ac64ecf3ee894d, type: 3}
+  energyCost: 5
   fireRate: 3
 --- !u!114 &916753826551001909
 MonoBehaviour:

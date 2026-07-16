@@ -4,7 +4,7 @@ public class EnemyChase : MonoBehaviour
 {
     [Header("Cấu hình Di chuyển")]
     [SerializeField] private float speed = 3f;
-    [SerializeField] private float detectionRadius = 10f;
+    [SerializeField] private float detectionRadius = 5f;
     [SerializeField] private bool chaseForever = false;
 
     [Header("Cấu hình Chiến đấu")]

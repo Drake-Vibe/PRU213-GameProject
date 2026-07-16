@@ -46,6 +46,93 @@ public class PRU213AutoSetup : EditorWindow
             "OK");
     }
 
+    [MenuItem("Tools/PRU213 Setup/🔄 Setup All Scenes in Build", priority = 2)]
+    public static void SetupAllScenesInBuild()
+    {
+        Debug.Log("=== PRU213 Setup: Setting up all scenes ===");
+        var originalSetup = UnityEditor.SceneManagement.EditorSceneManager.GetSceneManagerSetup();
+        
+        string[] scenes = {
+            "Assets/Scenes/UI-Default.unity",
+            "Assets/Scenes/Level12.unity",
+            "Assets/Scenes/Level13.unity",
+            "Assets/Scenes/Level14.unity",
+            "Assets/Scenes/GameMainMenu.unity",
+            "Assets/Scenes/GameOver.unity"
+        };
+
+        foreach (string scenePath in scenes)
+        {
+            if (System.IO.File.Exists(scenePath))
+            {
+                var activeScene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(scenePath);
+                if (activeScene.IsValid())
+                {
+                    Debug.Log($"Configuring scene: {scenePath}...");
+                    SetupCurrentScene();
+                    
+                    // For Level 12 specifically, re-run its preplaced setup so it links GatedDoor as exitPortal
+                    if (scenePath.EndsWith("Level12.unity"))
+                    {
+                        SetupLevel12();
+                    }
+
+                    UnityEditor.SceneManagement.EditorSceneManager.SaveScene(activeScene);
+                }
+            }
+        }
+
+        if (originalSetup != null && originalSetup.Length > 0)
+        {
+            UnityEditor.SceneManagement.EditorSceneManager.RestoreSceneManagerSetup(originalSetup);
+        }
+    }
+
+    [MenuItem("Tools/PRU213 Setup/🔧 Repair Loading Screen in Current Scene", priority = 3)]
+    public static void RepairLoadingScreenInCurrentScene()
+    {
+        Debug.Log("=== PRU213 Setup: Repairing Loading Screen in Current Scene ===");
+        PRU213MenuSetup.CreateLoadingScreen();
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
+        Debug.Log("✅ Loading Screen successfully repaired in current scene!");
+    }
+
+    [MenuItem("Tools/PRU213 Setup/🔧 Repair Loading Screen in ALL Scenes", priority = 4)]
+    public static void RepairLoadingScreenInAllScenes()
+    {
+        Debug.Log("=== PRU213 Setup: Repairing Loading Screen in ALL Scenes ===");
+        var originalSetup = UnityEditor.SceneManagement.EditorSceneManager.GetSceneManagerSetup();
+        
+        string[] scenes = {
+            "Assets/Scenes/UI-Default.unity",
+            "Assets/Scenes/Level12.unity",
+            "Assets/Scenes/Level13.unity",
+            "Assets/Scenes/Level14.unity",
+            "Assets/Scenes/GameMainMenu.unity",
+            "Assets/Scenes/GameOver.unity"
+        };
+
+        foreach (string scenePath in scenes)
+        {
+            if (System.IO.File.Exists(scenePath))
+            {
+                var activeScene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(scenePath);
+                if (activeScene.IsValid())
+                {
+                    Debug.Log($"Repairing loading screen in: {scenePath}...");
+                    PRU213MenuSetup.CreateLoadingScreen();
+                    UnityEditor.SceneManagement.EditorSceneManager.SaveScene(activeScene);
+                }
+            }
+        }
+
+        if (originalSetup != null && originalSetup.Length > 0)
+        {
+            UnityEditor.SceneManagement.EditorSceneManager.RestoreSceneManagerSetup(originalSetup);
+        }
+        Debug.Log("✅ Loading Screen successfully repaired in ALL scenes!");
+    }
+
     // ========================================================
     // STEP 1: Tags & Layers
     // ========================================================
@@ -169,11 +256,40 @@ public class PRU213AutoSetup : EditorWindow
                     Debug.Log($"  ✓ Tagged camera '{cam.gameObject.name}' as 'MainCamera'");
                 }
                 taggedCamera = true;
+
+                // Add CameraFollow script if not present
+                CameraFollow follow = cam.gameObject.GetComponent<CameraFollow>();
+                if (follow == null)
+                {
+                    follow = cam.gameObject.AddComponent<CameraFollow>();
+                    Debug.Log($"  ✓ Attached CameraFollow script to camera '{cam.gameObject.name}'");
+                }
             }
         }
         if (!taggedCamera)
         {
             Debug.LogWarning("⚠️ No Main Camera found in scene to tag as 'MainCamera'!");
+        }
+
+        // Find or Create SpawnPoint in the scene
+        GameObject spawnPointObj = GameObject.Find("SpawnPoint");
+        if (spawnPointObj == null) spawnPointObj = GameObject.Find("PlayerSpawnPoint");
+        if (spawnPointObj == null)
+        {
+            spawnPointObj = new GameObject("SpawnPoint");
+            spawnPointObj.name = "SpawnPoint";
+        }
+
+        string currentSceneName = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene().name;
+        if (currentSceneName == "UI-Default")
+        {
+            spawnPointObj.transform.position = new Vector3(3.52f, 0.03f, 0f);
+            Debug.Log("  ✓ SpawnPoint for UI-Default configured at (3.52, 0.03, 0)");
+        }
+        else if (spawnPointObj.transform.position == Vector3.zero)
+        {
+            spawnPointObj.transform.position = new Vector3(0f, -2f, 0f);
+            Debug.Log("  ✓ Created 'SpawnPoint' at (0, -2, 0) for Player spawn");
         }
 
         SetupPlayerInScene();
@@ -215,7 +331,7 @@ public class PRU213AutoSetup : EditorWindow
         // CircleCollider2D
         CircleCollider2D col = bullet.AddComponent<CircleCollider2D>();
         col.isTrigger = true;
-        col.radius = 0.1f;
+        col.radius = 0.2f;
 
         // Bullet script
         Bullet bulletScript = bullet.AddComponent<Bullet>();
@@ -227,7 +343,7 @@ public class PRU213AutoSetup : EditorWindow
         bullet.layer = LayerMask.NameToLayer("Bullet");
 
         // Scale
-        bullet.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+        bullet.transform.localScale = new Vector3(1.5f, 1.5f, 1f);
 
         string spriteName = sr.sprite != null ? sr.sprite.name : "NULL";
         SavePrefab(bullet, path + "/Bullet.prefab");
@@ -252,7 +368,7 @@ public class PRU213AutoSetup : EditorWindow
 
         CircleCollider2D col = bullet.AddComponent<CircleCollider2D>();
         col.isTrigger = true;
-        col.radius = 0.1f;
+        col.radius = 0.2f;
 
         Bullet bulletScript = bullet.AddComponent<Bullet>();
         bulletScript.speed = 8f;
@@ -260,7 +376,7 @@ public class PRU213AutoSetup : EditorWindow
 
         bullet.tag = "EnemyBullet";
         bullet.layer = LayerMask.NameToLayer("EnemyBullet");
-        bullet.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+        bullet.transform.localScale = new Vector3(1.5f, 1.5f, 1f);
 
         string spriteName = sr.sprite != null ? sr.sprite.name : "NULL";
         SavePrefab(bullet, path + "/EnemyBullet.prefab");
@@ -281,7 +397,8 @@ public class PRU213AutoSetup : EditorWindow
         col.size = new Vector2(0.5f, 0.5f);
 
         Gun gunScript = gun.AddComponent<Gun>();
-        gunScript.damage = 5f;
+        gunScript.damage = 20f;
+        gunScript.energyCost = 5;
         gunScript.weaponName = "Basic Gun";
 
         // Link bullet prefab
@@ -309,12 +426,12 @@ public class PRU213AutoSetup : EditorWindow
         // Create AttackZone child
         GameObject attackZone = new GameObject("AttackZone");
         attackZone.transform.SetParent(sword.transform);
-        attackZone.transform.localPosition = new Vector3(0.4f, 0f, 0f);
+        attackZone.transform.localPosition = new Vector3(0f, 1.2f, 0f);
         attackZone.tag = "Sword";
 
         BoxCollider2D atkCol = attackZone.AddComponent<BoxCollider2D>();
         atkCol.isTrigger = true;
-        atkCol.size = new Vector2(0.8f, 0.5f);
+        atkCol.size = new Vector2(1.2f, 1.6f);
 
         // Attach routing helper
         attackZone.AddComponent<MeleeAttackZone>();
@@ -325,7 +442,7 @@ public class PRU213AutoSetup : EditorWindow
         pickupCol.size = new Vector2(0.5f, 0.5f);
 
         MeleeWeapon meleeScript = sword.AddComponent<MeleeWeapon>();
-        meleeScript.damage = 8f;
+        meleeScript.damage = 15f;
         meleeScript.weaponName = "Sword";
         // Set attackCollider via serialized field
         SerializedObject so = new SerializedObject(meleeScript);
@@ -1581,43 +1698,66 @@ private static bool AssetExists(string path)
         // 2. Perform standard setup (Camera, Player, GameManager, LevelManager, HUD)
         SetupCurrentScene();
 
-        // 3. Find Player in scene
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        Vector3 playerPos = playerObj != null ? playerObj.transform.position : Vector3.zero;
-
-        // 4. Load Zombie prefab
-        string zombiePrefabPath = "Assets/Prefabs/Enemies/Zombie.prefab";
-        GameObject zombiePrefab = AssetDatabase.LoadAssetAtPath<GameObject>(zombiePrefabPath);
-        if (zombiePrefab == null)
+        // 3. Find or Create SpawnPoint in the scene
+        GameObject spawnPointObj = GameObject.Find("SpawnPoint");
+        if (spawnPointObj == null) spawnPointObj = GameObject.Find("PlayerSpawnPoint");
+        if (spawnPointObj == null)
         {
-            Debug.LogError($"❌ Prefab not found at: {zombiePrefabPath}. Make sure to run 'Step 3 - Create All Prefabs' first.");
-            return;
+            spawnPointObj = new GameObject("SpawnPoint");
+            spawnPointObj.transform.position = new Vector3(0f, -2f, 0f);
+            Debug.Log("  ✓ Created 'SpawnPoint' at (0, -2, 0) for Player spawn");
+        }
+        Vector3 playerPos = spawnPointObj.transform.position;
+
+        // 4. Find all existing enemies in the scene by Tag or Name to track (and auto-configure components)
+        List<GameObject> existingEnemies = new List<GameObject>();
+        
+        GameObject[] allObjects = Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
+        foreach (var go in allObjects)
+        {
+            if (go == null) continue;
+            bool isEnemy = go.CompareTag("Enemy") || 
+                           go.name.ToUpper().Contains("ZOMBIE") || 
+                           go.name.ToUpper().Contains("ENEMY");
+            
+            // Make sure it is an instantiated scene object and not a prefab asset
+            if (isEnemy && go.scene.name != null && !existingEnemies.Contains(go))
+            {
+                existingEnemies.Add(go);
+                
+                // Auto-configure components if missing
+                Rigidbody2D rb = go.GetComponent<Rigidbody2D>();
+                if (rb == null)
+                {
+                    rb = go.AddComponent<Rigidbody2D>();
+                    rb.gravityScale = 0f;
+                    rb.freezeRotation = true;
+                }
+                
+                EnemyChase chase = go.GetComponent<EnemyChase>();
+                if (chase == null)
+                {
+                    chase = go.AddComponent<EnemyChase>();
+                }
+                SerializedObject chaseSO = new SerializedObject(chase);
+                chaseSO.FindProperty("detectionRadius").floatValue = 5f;
+                chaseSO.ApplyModifiedProperties();
+                
+                EnemyHealth health = go.GetComponent<EnemyHealth>();
+                if (health == null)
+                {
+                    health = go.AddComponent<EnemyHealth>();
+                }
+
+                // Make sure tag is set to Enemy
+                if (go.tag != "Enemy")
+                {
+                    go.tag = "Enemy";
+                }
+            }
         }
 
-        // 5. Spawn 18 zombies at offset coordinates in the room area
-        // Define coordinates that are generally walkable in a dungeon room
-        List<GameObject> spawnedZombies = new List<GameObject>();
-        int zombieCount = 18;
-        float[,] spawnCoords = new float[,] {
-            { 5f, 5f }, { -5f, 5f }, { 5f, -5f }, { -5f, -5f },
-            { 10f, 0f }, { -10f, 0f }, { 0f, 10f }, { 0f, -10f },
-            { 8f, 8f }, { -8f, 8f }, { 8f, -8f }, { -8f, -8f },
-            { 12f, 5f }, { -12f, 5f }, { 12f, -5f }, { -12f, -5f },
-            { 15f, 2f }, { -15f, 2f }
-        };
-
-        for (int i = 0; i < zombieCount; i++)
-        {
-            float offsetX = spawnCoords[i, 0];
-            float offsetY = spawnCoords[i, 1];
-            Vector3 spawnPos = playerPos + new Vector3(offsetX, offsetY, 0f);
-
-            GameObject zombie = PrefabUtility.InstantiatePrefab(zombiePrefab) as GameObject;
-            zombie.transform.position = spawnPos;
-            zombie.name = $"Zombie_Preplaced_{i}";
-            spawnedZombies.Add(zombie);
-        }
-        Debug.Log($"  ✓ Spawned {zombieCount} Zombies in the scene");
+        Debug.Log($"  ✓ Found and configured {existingEnemies.Count} existing Zombies/Enemies in the scene to track");
 
         // 6. Find or Create CombatRoom GameObject
         GameObject combatRoomObj = GameObject.Find("CombatRoom_Level12");
@@ -1650,27 +1790,43 @@ private static bool AssetExists(string path)
         combatRoom.enemyPrefab = null; // We are using pre-placed enemies
         
         // Assign preplaced enemies
-        combatRoom.prePlacedEnemies = spawnedZombies;
+        combatRoom.prePlacedEnemies = existingEnemies;
 
-        // 7. Find exit gate or portal in scene to block the path to the next level
+        // 7. Setup GatedDoor as the exit portal
         List<GameObject> exitGates = new List<GameObject>();
         
-        // Try to find any GameObject containing "NextLevelPortal" or "Portal" or "Gate_End" or "Gate"
-        GameObject portal = GameObject.Find("NextLevelPortal");
-        if (portal == null) portal = GameObject.FindWithTag("Gate_End");
-        if (portal == null) portal = GameObject.Find("Portal");
-        
-        if (portal != null)
+        // Ensure GatedDoor prefab exists
+        string gatedDoorPrefabPath = "Assets/Prefabs/Environment/GatedDoor.prefab";
+        GameObject gatedDoorPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(gatedDoorPrefabPath);
+        if (gatedDoorPrefab == null)
         {
-            exitGates.Add(portal);
-            Debug.Log($"  ✓ Found and linked exit portal '{portal.name}' to the CombatRoom gates");
+            CreateGatedDoorPrefab();
+            gatedDoorPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(gatedDoorPrefabPath);
+        }
+
+        GameObject doorObj = GameObject.Find("GatedDoor");
+        if (doorObj == null)
+        {
+            if (gatedDoorPrefab != null)
+            {
+                doorObj = PrefabUtility.InstantiatePrefab(gatedDoorPrefab) as GameObject;
+                doorObj.transform.position = playerPos + new Vector3(0f, 12f, 0f);
+                doorObj.name = "GatedDoor";
+                Debug.Log("  ✓ Instantiated GatedDoor prefab in Level12");
+            }
+        }
+
+        if (doorObj != null)
+        {
+            combatRoom.exitPortal = doorObj;
+            Debug.Log($"  ✓ Linked GatedDoor '{doorObj.name}' as the CombatRoom exitPortal");
         }
         else
         {
-            Debug.LogWarning("⚠️ No NextLevelPortal found in Level12 scene. Make sure to place one!");
+            Debug.LogWarning("⚠️ No GatedDoor prefab found or created to set up as exit!");
         }
 
-        combatRoom.gates = exitGates.ToArray();
+        combatRoom.gates = null;
 
         // 8. Save Scene
         UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
@@ -1682,5 +1838,133 @@ private static bool AssetExists(string path)
         {
             UnityEditor.SceneManagement.EditorSceneManager.RestoreSceneManagerSetup(originalSetup);
         }
+    }
+
+    [MenuItem("Tools/PRU213 Setup/🔧 Configure Zombie Prefab", priority = 31)]
+    public static void ConfigureZombiePrefab()
+    {
+        string path = "Assets/Prefabs/Enemies/Zombie.prefab";
+        GameObject zombiePrefab = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+        if (zombiePrefab == null)
+        {
+            Debug.LogError($"❌ Zombie prefab not found at {path}");
+            return;
+        }
+
+        // Open the prefab contents
+        GameObject prefabRoot = PrefabUtility.LoadPrefabContents(path);
+        
+        // 1. Set localScale to (5, 5, 1)
+        prefabRoot.transform.localScale = new Vector3(5f, 5f, 1f);
+
+        // 2. Set BoxCollider2D size to (0.15, 0.17)
+        BoxCollider2D boxCol = prefabRoot.GetComponent<BoxCollider2D>();
+        if (boxCol == null)
+        {
+            boxCol = prefabRoot.AddComponent<BoxCollider2D>();
+        }
+        boxCol.size = new Vector2(0.15f, 0.17f);
+
+        // Save the updated prefab
+        PrefabUtility.SaveAsPrefabAsset(prefabRoot, path);
+        PrefabUtility.UnloadPrefabContents(prefabRoot);
+
+        Debug.Log("✅ Zombie prefab successfully updated: Scale set to (5, 5, 1) and BoxCollider2D size set to (0.15, 0.17)!");
+    }
+
+    [MenuItem("Tools/PRU213 Setup/🚪 Create Gated Door Prefab", priority = 32)]
+    public static void CreateGatedDoorPrefab()
+    {
+        Debug.Log("=== PRU213 Setup: Creating Gated Door Prefab ===");
+
+        string prefabPath = "Assets/Prefabs/Environment/GatedDoor.prefab";
+        string texturePath = "Assets/Art/Sprites/GameAssets/Pixel Crawler - Free Pack/Environment/Structures/Buildings/Props.png";
+
+        // Create root GameObject
+        GameObject doorRoot = new GameObject("GatedDoor");
+
+        // Add BoxCollider2D (Is Trigger)
+        BoxCollider2D boxCol = doorRoot.AddComponent<BoxCollider2D>();
+        boxCol.isTrigger = true;
+        boxCol.size = new Vector2(2f, 3f);
+        boxCol.offset = new Vector2(0f, 0f);
+
+        // Add NextLevelPortal script
+        NextLevelPortal portal = doorRoot.AddComponent<NextLevelPortal>();
+        
+        // Find prompt text or add it
+        GameObject textObj = new GameObject("PromptText");
+        textObj.transform.SetParent(doorRoot.transform);
+        textObj.transform.localPosition = new Vector3(0f, 2f, 0f);
+        TMPro.TextMeshPro tmp = textObj.AddComponent<TMPro.TextMeshPro>();
+        tmp.text = "Press ENTER to continue";
+        tmp.alignment = TMPro.TextAlignmentOptions.Center;
+        tmp.fontSize = 3f;
+        MeshRenderer mr = tmp.GetComponent<MeshRenderer>();
+        if (mr != null)
+        {
+            mr.sortingLayerName = "Player";
+            mr.sortingOrder = 10;
+        }
+
+        // Set promptText field using reflection
+        SerializedObject so = new SerializedObject(portal);
+        SerializedProperty promptTextProp = so.FindProperty("promptText");
+        if (promptTextProp != null)
+        {
+            promptTextProp.objectReferenceValue = tmp;
+        }
+        so.ApplyModifiedProperties();
+
+        // 6 tiles configuration: Name, X, Y
+        var tilesConfig = new (string spriteName, float x, float y)[] {
+            ("Props_4", -0.5f, 1f),   ("Props_5", 0.5f, 1f),   // Top Row
+            ("Props_16", -0.5f, 0f),  ("Props_17", 0.5f, 0f),  // Mid Row
+            ("Props_28", -0.5f, -1f), ("Props_29", 0.5f, -1f)  // Bot Row
+        };
+
+        foreach (var tile in tilesConfig)
+        {
+            GameObject child = new GameObject(tile.spriteName);
+            child.transform.SetParent(doorRoot.transform);
+            child.transform.localPosition = new Vector3(tile.x, tile.y, 0f);
+
+            SpriteRenderer sr = child.AddComponent<SpriteRenderer>();
+            sr.sortingLayerName = "Player";
+            sr.sortingOrder = 1; // Door layer
+            
+            // Load sub sprite
+            Sprite sprite = LoadSubSprite(texturePath, tile.spriteName);
+            if (sprite != null)
+            {
+                sr.sprite = sprite;
+            }
+            else
+            {
+                Debug.LogWarning($"⚠️ Could not load sub-sprite '{tile.spriteName}' from {texturePath}");
+            }
+        }
+
+        // Ensure directories exist
+        System.IO.Directory.CreateDirectory("Assets/Prefabs/Environment");
+
+        // Save Prefab
+        PrefabUtility.SaveAsPrefabAsset(doorRoot, prefabPath);
+        DestroyImmediate(doorRoot);
+
+        Debug.Log($"✅ GatedDoor prefab successfully created and saved to {prefabPath}!");
+    }
+
+    private static Sprite LoadSubSprite(string texturePath, string spriteName)
+    {
+        Object[] assets = AssetDatabase.LoadAllAssetsAtPath(texturePath);
+        foreach (Object asset in assets)
+        {
+            if (asset is Sprite && asset.name == spriteName)
+            {
+                return asset as Sprite;
+            }
+        }
+        return null;
     }
 }

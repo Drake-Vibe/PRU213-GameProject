@@ -239,7 +239,7 @@ public class Player : MonoBehaviour
         if (healthPotions > 0 && currentHealth < maxHealth)
         {
             healthPotions--;
-            currentHealth = Mathf.Min(currentHealth + 3, maxHealth); // Restores 3 HP
+            currentHealth = Mathf.Min(currentHealth + 50, maxHealth); // Restores 50 HP
             Debug.Log($"Used HP Potion! HP: {currentHealth}/{maxHealth}, Potions left: {healthPotions}");
         }
     }

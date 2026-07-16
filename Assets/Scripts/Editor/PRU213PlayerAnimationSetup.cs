@@ -46,6 +46,8 @@ public class PRU213PlayerAnimationSetup : EditorWindow
         // Add Parameters
         controller.AddParameter("Speed", AnimatorControllerParameterType.Float);
         controller.AddParameter("Hit", AnimatorControllerParameterType.Trigger);
+        controller.AddParameter("X", AnimatorControllerParameterType.Float);
+        controller.AddParameter("Y", AnimatorControllerParameterType.Float);
 
         AnimatorStateMachine stateMachine = controller.layers[0].stateMachine;
 

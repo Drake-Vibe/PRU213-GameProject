@@ -51,6 +51,10 @@ public class CombatRoom : MonoBehaviour
     [Tooltip("Khoảng đệm để player không dính sát mép tường (đơn vị Unity).")]
     public float insideMargin = 0.3f;
 
+    [Header("Cổng dịch chuyển qua màn (Exit Portal)")]
+    [Tooltip("Cổng này sẽ xuất hiện (SetActive(true)) khi dọn sạch phòng. Để trống nếu không dùng.")]
+    public GameObject exitPortal;
+
     private bool triggered = false;   // đã bắt đầu trận chưa
     private bool cleared = false;     // đã dọn sạch chưa
     private int spawnedCount = 0;     // đã sinh tổng cộng bao nhiêu
@@ -66,6 +70,7 @@ public class CombatRoom : MonoBehaviour
         cam = Camera.main;
         roomArea = GetComponent<BoxCollider2D>();
         SetGatesClosed(false); // cổng mở lúc đầu
+        if (exitPortal != null) exitPortal.SetActive(false); // cổng qua màn ẩn lúc đầu
     }
 
     private void Update()
@@ -99,6 +104,7 @@ public class CombatRoom : MonoBehaviour
         {
             cleared = true;
             SetGatesClosed(false);
+            if (exitPortal != null) exitPortal.SetActive(true); // Cổng qua màn hiện ra khi dọn sạch phòng
             Debug.Log(name + " (CombatRoom): DỌN SẠCH PHÒNG! Mở cổng.");
             return;
         }
@@ -186,6 +192,7 @@ public class CombatRoom : MonoBehaviour
             if (enemyPrefab == null)
             {
                 totalEnemiesToKill = aliveEnemies.Count;
+                spawnedCount = aliveEnemies.Count; // Prevent spawning loop warning
             }
         }
 

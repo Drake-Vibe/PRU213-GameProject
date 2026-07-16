@@ -321,7 +321,18 @@ public class LevelManager : MonoBehaviour
 
     private IEnumerator LoadSceneQuick(string sceneName)
     {
-        yield return QuickLoadRoutine(SceneManager.LoadSceneAsync(sceneName));
+        if (sceneName == "GameMainMenu")
+        {
+            var op = SceneManager.LoadSceneAsync(sceneName);
+            while (!op.isDone)
+            {
+                yield return null;
+            }
+        }
+        else
+        {
+            yield return QuickLoadRoutine(SceneManager.LoadSceneAsync(sceneName));
+        }
     }
 
     private IEnumerator QuickLoadRoutine(AsyncOperation operation)
