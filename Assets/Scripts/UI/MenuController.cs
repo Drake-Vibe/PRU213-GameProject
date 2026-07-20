@@ -98,9 +98,26 @@ public class MenuController : MonoBehaviour
 
             if (tabsTrans != null)
             {
+                // Draw the tabs above the page panels within the menu.
                 tabsTrans.SetAsLastSibling();
-                Debug.Log("[MenuController] Moved Tabs to last sibling to prevent raycast blocking.");
             }
+
+            // Give the whole in-game menu a single dedicated raycaster on a top sorting layer.
+            // The nested menu canvas was authored with an inconsistent render mode, which stopped
+            // the root GraphicRaycaster from delivering clicks to the menu's content. Forcing
+            // overrideSorting + a GraphicRaycaster here makes BOTH the tabs and the settings-page
+            // buttons reliably receive clicks, and keeps the menu above the HUD.
+            Canvas menuCanvasComp = menuCanvas.GetComponent<Canvas>();
+            if (menuCanvasComp == null) menuCanvasComp = menuCanvas.AddComponent<Canvas>();
+            menuCanvasComp.overrideSorting = true;
+            menuCanvasComp.sortingOrder = 210; // above HUD (100) and the base menu canvas (200)
+
+            if (menuCanvas.GetComponent<GraphicRaycaster>() == null)
+            {
+                menuCanvas.AddComponent<GraphicRaycaster>();
+            }
+
+            Debug.Log("[MenuController] Menu canvas given a dedicated raycaster (sortingOrder 210) to fix menu clicks.");
         }
 
         // Setup Button Listeners
