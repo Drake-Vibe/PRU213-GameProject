@@ -1,0 +1,378 @@
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>Game Report Data</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+@page {
+    size: 8.5in 11.0in;
+    margin: 1.0in 1.0in 1.0in 1.0in;
+    mso-header-margin: 0.5in;
+    mso-footer-margin: 0.5in;
+    mso-paper-source: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<h1 style="font-family: Arial, sans-serif; color: #1a73e8; font-size: 20pt; border-bottom: 2px solid #1a73e8; padding-bottom: 5px; margin-top: 18pt; margin-bottom: 12pt;">Báo Cáo Chi Tiết: Dự Án The Abyssal Dungeon</h1>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">Tài liệu này tổng hợp toàn bộ các chức năng, yêu cầu kỹ thuật (Requirements), đoạn mã nguồn quan trọng (Critical Code) và vị trí của các tài nguyên hình ảnh (Sprites) trong dự án game <strong>The Abyssal Dungeon</strong> để phục vụ việc viết báo cáo cuối kỳ.</p>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h2 style="font-family: Arial, sans-serif; color: #3c4043; font-size: 16pt; margin-top: 14pt; margin-bottom: 8pt; border-bottom: 1px solid #ddd; padding-bottom: 3px;">1. Danh Sách Thành Viên & Phân Chia Công Việc (Contribution)</h2>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Trịnh Gia Bảo (DE180403 - 30%):</strong> Thiết kế bản đồ (Map Making), Tương tác nhân vật (Player Interact), Menu trong game (In-game Menu), Hệ thống Lưu/Tải game (Save-Load System), Giao diện bản đồ thu nhỏ (Mini Map UI), Hệ thống hòm đồ (Inventory System).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Nguyễn Võ Hoàng Huy (DE180397 - 23.33%):</strong> Menu chính (Main Menu), Màn hình thua cuộc (Game Over), Hệ thống chiến đấu (Battle System), Di chuyển của quái (Monster Movement).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Trương Kiều Ngọc Diễm (DE170116 - 23.33%):</strong> Giới thiệu cốt truyện (Intro Cutscenes), Di chuyển nhân vật (Player Movement Animations), Các hoạt ảnh khác (Animations).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Nguyễn Mạnh Duy Hưng (DE170356 - 23.33%):</strong> Hệ thống máu (Health System), Hệ thống tạm dừng game (Pause Game System), Tiếp tục chơi (Resume Game System).</li>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h2 style="font-family: Arial, sans-serif; color: #3c4043; font-size: 16pt; margin-top: 14pt; margin-bottom: 8pt; border-bottom: 1px solid #ddd; padding-bottom: 3px;">2. Danh Sách Các Cảnh Chơi (Scenes) trong Game</h2>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">Dự án bao gồm <strong>7 cảnh chơi</strong> chính (đã được cập nhật và đổi tên theo chuẩn demo):</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">1. <strong>GameMainMenu.unity:</strong> Giao diện bắt đầu game.</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">2. <strong>UI-Default.unity:</strong> Khu vực sảnh chính (Hub Town) để chuẩn bị vào phụ bản.</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">3. <strong>Level 1.unity:</strong> Tầng ngục tối thứ nhất (Dungeon Floor 1).</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">4. <strong>Level 2.unity:</strong> Tầng ngục tối thứ hai (Dungeon Floor 2).</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">5. <strong>Boss Fight.unity:</strong> Phòng Boss đấu Crystal Knight (Dungeon Floor 3).</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">6. <strong>DemoEnding.unity:</strong> Màn hình chiến thắng và cảm ơn người chơi đã hoàn thành bản Demo.</p>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">7. <strong>GameOver.unity:</strong> Màn hình thua cuộc khi người chơi hết máu.</p>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;"><em>Đường dẫn lưu trữ trong Project:</em> `Assets/Scenes/`</p>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h2 style="font-family: Arial, sans-serif; color: #3c4043; font-size: 16pt; margin-top: 14pt; margin-bottom: 8pt; border-bottom: 1px solid #ddd; padding-bottom: 3px;">3. Các Yêu Cầu Kỹ Thuật (Requirements) & Đoạn Mã Nguồn Quan Trọng</h2>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 1: Player Movement (Di chuyển nhân vật bằng bàn phím)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Sử dụng hệ thống Input mới của Unity (`UnityEngine.InputSystem`) thu nhận chuyển động và áp dụng vào Rigidbody2D của nhân vật thông qua phương thức `rb.MovePosition`.</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Đường dẫn Sprite nhân vật:</strong> </li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Ảnh gốc Idle/Run: `Assets/Art/Sprites/GameAssets/KnightAnimation/`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Tên File đại diện: `knight_m_idle_anim_f0.png`, `knight_m_run_anim_f0.png`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/Player/PlayerMovement.cs#L30-L51" style="color: #1a73e8; text-decoration: none;">PlayerMovement.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class PlayerMovement : MonoBehaviour
+{
+    [SerializeField] private int speed = 5;
+    private Vector2 movement;
+    private Rigidbody2D rb;
+
+    private void OnMovement(InputValue value)
+    {
+        movement = value.Get&lt;Vector2&gt;();
+    }
+
+    private void FixedUpdate()
+    {   
+        if(PauseController.isGamePaused)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 2: Health Bar System & Damage Hit (Hệ thống thanh máu)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Khi nhân vật nhận sát thương, Máu (Health) giảm dần và cập nhật lên Slider UI thông qua Gradient màu sắc (chuyển đỏ khi thấp máu).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Đường dẫn Sprite UI:</strong></li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Khung Máu: `Assets/Art/Sprites/GameAssets/HealthBar/Heart.png`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Thanh Máu: `Assets/Art/Sprites/GameAssets/HealthBar/Bar.png`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Thanh Giáp/Năng lượng: `Assets/Art/Sprites/GameAssets/HealthBar/Shield.png` / `Mana.png`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/UI/HealthBar.cs#L13-L28" style="color: #1a73e8; text-decoration: none;">HealthBar.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using UnityEngine.UI;
+
+public class HealthBar : MonoBehaviour
+{
+    public Slider healthSlider;
+    public Gradient gradient;
+    public Image fill;
+
+    public void SetMaxHealth(int health)
+    {
+        healthSlider.maxValue = health;
+        healthSlider.value = health;
+        fill.color = gradient.Evaluate(1f);
+    }
+
+    public void SetHealth(int health)
+    {
+        healthSlider.value = health;
+        fill.color = gradient.Evaluate(healthSlider.normalizedValue);
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 3: Main Menu (Giao diện chính)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Gồm các chức năng chính: Bắt đầu game mới (New Game - tải Hub `UI-Default`), Tải game cũ (Load Game - đọc file save JSON) và Thoát game (Quit).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/MainMenu/MainMenu.cs#L22-L46" style="color: #1a73e8; text-decoration: none;">MainMenu.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenu : MonoBehaviour
+{
+    public void PlayGame()
+    {
+        // Reset save flag and load the default Hub level
+        PlayerPrefs.SetInt("ShouldLoadSave", 0);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("UI-Default");
+    }
+
+    public void LoadGame()
+    {
+        // Mark that the game should load save on start
+        PlayerPrefs.SetInt("ShouldLoadSave", 1);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("UI-Default");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 4: Game Over Screen (Màn hình thua cuộc)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Khi nhân vật hết máu, giao diện Game Over hiện lên hiển thị nút chơi lại màn hiện tại hoặc quay về Main Menu.</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/UI/GameOver.cs#L10-L28" style="color: #1a73e8; text-decoration: none;">GameOver.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameOver : MonoBehaviour
+{
+    public void RestartGame()
+    {
+        // Restart game by reloading Main Hub and resetting stats
+        SceneManager.LoadScene("UI-Default");
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("GameMainMenu");
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 5: Player Attack & Weapons (Hệ thống Tấn công & Vũ khí)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Người chơi có thể sử dụng vũ khí cận chiến (Melee) hoặc súng (Ranged Gun) tiêu hao Năng lượng (Energy). Phím bắn/tấn công có thể rebind tự do.</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Đường dẫn Sprite:</strong></li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Vũ khí và Đạn: `Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/Items/Weapon/`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Weapons/Gun.cs#L45-L65" style="color: #1a73e8; text-decoration: none;">Gun.cs</a> - Rút gọn):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+
+public class Gun : MonoBehaviour
+{
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float fireRate = 0.5f;
+    private float nextFireTime = 0f;
+
+    void Update()
+    {
+        KeyCode attackKey = SettingsManager.CurrentSettings != null ? SettingsManager.CurrentSettings.attack : KeyCode.Mouse0;
+        
+        if (Input.GetKey(attackKey) &amp;&amp; Time.time &gt;= nextFireTime)
+        {
+            nextFireTime = Time.time + fireRate;
+            Shoot();
+        }
+    }
+
+    void Shoot()
+    {
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 6: Cutscenes & Story Line (Dẫn truyện mở đầu)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Phát các hình ảnh cốt truyện tuần tự, cập nhật văn bản, hỗ trợ phát âm thanh dẫn truyện (voiceovers/bgm) cho từng trang và cho phép bỏ qua (Skip).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Đường dẫn Sprite Cutscenes:</strong> `Assets/Art/Cutscenes/`</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/UI/CutsceneManager.cs#L120-L140" style="color: #1a73e8; text-decoration: none;">CutsceneManager.cs</a> - Trình diễn từng trang):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class CutsceneManager : MonoBehaviour
+{
+    public List&lt;CutscenePage&gt; pages;
+    private int currentPageIndex = 0;
+    public Image displayImage;
+    public TextMeshProUGUI displayText;
+
+    public void ShowPage(int index)
+    {
+        if(index &lt; 0 || index &gt;= pages.Count) return;
+        displayImage.sprite = pages[index].pageSprite;
+        displayText.text = pages[index].dialogueText;
+        
+        // Play page specific audio
+        if (pages[index].pageAudio != null) {
+            audioSource.clip = pages[index].pageAudio;
+            audioSource.Play();
+        }
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 7, 8, 11: In-game Menu, Pause & Settings System (Hệ thống Cài đặt & Tạm dừng)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Cho phép người chơi điều chỉnh Master/Music/SFX Volume, thay đổi Keybindings (Gán phím mới) và tạm dừng Game (`Time.timeScale = 0f`).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/Controllers/PauseController.cs" style="color: #1a73e8; text-decoration: none;">PauseController.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+
+public class PauseController : MonoBehaviour
+{
+    public static bool isGamePaused = false;
+
+    public static void PauseGame()
+    {
+        isGamePaused = true;
+        Time.timeScale = 0f;
+    }
+
+    public static void ResumeGame()
+    {
+        isGamePaused = false;
+        Time.timeScale = 1f;
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 9: Save & Load Game (Lưu & Tải game)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Lưu trữ toàn bộ dữ liệu trạng thái bao gồm: Vị trí người chơi, Tên cảnh hiện tại, Tầng hầm ngục, Điểm số, Vũ khí đang trang bị, Chỉ số Máu/Năng lượng và các potion hiện có vào file JSON cục bộ (`saveData.json`).</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/Data/SaveController.cs#L58-L100" style="color: #1a73e8; text-decoration: none;">SaveController.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using System.IO;
+
+public class SaveController : MonoBehaviour
+{
+    private string saveLocation = @"D:\PRU213-GameProject\Save File\saveData.json";
+
+    public void SaveGame()
+    {
+        Player player = FindAnyObjectByType&lt;Player&gt;();
+        GameManager gm = GameManager.Instance;
+
+        SaveData saveData = new SaveData
+        {
+            savedSceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name,
+            playerPosition = player != null ? player.transform.position : Vector3.zero,
+            currentLevel = gm != null ? gm.currentLevel : 1,
+            score = gm != null ? gm.score : 0,
+            playerHealth = player != null ? player.currentHealth : 100
+        };
+
+        File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
+        Debug.Log("Game saved to JSON file successfully!");
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Requirement 12: Inventory System (Hệ thống túi đồ)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Cho phép người chơi nhặt, mang theo các loại vũ khí khác nhau và chuyển đổi nhanh giữa chúng để chiến đấu.</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/Data/InventoryController.cs" style="color: #1a73e8; text-decoration: none;">InventoryController.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using System.Collections.Generic;
+
+public class InventoryController : MonoBehaviour
+{
+    public List&lt;GameObject&gt; weapons = new List&lt;GameObject&gt;();
+    public int currentWeaponIndex = 0;
+
+    public void EquipWeapon(int index)
+    {
+        if (index &lt; 0 || index &gt;= weapons.Count) return;
+        weapons[currentWeaponIndex].SetActive(false);
+        currentWeaponIndex = index;
+        weapons[currentWeaponIndex].SetActive(true);
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h2 style="font-family: Arial, sans-serif; color: #3c4043; font-size: 16pt; margin-top: 14pt; margin-bottom: 8pt; border-bottom: 1px solid #ddd; padding-bottom: 3px;">4. Chức Năng Bổ Sung Đặc Biệt (Extra / New Functions)</h2>
+
+<h3 style="font-family: Arial, sans-serif; color: #5f6368; font-size: 13pt; margin-top: 12pt; margin-bottom: 6pt;">Màn hình Kết thúc Demo (Demo Victory Ending)</h3>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Cơ chế:</strong> Tự động kích hoạt khi người chơi hạ gục Boss ở màn chơi thứ ba (`Boss Fight`). Nó dọn dẹp sạch sẽ các Singleton còn thừa từ DontDestroyOnLoad (như Player, HUD Canvas, Menu In-Game) để đảm bảo không bị rác bộ nhớ, phát bài nhạc chủ đề kết thúc `8 - End Theme.ogg`, và hiển thị tổng điểm số cuối cùng của người chơi mà không cần hiển thị số màn chơi hoàn thành theo yêu cầu tinh giản.</li>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;"><strong>Mã nguồn quan trọng (<a href="file:///d:/PRU213-GameProject/Assets/Scripts/UI/DemoEnding.cs" style="color: #1a73e8; text-decoration: none;">DemoEnding.cs</a>):</strong></li>
+<pre style="background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; font-family: Consolas, 'Courier New', monospace; font-size: 10pt; line-height: 1.2; white-space: pre-wrap; margin-bottom: 12pt;"><code>using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
+
+public class DemoEnding : MonoBehaviour
+{
+    [SerializeField] private TextMeshProUGUI scoreText;
+
+    private void Start()
+    {
+        // 1. Display Final Score from GameManager
+        GameManager gm = GameManager.Instance;
+        if (gm != null &amp;&amp; scoreText != null)
+        {
+            scoreText.text = $"FINAL SCORE: {gm.score:0000}";
+        }
+
+        // 2. Clear all persistent gameplay singletons
+        Player.DestroyInstance();
+        PlayerHUD.DestroyInstance();
+        MenuController.DestroyInstance();
+        
+        // Unlock cursor for UI interaction
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    public void LoadMenu()
+    {
+        LevelManager lm = LevelManager.Instance;
+        if (lm != null)
+            lm.ReturnToMenu();
+        else
+            SceneManager.LoadScene("GameMainMenu");
+    }
+}</code></pre>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">---</p>
+
+<h2 style="font-family: Arial, sans-serif; color: #3c4043; font-size: 16pt; margin-top: 14pt; margin-bottom: 8pt; border-bottom: 1px solid #ddd; padding-bottom: 3px;">5. Danh Sách Vị Trí Các Sprite Cần Thiết Cho Báo Cáo</h2>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">Khi chèn ảnh minh họa cho báo cáo, bạn hãy sử dụng hoặc chụp màn hình dựa trên các tài nguyên ảnh tại các thư mục này:</p>
+
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">1. <strong>Sprite Nhân Vật Chính:</strong> `Assets/Art/Sprites/GameAssets/KnightAnimation/`</p>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Đại diện: `knight_m_idle_anim_f0.png` (Ảnh đứng yên), `knight_m_run_anim_f0.png` (Ảnh chạy).</li>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">2. <strong>Sprite Gạch Nền (Tilemap):</strong> `Assets/Art/Sprites/Map/`</p>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Đại diện: `dgtile.png`, `dgtile1.png` (Sử dụng để vẽ bản đồ ngục tối).</li>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">3. <strong>Sprite Vật Phẩm & UI Trang Trí:</strong> `Assets/Art/Sprites/GameAssets/Ninja Adventure - Asset Pack/`</p>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Trang trí (Decor): `Backgrounds/` & `Palettes/`</li>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">4. <strong>Sprite Trái Tim & UI Thanh Máu:</strong> `Assets/Art/Sprites/GameAssets/HealthBar/`</p>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Đại diện: `Heart.png` (Tim), `Bar.png` (Thanh trượt máu), `Shield.png` (Giáp), `Mana.png` (Năng lượng).</li>
+<p style="font-family: Arial, sans-serif; font-size: 11pt; line-height: 1.5; margin-bottom: 8pt; text-align: justify;">5. <strong>Sprite Cảnh Cốt Truyện (Cutscenes):</strong> `Assets/Art/Cutscenes/`</p>
+<li style="margin-left: 20px; font-family: Arial, sans-serif; font-size: 11pt; margin-bottom: 4pt;">Các ảnh minh họa cutscene phân trang dẫn truyện mở đầu game.</li>
+
+</body>
+</html>
