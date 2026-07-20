@@ -185,9 +185,9 @@ public class PRU213AutoSetup : EditorWindow
         
         string[] scenes = {
             "Assets/Scenes/UI-Default.unity",
-            "Assets/Scenes/Level12.unity",
-            "Assets/Scenes/Level13.unity",
-            "Assets/Scenes/Level14.unity",
+            "Assets/Scenes/Level 1.unity",
+            "Assets/Scenes/Level 2.unity",
+            "Assets/Scenes/Boss Fight.unity",
             "Assets/Scenes/GameMainMenu.unity",
             "Assets/Scenes/GameOver.unity"
         };
@@ -202,18 +202,18 @@ public class PRU213AutoSetup : EditorWindow
                     Debug.Log($"Configuring scene: {scenePath}...");
                     SetupCurrentScene();
                     
-                    // For Level 12 specifically, re-run its preplaced setup so it links GatedDoor as exitPortal
-                    if (scenePath.EndsWith("Level12.unity"))
+                    // For Level 1 specifically, re-run its preplaced setup so it links GatedDoor as exitPortal
+                    if (scenePath.EndsWith("Level 1.unity"))
                     {
                         SetupLevel12();
                     }
-                    // For Level 13 specifically, re-run its preplaced setup
-                    if (scenePath.EndsWith("Level13.unity"))
+                    // For Level 2 specifically, re-run its preplaced setup
+                    if (scenePath.EndsWith("Level 2.unity"))
                     {
                         SetupLevel13();
                     }
-                    // For Level 14 specifically, re-run its boss room setup
-                    if (scenePath.EndsWith("Level14.unity"))
+                    // For Boss Fight specifically, re-run its boss room setup
+                    if (scenePath.EndsWith("Boss Fight.unity"))
                     {
                         SetupLevel14();
                     }
@@ -246,9 +246,9 @@ public class PRU213AutoSetup : EditorWindow
         
         string[] scenes = {
             "Assets/Scenes/UI-Default.unity",
-            "Assets/Scenes/Level12.unity",
-            "Assets/Scenes/Level13.unity",
-            "Assets/Scenes/Level14.unity",
+            "Assets/Scenes/Level 1.unity",
+            "Assets/Scenes/Level 2.unity",
+            "Assets/Scenes/Boss Fight.unity",
             "Assets/Scenes/GameMainMenu.unity",
             "Assets/Scenes/GameOver.unity"
         };
@@ -2032,13 +2032,13 @@ private static bool AssetExists(string path)
         }
     }
 
-    [MenuItem("Tools/PRU213 Setup/🛡️ Setup Level 12 (15-20 Zombies)", priority = 30)]
+    [MenuItem("Tools/PRU213 Setup/🛡️ Setup Level 1 (15-20 Zombies)", priority = 30)]
     public static void SetupLevel12()
     {
-        Debug.Log("=== PRU213 Setup: Setting up Level 12 ===");
+        Debug.Log("=== PRU213 Setup: Setting up Level 1 ===");
 
-        // 1. Open Level12 scene
-        string scenePath = "Assets/Scenes/Level12.unity";
+        // 1. Open Level 1 scene
+        string scenePath = "Assets/Scenes/Level 1.unity";
         UnityEditor.SceneManagement.SceneSetup[] originalSetup = null;
         if (System.IO.File.Exists(scenePath))
         {
@@ -2120,11 +2120,11 @@ private static bool AssetExists(string path)
 
         Debug.Log($"  ✓ Found and configured {existingEnemies.Count} existing Zombies/Enemies in the scene to track");
 
-        // 6. Find or Create CombatRoom GameObject
-        GameObject combatRoomObj = GameObject.Find("CombatRoom_Level12");
+        // 6. Find or Create CombatRoom GameObject for Level 1 (Preserve position & collider if existing)
+        GameObject combatRoomObj = GameObject.Find("CombatRoom_Level1");
         if (combatRoomObj == null)
         {
-            combatRoomObj = new GameObject("CombatRoom_Level12");
+            combatRoomObj = new GameObject("CombatRoom_Level1");
             combatRoomObj.transform.position = playerPos;
         }
 
@@ -2179,7 +2179,7 @@ private static bool AssetExists(string path)
                 doorObj = PrefabUtility.InstantiatePrefab(gatedDoorPrefab) as GameObject;
                 doorObj.transform.position = playerPos + new Vector3(0f, 12f, 0f);
                 doorObj.name = "GatedDoor";
-                Debug.Log("  ✓ Instantiated GatedDoor prefab in Level12");
+                Debug.Log("  ✓ Instantiated GatedDoor prefab in Level1");
             }
         }
 
@@ -2198,7 +2198,7 @@ private static bool AssetExists(string path)
         // 8. Save Scene
         UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
         UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
-        Debug.Log("✅ Setup for Level 12 complete and saved!");
+        Debug.Log("✅ Setup for Level 1 complete and saved!");
 
         // Restore original scene setup in editor if needed
         if (originalSetup != null)
@@ -2207,13 +2207,13 @@ private static bool AssetExists(string path)
         }
     }
 
-    [MenuItem("Tools/PRU213 Setup/⚔️ Setup Level 13 (Zombies & FlyingEyes)", priority = 30)]
+    [MenuItem("Tools/PRU213 Setup/👾 Setup Level 2 (25 Enemies, 5 at once)", priority = 31)]
     public static void SetupLevel13()
     {
-        Debug.Log("=== PRU213 Setup: Setting up Level 13 ===");
+        Debug.Log("=== PRU213 Setup: Setting up Level 2 ===");
 
-        // 1. Open Level13 scene
-        string scenePath = "Assets/Scenes/Level13.unity";
+        // 1. Open Level 2 scene
+        string scenePath = "Assets/Scenes/Level 2.unity";
         UnityEditor.SceneManagement.SceneSetup[] originalSetup = null;
         if (System.IO.File.Exists(scenePath))
         {
@@ -2352,18 +2352,18 @@ private static bool AssetExists(string path)
                     existingEnemies.Add(enemyObj);
                 }
             }
-            Debug.Log($"  ✓ Spawned {existingEnemies.Count} initial enemies (Zombies & EyeBats) in Level13");
+            Debug.Log($"  ✓ Spawned {existingEnemies.Count} initial enemies (Zombies & EyeBats) in Level 2");
         }
         else
         {
             Debug.Log($"  ✓ Found and configured {existingEnemies.Count} existing Zombies/Enemies in the scene to track");
         }
 
-        // 6. Find or Create CombatRoom GameObject
-        GameObject combatRoomObj = GameObject.Find("CombatRoom_Level13");
+        // 6. Find or Create CombatRoom GameObject for Level 2 (Preserve position & collider if existing)
+        GameObject combatRoomObj = GameObject.Find("CombatRoom_Level2");
         if (combatRoomObj == null)
         {
-            combatRoomObj = new GameObject("CombatRoom_Level13");
+            combatRoomObj = new GameObject("CombatRoom_Level2");
             combatRoomObj.transform.position = playerPos;
         }
 
@@ -2415,7 +2415,7 @@ private static bool AssetExists(string path)
                 doorObj = PrefabUtility.InstantiatePrefab(gatedDoorPrefab) as GameObject;
                 doorObj.transform.position = playerPos + new Vector3(0f, 12f, 0f);
                 doorObj.name = "GatedDoor";
-                Debug.Log("  ✓ Instantiated GatedDoor prefab in Level13");
+                Debug.Log("  ✓ Instantiated GatedDoor prefab in Level 2");
             }
         }
 
@@ -2434,7 +2434,7 @@ private static bool AssetExists(string path)
         // 8. Save Scene
         UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene());
         UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
-        Debug.Log("✅ Setup for Level 13 complete and saved!");
+        Debug.Log("✅ Setup for Level 2 complete and saved!");
 
         // Restore original scene setup in editor if needed
         if (originalSetup != null)
@@ -2443,13 +2443,13 @@ private static bool AssetExists(string path)
         }
     }
 
-    [MenuItem("Tools/PRU213 Setup/👑 Setup Level 14 & Boss (Crystal Knight)", priority = 31)]
+    [MenuItem("Tools/PRU213 Setup/👹 Setup Boss Fight (Boss Crystal Knight)", priority = 32)]
     public static void SetupLevel14()
     {
-        Debug.Log("=== PRU213 Setup: Setting up Level 14 (Boss Room) ===");
+        Debug.Log("=== PRU213 Setup: Setting up Boss Fight ===");
 
-        // 1. Open Level14 scene
-        string scenePath = "Assets/Scenes/Level14.unity";
+        // 1. Open Boss Fight scene
+        string scenePath = "Assets/Scenes/Boss Fight.unity";
         UnityEditor.SceneManagement.SceneSetup[] originalSetup = null;
         if (System.IO.File.Exists(scenePath))
         {
@@ -2477,7 +2477,7 @@ private static bool AssetExists(string path)
         {
             spawnPointObj = new GameObject("SpawnPoint");
             spawnPointObj.transform.position = new Vector3(0f, -4f, 0f);
-            Debug.Log("  ✓ Created 'SpawnPoint' at (0, -4, 0) for Player spawn in Level14");
+            Debug.Log("  ✓ Created 'SpawnPoint' at (0, -4, 0) for Player spawn in Boss Fight");
         }
         Vector3 playerPos = spawnPointObj.transform.position;
 
@@ -2496,15 +2496,15 @@ private static bool AssetExists(string path)
             bossObj = PrefabUtility.InstantiatePrefab(bossPrefab) as GameObject;
             bossObj.transform.position = playerPos + new Vector3(0f, 8f, 0f);
             bossObj.name = "BossCrystalKnight";
-            Debug.Log("  ✓ Instantiated Boss Crystal Knight in Level14");
+            Debug.Log("  ✓ Instantiated Boss Crystal Knight in Boss Fight");
         }
 
-        // 6. Find or Create CombatRoom GameObject for Level14 (Preserve position & collider if existing)
-        GameObject combatRoomObj = GameObject.Find("CombatRoom_Level14");
+        // 6. Find or Create CombatRoom GameObject for Boss Fight (Preserve position & collider if existing)
+        GameObject combatRoomObj = GameObject.Find("CombatRoom_BossFight");
         bool isNewRoom = false;
         if (combatRoomObj == null)
         {
-            combatRoomObj = new GameObject("CombatRoom_Level14");
+            combatRoomObj = new GameObject("CombatRoom_BossFight");
             combatRoomObj.transform.position = playerPos;
             isNewRoom = true;
         }

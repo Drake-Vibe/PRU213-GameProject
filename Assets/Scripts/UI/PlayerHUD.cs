@@ -71,7 +71,7 @@ public class PlayerHUD : MonoBehaviour
         Canvas canvas = GetComponent<Canvas>();
         if (canvas != null)
         {
-            canvas.enabled = (scene.name != "GameMainMenu" && scene.name != "GameOver");
+            canvas.enabled = (scene.name != "GameMainMenu" && scene.name != "GameOver" && scene.name != "DemoEnding");
         }
     }
 

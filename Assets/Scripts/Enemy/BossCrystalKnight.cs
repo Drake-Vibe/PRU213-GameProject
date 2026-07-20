@@ -10,6 +10,7 @@ public class BossCrystalKnight : MonoBehaviour
     [SerializeField] private float detectionRadius = 14f;
     [SerializeField] private int meleeDamage = 20;
     [SerializeField] private bool isActive = false;
+    [SerializeField] private int scoreValue = 100;
 
     [Header("Attack Ranges")]
     [SerializeField] private float meleeAttackRange = 2.8f;
@@ -425,6 +426,14 @@ public class BossCrystalKnight : MonoBehaviour
     {
         isDead = true;
         isExecutingSkill = true;
+
+        // Add score to GameManager
+        GameManager gm = GameManager.Instance;
+        if (gm != null)
+        {
+            gm.AddScore(scoreValue);
+        }
+
         rb.linearVelocity = Vector2.zero;
         if (animator != null) animator.SetTrigger("Die");
 

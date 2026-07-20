@@ -165,7 +165,11 @@ public class SettingsManager : MonoBehaviour
         settings.musicVolume = value;
         UpdateVolumeLabel(musicVolumeLabel, "Music", value);
         settings.Save();
-        // Note: Actual music AudioSource volume should be set by a MusicManager
+        
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.SetMusicVolume(value);
+        }
     }
 
     private void OnSFXVolumeChanged(float value)
@@ -173,6 +177,11 @@ public class SettingsManager : MonoBehaviour
         settings.sfxVolume = value;
         UpdateVolumeLabel(sfxVolumeLabel, "SFX", value);
         settings.Save();
+        
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.SetSFXVolume(value);
+        }
     }
 
     private void UpdateVolumeLabel(TextMeshProUGUI label, string name, float value)
@@ -265,7 +274,7 @@ public class SettingsManager : MonoBehaviour
     private void UpdateKeyLabel(TextMeshProUGUI label, string name, KeyCode key)
     {
         if (label != null)
-            label.text = $"{name}: [{FormatKeyName(key)}]";
+            label.text = FormatKeyName(key);
     }
 
     /// <summary>

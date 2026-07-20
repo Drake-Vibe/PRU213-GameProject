@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/UI-Default.unity
     guid: 15f9e4678eed4f94ebcbb25da5f00853
   - enabled: 1
-    path: Assets/Scenes/Level12.unity
+    path: Assets/Scenes/Level 1.unity
     guid: eb705c2e0cf06ba478796312958ecbd9
   - enabled: 1
-    path: Assets/Scenes/Level13.unity
+    path: Assets/Scenes/Level 2.unity
     guid: c596b4ac1e5f12d4b8ce3a46b257d641
   - enabled: 1
-    path: Assets/Scenes/Level14.unity
+    path: Assets/Scenes/Boss Fight.unity
     guid: 86d076e2e337ff9498f8607d1f2b6883
+  - enabled: 1
+    path: Assets/Scenes/DemoEnding.unity
+    guid: 906cb80f710110742bdca444b3631475
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: e6df9e3bf9046ba4a90b81afdfddea52

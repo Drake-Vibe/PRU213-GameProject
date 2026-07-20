@@ -9276,6 +9276,7 @@ MonoBehaviour:
   mainMenuMusic: {fileID: 8300000, guid: f9ab2fb4c3b8a68478e2e7df60a4197b, type: 3}
   hubMusic: {fileID: 8300000, guid: b55e3b308f57c1649be1b5ce082cd936, type: 3}
   dungeonMusic: {fileID: 8300000, guid: 03cb1d89e60855640b014f8696633e2b, type: 3}
+  demoCompleteMusic: {fileID: 0}
 --- !u!4 &1671575153
 Transform:
   m_ObjectHideFlags: 0

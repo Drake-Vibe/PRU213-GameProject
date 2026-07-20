@@ -46,6 +46,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private AudioClip mainMenuMusic;
     [SerializeField] private AudioClip hubMusic;
     [SerializeField] private AudioClip dungeonMusic;
+    [SerializeField] private AudioClip demoCompleteMusic;
 
     private void Awake()
     {
@@ -104,7 +105,7 @@ public class LevelManager : MonoBehaviour
     {
         PlayMusicForScene(scene.name);
 
-        if (scene.name == "GameMainMenu" || scene.name == "GameOver")
+        if (scene.name == "GameMainMenu" || scene.name == "GameOver" || scene.name == "DemoEnding")
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
@@ -191,11 +192,15 @@ public class LevelManager : MonoBehaviour
         {
             targetClip = mainMenuMusic;
         }
+        else if (sceneName == "DemoEnding")
+        {
+            targetClip = demoCompleteMusic;
+        }
         else if (sceneName == "UI-Default")
         {
             targetClip = hubMusic;
         }
-        else if (sceneName.StartsWith("Level") || sceneName.StartsWith("Floor"))
+        else if (sceneName.StartsWith("Level") || sceneName.StartsWith("Floor") || sceneName == "Boss Fight")
         {
             targetClip = dungeonMusic;
         }
@@ -217,6 +222,14 @@ public class LevelManager : MonoBehaviour
     {
         if (loadingScreen != null)
             loadingScreen.SetActive(false);
+
+        // Load saved audio volumes from Settings
+        currentMusicVol = PlayerPrefs.GetFloat("musicVolume", 0.8f);
+        currentSfxVol = PlayerPrefs.GetFloat("sfxVolume", 1f);
+        if (musicAudioSource != null)
+        {
+            musicAudioSource.volume = currentMusicVol;
+        }
     }
 
     /// <summary>
@@ -330,6 +343,12 @@ public class LevelManager : MonoBehaviour
     /// </summary>
     private IEnumerator FullLoadingRoutine(AsyncOperation operation)
     {
+        if (operation == null)
+        {
+            Debug.LogError("[LevelManager] FullLoadingRoutine: AsyncOperation is null! Check if the target scene exists and is added to Build Settings.");
+            yield break;
+        }
+
         // Don't auto-activate scene when loaded — wait for our timer
         operation.allowSceneActivation = false;
 
@@ -476,7 +495,20 @@ public class LevelManager : MonoBehaviour
                 continue;
             }
 
-            canvas.gameObject.SetActive(active);
+            // In menu/restricted scenes, do not re-enable gameplay canvases (like HUD or In-Game Menu)
+            if (active)
+            {
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                if (currentSceneName == "GameMainMenu" || currentSceneName == "GameOver" || currentSceneName == "DemoEnding")
+                {
+                    if (canvas.name == "HUD_Canvas" || canvas.name.Contains("Menu") || canvas.name.Contains("Settings"))
+                    {
+                        continue;
+                    }
+                }
+            }
+
+            canvas.enabled = active;
         }
     }
 

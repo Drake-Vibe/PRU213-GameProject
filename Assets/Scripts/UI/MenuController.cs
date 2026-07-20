@@ -73,7 +73,7 @@ public class MenuController : MonoBehaviour
         if (canvas == null) canvas = GetComponentInChildren<Canvas>(true);
         if (canvas != null)
         {
-            canvas.enabled = (scene.name != "GameMainMenu" && scene.name != "GameOver");
+            canvas.enabled = (scene.name != "GameMainMenu" && scene.name != "GameOver" && scene.name != "DemoEnding");
         }
     }
 
@@ -260,9 +260,9 @@ public class MenuController : MonoBehaviour
 
     private void Update()
     {
-        // Block menu toggling in restricted scenes (GameMainMenu, GameOver)
+        // Block menu toggling in restricted scenes (GameMainMenu, GameOver, DemoEnding)
         string currentScene = SceneManager.GetActiveScene().name;
-        if (currentScene == "GameMainMenu" || currentScene == "GameOver")
+        if (currentScene == "GameMainMenu" || currentScene == "GameOver" || currentScene == "DemoEnding")
         {
             if (menuCanvas != null && menuCanvas.activeSelf)
             {
