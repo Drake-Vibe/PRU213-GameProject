@@ -121,6 +121,18 @@ public class MeleeWeapon : BaseWeapon
             {
                 hitEnemies.Add(target); // Mark as hit to prevent double damage in this swing
 
+                // Apply knockback to the enemy using the existing EnemyChase component before dealing damage
+                if (parentEntity != null)
+                {
+                    Vector2 knockbackDir = (target.transform.position - parentEntity.transform.position).normalized;
+                    EnemyChase enemyChase = target.GetComponent<EnemyChase>();
+                    if (enemyChase == null) enemyChase = target.GetComponentInParent<EnemyChase>();
+                    if (enemyChase != null)
+                    {
+                        enemyChase.ApplyKnockback(knockbackDir * 12f, 0.25f);
+                    }
+                }
+
                 // Damage BaseEnemy if present
                 BaseEnemy baseEnemy = target.GetComponent<BaseEnemy>();
                 if (baseEnemy == null) baseEnemy = target.GetComponentInParent<BaseEnemy>();
@@ -130,7 +142,7 @@ public class MeleeWeapon : BaseWeapon
                 }
                 else
                 {
-                    // Damage EnemyHealth if present (for enamy branch compatibility)
+                    // Damage EnemyHealth if present (for enemy branch compatibility)
                     EnemyHealth enemyHealth = target.GetComponent<EnemyHealth>();
                     if (enemyHealth == null) enemyHealth = target.GetComponentInParent<EnemyHealth>();
                     if (enemyHealth != null)

@@ -374,13 +374,16 @@ public class LevelManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Helper to find and disable/enable all other UI Canvases in the active scene.
+    /// Helper to find and disable/enable all other UI Canvases.
+    /// Uses FindObjectsInactive.Include to also find DontDestroyOnLoad canvases.
     /// </summary>
     private void ToggleOtherCanvases(bool active)
     {
-        Canvas[] canvases = FindObjectsByType<Canvas>();
+        Canvas[] canvases = FindObjectsByType<Canvas>(FindObjectsInactive.Include);
         foreach (Canvas canvas in canvases)
         {
+            if (canvas == null) continue;
+
             // Skip the loading screen canvas itself to keep it visible
             if (loadingScreen != null && (canvas.gameObject == loadingScreen || canvas.transform.IsChildOf(loadingScreen.transform) || loadingScreen.transform.IsChildOf(canvas.transform)))
             {
@@ -388,6 +391,12 @@ public class LevelManager : MonoBehaviour
             }
 
             if (canvas.name == "LoadingCanvas" || canvas.name == "Loading_Canvas")
+            {
+                continue;
+            }
+
+            // Skip the LevelManager's own canvas (LoadingCanvas parent)
+            if (canvas.gameObject == gameObject)
             {
                 continue;
             }

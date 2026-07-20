@@ -7,9 +7,23 @@ public class EnemyChase : MonoBehaviour
     [SerializeField] private float detectionRadius = 5f;
     [SerializeField] private bool chaseForever = false;
 
+    [Header("Cấu hình Tuần tra (Patrol)")]
+    [SerializeField] private bool canPatrol = true;
+    [SerializeField] private float patrolDistance = 3f;
+    [SerializeField] private float patrolWaitTime = 2f;
+    [SerializeField] private Vector2 patrolDirection = Vector2.right;
+
     [Header("Cấu hình Chiến đấu")]
     [SerializeField] private int damageAmount = 10;
     [SerializeField] private float damageInterval = 1f;
+
+    private Vector2 startPosition;
+    private Vector2 patrolPointA;
+    private Vector2 patrolPointB;
+    private Vector2 currentPatrolTarget;
+    private float nextPatrolActionTime = 0f;
+    private bool isPatrolWaiting = false;
+    private float patrolStuckTimer = 0f;
 
     private Transform playerTransform;
     private Rigidbody2D rb;
@@ -39,6 +53,12 @@ public class EnemyChase : MonoBehaviour
 
     private void Start()
     {
+        // Initialize patrol points
+        startPosition = transform.position;
+        patrolPointA = startPosition;
+        patrolPointB = startPosition + patrolDirection.normalized * patrolDistance;
+        currentPatrolTarget = patrolPointB;
+
         // Cách 1: Tìm qua script Player
         Player player = FindAnyObjectByType<Player>();
         if (player != null)
@@ -62,8 +82,6 @@ public class EnemyChase : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (playerTransform == null) return;
-
         // Đang bị knockback: dừng đuổi, chờ knockback xong
         if (isKnockedBack)
         {
@@ -76,11 +94,12 @@ public class EnemyChase : MonoBehaviour
             return; // Bỏ qua di chuyển khi đang bị đẩy lùi
         }
 
-        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+        float distanceToPlayer = playerTransform != null ? Vector2.Distance(transform.position, playerTransform.position) : float.MaxValue;
 
         if (distanceToPlayer <= detectionRadius)
         {
             isChasing = true;
+            isPatrolWaiting = false;
         }
         else if (!chaseForever)
         {
@@ -97,15 +116,104 @@ public class EnemyChase : MonoBehaviour
                 stuckTime = 0f;
 
             MoveTowardsPlayer();
+            if (animator != null) animator.SetBool("IsMoving", true);
         }
         else
         {
             stuckTime = 0f;
+            if (canPatrol)
+            {
+                // Kiểm tra kẹt khi tuần tra (ví dụ đâm đầu vào tường)
+                if (!isPatrolWaiting)
+                {
+                    float moved = Vector2.Distance(rb.position, lastPosition);
+                    if (moved < (speed * 0.6f) * Time.fixedDeltaTime * 0.3f)
+                    {
+                        patrolStuckTimer += Time.fixedDeltaTime;
+                        if (patrolStuckTimer > 0.4f)
+                        {
+                            patrolStuckTimer = 0f;
+                            HandlePatrolObstacleCollision();
+                        }
+                    }
+                    else
+                    {
+                        patrolStuckTimer = 0f;
+                    }
+                }
+                else
+                {
+                    patrolStuckTimer = 0f;
+                }
+
+                PatrolBehavior();
+            }
+            else
+            {
+                rb.linearVelocity = Vector2.zero;
+                if (animator != null) animator.SetBool("IsMoving", false);
+            }
         }
         lastPosition = rb.position;
+    }
 
-        // Bật animation Run khi đang đuổi, ngược lại về Idle
-        if (animator != null) animator.SetBool("IsMoving", isChasing);
+    private void PatrolBehavior()
+    {
+        if (isPatrolWaiting)
+        {
+            rb.linearVelocity = Vector2.zero;
+            if (animator != null) animator.SetBool("IsMoving", false);
+
+            if (Time.time >= nextPatrolActionTime)
+            {
+                isPatrolWaiting = false;
+                // Switch target
+                currentPatrolTarget = (currentPatrolTarget == patrolPointB) ? patrolPointA : patrolPointB;
+            }
+        }
+        else
+        {
+            Vector2 toTarget = (currentPatrolTarget - rb.position);
+            float dist = toTarget.magnitude;
+
+            if (dist < 0.2f)
+            {
+                isPatrolWaiting = true;
+                nextPatrolActionTime = Time.time + patrolWaitTime;
+                rb.linearVelocity = Vector2.zero;
+                if (animator != null) animator.SetBool("IsMoving", false);
+            }
+            else
+            {
+                Vector2 moveDir = toTarget.normalized;
+                rb.MovePosition(rb.position + moveDir * (speed * 0.6f) * Time.fixedDeltaTime); // Tuần tra chậm hơn tốc độ đuổi
+
+                if (animator != null) animator.SetBool("IsMoving", true);
+
+                // Lật sprite theo hướng tuần tra
+                if (spriteRenderer != null)
+                {
+                    if (moveDir.x > 0.01f) spriteRenderer.flipX = false;
+                    else if (moveDir.x < -0.01f) spriteRenderer.flipX = true;
+                }
+            }
+        }
+    }
+
+    private void HandlePatrolObstacleCollision()
+    {
+        if (isPatrolWaiting) return;
+
+        // Đổi mục tiêu tuần tra ngay lập tức để quay đầu
+        currentPatrolTarget = (currentPatrolTarget == patrolPointB) ? patrolPointA : patrolPointB;
+
+        // Dừng lại và chờ một khoảng thời gian
+        isPatrolWaiting = true;
+        nextPatrolActionTime = Time.time + patrolWaitTime;
+        patrolStuckTimer = 0f;
+
+        rb.linearVelocity = Vector2.zero;
+        if (animator != null) animator.SetBool("IsMoving", false);
     }
 
     // Gọi từ PlayerMelee để kích hoạt knockback
@@ -152,6 +260,12 @@ public class EnemyChase : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         AttemptDamage(collision.gameObject);
+
+        // Nếu đang trong trạng thái tuần tra (không đuổi player) và va chạm với chướng ngại vật (ví dụ tường/gạch)
+        if (!isChasing && canPatrol && !collision.gameObject.CompareTag("Player"))
+        {
+            HandlePatrolObstacleCollision();
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -172,6 +286,12 @@ public class EnemyChase : MonoBehaviour
 
     private void AttemptDamage(GameObject target)
     {
+        // Chỉ nhận sát thương khi va chạm trực tiếp với cơ thể Player (tránh va chạm qua Trigger vũ khí/Sword)
+        if (!target.CompareTag("Player"))
+        {
+            return;
+        }
+
         // Tìm script Player trên chính object hoặc object cha
         Player playerScript = target.GetComponent<Player>();
         if (playerScript == null)

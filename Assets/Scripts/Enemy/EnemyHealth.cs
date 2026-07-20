@@ -24,6 +24,18 @@ public class EnemyHealth : MonoBehaviour
     {
         if (isDead) return;
 
+        BossCrystalKnight boss = GetComponent<BossCrystalKnight>();
+        if (boss != null)
+        {
+            boss.TakeDamage(damage);
+            currentHealth = boss.CurrentHealth;
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
+            return;
+        }
+
         currentHealth -= damage;
 
         if (currentHealth <= 0)
@@ -54,7 +66,7 @@ public class EnemyHealth : MonoBehaviour
         if (col != null) col.enabled = false;
 
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (rb != null) rb.linearVelocity = Vector2.zero;
+        if (rb != null) rb.linearDamping = 5f;
 
         // Xóa sau khi animation Death chạy xong (nếu không có Animator thì xóa ngay)
         float delay = animator != null ? deathAnimationDuration : 0f;

@@ -14,6 +14,10 @@ public class NextLevelPortal : MonoBehaviour
     [Header("Config")]
     [SerializeField] private KeyCode activateKey = KeyCode.Return;
 
+    [Header("Door Barrier & State")]
+    [SerializeField] private GameObject solidBarrier;
+    [SerializeField] private bool isLocked = false;
+
     private bool playerInRange = false;
 
     private void Start()
@@ -29,16 +33,32 @@ public class NextLevelPortal : MonoBehaviour
             }
             promptText.gameObject.SetActive(false);
         }
+
+        UpdateBarrierState();
+    }
+
+    public void SetLocked(bool locked)
+    {
+        isLocked = locked;
+        UpdateBarrierState();
+    }
+
+    private void UpdateBarrierState()
+    {
+        if (solidBarrier != null)
+        {
+            solidBarrier.SetActive(isLocked);
+        }
     }
 
     private void Update()
     {
-        // Show/hide prompt
+        // Show/hide prompt (only when unlocked)
         if (promptText != null)
-            promptText.gameObject.SetActive(playerInRange);
+            promptText.gameObject.SetActive(playerInRange && !isLocked);
 
         // Activate portal
-        if (playerInRange && Input.GetKeyDown(activateKey))
+        if (playerInRange && !isLocked && Input.GetKeyDown(activateKey))
         {
             LoadNextLevel();
         }

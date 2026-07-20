@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 6036b820f481b44458f35c0abf16788f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8442315348785337309
+    second: Lightning Animation_0
+  - first:
+      213: -8436158934342729491
+    second: Lightning Animation_1
+  - first:
+      213: -5278253524291624954
+    second: Lightning Animation_2
+  - first:
+      213: -8824426957186978364
+    second: Lightning Animation_3
+  - first:
+      213: -3670928857992406670
+    second: Lightning Animation_4
+  - first:
+      213: -2832169937827655313
+    second: Lightning Animation_5
+  - first:
+      213: -2034767878247255380
+    second: Lightning Animation_6
+  - first:
+      213: -5932039810163300500
+    second: Lightning Animation_7
+  - first:
+      213: 5735487811196367125
+    second: Lightning Animation_8
+  - first:
+      213: -249564444074871692
+    second: Lightning Animation_9
+  - first:
+      213: 4876501184891666551
+    second: Lightning Animation_10
+  - first:
+      213: 8620129562596118668
+    second: Lightning Animation_11
+  - first:
+      213: -7048256566763851591
+    second: Lightning Animation_12
+  - first:
+      213: 186241324690922158
+    second: Lightning Animation_13
+  - first:
+      213: -8156213798936545297
+    second: Lightning Animation_14
+  - first:
+      213: -1291633623423123758
+    second: Lightning Animation_15
+  - first:
+      213: -3833996938504087898
+    second: Lightning Animation_16
+  - first:
+      213: 36170803356779364
+    second: Lightning Animation_17
+  - first:
+      213: -692513338232432507
+    second: Lightning Animation_18
+  - first:
+      213: 8159451125896529944
+    second: Lightning Animation_19
+  - first:
+      213: 7296677311107826068
+    second: Lightning Animation_20
+  - first:
+      213: -4980643816682041758
+    second: Lightning Animation_21
+  - first:
+      213: -1162439859270023221
+    second: Lightning Animation_22
+  - first:
+      213: 5731586271705826713
+    second: Lightning Animation_23
+  - first:
+      213: -8174202189677332425
+    second: Lightning Animation_24
+  - first:
+      213: -1513273690653415909
+    second: Lightning Animation_25
+  - first:
+      213: 2693316320614189308
+    second: Lightning Animation_26
+  - first:
+      213: -6518940850204346678
+    second: Lightning Animation_27
+  - first:
+      213: 3907753530335628904
+    second: Lightning Animation_28
+  - first:
+      213: 904709297643617306
+    second: Lightning Animation_29
+  - first:
+      213: -7345572220595254100
+    second: Lightning Animation_30
+  - first:
+      213: 7436071058643504110
+    second: Lightning Animation_31
+  - first:
+      213: 7057845196136805290
+    second: Lightning Animation_32
+  - first:
+      213: -6618608526042801042
+    second: Lightning Animation_33
+  - first:
+      213: 3555250466741951440
+    second: Lightning Animation_34
+  - first:
+      213: -2684193559106970937
+    second: Lightning Animation_35
+  - first:
+      213: -7167449384500930113
+    second: Lightning Animation_36
+  - first:
+      213: 2661926938726743676
+    second: Lightning Animation_37
+  - first:
+      213: -5338096047474507241
+    second: Lightning Animation_38
+  - first:
+      213: -4847724080290456411
+    second: Lightning Animation_39
+  - first:
+      213: 2721456474910942298
+    second: Lightning Animation_40
+  - first:
+      213: -3939049807900457263
+    second: Lightning Animation_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lightning Animation_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 296
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c62d96beed6da80800000000000000
+      internalID: -8442315348785337309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 301
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de083c9552ebcea80800000000000000
+      internalID: -8436158934342729491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 292
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600e4229260efb6b0800000000000000
+      internalID: -5278253524291624954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 286
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd2d7eaf66598580800000000000000
+      internalID: -8824426957186978364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 282
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279d1af27ad3e0dc0800000000000000
+      internalID: -3670928857992406670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 293
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f611e30727c12b8d0800000000000000
+      internalID: -2832169937827655313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 298
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca272b8356d03c3e0800000000000000
+      internalID: -2034767878247255380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_7
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 293
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67adb1d8392dada0800000000000000
+      internalID: -5932039810163300500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 286
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51131ffb6cb889f40800000000000000
+      internalID: 5735487811196367125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 286
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474795ad57e598cf0800000000000000
+      internalID: -249564444074871692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 285
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7704d38adffcca340800000000000000
+      internalID: 4876501184891666551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 283
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8092607a2ad0a770800000000000000
+      internalID: 8620129562596118668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 276
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0f93ceeff8f2e90800000000000000
+      internalID: -7048256566763851591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 290
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa53b08f79a59200800000000000000
+      internalID: 186241324690922158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 283
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe77f3a63ce4fce80800000000000000
+      internalID: -8156213798936545297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 289
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2def9e71012331ee0800000000000000
+      internalID: -1291633623423123758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 276
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6578a0918eacac0800000000000000
+      internalID: -3833996938504087898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 207
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463425d6721808000800000000000000
+      internalID: 36170803356779364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_18
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 195
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5889f68b9c2b366f0800000000000000
+      internalID: -692513338232432507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 211
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818493181913c3170800000000000000
+      internalID: 8159451125896529944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 202
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4910c31ea51034560800000000000000
+      internalID: 7296677311107826068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ecbe956d231eab0800000000000000
+      internalID: -4980643816682041758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 140
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7847b5b1f2edfe0800000000000000
+      internalID: -1162439859270023221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_23
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 117
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995088cc85faa8f40800000000000000
+      internalID: 5731586271705826713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 122
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738ff02da666f8e80800000000000000
+      internalID: -8174202189677332425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 115
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16a8a49895cffae0800000000000000
+      internalID: -1513273690653415909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf888fd7ce4906520800000000000000
+      internalID: 2693316320614189308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac679c7e5d11885a0800000000000000
+      internalID: -6518940850204346678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 7
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e0f65b1212b3630800000000000000
+      internalID: 3907753530335628904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c7a07105c2e8c00800000000000000
+      internalID: 904709297643617306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac417fdbf84f0a90800000000000000
+      internalID: -7345572220595254100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 5
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb4207da3b323760800000000000000
+      internalID: 7436071058643504110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_32
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 47
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa37e63dfc082f160800000000000000
+      internalID: 7057845196136805290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_33
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 52
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cd8d9cc9af524a0800000000000000
+      internalID: -6618608526042801042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db12b58679c65130800000000000000
+      internalID: 3555250466741951440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_35
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 23
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca9901fd24dfbad0800000000000000
+      internalID: -2684193559106970937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_36
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 5
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9da3372ca188c90800000000000000
+      internalID: -7167449384500930113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_37
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 34
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7eb9d0827011f420800000000000000
+      internalID: 2661926938726743676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 19
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7128d516de54be5b0800000000000000
+      internalID: -5338096047474507241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_39
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 5
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac1e2122ac69bcb0800000000000000
+      internalID: -4847724080290456411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_40
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54e0cabe3e84c520800000000000000
+      internalID: 2721456474910942298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning Animation_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6c587d11fa559c0800000000000000
+      internalID: -3939049807900457263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lightning Animation_0: -8442315348785337309
+      Lightning Animation_1: -8436158934342729491
+      Lightning Animation_10: 4876501184891666551
+      Lightning Animation_11: 8620129562596118668
+      Lightning Animation_12: -7048256566763851591
+      Lightning Animation_13: 186241324690922158
+      Lightning Animation_14: -8156213798936545297
+      Lightning Animation_15: -1291633623423123758
+      Lightning Animation_16: -3833996938504087898
+      Lightning Animation_17: 36170803356779364
+      Lightning Animation_18: -692513338232432507
+      Lightning Animation_19: 8159451125896529944
+      Lightning Animation_2: -5278253524291624954
+      Lightning Animation_20: 7296677311107826068
+      Lightning Animation_21: -4980643816682041758
+      Lightning Animation_22: -1162439859270023221
+      Lightning Animation_23: 5731586271705826713
+      Lightning Animation_24: -8174202189677332425
+      Lightning Animation_25: -1513273690653415909
+      Lightning Animation_26: 2693316320614189308
+      Lightning Animation_27: -6518940850204346678
+      Lightning Animation_28: 3907753530335628904
+      Lightning Animation_29: 904709297643617306
+      Lightning Animation_3: -8824426957186978364
+      Lightning Animation_30: -7345572220595254100
+      Lightning Animation_31: 7436071058643504110
+      Lightning Animation_32: 7057845196136805290
+      Lightning Animation_33: -6618608526042801042
+      Lightning Animation_34: 3555250466741951440
+      Lightning Animation_35: -2684193559106970937
+      Lightning Animation_36: -7167449384500930113
+      Lightning Animation_37: 2661926938726743676
+      Lightning Animation_38: -5338096047474507241
+      Lightning Animation_39: -4847724080290456411
+      Lightning Animation_4: -3670928857992406670
+      Lightning Animation_40: 2721456474910942298
+      Lightning Animation_41: -3939049807900457263
+      Lightning Animation_5: -2832169937827655313
+      Lightning Animation_6: -2034767878247255380
+      Lightning Animation_7: -5932039810163300500
+      Lightning Animation_8: 5735487811196367125
+      Lightning Animation_9: -249564444074871692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

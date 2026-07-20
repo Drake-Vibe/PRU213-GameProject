@@ -34,10 +34,41 @@ public class PlayerHUD : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
+
+    private void OnEnable()
+    {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        // Re-find player after scene load
+        player = FindAnyObjectByType<Player>();
+
+        // Enable / Disable canvas based on scene
+        Canvas canvas = GetComponent<Canvas>();
+        if (scene.name == "GameMainMenu" || scene.name == "GameOver")
+        {
+            if (canvas != null) canvas.enabled = false;
+            gameObject.SetActive(false);
         }
         else
         {
-            Destroy(gameObject);
+            gameObject.SetActive(true);
+            if (canvas != null) canvas.enabled = true;
         }
     }
 
@@ -51,7 +82,11 @@ public class PlayerHUD : MonoBehaviour
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null)
+        {
+            player = FindAnyObjectByType<Player>();
+            if (player == null) return;
+        }
 
         UpdateHealthUI();
         UpdateShieldUI();

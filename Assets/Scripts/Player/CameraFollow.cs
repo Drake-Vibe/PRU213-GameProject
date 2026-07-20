@@ -15,6 +15,10 @@ public class CameraFollow : MonoBehaviour
         {
             FindPlayerTarget();
         }
+
+        Vector3 pos = transform.position;
+        pos.z = offset.z;
+        transform.position = pos;
     }
 
     private void LateUpdate()
@@ -27,8 +31,11 @@ public class CameraFollow : MonoBehaviour
 
         // Target position with offset
         Vector3 desiredPosition = target.position + offset;
+        desiredPosition.z = offset.z; // Ensure camera stays at z = -10
+
         // Smoothly interpolate position
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
+        smoothedPosition.z = offset.z;
         transform.position = smoothedPosition;
     }
 
