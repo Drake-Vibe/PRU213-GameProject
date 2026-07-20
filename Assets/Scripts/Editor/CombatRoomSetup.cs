@@ -44,11 +44,6 @@ public static class CombatRoomSetup
         if (points.Count > 0) room.spawnPoints = points.ToArray();
         else Debug.LogWarning("CombatRoomSetup: chưa thấy object tên 'SpawnPoint...' nào — quái sẽ sinh quanh tâm phòng.");
 
-        // 4) Gán Gem nếu có object tên "Gem"
-        GameObject gem = GameObject.Find("Gem");
-        if (gem != null) room.gem = gem;
-        else Debug.Log("CombatRoomSetup: chưa có object 'Gem' — hãy tạo object Gem (có Collider2D) rồi kéo vào ô Gem.");
-
         // 5) Thông số mặc định
         room.totalEnemiesToKill = 10;
         room.maxAliveEnemies = 5;

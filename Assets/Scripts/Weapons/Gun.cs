@@ -30,8 +30,8 @@ public class Gun : BaseWeapon
 
         timeSinceLastShot += Time.deltaTime;
 
-        // Fire when mouse button is held and fire rate allows
-        if (Input.GetMouseButton(0) && timeSinceLastShot >= 1f / fireRate)
+        // Fire when attack key is held and fire rate allows
+        if (IsAttackHeld() && timeSinceLastShot >= 1f / fireRate)
         {
             Player player = parentEntity.GetComponent<Player>();
             if (player != null)
@@ -43,6 +43,15 @@ public class Gun : BaseWeapon
             timeSinceLastShot = 0f;
             Fire();
         }
+    }
+
+    private bool IsAttackHeld()
+    {
+        KeyCode attackKey = SettingsManager.CurrentSettings != null ? SettingsManager.CurrentSettings.attack : KeyCode.Mouse0;
+        if (attackKey == KeyCode.Mouse0) return Input.GetMouseButton(0);
+        if (attackKey == KeyCode.Mouse1) return Input.GetMouseButton(1);
+        if (attackKey == KeyCode.Mouse2) return Input.GetMouseButton(2);
+        return Input.GetKey(attackKey);
     }
 
     /// <summary>

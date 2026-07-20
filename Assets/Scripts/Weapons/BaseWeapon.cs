@@ -81,8 +81,14 @@ public class BaseWeapon : MonoBehaviour
     {
         if (Camera.main == null) return;
 
+        Vector3 mousePos = Input.mousePosition;
+        if (float.IsNaN(mousePos.x) || float.IsNaN(mousePos.y) || float.IsInfinity(mousePos.x) || float.IsInfinity(mousePos.y))
+        {
+            return;
+        }
+
         // Get mouse position in world space
-        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(mousePos);
         Vector2 weaponPos = (Vector2)transform.position;
         Vector2 aimDirection = mouseWorldPos - weaponPos;
 
@@ -119,6 +125,9 @@ public class BaseWeapon : MonoBehaviour
     {
         parentEntity = null;
         transform.SetParent(null);
+
+        // Move to the active scene to prevent it from persisting in DontDestroyOnLoad
+        UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(gameObject, UnityEngine.SceneManagement.SceneManager.GetActiveScene());
 
         // Re-enable main collider for pickup
         Collider2D col = GetComponent<Collider2D>();

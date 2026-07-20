@@ -1,27 +1,16 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.Tilemaps;
 
 /// <summary>
-/// Phòng đấu kích hoạt bằng KIM CƯƠNG:
-/// - Player BẤM CHUỘT vào viên kim cương -> "lấy" kim cương (ẩn đi), ĐÓNG cổng, bắt đầu sinh quái.
+/// Phòng đấu tự động kích hoạt khi Player bước vào:
+/// - Khi Player bước vào vùng Trigger của phòng -> ĐÓNG cổng, bắt đầu sinh quái / kích hoạt quái đặt sẵn.
 /// - Trên màn hình tối đa "maxAliveEnemies" con cùng lúc; chết con nào sinh bù con đó.
-/// - Khi tổng số quái bị tiêu diệt đạt "totalEnemiesToKill" -> MỞ cổng, đánh dấu đã dọn.
-/// - Đã dọn thì thôi (không sinh lại).
-///
-/// LƯU Ý: viên kim cương ("gem") phải có 1 Collider2D để bấm chuột trúng.
+/// - Khi tổng số quái bị tiêu diệt đạt "totalEnemiesToKill" -> MỞ cổng, kích hoạt Exit Portal (nếu có).
 /// </summary>
 public class CombatRoom : MonoBehaviour
 {
-    [Header("Kích hoạt bằng kim cương")]
-    [Tooltip("Object viên kim cương (collider để bấm chuột). Player bấm vào đây để bắt đầu trận.")]
-    public GameObject gem;
-    [Tooltip("Tilemap chứa HÌNH viên kim cương (thường là 'Decor'). Khi lấy sẽ xoá ô kim cương khỏi tilemap này. Bỏ trống nếu không cần xoá hình.")]
-    public Tilemap gemTilemap;
-
-    [Header("Tự động kích hoạt & Quái đặt sẵn")]
-    [Tooltip("Tự động kích hoạt trận đấu khi Player bước vào vùng Trigger của phòng này (nếu không dùng kim cương).")]
+    [Header("Kích hoạt & Quái đặt sẵn")]
+    [Tooltip("Tự động kích hoạt trận đấu khi Player bước vào vùng Trigger của phòng này.")]
     public bool triggerOnPlayerEnter = true;
     [Tooltip("Kéo các quái vật đặt sẵn trong phòng này vào đây nếu muốn dùng quái sinh sẵn thay vì sinh bằng Prefab.")]
     public List<GameObject> prePlacedEnemies = new List<GameObject>();
@@ -61,13 +50,11 @@ public class CombatRoom : MonoBehaviour
     private int killedCount = 0;      // đã tiêu diệt bao nhiêu
     private float timer = 0f;
     private readonly List<GameObject> aliveEnemies = new List<GameObject>();
-    private Camera cam;
     private BoxCollider2D roomArea;
     private Transform playerTf;
 
     private void Start()
     {
-        cam = Camera.main;
         roomArea = GetComponent<BoxCollider2D>();
         SetGatesClosed(false); // cổng mở lúc đầu
         
@@ -82,14 +69,7 @@ public class CombatRoom : MonoBehaviour
 
     private void Update()
     {
-        if (cleared) return;
-
-        // Chưa bắt đầu -> chờ Player bấm chuột vào kim cương
-        if (!triggered)
-        {
-            CheckGemClick();
-            return;
-        }
+        if (cleared || !triggered) return;
 
         // ===== Đang trong trận =====
         // Nhốt player trong phòng
@@ -132,58 +112,9 @@ public class CombatRoom : MonoBehaviour
         }
     }
 
-    // Kiểm tra Player có bấm chuột trái vào viên kim cương không
-    private void CheckGemClick()
+    public void StartBattle()
     {
-        bool clicked = false;
-        Vector2 mousePos = Vector2.zero;
-
-        if (Mouse.current != null)
-        {
-            if (Mouse.current.leftButton.wasPressedThisFrame)
-            {
-                clicked = true;
-                mousePos = Mouse.current.position.ReadValue();
-            }
-        }
-        else
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                clicked = true;
-                mousePos = Input.mousePosition;
-            }
-        }
-
-        if (!clicked) return;
-
-        if (gem == null)
-        {
-            Debug.LogWarning(name + " (CombatRoom): ô 'Gem' đang TRỐNG — hãy kéo object Gem vào Inspector!");
-            return;
-        }
-
-        if (cam == null) cam = Camera.main;
-        if (cam == null) cam = FindAnyObjectByType<Camera>();
-        if (cam == null) return;
-
-        Vector2 worldPoint = cam.ScreenToWorldPoint(mousePos);
-        Collider2D[] hits = Physics2D.OverlapPointAll(worldPoint);
-        Debug.Log(name + " (CombatRoom): click tại " + worldPoint + " -> trúng " + hits.Length + " collider");
-
-        foreach (Collider2D h in hits)
-        {
-            if (h == null) continue;
-            if (h.gameObject == gem || h.transform.IsChildOf(gem.transform))
-            {
-                StartBattle();
-                return;
-            }
-        }
-    }
-
-    private void StartBattle()
-    {
+        if (triggered || cleared) return;
         triggered = true;
 
         // Add pre-placed enemies to track list
@@ -210,13 +141,11 @@ public class CombatRoom : MonoBehaviour
             if (enemyPrefab == null)
             {
                 totalEnemiesToKill = aliveEnemies.Count;
-                spawnedCount = aliveEnemies.Count; // Prevent spawning loop warning
+                spawnedCount = aliveEnemies.Count;
             }
         }
 
-        if (gem != null) gem.SetActive(false); // ẩn object collider của kim cương
-        ClearGemTile();                          // xoá HÌNH kim cương khỏi tilemap Decor
-        SetGatesClosed(true);                    // đóng cổng nhốt player
+        SetGatesClosed(true); // đóng cổng nhốt player
         Debug.Log(name + " (CombatRoom): Đấu trường bắt đầu! Đóng cổng, diệt "
                   + totalEnemiesToKill + " quái để mở.");
     }
@@ -229,39 +158,6 @@ public class CombatRoom : MonoBehaviour
         {
             StartBattle();
         }
-    }
-
-    // Xoá các ô tile nằm trong vùng collider của Gem ra khỏi tilemap (làm biến mất hình kim cương)
-    private void ClearGemTile()
-    {
-        if (gem == null) return;
-        if (gemTilemap == null)
-        {
-            Debug.LogWarning(name + " (CombatRoom): ô 'Gem Tilemap' TRỐNG — kéo tilemap chứa hình kim cương (Decor) vào để xoá được hình.");
-            return;
-        }
-
-        Collider2D col = gem.GetComponent<Collider2D>();
-        Bounds b = col != null ? col.bounds : new Bounds(gem.transform.position, Vector3.one * 0.6f);
-        // Nới rộng một chút để chắc chắn phủ hết ô chứa viên kim cương
-        b.Expand(0.5f);
-
-        Vector3Int min = gemTilemap.WorldToCell(b.min);
-        Vector3Int max = gemTilemap.WorldToCell(b.max);
-        int count = 0;
-        for (int x = min.x; x <= max.x; x++)
-        {
-            for (int y = min.y; y <= max.y; y++)
-            {
-                Vector3Int cell = new Vector3Int(x, y, 0);
-                if (gemTilemap.GetTile(cell) != null)
-                {
-                    gemTilemap.SetTile(cell, null);
-                    count++;
-                }
-            }
-        }
-        Debug.Log(name + " (CombatRoom): đã xoá " + count + " ô tile quanh kim cương khỏi '" + gemTilemap.name + "'.");
     }
 
     private void SpawnOne()

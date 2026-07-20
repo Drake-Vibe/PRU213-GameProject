@@ -29,6 +29,15 @@ public class PlayerHUD : MonoBehaviour
     public TextMeshProUGUI hpPotionText;
     public TextMeshProUGUI mpPotionText;
 
+    public static void DestroyInstance()
+    {
+        if (Instance != null)
+        {
+            Destroy(Instance.gameObject);
+            Instance = null;
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
@@ -60,15 +69,9 @@ public class PlayerHUD : MonoBehaviour
 
         // Enable / Disable canvas based on scene
         Canvas canvas = GetComponent<Canvas>();
-        if (scene.name == "GameMainMenu" || scene.name == "GameOver")
+        if (canvas != null)
         {
-            if (canvas != null) canvas.enabled = false;
-            gameObject.SetActive(false);
-        }
-        else
-        {
-            gameObject.SetActive(true);
-            if (canvas != null) canvas.enabled = true;
+            canvas.enabled = (scene.name != "GameMainMenu" && scene.name != "GameOver");
         }
     }
 

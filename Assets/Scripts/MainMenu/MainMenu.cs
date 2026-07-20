@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour
 
     private void Start()
     {
-        saveFilePath = Path.Combine(Application.persistentDataPath, "saveData.json");
+        saveFilePath = @"D:\PRU213-GameProject\Save File\saveData.json";
 
         // Setup button listeners
         if (startButton != null)
@@ -120,6 +120,20 @@ public class MainMenu : MonoBehaviour
         if (gm != null)
         {
             gm.ResetGame();
+        }
+
+        // Delete latest save file when starting a new game
+        if (File.Exists(saveFilePath))
+        {
+            try
+            {
+                File.Delete(saveFilePath);
+                Debug.Log($"Deleted latest save file as part of starting a new game: {saveFilePath}");
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogWarning($"Failed to delete save file: {ex.Message}");
+            }
         }
 
         // Set flag to NOT load save file on start

@@ -35,6 +35,15 @@ public class Player : MonoBehaviour
     private static Player _instance;
     public static Player Instance => _instance;
 
+    public static void DestroyInstance()
+    {
+        if (_instance != null)
+        {
+            Destroy(_instance.gameObject);
+            _instance = null;
+        }
+    }
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -119,7 +128,13 @@ public class Player : MonoBehaviour
     {
         if (spriteRenderer == null || Camera.main == null) return;
 
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePos = Input.mousePosition;
+        if (float.IsNaN(mousePos.x) || float.IsNaN(mousePos.y) || float.IsInfinity(mousePos.x) || float.IsInfinity(mousePos.y))
+        {
+            return;
+        }
+
+        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(mousePos);
         float directionX = mousePosition.x - transform.position.x;
 
         spriteRenderer.flipX = directionX < 0;
@@ -192,32 +207,7 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene("GameOver");
     }
 
-    /// <summary>
-    /// Handle collision damage from enemies and enemy bullets.
-    /// Mirrors Soul Knight's OnCollisionEnter2D damage system.
-    /// </summary>
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        switch (collision.collider.tag)
-        {
-            case Tags.ENEMY:
-                TakeDamage(20);
-                break;
-        }
-    }
 
-    /// <summary>
-    /// Handle continuous collision damage (staying in contact with enemy).
-    /// </summary>
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        switch (collision.collider.tag)
-        {
-            case Tags.ENEMY:
-                TakeDamage(10);
-                break;
-        }
-    }
 
     /// <summary>
     /// Handle trigger-based damage (enemy bullets use triggers).

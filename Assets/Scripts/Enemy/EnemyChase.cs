@@ -16,6 +16,7 @@ public class EnemyChase : MonoBehaviour
     [Header("Cấu hình Chiến đấu")]
     [SerializeField] private int damageAmount = 10;
     [SerializeField] private float damageInterval = 1f;
+    [SerializeField] private bool dealContactDamage = true;
 
     private Vector2 startPosition;
     private Vector2 patrolPointA;
@@ -286,6 +287,8 @@ public class EnemyChase : MonoBehaviour
 
     private void AttemptDamage(GameObject target)
     {
+        if (!dealContactDamage) return;
+
         // Chỉ nhận sát thương khi va chạm trực tiếp với cơ thể Player (tránh va chạm qua Trigger vũ khí/Sword)
         if (!target.CompareTag("Player"))
         {

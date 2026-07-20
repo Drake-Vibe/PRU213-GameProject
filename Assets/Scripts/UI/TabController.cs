@@ -1,4 +1,3 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,16 +11,17 @@ public class TabController : MonoBehaviour
     }
     public void ActiveTab(int tabNo)
     {
+        Debug.Log($"[TabController] ActiveTab({tabNo}) called.");
         for (int i = 0; i < pages.Length; i++)
         {
             if (pages[i] != null)
-                pages[i].SetActive(false);
+            {
+                pages[i].SetActive(i == tabNo);
+            }
             if (i < tabImages.Length && tabImages[i] != null)
-                tabImages[i].color = Color.grey;
+            {
+                tabImages[i].color = (i == tabNo) ? Color.white : Color.grey;
+            }
         }
-        if (tabNo >= 0 && tabNo < pages.Length && pages[tabNo] != null)
-            pages[tabNo].SetActive(true);
-        if (tabNo >= 0 && tabNo < tabImages.Length && tabImages[tabNo] != null)
-            tabImages[tabNo].color = Color.white;
     }
 }

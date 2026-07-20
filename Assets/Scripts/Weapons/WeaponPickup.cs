@@ -21,10 +21,19 @@ public class WeaponPickup : MonoBehaviour
     private void Update()
     {
         // Show pickup prompt when near
-        if (playerInRange && !attachedWeapon.IsEquipped && Input.GetKeyDown(KeyCode.Q))
+        if (playerInRange && !attachedWeapon.IsEquipped && IsPickupPressed())
         {
             PickupWeapon();
         }
+    }
+
+    private bool IsPickupPressed()
+    {
+        KeyCode key = SettingsManager.CurrentSettings != null ? SettingsManager.CurrentSettings.pickupWeapon : KeyCode.Q;
+        if (key == KeyCode.Mouse0) return Input.GetMouseButtonDown(0);
+        if (key == KeyCode.Mouse1) return Input.GetMouseButtonDown(1);
+        if (key == KeyCode.Mouse2) return Input.GetMouseButtonDown(2);
+        return Input.GetKeyDown(key);
     }
 
     private void PickupWeapon()

@@ -3,11 +3,6 @@ using UnityEngine;
 
 public class InventoryController : MonoBehaviour
 {   
-    private ItemDictionary itemDictionary;
-    public GameObject inventoryPanel;
-    public GameObject slotPrefab;
-    public int slotCount;
-    public GameObject[] itemPrefabs;
     void Start()
     {
         // Deleted all UI slot instantiation logic as inventory page is removed

@@ -27,7 +27,6 @@ public class BossCrystalKnight : MonoBehaviour
     private float lastMeleeTime = 0f;
     private float lastTeleportTime = 0f;
     private float lastLightningTime = 0f;
-    private float lastDamageTime = 0f;
 
     private Transform playerTransform;
     private Rigidbody2D rb;
@@ -143,8 +142,8 @@ public class BossCrystalKnight : MonoBehaviour
     {
         if (!isActive || isDead) return;
 
-        // Animate idle / movement
-        if (!isExecutingSkill && spriteRenderer != null && idleSprites != null && idleSprites.Length > 0)
+        // Animate idle / movement ONLY if there is no animator component
+        if (animator == null && !isExecutingSkill && spriteRenderer != null && idleSprites != null && idleSprites.Length > 0)
         {
             animTimer += Time.deltaTime;
             if (animTimer >= 0.18f)
@@ -180,7 +179,7 @@ public class BossCrystalKnight : MonoBehaviour
             {
                 StartCoroutine(LightningSkillRoutine());
             }
-            else if (distToPlayer <= 2.5f && Time.time - lastMeleeTime >= meleeCooldown)
+            else if (distToPlayer <= meleeAttackRange && Time.time - lastMeleeTime >= meleeCooldown)
             {
                 StartCoroutine(MeleeAttackRoutine());
             }
@@ -217,10 +216,13 @@ public class BossCrystalKnight : MonoBehaviour
         {
             animator.SetBool("IsMoving", false);
             animator.SetTrigger("Attack");
+            
+            // Wait for half the attack duration to check hitbox (slash timing)
+            yield return new WaitForSeconds(0.3f);
+            CheckMeleeHitbox();
+            yield return new WaitForSeconds(0.3f); // Wait for animation to finish
         }
-
-        // Play Attack Animation frames
-        if (attackSprites != null && attackSprites.Length > 0 && spriteRenderer != null)
+        else if (attackSprites != null && attackSprites.Length > 0 && spriteRenderer != null)
         {
             for (int i = 0; i < attackSprites.Length; i++)
             {
@@ -249,7 +251,7 @@ public class BossCrystalKnight : MonoBehaviour
         if (playerTransform == null) return;
 
         float dist = Vector2.Distance(transform.position, playerTransform.position);
-        if (dist <= 3.2f)
+        if (dist <= meleeHitboxRadius)
         {
             Player p = playerTransform.GetComponent<Player>();
             if (p != null)
@@ -483,5 +485,16 @@ public class BossCrystalKnight : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Phản hồi vật lý va chạm, không gây sát thương va chạm trực tiếp theo yêu cầu
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        // Vòng tròn đỏ: Vùng gây sát thương đòn chém Melee Hitbox
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, meleeHitboxRadius);
+
+        // Vòng tròn vàng: Vùng phát hiện người chơi
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
 }

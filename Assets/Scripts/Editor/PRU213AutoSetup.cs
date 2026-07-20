@@ -47,6 +47,136 @@ public class PRU213AutoSetup : EditorWindow
             "OK");
     }
 
+    [MenuItem("Tools/PRU213 Setup/🔧 Fix Menu TabController References Only (Keep UI Positions)", priority = 5)]
+    public static void FixMenuTabControllerOnly()
+    {
+        TabController tabCtrl = Object.FindAnyObjectByType<TabController>();
+        if (tabCtrl == null)
+        {
+            EditorUtility.DisplayDialog("Error", "TabController component not found in the current scene!", "OK");
+            return;
+        }
+
+        // Find Tab Buttons
+        GameObject playerTabObj = null;
+        GameObject settingsTabObj = null;
+
+        // Search for tab gameobjects in children of tabCtrl's parent or tabCtrl itself
+        Transform searchRoot = tabCtrl.transform.parent != null ? tabCtrl.transform.parent : tabCtrl.transform;
+        foreach (Transform child in searchRoot.GetComponentsInChildren<Transform>(true))
+        {
+            string nameUpper = child.name.ToUpper();
+            if (playerTabObj == null && nameUpper.Contains("PLAYER") && (nameUpper.Contains("TAB") || nameUpper.Contains("BTN") || nameUpper.Contains("BUTTON")))
+            {
+                playerTabObj = child.gameObject;
+            }
+            if (settingsTabObj == null && nameUpper.Contains("SETTING") && (nameUpper.Contains("TAB") || nameUpper.Contains("BTN") || nameUpper.Contains("BUTTON")))
+            {
+                settingsTabObj = child.gameObject;
+            }
+        }
+
+        // Fallback search by text labels
+        if (playerTabObj == null || settingsTabObj == null)
+        {
+            foreach (TextMeshProUGUI tmp in searchRoot.GetComponentsInChildren<TextMeshProUGUI>(true))
+            {
+                string txt = tmp.text.ToUpper().Trim();
+                GameObject targetObj = tmp.gameObject;
+                if (targetObj.GetComponent<Button>() == null && targetObj.transform.parent != null)
+                {
+                    targetObj = targetObj.transform.parent.gameObject;
+                }
+
+                if (playerTabObj == null && (txt == "PLAYER" || tmp.gameObject.name.ToUpper().Contains("PLAYER")))
+                {
+                    playerTabObj = targetObj;
+                }
+                if (settingsTabObj == null && (txt == "SETTINGS" || txt == "SETTING" || tmp.gameObject.name.ToUpper().Contains("SETTING")))
+                {
+                    settingsTabObj = targetObj;
+                }
+            }
+        }
+
+        // Find Pages
+        GameObject playerPg = null;
+        GameObject settingsPg = null;
+
+        foreach (Transform child in searchRoot.GetComponentsInChildren<Transform>(true))
+        {
+            // Ignore tab buttons
+            if (child.gameObject == playerTabObj || child.gameObject == settingsTabObj) continue;
+
+            string nameUpper = child.name.ToUpper();
+            if (playerPg == null && nameUpper.Contains("PLAYER") && (nameUpper.Contains("PAGE") || nameUpper.Contains("PANEL")))
+            {
+                playerPg = child.gameObject;
+            }
+            if (settingsPg == null && nameUpper.Contains("SETTING") && (nameUpper.Contains("PAGE") || nameUpper.Contains("PANEL") || nameUpper.Contains("MENU")))
+            {
+                settingsPg = child.gameObject;
+            }
+        }
+
+        if (playerTabObj == null || settingsTabObj == null || playerPg == null || settingsPg == null)
+        {
+            // Print diagnostics
+            string msg = $"Could not identify all references automatically:\n" +
+                         $"- Player Tab: {(playerTabObj != null ? playerTabObj.name : "MISSING")}\n" +
+                         $"- Settings Tab: {(settingsTabObj != null ? settingsTabObj.name : "MISSING")}\n" +
+                         $"- Player Page: {(playerPg != null ? playerPg.name : "MISSING")}\n" +
+                         $"- Settings Page: {(settingsPg != null ? settingsPg.name : "MISSING")}\n\n" +
+                         $"Please make sure names of tab buttons contain 'Player' / 'Setting' and page panels contain 'Player' / 'Setting'.";
+            EditorUtility.DisplayDialog("Diagnostics", msg, "OK");
+            return;
+        }
+
+        // Apply references to TabController without changing UI layout/positions
+        var newTabImages = new System.Collections.Generic.List<UnityEngine.UI.Image>();
+        newTabImages.Add(playerTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true) ?? playerTabObj.GetComponent<UnityEngine.UI.Image>());
+        newTabImages.Add(settingsTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true) ?? settingsTabObj.GetComponent<UnityEngine.UI.Image>());
+
+        var newPages = new System.Collections.Generic.List<GameObject>();
+        newPages.Add(playerPg);
+        newPages.Add(settingsPg);
+
+        SerializedObject soTab = new SerializedObject(tabCtrl);
+        
+        SerializedProperty tabImagesProp = soTab.FindProperty("tabImages");
+        tabImagesProp.ClearArray();
+        tabImagesProp.arraySize = newTabImages.Count;
+        for (int i = 0; i < newTabImages.Count; i++)
+        {
+            tabImagesProp.GetArrayElementAtIndex(i).objectReferenceValue = newTabImages[i];
+        }
+
+        SerializedProperty pagesProp = soTab.FindProperty("pages");
+        pagesProp.ClearArray();
+        pagesProp.arraySize = newPages.Count;
+        for (int i = 0; i < newPages.Count; i++)
+        {
+            pagesProp.GetArrayElementAtIndex(i).objectReferenceValue = newPages[i];
+        }
+
+        soTab.ApplyModifiedProperties();
+        EditorUtility.SetDirty(tabCtrl);
+
+        // Bind Button onClick handlers persistent calls (Player=0, Settings=1) WITHOUT repositioning
+        UpdateTabButtonTrigger(playerTabObj, 0);
+        UpdateTabButtonTrigger(settingsTabObj, 1);
+
+        // Save active scene changes
+        UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(tabCtrl.gameObject.scene);
+
+        EditorUtility.DisplayDialog("✅ Success", 
+            $"Successfully fixed TabController references while keeping all positions intact!\n\n" +
+            $"- TabController: {tabCtrl.name}\n" +
+            $"- Player Tab: {playerTabObj.name} -> Page: {playerPg.name}\n" +
+            $"- Settings Tab: {settingsTabObj.name} -> Page: {settingsPg.name}", 
+            "OK");
+    }
+
     [MenuItem("Tools/PRU213 Setup/🔄 Setup All Scenes in Build", priority = 2)]
     public static void SetupAllScenesInBuild()
     {
@@ -1527,16 +1657,33 @@ private static bool AssetExists(string path)
             foreach (var tmpText in allTexts)
             {
                 string txt = tmpText.text.ToUpper().Trim();
+                string objName = tmpText.gameObject.name.ToUpper();
+                string parentName = tmpText.transform.parent != null ? tmpText.transform.parent.gameObject.name.ToUpper() : "";
+
                 GameObject targetObj = tmpText.gameObject;
-                if (targetObj.GetComponent<UnityEngine.EventSystems.EventTrigger>() == null && targetObj.transform.parent != null)
+                if (targetObj.GetComponent<UnityEngine.EventSystems.EventTrigger>() == null && 
+                    targetObj.GetComponent<Button>() == null && 
+                    targetObj.transform.parent != null)
                 {
                     targetObj = targetObj.transform.parent.gameObject;
                 }
 
-                if (txt == "PLAYER") playerTabObj = targetObj;
-                else if (txt == "IVENTORY" || txt == "INVENTORY") invTabObj = targetObj;
-                else if (txt == "MAP") mapTabObj = targetObj;
-                else if (txt == "SETTINGS") settingsTabObj = targetObj;
+                if (txt == "PLAYER" || objName.Contains("PLAYER") || parentName.Contains("PLAYER"))
+                {
+                    playerTabObj = targetObj;
+                }
+                else if (txt == "IVENTORY" || txt == "INVENTORY" || objName.Contains("INVENTORY") || parentName.Contains("INVENTORY"))
+                {
+                    invTabObj = targetObj;
+                }
+                else if (txt == "MAP" || objName.Contains("MAP") || parentName.Contains("MAP"))
+                {
+                    mapTabObj = targetObj;
+                }
+                else if (txt == "SETTINGS" || txt == "SETTING" || objName.Contains("SETTING") || parentName.Contains("SETTING"))
+                {
+                    settingsTabObj = targetObj;
+                }
             }
 
             // Also find the pages
@@ -1997,8 +2144,6 @@ private static bool AssetExists(string path)
             combatRoom = combatRoomObj.AddComponent<CombatRoom>();
         }
 
-        combatRoom.gem = null;
-        combatRoom.gemTilemap = null;
         combatRoom.triggerOnPlayerEnter = true;
         combatRoom.keepPlayerInside = false; // No locking of entry doors
         combatRoom.enemyPrefab = null; // We are using pre-placed enemies
@@ -2238,8 +2383,6 @@ private static bool AssetExists(string path)
             combatRoom = combatRoomObj.AddComponent<CombatRoom>();
         }
 
-        combatRoom.gem = null;
-        combatRoom.gemTilemap = null;
         combatRoom.triggerOnPlayerEnter = true;
         combatRoom.keepPlayerInside = false; // No locking of entry doors
         combatRoom.enemyPrefab = null; // We are using pre-placed enemies

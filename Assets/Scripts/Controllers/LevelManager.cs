@@ -71,6 +71,25 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    private float currentMusicVol = 0.8f;
+    private float currentSfxVol = 1f;
+
+    public float CurrentSfxVolume => currentSfxVol;
+
+    public void SetMusicVolume(float volume)
+    {
+        currentMusicVol = Mathf.Clamp01(volume);
+        if (musicAudioSource != null)
+        {
+            musicAudioSource.volume = currentMusicVol;
+        }
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        currentSfxVol = Mathf.Clamp01(volume);
+    }
+
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -110,6 +129,54 @@ public class LevelManager : MonoBehaviour
                 }
                 player.transform.position = spawnPoint.transform.position;
                 Debug.Log($"[LevelManager] Teleported persistent Player to {spawnPoint.name} at {spawnPoint.transform.position}");
+            }
+
+            // Clean up duplicate ground weapons in the new scene matching player's equipped weapon
+            CleanUpDuplicateWeapons(player);
+
+            // Spawn EventSystem if not found in the scene to ensure UI interaction works
+            if (FindAnyObjectByType<UnityEngine.EventSystems.EventSystem>() == null)
+            {
+                GameObject eventSystemObj = new GameObject("EventSystem");
+                eventSystemObj.AddComponent<UnityEngine.EventSystems.EventSystem>();
+                eventSystemObj.AddComponent<UnityEngine.EventSystems.StandaloneInputModule>();
+                Debug.Log("[LevelManager] Dynamically created EventSystem for UI interaction.");
+            }
+        }
+    }
+
+    private void CleanUpDuplicateWeapons(GameObject playerObj)
+    {
+        if (playerObj == null) return;
+        Player p = playerObj.GetComponent<Player>();
+        if (p == null) return;
+
+        // Clean up any child weapons that are not the current equipped one
+        BaseWeapon[] childWeapons = playerObj.GetComponentsInChildren<BaseWeapon>(true);
+        foreach (var bw in childWeapons)
+        {
+            if (p.currentWeapon == null || bw.gameObject != p.currentWeapon)
+            {
+                Debug.Log($"[LevelManager] Destroying unequipped child weapon from Player: {bw.gameObject.name}");
+                Destroy(bw.gameObject);
+            }
+        }
+
+        if (p.currentWeapon == null) return;
+
+        BaseWeapon equippedBw = p.currentWeapon.GetComponent<BaseWeapon>();
+        if (equippedBw == null) return;
+
+        string equippedName = equippedBw.weaponName;
+
+        // Search for unequipped weapons in the scene that match equippedName
+        BaseWeapon[] sceneWeapons = Object.FindObjectsByType<BaseWeapon>(FindObjectsInactive.Include);
+        foreach (var bw in sceneWeapons)
+        {
+            if (!bw.IsEquipped && (bw.weaponName.Equals(equippedName, System.StringComparison.OrdinalIgnoreCase) || bw.gameObject.name.Contains(equippedName)))
+            {
+                Debug.Log($"[LevelManager] Removing duplicate ground weapon '{bw.gameObject.name}' since Player is already holding '{equippedName}'.");
+                Destroy(bw.gameObject);
             }
         }
     }
@@ -155,14 +222,22 @@ public class LevelManager : MonoBehaviour
     /// <summary>
     /// Start a new game — reset state + load with FULL loading screen (5-10s).
     /// </summary>
-    public void StartGame()
+    private void CleanupPersistentObjects()
     {
+        Player.DestroyInstance();
+        PlayerHUD.DestroyInstance();
+        MenuController.DestroyInstance();
+
         GameManager gm = GameManager.Instance;
         if (gm != null)
         {
             gm.ResetGame();
         }
+    }
 
+    public void StartGame()
+    {
+        CleanupPersistentObjects();
         StartCoroutine(LoadSceneWithFullLoading("UI-Default"));
     }
 

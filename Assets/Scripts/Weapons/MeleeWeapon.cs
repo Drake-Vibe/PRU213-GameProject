@@ -48,8 +48,8 @@ public class MeleeWeapon : BaseWeapon
 
         timeSinceLastAttack += Time.deltaTime;
 
-        // Attack on mouse click
-        if (Input.GetMouseButtonDown(0) && !isAttacking && timeSinceLastAttack >= attackCooldown)
+        // Attack when attack key is pressed
+        if (IsAttackPressed() && !isAttacking && timeSinceLastAttack >= attackCooldown)
         {
             StartAttack();
         }
@@ -114,43 +114,63 @@ public class MeleeWeapon : BaseWeapon
     {
         if (!isAttacking) return;
 
-        if (collision.CompareTag(Tags.ENEMY))
+        GameObject target = collision.gameObject;
+        
+        // Find enemy scripts on the target or its parent
+        BaseEnemy baseEnemy = target.GetComponent<BaseEnemy>();
+        if (baseEnemy == null) baseEnemy = target.GetComponentInParent<BaseEnemy>();
+
+        EnemyHealth enemyHealth = null;
+        if (baseEnemy == null)
         {
-            GameObject target = collision.gameObject;
-            if (!hitEnemies.Contains(target))
+            enemyHealth = target.GetComponent<EnemyHealth>();
+            if (enemyHealth == null) enemyHealth = target.GetComponentInParent<EnemyHealth>();
+        }
+
+        bool isEnemy = collision.CompareTag(Tags.ENEMY) || baseEnemy != null || enemyHealth != null;
+
+        if (isEnemy)
+        {
+            // Resolve the root target object to prevent hitting multiple child colliders of the same enemy
+            GameObject rootTarget = target;
+            if (baseEnemy != null) rootTarget = baseEnemy.gameObject;
+            else if (enemyHealth != null) rootTarget = enemyHealth.gameObject;
+
+            if (!hitEnemies.Contains(rootTarget))
             {
-                hitEnemies.Add(target); // Mark as hit to prevent double damage in this swing
+                hitEnemies.Add(rootTarget); // Mark as hit to prevent double damage in this swing
 
                 // Apply knockback to the enemy using the existing EnemyChase component before dealing damage
                 if (parentEntity != null)
                 {
-                    Vector2 knockbackDir = (target.transform.position - parentEntity.transform.position).normalized;
-                    EnemyChase enemyChase = target.GetComponent<EnemyChase>();
-                    if (enemyChase == null) enemyChase = target.GetComponentInParent<EnemyChase>();
+                    Vector2 knockbackDir = (rootTarget.transform.position - parentEntity.transform.position).normalized;
+                    EnemyChase enemyChase = rootTarget.GetComponent<EnemyChase>();
+                    if (enemyChase == null) enemyChase = rootTarget.GetComponentInParent<EnemyChase>();
                     if (enemyChase != null)
                     {
                         enemyChase.ApplyKnockback(knockbackDir * 12f, 0.25f);
                     }
                 }
 
-                // Damage BaseEnemy if present
-                BaseEnemy baseEnemy = target.GetComponent<BaseEnemy>();
-                if (baseEnemy == null) baseEnemy = target.GetComponentInParent<BaseEnemy>();
+                // Deal damage using the found component
                 if (baseEnemy != null)
                 {
                     baseEnemy.TakeDamage(damage);
                 }
-                else
+                else if (enemyHealth != null)
                 {
-                    // Damage EnemyHealth if present (for enemy branch compatibility)
-                    EnemyHealth enemyHealth = target.GetComponent<EnemyHealth>();
-                    if (enemyHealth == null) enemyHealth = target.GetComponentInParent<EnemyHealth>();
-                    if (enemyHealth != null)
-                    {
-                        enemyHealth.TakeDamage((int)damage);
-                    }
+                    enemyHealth.TakeDamage((int)damage);
                 }
             }
         }
+    }
+
+    private bool IsAttackPressed()
+    {
+        KeyCode attackKey = SettingsManager.CurrentSettings != null ? SettingsManager.CurrentSettings.attack : KeyCode.Mouse0;
+        if (attackKey == KeyCode.Mouse0) return Input.GetMouseButtonDown(0);
+        if (attackKey == KeyCode.Mouse1) return Input.GetMouseButtonDown(1);
+        if (attackKey == KeyCode.Mouse2) return Input.GetMouseButtonDown(2);
+        return Input.GetKeyDown(attackKey);
     }
 }

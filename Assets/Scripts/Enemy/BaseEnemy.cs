@@ -68,7 +68,7 @@ public class BaseEnemy : MonoBehaviour
     }
 
     /// <summary>
-    /// Handle bullet and melee weapon triggers.
+    /// Handle bullet triggers.
     /// </summary>
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -79,16 +79,6 @@ public class BaseEnemy : MonoBehaviour
             if (bullet != null && bullet.GetOwnerTag() == Tags.PLAYER)
             {
                 TakeDamage(bullet.GetDamage());
-            }
-        }
-
-        // Hit by melee weapon
-        if (collision.CompareTag(Tags.SWORD))
-        {
-            MeleeWeapon melee = collision.GetComponentInParent<MeleeWeapon>();
-            if (melee != null && melee.IsAttacking)
-            {
-                TakeDamage(melee.damage);
             }
         }
     }
