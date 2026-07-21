@@ -271,8 +271,14 @@ public class MenuController : MonoBehaviour
             return;
         }
 
-        // Toggle menu when pressing Escape or Tab
-        if (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.Escape))
+        KeyCode menuKey = KeyCode.Tab;
+        if (SettingsManager.CurrentSettings != null)
+        {
+            menuKey = SettingsManager.CurrentSettings.openMenu;
+        }
+
+        // Toggle menu when pressing custom Menu Key or Escape
+        if (Input.GetKeyDown(menuKey) || Input.GetKeyDown(KeyCode.Escape))
         {
             ToggleMenu();
         }
@@ -341,7 +347,13 @@ public class MenuController : MonoBehaviour
 
     public void OnSavePressed()
     {
-        SaveController saveCtrl = FindAnyObjectByType<SaveController>();
+        SaveController saveCtrl = SaveController.Instance ?? FindAnyObjectByType<SaveController>();
+        if (saveCtrl == null)
+        {
+            GameObject scObj = new GameObject("SaveController");
+            saveCtrl = scObj.AddComponent<SaveController>();
+        }
+
         if (saveCtrl != null)
         {
             saveCtrl.SaveGame();

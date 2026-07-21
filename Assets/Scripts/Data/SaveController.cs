@@ -5,8 +5,22 @@ using System.IO;
 using Unity.Cinemachine;
 public class SaveController : MonoBehaviour
 {
+    public static SaveController Instance { get; private set; }
+
     private string saveLocation;
     private InventoryController inventoryController;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         saveLocation = @"D:\PRU213-GameProject\Save File\saveData.json";
@@ -27,13 +41,9 @@ public class SaveController : MonoBehaviour
             }
         }
         
-        if (PlayerPrefs.GetInt("ShouldLoadSave", 0) == 1)
-        {
-            LoadGame();
-            PlayerPrefs.SetInt("ShouldLoadSave", 0);
-            PlayerPrefs.Save();
-        }
-        else
+        // Save loading is now handled entirely by LevelManager.LoadSaveGameTwoStep
+        // (called from MainMenu.OnLoadClicked), so no need to check ShouldLoadSave here.
+        if (PlayerPrefs.GetInt("ShouldLoadSave", 0) == 0)
         {
             Debug.Log("Starting fresh game (LoadGame skipped).");
         }
@@ -111,47 +121,28 @@ public class SaveController : MonoBehaviour
             try
             {
                 SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
-                
-                GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-                if (playerObj != null)
+                if (saveData == null) return;
+
+                // Get the saved scene name (from PlayerPrefs set by MainMenu, or from save file)
+                string targetScene = PlayerPrefs.GetString("SavedSceneName", "");
+                if (string.IsNullOrEmpty(targetScene))
                 {
-                    playerObj.transform.position = saveData.playerPosition;
-                }
-                
-                CinemachineConfiner2D confiner = FindAnyObjectByType<CinemachineConfiner2D>();
-                if (confiner != null && !string.IsNullOrEmpty(saveData.mapBoundry))
-                {
-                    GameObject boundryObj = GameObject.Find(saveData.mapBoundry);
-                    if (boundryObj != null)
-                    {
-                        confiner.BoundingShape2D = boundryObj.GetComponent<PolygonCollider2D>();
-                    }
-                }
-                
-                if (inventoryController != null)
-                {
-                    inventoryController.SetInventoryItems(saveData.inventorySaveData);
+                    targetScene = saveData.savedSceneName;
                 }
 
-                // Restore dungeon progress
-                Player player = FindAnyObjectByType<Player>();
-                if (player != null)
+                string currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+                Debug.Log($"[SaveController] LoadGame: currentScene={currentScene}, targetScene={targetScene}");
+
+                if (!string.IsNullOrEmpty(targetScene) && currentScene != targetScene)
                 {
-                    player.maxHealth = saveData.playerMaxHealth;
-                    player.currentHealth = saveData.playerHealth;
-                    player.healthPotions = saveData.healthPotions;
-                    player.manaPotions = saveData.manaPotions;
-                    player.currentArmor = player.maxArmor;
-                    player.currentEnergy = player.maxEnergy;
+                    // Need to load a different scene — use LevelManager.LoadDungeonLevel 
+                    // which uses the loading screen and preserves persistent objects (Player, UI)
+                    StartCoroutine(LoadSavedSceneAndRestore(saveData, targetScene));
+                    return;
                 }
 
-                // Restore Equipped Weapon
-                if (player != null && !string.IsNullOrEmpty(saveData.equippedWeaponName))
-                {
-                    RestorePlayerWeapon(player, saveData.equippedWeaponName);
-                }
-
-                Debug.Log($"Game loaded! Level: {saveData.currentLevel}, Score: {saveData.score}, Weapon: {saveData.equippedWeaponName}");
+                // Same scene — just restore data directly
+                RestoreSaveData(saveData);
             }
             catch (System.Exception ex)
             {
@@ -162,6 +153,95 @@ public class SaveController : MonoBehaviour
         {
             SaveGame(); 
         }
+    }
+
+    private IEnumerator LoadSavedSceneAndRestore(SaveData saveData, string targetScene)
+    {
+        LevelManager lm = LevelManager.Instance;
+        if (lm != null)
+        {
+            Debug.Log($"[SaveController] Using LevelManager to load scene: {targetScene}");
+            lm.LoadDungeonLevel(targetScene);
+        }
+        else
+        {
+            Debug.Log($"[SaveController] Fallback: Loading scene directly: {targetScene}");
+            AsyncOperation op = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(targetScene);
+            while (op != null && !op.isDone)
+            {
+                yield return null;
+            }
+        }
+
+        // Wait for scene to fully initialize
+        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForEndOfFrame();
+
+        RestoreSaveData(saveData);
+    }
+
+    public void RestoreSaveDataPublic(SaveData saveData)
+    {
+        RestoreSaveData(saveData);
+    }
+
+    private void RestoreSaveData(SaveData saveData)
+    {
+        if (saveData == null) return;
+
+        inventoryController = FindAnyObjectByType<InventoryController>();
+
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            playerObj.transform.position = saveData.playerPosition;
+        }
+        
+        CinemachineConfiner2D confiner = FindAnyObjectByType<CinemachineConfiner2D>();
+        if (confiner != null && !string.IsNullOrEmpty(saveData.mapBoundry))
+        {
+            GameObject boundryObj = GameObject.Find(saveData.mapBoundry);
+            if (boundryObj != null)
+            {
+                confiner.BoundingShape2D = boundryObj.GetComponent<PolygonCollider2D>();
+            }
+        }
+        
+        if (inventoryController != null)
+        {
+            inventoryController.SetInventoryItems(saveData.inventorySaveData);
+        }
+
+        // Restore dungeon progress
+        GameManager gm = GameManager.Instance;
+        if (gm != null)
+        {
+            gm.currentLevel = saveData.currentLevel;
+            gm.score = saveData.score;
+        }
+
+        Player player = FindAnyObjectByType<Player>();
+        if (player != null)
+        {
+            player.maxHealth = saveData.playerMaxHealth;
+            player.currentHealth = saveData.playerHealth;
+            player.healthPotions = saveData.healthPotions;
+            player.manaPotions = saveData.manaPotions;
+            player.currentArmor = player.maxArmor;
+            player.currentEnergy = player.maxEnergy;
+        }
+
+        // Restore Equipped Weapon
+        if (player != null && !string.IsNullOrEmpty(saveData.equippedWeaponName))
+        {
+            RestorePlayerWeapon(player, saveData.equippedWeaponName);
+        }
+
+        Debug.Log($"Game loaded! Scene: {saveData.savedSceneName}, Level: {saveData.currentLevel}, Score: {saveData.score}, Weapon: {saveData.equippedWeaponName}");
+
+        // Clear the load flag so future scene loads use SpawnPoint normally
+        PlayerPrefs.SetInt("ShouldLoadSave", 0);
+        PlayerPrefs.Save();
     }
 
     private void RestorePlayerWeapon(Player player, string targetWeaponName)

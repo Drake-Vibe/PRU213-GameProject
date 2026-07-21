@@ -82,7 +82,8 @@ public class CombatRoom : MonoBehaviour
             {
                 aliveEnemies.RemoveAt(i);
                 killedCount++;
-                Debug.Log(name + " (CombatRoom): Đã diệt " + killedCount + "/" + totalEnemiesToKill);
+                string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+                Debug.Log(sceneName + ": Đã diệt " + killedCount + "/" + totalEnemiesToKill);
             }
         }
 
@@ -97,7 +98,8 @@ public class CombatRoom : MonoBehaviour
                 NextLevelPortal portal = exitPortal.GetComponent<NextLevelPortal>();
                 if (portal != null) portal.SetLocked(false); // Mở khóa cổng khi diệt sạch quái
             }
-            Debug.Log(name + " (CombatRoom): DỌN SẠCH PHÒNG! Mở cổng.");
+            string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+            Debug.Log(sceneName + ": DỌN SẠCH PHÒNG! Mở cổng.");
             return;
         }
 
@@ -146,7 +148,8 @@ public class CombatRoom : MonoBehaviour
         }
 
         SetGatesClosed(true); // đóng cổng nhốt player
-        Debug.Log(name + " (CombatRoom): Đấu trường bắt đầu! Đóng cổng, diệt "
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        Debug.Log(sceneName + ": Đấu trường bắt đầu! Đóng cổng, diệt "
                   + totalEnemiesToKill + " quái để mở.");
     }
 
@@ -164,7 +167,8 @@ public class CombatRoom : MonoBehaviour
     {
         if (enemyPrefab == null)
         {
-            Debug.LogWarning(name + " (CombatRoom): chưa gán Enemy Prefab!");
+            string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+            Debug.LogWarning(sceneName + ": chưa gán Enemy Prefab!");
             return;
         }
 

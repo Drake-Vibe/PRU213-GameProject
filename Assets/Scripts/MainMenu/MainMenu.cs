@@ -164,15 +164,33 @@ public class MainMenu : MonoBehaviour
         {
             Debug.Log("Save file found! Loading game...");
 
-            // Set flag to load save file
             PlayerPrefs.SetInt("ShouldLoadSave", 1);
+
+            SaveData data = null;
+            string savedScene = gameSceneName;
+            try
+            {
+                string json = File.ReadAllText(saveFilePath);
+                data = JsonUtility.FromJson<SaveData>(json);
+                if (data != null && !string.IsNullOrEmpty(data.savedSceneName))
+                {
+                    savedScene = data.savedSceneName;
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Debug.LogWarning($"Could not read save file: {ex.Message}");
+            }
+
+            PlayerPrefs.SetString("SavedSceneName", savedScene);
             PlayerPrefs.Save();
 
-            // Load directly without long loading screen (as per user request)
+            Debug.Log($"Loading game (Target Scene: {savedScene})...");
+
             LevelManager lm = LevelManager.Instance;
             if (lm != null)
             {
-                lm.LoadSavedGame(gameSceneName);
+                lm.LoadSavedGame(savedScene, data);
             }
             else
             {

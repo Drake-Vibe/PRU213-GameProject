@@ -115,21 +115,33 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
-            GameObject spawnPoint = GameObject.Find("SpawnPoint");
-            if (spawnPoint == null) spawnPoint = GameObject.Find("PlayerSpawnPoint");
-            if (spawnPoint == null) spawnPoint = GameObject.FindWithTag("Respawn");
+            // If we are loading a saved game, skip SpawnPoint teleport
+            // and let SaveController restore the saved position instead
+            bool isLoadingSave = PlayerPrefs.GetInt("ShouldLoadSave", 0) == 1;
 
             GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null && spawnPoint != null)
+
+            if (!isLoadingSave)
             {
-                // Temporarily disable character controller or rigidbody to ensure clean teleport
-                Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
-                if (rb != null)
+                GameObject spawnPoint = GameObject.Find("SpawnPoint");
+                if (spawnPoint == null) spawnPoint = GameObject.Find("PlayerSpawnPoint");
+                if (spawnPoint == null) spawnPoint = GameObject.FindWithTag("Respawn");
+
+                if (player != null && spawnPoint != null)
                 {
-                    rb.linearVelocity = Vector2.zero;
+                    // Temporarily disable character controller or rigidbody to ensure clean teleport
+                    Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+                    if (rb != null)
+                    {
+                        rb.linearVelocity = Vector2.zero;
+                    }
+                    player.transform.position = spawnPoint.transform.position;
+                    Debug.Log($"[LevelManager] Teleported persistent Player to {spawnPoint.name} at {spawnPoint.transform.position}");
                 }
-                player.transform.position = spawnPoint.transform.position;
-                Debug.Log($"[LevelManager] Teleported persistent Player to {spawnPoint.name} at {spawnPoint.transform.position}");
+            }
+            else
+            {
+                Debug.Log("[LevelManager] Skipping SpawnPoint teleport — loading saved position via SaveController.");
             }
 
             // Clean up duplicate ground weapons in the new scene matching player's equipped weapon
@@ -255,11 +267,175 @@ public class LevelManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Load a saved game — shorter loading (no fake delay).
+    /// Load a saved game with a single loading screen.
+    /// If targetScene != UI-Default: Load UI-Default first (to get Player + UI), equip weapon, then load target scene.
+    /// If targetScene == UI-Default: Just load UI-Default and restore save data.
     /// </summary>
-    public void LoadSavedGame(string sceneName)
+    public void LoadSavedGame(string targetScene, SaveData saveData)
     {
-        StartCoroutine(LoadSceneQuick(sceneName));
+        CleanupPersistentObjects();
+        StartCoroutine(LoadSaveGameTwoStep(targetScene, saveData));
+    }
+
+    private IEnumerator LoadSaveGameTwoStep(string targetScene, SaveData saveData)
+    {
+        ShowLoadingScreen();
+
+        float totalLoadTime = Random.Range(minLoadTime, maxLoadTime);
+        float elapsed = 0f;
+        float tipTimer = 0f;
+        float tipChangeInterval = 3f;
+        ShowRandomTip();
+
+        // ── STEP 1: Load UI-Default to create Player + MenuInGame + HUD ──
+        Debug.Log("[LevelManager] LoadSaveGame Step 1: Loading UI-Default for Player + UI...");
+        AsyncOperation op1 = SceneManager.LoadSceneAsync("UI-Default");
+        if (op1 != null) op1.allowSceneActivation = false;
+
+        // Run progress bar while loading UI-Default (first 40% of progress)
+        while (op1 != null && op1.progress < 0.9f)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            tipTimer += Time.unscaledDeltaTime;
+            if (tipTimer >= tipChangeInterval) { tipTimer = 0f; ShowRandomTip(); }
+            float t = Mathf.Clamp01(elapsed / totalLoadTime);
+            UpdateProgressBar(EaseInOutCubic(t) * 0.4f);
+            yield return null;
+        }
+
+        // Activate UI-Default
+        if (op1 != null) op1.allowSceneActivation = true;
+        while (op1 != null && !op1.isDone) yield return null;
+
+        // Wait a frame for UI-Default to initialize (Player, MenuInGame, HUD etc.)
+        yield return null;
+        yield return null;
+
+        // ── Equip saved weapon onto Player ──
+        if (saveData != null && !string.IsNullOrEmpty(saveData.equippedWeaponName))
+        {
+            Player player = FindAnyObjectByType<Player>();
+            if (player != null)
+            {
+                RestorePlayerWeaponForLoad(player, saveData.equippedWeaponName);
+                Debug.Log($"[LevelManager] Equipped saved weapon '{saveData.equippedWeaponName}' onto Player in UI-Default.");
+            }
+        }
+
+        // ── STEP 2: If target scene is different from UI-Default, load it ──
+        bool needSecondLoad = !string.IsNullOrEmpty(targetScene) && targetScene != "UI-Default";
+        
+        if (needSecondLoad)
+        {
+            Debug.Log($"[LevelManager] LoadSaveGame Step 2: Loading target scene '{targetScene}'...");
+            AsyncOperation op2 = SceneManager.LoadSceneAsync(targetScene);
+            if (op2 != null) op2.allowSceneActivation = false;
+
+            // Continue progress bar (40% → 95%)
+            while (op2 != null && op2.progress < 0.9f)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                tipTimer += Time.unscaledDeltaTime;
+                if (tipTimer >= tipChangeInterval) { tipTimer = 0f; ShowRandomTip(); }
+                float t = Mathf.Clamp01(elapsed / totalLoadTime);
+                UpdateProgressBar(0.4f + EaseInOutCubic(t) * 0.55f);
+                yield return null;
+            }
+
+            // Fill remaining time if loading was faster than minimum
+            while (elapsed < totalLoadTime)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                tipTimer += Time.unscaledDeltaTime;
+                if (tipTimer >= tipChangeInterval) { tipTimer = 0f; ShowRandomTip(); }
+                float t = Mathf.Clamp01(elapsed / totalLoadTime);
+                UpdateProgressBar(0.4f + EaseInOutCubic(t) * 0.55f);
+                yield return null;
+            }
+
+            // Activate target scene
+            if (op2 != null) op2.allowSceneActivation = true;
+            while (op2 != null && !op2.isDone) yield return null;
+        }
+        else
+        {
+            // Fill remaining time for UI-Default only load
+            while (elapsed < totalLoadTime)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                tipTimer += Time.unscaledDeltaTime;
+                if (tipTimer >= tipChangeInterval) { tipTimer = 0f; ShowRandomTip(); }
+                float t = Mathf.Clamp01(elapsed / totalLoadTime);
+                UpdateProgressBar(EaseInOutCubic(t));
+                yield return null;
+            }
+        }
+
+        // Final: 100%
+        UpdateProgressBar(1f);
+        yield return new WaitForSecondsRealtime(0.3f);
+
+        HideLoadingScreen();
+
+        // Wait a frame for the scene to settle
+        yield return null;
+
+        // ── STEP 3: Restore all save data (position, HP, inventory, score etc.) ──
+        if (saveData != null)
+        {
+            SaveController sc = SaveController.Instance ?? FindAnyObjectByType<SaveController>();
+            if (sc != null)
+            {
+                sc.RestoreSaveDataPublic(saveData);
+            }
+            else
+            {
+                Debug.LogWarning("[LevelManager] No SaveController found to restore save data!");
+            }
+        }
+
+        // Clear load flags
+        PlayerPrefs.SetInt("ShouldLoadSave", 0);
+        PlayerPrefs.SetString("SavedSceneName", "");
+        PlayerPrefs.Save();
+
+        Debug.Log($"[LevelManager] Save game loaded successfully! Scene: {targetScene}");
+    }
+
+    /// <summary>
+    /// Helper to find and equip a weapon by name onto the player during save loading.
+    /// </summary>
+    private void RestorePlayerWeaponForLoad(Player player, string weaponName)
+    {
+        if (player == null || string.IsNullOrEmpty(weaponName)) return;
+
+        // Check children first
+        BaseWeapon[] childWeapons = player.GetComponentsInChildren<BaseWeapon>(true);
+        foreach (var bw in childWeapons)
+        {
+            if (bw.weaponName.Equals(weaponName, System.StringComparison.OrdinalIgnoreCase) ||
+                bw.gameObject.name.Contains(weaponName))
+            {
+                bw.gameObject.SetActive(true);
+                bw.AttachTo(player.gameObject);
+                player.currentWeapon = bw.gameObject;
+                return;
+            }
+        }
+
+        // Search scene
+        BaseWeapon[] sceneWeapons = FindObjectsByType<BaseWeapon>(FindObjectsInactive.Include);
+        foreach (var bw in sceneWeapons)
+        {
+            if (bw.weaponName.Equals(weaponName, System.StringComparison.OrdinalIgnoreCase) ||
+                bw.gameObject.name.Contains(weaponName))
+            {
+                bw.gameObject.SetActive(true);
+                bw.AttachTo(player.gameObject);
+                player.currentWeapon = bw.gameObject;
+                return;
+            }
+        }
     }
 
     /// <summary>

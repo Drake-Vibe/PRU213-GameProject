@@ -27,15 +27,48 @@ public class PlayerMovement : MonoBehaviour
         hasSpeedParam = HasParameter("Speed");
     }
 
+    private Vector2 inputSystemMovement;
+
     private void OnMovement(InputValue value)
     {
-        movement = value.Get<Vector2>();
-        if(movement.x != 0 || movement.y != 0)
+        inputSystemMovement = value.Get<Vector2>();
+    }
+
+    private void Update()
+    {
+        if (PauseController.isGamePaused) return;
+
+        SettingsData settings = SettingsManager.CurrentSettings;
+        if (settings != null)
         {
-            if (hasXParam && animator != null) animator.SetFloat("X", movement.x);
-            if (hasYParam && animator != null) animator.SetFloat("Y", movement.y);
+            Vector2 inputDir = Vector2.zero;
+            bool anyKeyPressed = false;
+
+            if (Input.GetKey(settings.moveUp)) { inputDir.y += 1f; anyKeyPressed = true; }
+            if (Input.GetKey(settings.moveDown)) { inputDir.y -= 1f; anyKeyPressed = true; }
+            if (Input.GetKey(settings.moveLeft)) { inputDir.x -= 1f; anyKeyPressed = true; }
+            if (Input.GetKey(settings.moveRight)) { inputDir.x += 1f; anyKeyPressed = true; }
+
+            if (anyKeyPressed)
+            {
+                movement = inputDir.normalized;
+            }
+            else
+            {
+                movement = inputSystemMovement;
+            }
+
+            if (movement.x != 0 || movement.y != 0)
+            {
+                if (hasXParam && animator != null) animator.SetFloat("X", movement.x);
+                if (hasYParam && animator != null) animator.SetFloat("Y", movement.y);
+            }
+            if (hasSpeedParam && animator != null) animator.SetFloat("Speed", movement.magnitude);
         }
-        if (hasSpeedParam && animator != null) animator.SetFloat("Speed", movement.magnitude);
+        else
+        {
+            movement = inputSystemMovement;
+        }
     }
 
     private void FixedUpdate()
