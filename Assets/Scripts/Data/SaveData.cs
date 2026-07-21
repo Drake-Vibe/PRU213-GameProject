@@ -26,4 +26,10 @@ public class SaveData
     // Potion data
     public int healthPotions = 3;
     public int manaPotions = 3;
+
+    // Combat Room Progress
+    public bool roomTriggered = false;
+    public bool roomCleared = false;
+    public int roomKilledCount = 0;
+    public int roomSpawnedCount = 0;
 }

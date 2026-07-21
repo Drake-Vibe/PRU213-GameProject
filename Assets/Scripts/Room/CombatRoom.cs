@@ -53,6 +53,109 @@ public class CombatRoom : MonoBehaviour
     private BoxCollider2D roomArea;
     private Transform playerTf;
 
+    public bool IsTriggered => triggered;
+    public bool IsCleared => cleared;
+    public int KilledCount => killedCount;
+    public int SpawnedCount => spawnedCount;
+
+    public void RestoreRoomProgress(bool savedTriggered, bool savedCleared, int savedKilled, int savedSpawned)
+    {
+        if (savedCleared)
+        {
+            cleared = true;
+            triggered = true;
+            killedCount = totalEnemiesToKill;
+            spawnedCount = totalEnemiesToKill;
+            SetGatesClosed(false);
+
+            if (exitPortal != null)
+            {
+                exitPortal.SetActive(true);
+                NextLevelPortal portal = exitPortal.GetComponent<NextLevelPortal>();
+                if (portal != null) portal.SetLocked(false);
+            }
+
+            // Destroy pre-placed enemies if room was already cleared
+            if (prePlacedEnemies != null)
+            {
+                foreach (var enemy in prePlacedEnemies)
+                {
+                    if (enemy != null) Destroy(enemy);
+                }
+                prePlacedEnemies.Clear();
+            }
+            Debug.Log($"[{UnityEngine.SceneManagement.SceneManager.GetActiveScene().name}] Restored cleared room progress ({totalEnemiesToKill}/{totalEnemiesToKill}).");
+            return;
+        }
+
+        if (savedTriggered)
+        {
+            triggered = true;
+            killedCount = savedKilled;
+            spawnedCount = Mathf.Max(savedSpawned, savedKilled);
+
+            int destroyedCount = 0;
+
+            // 1. Destroy already-killed pre-placed enemies
+            if (prePlacedEnemies != null && prePlacedEnemies.Count > 0)
+            {
+                for (int i = prePlacedEnemies.Count - 1; i >= 0 && destroyedCount < savedKilled; i--)
+                {
+                    if (prePlacedEnemies[i] != null)
+                    {
+                        Destroy(prePlacedEnemies[i]);
+                        prePlacedEnemies.RemoveAt(i);
+                        destroyedCount++;
+                    }
+                }
+            }
+
+            // 2. If destroyedCount < savedKilled, search scene for active enemies tagged "Enemy"
+            if (destroyedCount < savedKilled)
+            {
+                GameObject[] sceneEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+                foreach (var enemy in sceneEnemies)
+                {
+                    if (destroyedCount >= savedKilled) break;
+                    if (enemy != null && enemy.GetComponent<BossCrystalKnight>() == null)
+                    {
+                        Destroy(enemy);
+                        destroyedCount++;
+                    }
+                }
+            }
+
+            // 3. Register remaining alive preplaced/scene enemies
+            aliveEnemies.Clear();
+            if (prePlacedEnemies != null && prePlacedEnemies.Count > 0)
+            {
+                foreach (var enemy in prePlacedEnemies)
+                {
+                    if (enemy != null && !aliveEnemies.Contains(enemy))
+                    {
+                        aliveEnemies.Add(enemy);
+                        ConfigureEnemy(enemy);
+                    }
+                }
+            }
+            else
+            {
+                GameObject[] sceneEnemies = GameObject.FindGameObjectsWithTag("Enemy");
+                foreach (var enemy in sceneEnemies)
+                {
+                    if (enemy != null && !aliveEnemies.Contains(enemy))
+                    {
+                        aliveEnemies.Add(enemy);
+                        ConfigureEnemy(enemy);
+                    }
+                }
+            }
+
+            SetGatesClosed(true);
+            Debug.Log($"[{UnityEngine.SceneManagement.SceneManager.GetActiveScene().name}] Restored room battle progress: Killed {killedCount}/{totalEnemiesToKill}, Spawned {spawnedCount}, Destroyed {destroyedCount} previously killed enemies.");
+        }
+    }
+
     private void Start()
     {
         roomArea = GetComponent<BoxCollider2D>();

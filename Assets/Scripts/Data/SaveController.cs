@@ -95,7 +95,13 @@ public class SaveController : MonoBehaviour
 
             // Potions
             healthPotions = player != null ? player.healthPotions : 3,
-            manaPotions = player != null ? player.manaPotions : 3
+            manaPotions = player != null ? player.manaPotions : 3,
+
+            // Combat Room Progress
+            roomTriggered = FindAnyObjectByType<CombatRoom>()?.IsTriggered ?? false,
+            roomCleared = FindAnyObjectByType<CombatRoom>()?.IsCleared ?? false,
+            roomKilledCount = FindAnyObjectByType<CombatRoom>()?.KilledCount ?? 0,
+            roomSpawnedCount = FindAnyObjectByType<CombatRoom>()?.SpawnedCount ?? 0
         };
 
         try
@@ -237,7 +243,14 @@ public class SaveController : MonoBehaviour
             RestorePlayerWeapon(player, saveData.equippedWeaponName);
         }
 
-        Debug.Log($"Game loaded! Scene: {saveData.savedSceneName}, Level: {saveData.currentLevel}, Score: {saveData.score}, Weapon: {saveData.equippedWeaponName}");
+        // Restore Combat Room Progress
+        CombatRoom room = FindAnyObjectByType<CombatRoom>();
+        if (room != null)
+        {
+            room.RestoreRoomProgress(saveData.roomTriggered, saveData.roomCleared, saveData.roomKilledCount, saveData.roomSpawnedCount);
+        }
+
+        Debug.Log($"Game loaded! Scene: {saveData.savedSceneName}, Level: {saveData.currentLevel}, Score: {saveData.score}, Weapon: {saveData.equippedWeaponName}, RoomKilled: {saveData.roomKilledCount}");
 
         // Clear the load flag so future scene loads use SpawnPoint normally
         PlayerPrefs.SetInt("ShouldLoadSave", 0);

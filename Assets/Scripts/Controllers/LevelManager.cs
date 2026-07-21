@@ -311,6 +311,9 @@ public class LevelManager : MonoBehaviour
         yield return null;
         yield return null;
 
+        // Re-hide all newly created canvases (like HUD_Canvas) while loading screen is active
+        ToggleOtherCanvases(false);
+
         // ── Equip saved weapon onto Player ──
         if (saveData != null && !string.IsNullOrEmpty(saveData.equippedWeaponName))
         {
@@ -626,7 +629,17 @@ public class LevelManager : MonoBehaviour
     private void ShowLoadingScreen()
     {
         if (loadingScreen != null)
+        {
             loadingScreen.SetActive(true);
+
+            // Set loading screen canvas to render above all other canvases (sorting order 9999)
+            Canvas loadingCanvas = loadingScreen.GetComponentInParent<Canvas>();
+            if (loadingCanvas != null)
+            {
+                loadingCanvas.overrideSorting = true;
+                loadingCanvas.sortingOrder = 9999;
+            }
+        }
 
         Time.timeScale = 0f; // Freeze game actions/physics
         ToggleOtherCanvases(false); // Hide all other UI Canvases
