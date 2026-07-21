@@ -12,16 +12,28 @@ public class HealthBar : MonoBehaviour
 
     public void SetMaxHealth(int health)
     {
-        healthSlider.maxValue = health;
-        healthSlider.value = health;
+        if (healthSlider != null)
+        {
+            healthSlider.maxValue = health;
+            healthSlider.value = health;
+        }
 
-        fill.color = gradient.Evaluate(1f);
+        if (fill != null && gradient != null)
+        {
+            fill.color = gradient.Evaluate(1f);
+        }
     }
 
     public void SetHealth(int health)
     {
-        healthSlider.value = health;
+        if (healthSlider != null)
+        {
+            healthSlider.value = health;
+        }
 
-        fill.color = gradient.Evaluate(healthSlider.normalizedValue);
+        if (fill != null && gradient != null && healthSlider != null)
+        {
+            fill.color = gradient.Evaluate(healthSlider.normalizedValue);
+        }
     }    
 }
