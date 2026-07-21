@@ -186,7 +186,10 @@ MonoBehaviour:
   detectionRadius: 12
   meleeDamage: 20
   isActive: 0
-  meleeCooldown: 1.8
+  scoreValue: 100
+  meleeAttackRange: 4.2
+  meleeHitboxRadius: 4.8
+  meleeCooldown: 2
   teleportCooldown: 5
   lightningCooldown: 6
 --- !u!114 &3368065435368722282

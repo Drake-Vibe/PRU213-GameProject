@@ -13,8 +13,8 @@ public class BossCrystalKnight : MonoBehaviour
     [SerializeField] private int scoreValue = 100;
 
     [Header("Attack Ranges")]
-    [SerializeField] private float meleeAttackRange = 2.8f;
-    [SerializeField] private float meleeHitboxRadius = 3.5f;
+    [SerializeField] private float meleeAttackRange = 4.2f;
+    [SerializeField] private float meleeHitboxRadius = 4.8f;
 
     [Header("Skill Cooldowns (Seconds)")]
     [SerializeField] private float meleeCooldown = 1.8f;
@@ -129,7 +129,13 @@ public class BossCrystalKnight : MonoBehaviour
         if (isActive || isDead) return;
 
         isActive = true;
-        Debug.Log("👑 BOSS CRYSTAL KNIGHT ACTIVATED!");
+        
+        // Initialize skill cooldowns to current game time so the boss doesn't immediately spam them
+        lastTeleportTime = Time.time;
+        lastLightningTime = Time.time;
+        lastMeleeTime = Time.time;
+
+        Debug.Log("👑 BOSS CRYSTAL KNIGHT ACTIVATED! Cooldowns initialized.");
 
         // Show Boss HUD upon entering battle
         if (BossHUD.Instance != null)
@@ -174,14 +180,17 @@ public class BossCrystalKnight : MonoBehaviour
             // Skill decision tree based on cooldowns
             if (Time.time - lastTeleportTime >= teleportCooldown)
             {
+                Debug.Log($"[BossCrystalKnight] FixedUpdate: Choosing Teleport Skill (Cooldown passed). Distance to Player: {distToPlayer:F2}");
                 StartCoroutine(TeleportSkillRoutine());
             }
             else if (Time.time - lastLightningTime >= lightningCooldown)
             {
+                Debug.Log($"[BossCrystalKnight] FixedUpdate: Choosing Lightning Skill (Cooldown passed). Distance to Player: {distToPlayer:F2}");
                 StartCoroutine(LightningSkillRoutine());
             }
             else if (distToPlayer <= meleeAttackRange && Time.time - lastMeleeTime >= meleeCooldown)
             {
+                Debug.Log($"[BossCrystalKnight] FixedUpdate: Choosing Melee Attack. Distance to Player: {distToPlayer:F2} <= Range: {meleeAttackRange}");
                 StartCoroutine(MeleeAttackRoutine());
             }
             else
@@ -215,6 +224,7 @@ public class BossCrystalKnight : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         if (animator != null)
         {
+            Debug.Log($"[BossCrystalKnight] MeleeAttackRoutine: Triggering 'Attack' on Animator. Controller: {animator.runtimeAnimatorController?.name}, Enabled: {animator.enabled}");
             animator.SetBool("IsMoving", false);
             animator.SetTrigger("Attack");
             
@@ -268,6 +278,7 @@ public class BossCrystalKnight : MonoBehaviour
     // ==========================================
     private IEnumerator TeleportSkillRoutine()
     {
+        Debug.Log($"[BossCrystalKnight] TeleportSkillRoutine: Starting Teleport Skill. lastTeleportTime reset to {Time.time:F2}");
         isExecutingSkill = true;
         lastTeleportTime = Time.time;
         rb.linearVelocity = Vector2.zero;
@@ -358,6 +369,7 @@ public class BossCrystalKnight : MonoBehaviour
     // ==========================================
     private IEnumerator LightningSkillRoutine()
     {
+        Debug.Log($"[BossCrystalKnight] LightningSkillRoutine: Starting Lightning Skill. lastLightningTime reset to {Time.time:F2}");
         isExecutingSkill = true;
         lastLightningTime = Time.time;
         rb.linearVelocity = Vector2.zero;
