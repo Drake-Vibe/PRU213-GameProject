@@ -243,4 +243,14 @@ public class Player : MonoBehaviour
             Debug.Log($"Used MP Potion! Energy: {currentEnergy}/{maxEnergy}, Potions left: {manaPotions}");
         }
     }
+
+    /// <summary>
+    /// Add health and mana potions to player, capped at 3.
+    /// </summary>
+    public void AddPotions(int hpAmount, int mpAmount)
+    {
+        healthPotions = Mathf.Clamp(healthPotions + hpAmount, 0, 3);
+        manaPotions = Mathf.Clamp(manaPotions + mpAmount, 0, 3);
+        Debug.Log($"[Player] Rewarded +{hpAmount} HP Potion and +{mpAmount} MP Potion! Current: HP={healthPotions}/3, MP={manaPotions}/3");
+    }
 }

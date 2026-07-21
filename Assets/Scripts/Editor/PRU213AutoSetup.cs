@@ -134,8 +134,8 @@ public class PRU213AutoSetup : EditorWindow
 
         // Apply references to TabController without changing UI layout/positions
         var newTabImages = new System.Collections.Generic.List<UnityEngine.UI.Image>();
-        newTabImages.Add(playerTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true) ?? playerTabObj.GetComponent<UnityEngine.UI.Image>());
-        newTabImages.Add(settingsTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true) ?? settingsTabObj.GetComponent<UnityEngine.UI.Image>());
+        newTabImages.Add(playerTabObj.GetComponent<UnityEngine.UI.Image>() ?? playerTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true));
+        newTabImages.Add(settingsTabObj.GetComponent<UnityEngine.UI.Image>() ?? settingsTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true));
 
         var newPages = new System.Collections.Generic.List<GameObject>();
         newPages.Add(playerPg);
@@ -1756,8 +1756,8 @@ private static bool AssetExists(string path)
 
             // Rebuild TabController arrays with only Player, Settings
             var newTabImages = new System.Collections.Generic.List<UnityEngine.UI.Image>();
-            if (playerTabObj != null) newTabImages.Add(playerTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true) ?? playerTabObj.GetComponent<UnityEngine.UI.Image>());
-            if (settingsTabObj != null) newTabImages.Add(settingsTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true) ?? settingsTabObj.GetComponent<UnityEngine.UI.Image>());
+            if (playerTabObj != null) newTabImages.Add(playerTabObj.GetComponent<UnityEngine.UI.Image>() ?? playerTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true));
+            if (settingsTabObj != null) newTabImages.Add(settingsTabObj.GetComponent<UnityEngine.UI.Image>() ?? settingsTabObj.GetComponentInChildren<UnityEngine.UI.Image>(true));
 
             var newPages = new System.Collections.Generic.List<GameObject>();
             if (playerPg != null) newPages.Add(playerPg);

@@ -201,8 +201,16 @@ public class CombatRoom : MonoBehaviour
                 NextLevelPortal portal = exitPortal.GetComponent<NextLevelPortal>();
                 if (portal != null) portal.SetLocked(false); // Mở khóa cổng khi diệt sạch quái
             }
+
+            // Thưởng Potion cho người chơi khi dọn sạch phòng
+            Player player = FindAnyObjectByType<Player>();
+            if (player != null)
+            {
+                player.AddPotions(1, 1);
+            }
+
             string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-            Debug.Log(sceneName + ": DỌN SẠCH PHÒNG! Mở cổng.");
+            Debug.Log(sceneName + ": DỌN SẠCH PHÒNG! Mở cổng & Thưởng +1 Bình Máu +1 Bình Mana.");
             return;
         }
 

@@ -53,6 +53,13 @@ public class EnemyHealth : MonoBehaviour
     {
         isDead = true;
 
+        // Notify GameManager of enemy kill for potion streak
+        GameManager gm = GameManager.Instance;
+        if (gm != null)
+        {
+            gm.OnEnemyKilled();
+        }
+
         if (animator != null)
         {
             animator.SetTrigger("Die");

@@ -94,10 +94,13 @@ public class BaseEnemy : MonoBehaviour
     protected virtual void OnDeath()
     {
         // Add score via GameManager if available
-        GameManager manager = FindAnyObjectByType<GameManager>();
+        GameManager manager = GameManager.Instance;
+        if (manager == null) manager = FindAnyObjectByType<GameManager>();
+
         if (manager != null)
         {
             manager.AddScore(scoreValue);
+            manager.OnEnemyKilled();
         }
 
         Debug.Log($"{gameObject.name} died! +{scoreValue} score");
